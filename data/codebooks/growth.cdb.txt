@@ -1,0 +1,77 @@
+                               CODEBOOK
+Summary of Growth and Birth History, November 2014                              11-9-2017
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6           CASEID                        ID number                 101001
+                                                                                  .
+                                                                                  .
+                                                                                  699999
+
+    7    3           VISIT                         Visit number              10
+                                                                                  .
+                                                                                  .
+                                                                                  100
+
+   10    3 3.0       LBW                           low birth weight (BW<2500 g)   1= yes
+                                                                                  0= no
+                                                                                  .= missing
+
+   13    3 3.0       premature                     premature birth (GA<36 weeks)  1= yes
+                                                                                  0= no
+                                                                                  blank= missing
+
+   16    3 3.0       SGA                           small for gestational age      1= yes
+                                                   (BW<10th %ile for GA)          0= no
+                                                                                  blank= missing
+
+   19    6 6.1       AVHEIGHT                      Average Height (cm)            50.00cm
+                                                                                  .
+                                                                                  .
+                                                                                  250.0cm
+
+   25    6 6.2       HTPCTag                       Age-sex-specific height/       00.00%
+                                                   length percentile              .
+                                                                                  .
+                                                                                  99.99%
+
+   31    6 6.2       HAZag                         Age-sex-specific Height/       -9.99
+                                                   length z-score                 .
+                                                                                  .
+                                                                                  9.99
+
+   37    6 6.1       AVWEIGHT                      Average Weight (kg)            3.0kg
+                                                                                  .
+                                                                                  .
+                                                                                  175.0kg
+
+   43    6 6.2       WTPCTag                       Age-sex-specific weight        00.00%
+                                                   percentile                     .
+                                                                                  .
+                                                                                  99.99%
+
+   49    6 6.2       WAZag                         Age-sex-specific Weight z-     -9.99
+                                                   score                          .
+                                                                                  .
+                                                                                  9.99
+
+   55    5 5.1       BMI                           Body Mass Index                14.0
+                                                                                  .
+                                                                                  .
+                                                                                  40.0
+
+   60    6 6.2       BMIPCTag                      Age-sex-specific body mass     00.00%
+                                                   index percentile               .
+                                                                                  .
+                                                                                  99.99%
+
+   66    6 6.2       BMIZag                        Age-sex-specific Body Mass     -9.99
+                                                   Index z-score                  .
+                                                                                  .
+                                                                                  9.99
+
+   72    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

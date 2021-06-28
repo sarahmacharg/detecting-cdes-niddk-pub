@@ -1,0 +1,160 @@
+                               CODEBOOK
+V2015                              11-9-2017
+L03 - Local Laboratory - Renal Panel Results
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSBM           A.3          Form version                   09/01/04= 09/01/04
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    7 7.3       BMDTCOMP         A.4          Date form completed in         0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   25    3 $         BMINITL          A.5          Initials of person completing  Character
+                                                   form
+
+   28    2 2.0       ACCELVIS         A.6          Accelerated visit              1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   30    2 2.0       BMTESTAV         B.1          Basic metabolic panel test     1= Yes
+                                                   results available              2= No, Sample Inadequate
+                                                                                  3= No, Other Reason
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   32   50 $         BMRNAVAL         B.1.a        Specify reason basic           Character
+                                                   metabolic panel test results
+                                                   not available
+
+   82    7 7.3       BMDATESM         B.2          Date sample drawn for basic    0.000= 0.000 years
+                                                   metabolic panel tests in       .
+                                                   duration of year from the      .
+                                                   baseline visit                 50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   89    3 3.0       BMSODIUM         B.3.a        Result: Sodium (MEQ/L or mmol/ 120= 120
+                                                   L)                             .
+                                                                                  .
+                                                                                  160= 160
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   92    4 4.1       BMPOTAS          B.3.b        Result: Potassium (MEQ/L or    3.0= 3.0
+                                                   mmol/L)                        .
+                                                                                  .
+                                                                                  6.1= 6.1
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   96    3 3.0       BMCHLOR          B.3.c        Result: Chloride (MEQ/L or     99= 99
+                                                   mmol/L)                        .
+                                                                                  .
+                                                                                  111= 111
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   99    2 2.0       BM_CO2           B.3.d        Result: Carbon dioxide (MEQ/L  15= 15
+                                                   or mmol/L)                     .
+                                                                                  .
+                                                                                  40= 40
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  101    3 3.0       BM_BUN           B.3.e        Result: Urea Nitrogen (BUN)    7= 7
+                                                   (mg/dL)                        .
+                                                                                  .
+                                                                                  120= 120
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  104    4 4.1       BMSERCRE         B.3.f        Result: Serum Creatinine (mg/  0.1= 0.1
+                                                   dL)                            .
+                                                                                  .
+                                                                                  5.0= 5.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  108    3 3.0       BMGLUCOS         B.3.g        Result: Glucose (mg/dL)        1= 1
+                                                                                  .
+                                                                                  .
+                                                                                  500= 500
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  111    5 5.1       BMCALCIM         B.3.h        Result: Calcium (mg/dL)        0.1= 0.1
+                                                                                  .
+                                                                                  .
+                                                                                  99.0= 99.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  116    5 5.1       BMPHOSPH         B.3.i        Result: Phosphate (mg/dL)      0.1= 0.1
+                                                                                  .
+                                                                                  .
+                                                                                  99.0= 99.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  121    5 5.1       BMALBUMN         B.3.j        Result: Albumin (g/dL)         0.1= 0.1
+                                                                                  .
+                                                                                  .
+                                                                                  9.0= 9.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  126    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  127    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

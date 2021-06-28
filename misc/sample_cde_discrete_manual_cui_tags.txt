@@ -1,0 +1,122 @@
+The indicator of whether the participant/subject has experienced a diabetic ketoacidosis (DKA) episode requiring emergency or urgent treatment, in the time since their diagnosis of diabetes 
+Diabetic ketoacidosis emergency post diagnosis diabetes indicator 
+Since diagnosis have you/your child ever experienced diabetic ketoacidosis (high blood sugar plus ketones, also known as DKA) diagnosed by a doctor for which he/she went to either the hospital, emergency room, or another healthcare facility?
+
+Hand-tagged CUIs (>>> indicates what I believe to be the best option)
+
+"indicator"
+------------
+>>> Indicator (C1522602) - An event, entity or condition that typically characterizes a prescribed environment or situation and determines or aids in determining whether certain stated circumstances exist or criteria are satisfied.
+>>> mMDF Attribute Type - Indicator (C1554105) - Definition: For attributes representing a specific condition as true or false.
+
+"participant/subject"
+---------------------
+>>> Participant (C0679646) - Someone who takes part in an activity.
+Entity With Role in Clinical Study (C4723954) - A person or entity with a role in a clinical study. NOTE: Participant is used with growing frequency in some clinical and patient-facing documents like the informed consent form, Plain Language Summaries of study results, and publications. Subject or patient are terms used in regulatory guidelines, databases, other clinical research documents, or systems to refer to study participants. See also human subject, patient, study participant.
+>>> Study Participant (C4554048) - Any individiual that has a role in a study, including study personnel and study subjects.
+program participant (C0682346)
+Clinical trial participant (person) (C1997894) - A living person who is observed, analyzed, examined, investigated, experimented upon, and/or treated in the course of a clinical trial. This includes studies where an investigator obtains identifiable private information or data through the intervention or interaction with the individual.
+>>> Study Subject (C0681850) - A matter or an individual that is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study.
+Human Study Subject (C2349001) - A living individual about whom an investigator conducting research obtains data through intervention or interaction with the individual or through identifiable private information.
+Investigative Subject (C2697811) - An entity, either biologic or otherwise, of interest in an investigation.
+Subject -direct target (C1550501) - The principle target on which the action happens.Examples:The patient in physical examination, a specimen in a lab observation. May also be a patient's family member (teaching) or a device or room (cleaning, disinfecting, housekeeping).UsageNotes:Not all direct targets are subjects. Consumables and devices used as tools for an act are not subjects. However, a device may be a subject of a maintenance action.
+Research Subject (C0080105) - Persons who are enrolled in research studies or who are otherwise the subjects of research.
+Data Subject (C4684632) - An individual who is the subject of personal data, persons to whom data refers. [ISO/TS 25237:2008]
+living subject (C1552741) - Anything that essentially has the property of life, independent of current state (a dead human corpse is still essentially a living subject).
+Case Subject (C1698493) - A person, non-person living subject, or place that is the subject of an investigation related to a notifiable condition (health circumstance that is reportable within the applicable public health jurisdiction)
+
+
+"diabetic ketoacidosis"
+-----------------------
+>>> Diabetic Ketoacidosis (C0011880) - A life-threatening complication of diabetes mellitus, primarily of TYPE 1 DIABETES MELLITUS with severe INSULIN deficiency and extreme HYPERGLYCEMIA. It is characterized by KETOSIS; DEHYDRATION; and depressed consciousness leading to COMA.
+Diabetic ketoacidosis without coma (C1263959)
+KETOACIDOSIS DIABETIC MULTIPLE EPISODES (C0745513)
+KETOACIDOSIS DIABETIC NEW ONSET (C0745514)
+
+"DKA"
+------
+>>> Diabetic Ketoacidosis (C0011880) - A life-threatening complication of diabetes mellitus, primarily of TYPE 1 DIABETES MELLITUS with severe INSULIN deficiency and extreme HYPERGLYCEMIA. It is characterized by KETOSIS; DEHYDRATION; and depressed consciousness leading to COMA.
+
+"episode"
+---------
+>>> Episode of (C0332189) - A noteworthy happening that is distinctive in a series of related events.
+
+"emergency or urgent treatment"
+-------------------------------
+>>> Emergency treatment (C0013969) - First aid or other immediate intervention for accidents or medical conditions requiring immediate care and treatment before definitive medical and surgical management can be procured.
+emergency room treatment (C4728259) - To perform one or more operations on information for provision of immediately needed health care for an emergent condition in an emergency room or similar emergent care context by end users provisioned for this purpose, which does not constitute as policy override such as in a "Break the Glass" purpose of use.Map:Partially Maps to ISO 14265 Classification Term "Emergency care provision to an individual subject of care" described as "To inform persons needing to provide health care services to...
+emergency intervention: (C2094155)
+Emergency Care (C1527398) - Care necessary to treat acute pain, infection, bleeding, or trauma.
+Emergency Situation (C0013956) - A sudden unforeseen crisis that requires immediate action.
+emergency encounter (C1553500) - A patient encounter that takes place at a dedicated healthcare service delivery location where the patient receives immediate evaluation and treatment, provided until the patient can be discharged or responsibility for the patient's care is transferred elsewhere (for example, the patient could be admitted as an inpatient or transferred to another facility.)
+Level of Care - Emergency (C1561585)
+Emergency medical service (C0013961) - Services specifically designed, staffed, and equipped for the emergency care of patients.
+emergency medicine (field) (C0013964) - The branch of medicine concerned with the evaluation and initial treatment of urgent and emergent medical problems, such as those caused by accidents, trauma, sudden illness, poisoning, or disasters. Emergency medical care can be provided at the hospital or at sites outside the medical facility.
+Urgent (C0439609) - The pressing importance of something.
+>>> Urgent Procedure (C3272275) - Deferring an urgent procedure increases risk of adverse outcome or clinical deterioration. Clinical situation warrants performing urgent procedures during the current episode of care to avoid compromising patient safety. (ACC)
+Urgent hospital admission (C4047660)
+Urgent referral (C1277189)
+
+"time"
+-------
+>>>Time (C0040223) - The dimension of the physical universe which, at a given place, orders the sequence of events. (McGraw-Hill Dictionary of Scientific and Technical Terms, 6th ed)
+Time (foundation metadata concept) (C3541383)
+Data types - Time (C1547403)
+Value type - Time (C1548318)
+
+"post"
+-------
+>>>Post (C0687676) - Happening at a time subsequent to a reference time; later in time or order.
+
+"diagnosis"
+------------
+>>> Diagnosis (C0011900) - The determination of the nature of a disease or condition, or the distinguishing of one disease or condition from another. Assessment may be made through physical examination, laboratory tests, or the likes. Computerized programs may be used to enhance the decision-making process.
+Diagnosis Classification - Diagnosis (C1546899)
+
+"diabetes"
+------------
+>>> Diabetes Mellitus (C0011849) - A heterogeneous group of disorders characterized by HYPERGLYCEMIA and GLUCOSE INTOLERANCE.
+Diabetes (C0011847)
+
+"child"
+-------
+Child (C0008059) - A person 6 to 12 years of age. An individual 2 to 5 years old is CHILD, PRESCHOOL.
+>>> Child Relation (C4724242) - An individual's biological or non-biological first generation offspring, including but not limited to biological children (including those born outside of marriage), adopted children, step children, and foster children.
+Offspring (C0680063) - Offspring; the product of reproduction or replication.
+Relationship - Child (C1546495)
+Child, Preschool (C0008100) - A child between the ages of 2 and 5.
+
+"high blood sugar"
+------------------
+>>> Hyperglycemia (C0020456) - Abnormally high BLOOD GLUCOSE level.
+Diabetes or high blood sugar (C3843079)
+
+"ketones"
+---------
+>>> Ketones (C0022634) - Organic compounds containing a carbonyl group =C=O bonded to two hydrocarbon groups.
+Ketone Measurement (C1881306) - A measurement of the ketones in a biological specimen.
+Ketone bodies measurement, quantitative (C0202110) - The determination of the amount of ketone bodies (acetone, acetoacetic acid, beta-hydroxybutyric acid, beta-ketopentanoate and beta-hydroxypentanoate) present in a sample.
+
+
+"doctor"
+--------
+>>> Physicians (C0031831) - Individuals licensed to practice medicine.
+Doctor - Title (C2348314) - A courtesy title for a person who has received a doctorate degree or who practices medicine.
+
+"hospital"
+----------
+>>> Hospitals (C0019994) - Institutions with an organized medical staff which provide medical care to patients.
+Organization unit type - Hospital (C1547192)
+
+"emergency room"
+----------------
+>>> Accident and Emergency department (C0562508) - Hospital department responsible for the administration and provision of immediate medical or surgical care to the emergency patient.
+Emergency room admission (C0583237)
+Emergency Room - Hospital (C4291935)
+emergency room treatment (C4728259) - To perform one or more operations on information for provision of immediately needed health care for an emergent condition in an emergency room or similar emergent care context by end users provisioned for this purpose, which does not constitute as policy override such as in a "Break the Glass" purpose of use.Map:Partially Maps to ISO 14265 Classification Term "Emergency care provision to an individual subject of care" described as "To inform persons needing to provide health care services to...
+Hospital admission, emergency, from emergency room (C0184676)
+
+
+"healthcare facility"
+----------------------
+>>> Health care facility (C0018704) - Institutions which provide medical or health-related services.

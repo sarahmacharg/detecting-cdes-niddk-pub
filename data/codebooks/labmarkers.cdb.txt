@@ -1,0 +1,366 @@
+                               CODEBOOK
+Summary of laboratory markers (renal panel, complete blood count, iPTH/CRP, lipid panel, and iron tests)                              11-9-2017
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID                        Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3           VISIT                         Visit number              10
+                                                                                  .
+                                                                                  .
+                                                                                  90
+
+   10    4 4.0       Sodium                        Result: Sodium (mmol/L)        120= 120
+                                                                                  .
+                                                                                  .
+                                                                                  160= 160
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+   14    5 5.1       Potassium                     Result: Potassium (mmol/L)     3.0= 3.0
+                                                                                  .
+                                                                                  .
+                                                                                  6.1= 6.1
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+   19    4 4.0       Chloride                      Result: Chloride (mmol/L)      93= 93
+                                                                                  .
+                                                                                  .
+                                                                                  117= 117
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+   23    4 4.0       CO2                           Result: Carbon dioxide (mmol/  15= 15
+                                                   L) (from local lab if          .
+                                                   available)                     .
+                                                                                  40= 40
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+   27    4 4.0       CO2type                       local (from L03) or central    1= Local
+                                                   (from L05)                     2= Central
+                                                                                  -1= NA
+                                                                                  -9= Missing
+
+   31    3 3.0       Acidosis                      CO2 < 20 mmol/L                0= No (CO2 >= 20 mmol/L)
+                                                                                  1= Yes (CO2 < 20 mmol/L)
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+
+   34    4 4.0       Glucose                       Result: Glucose (mg/dL)        50= 50
+                                                                                  .
+                                                                                  .
+                                                                                  600= 600
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+   38    5 5.1       Albumin                       Result: Albumin (g/dL)         3.0= 3.0
+                                                                                  .
+                                                                                  .
+                                                                                  6.0= 6.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+   43    3 3.0       Hypoalb                       Hypoalbuminemia (Albumin < 4   0= No (Albumin >= 4 g/dL)
+                                                   g/dL)                          1= Yes (Albumin < 4 g/dL)
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+
+   46    7 7.2       Microalb                      Result: Microalbumin (mg/dL)   0.01= 0.01
+                                                                                  .
+                                                                                  .
+                                                                                  99.99= 99.99
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+   53    5 5.1       Calcium                       Result: Calcium (mg/dL)        6.0= 6.0
+                                                                                  .
+                                                                                  .
+                                                                                  13.0= 13.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+   58    3 3.0       Cal_LNH                       Calcium low, normal, or high   1= Abnormal Low
+                                                   based on age-specific          2= Normal
+                                                   thresholds                     3= Abnormal High
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+
+   61    5 5.1       Phosphate                     Result: Phosphate (mg/dL)      1.0= 1.0
+                                                                                  .
+                                                                                  .
+                                                                                  20.0= 20.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+   66    3 3.0       Phos_LNH                      Phosphate low, normal, or      1= Abnormal Low
+                                                   high based on age-specific     2= Normal
+                                                   thresholds                     3= Abnormal High
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+
+   69    6 6.2       CalXPhos                      Calcium-Phosphate Product      6.0= 6.0
+                                                                                  .
+                                                                                  .
+                                                                                  100.0= 100.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+   75    3 3.0       CaXP_high                     Elevated Calcium-Phosphate     0= No (normal)
+                                                   Product based on age-specific  1= Yes (elevated)
+                                                   threshold                      -1= NA (Skipped)
+                                                                                  -9= Missing
+
+   78    4 4.0       UrCrea                        Result: Urine creatinine (mg/  1= 1
+                                                   dL)                            .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+   82    5 5.0       UrProt                        Result: Urine protein (mg/dL)  1= 1
+                                                                                  .
+                                                                                  .
+                                                                                  9999= 9999
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+   87    6 6.2       uPCratio                      urine Protein/Creatinine ratio 0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  1000= 1000
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+   93    3 3.0       NephProt                      Nephrotic proteinuria          0= No (uPCratio<=2)
+                                                   (uPCratio>2)                   1= Yes (uPCratio>2)
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+
+   96    6 6.0       WBC                           Result: Leukocyte Count (cu    1000= 1000
+                                                   mm)                            .
+                                                                                  .
+                                                                                  30000= 30000
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  102    6 6.2       RBC                           Result: Erythrocyte Count (M/  4.20= 4.20
+                                                   cu mm) or (x10-6 uL)           .
+                                                                                  .
+                                                                                  9.99= 9.99
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  108    4 4.0       Platelets                     Result: Platelet Count (K/cu   100= 100
+                                                   mm) or (x10-3 uL)              .
+                                                                                  .
+                                                                                  500= 500
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  112    5 5.1       Hemoglobin                    Result: Hemoglobin (g/dL)      10.0= 10.0
+                                                                                  .
+                                                                                  .
+                                                                                  16.0= 16.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  117    6 6.2       HGBZasr                       Hemoglobin Z-score based on    -9.99
+                                                   age, sex, and race (per CDC    .
+                                                   guidelines)                    .
+                                                                                  9.99
+
+  123    6 6.2       HGBPCTasr                     Hemoglobin percentile base on  00.00%
+                                                   age, sex, and race (per CDC    .
+                                                   guidelines, assuming           .
+                                                   normality of HGBZasr)          99.99%
+
+  129    3 3.0       Anemia_cdc                    Anemia (Hemoglobin < 5th       0= No (HGB >= 5th %ile)
+                                                   percentile for age, sex, and   1= Yes (HGB < 5th %ile)
+                                                   race, based on empirical       -1= NA (Skipped)
+                                                   thresholds)                    -9= Missing
+
+  132    5 5.1       Hematocrit                    Result: PCV - Hematocrit (%)   30.0= 30.0
+                                                                                  .
+                                                                                  .
+                                                                                  50.0= 50.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  137    5 5.1       MCH                           Result: Mean Corpuscular       23= 23
+                                                   Hemoglobin (pg/cell)           .
+                                                                                  .
+                                                                                  35= 35
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  142    6 6.1       MCHconc                       Result: MCH Concentration (g/  30.0= 30.0
+                                                   dL)                            .
+                                                                                  .
+                                                                                  40.0= 40.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  148    6 6.1       MCV                           Result: MC Volume (fL)         74.0= 74.0
+                                                                                  .
+                                                                                  .
+                                                                                  110.0= 110.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  154    6 6.1       RCD                           Result: Red Cell Distribution  9.0= 9.0
+                                                   Width (%)                      .
+                                                                                  .
+                                                                                  20.0= 20.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  160    6 6.1       iPTH                          Result: iPTH (pg/mL)           14.0= 14.0
+                                                                                  .
+                                                                                  .
+                                                                                  72.0= 72.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  166    6 6.2       CRP                           Result: hsCRP (if available)   0.00= 0.00
+                                                   or wrCRP (mg/L)                .
+                                                                                  .
+                                                                                  10.00= 10.00
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  172    3 3.0       CRPtype                       CRP method, high sensitivity   1= HS
+                                                   or wide range                  2= WR
+                                                                                  -1= NA
+                                                                                  -9= Missing
+
+  175    3 3.0       CRP_high                      Elevated CRP, >3 mg/L          0= No (CRP <= 3 mg/L)
+                                                                                  1= Yes (CRP > 3 mg/L)
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+
+  178    5 5.0       TotalChol                     Result: cholesterol (mg/dL)    120= 120
+                                                                                  .
+                                                                                  .
+                                                                                  300= 300
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  183    5 5.0       Trig                          Result: total triglycerides    60= 60
+                                                   (mg/dL)                        .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  188    5 5.0       HDL                           Result: high density           20= 20
+                                                   lipoproteins (mg/dL)           .
+                                                                                  .
+                                                                                  90= 90
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  193    5 5.0       LDL                           Result: low density            80= 80
+                                                   lipoproteins (mg/dL)           .
+                                                                                  .
+                                                                                  200= 200
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  198    6 6.1       CholHDLratio                  Result: cholesterol/HDL ratio  0.1= 0.1
+                                                                                  .
+                                                                                  .
+                                                                                  9.9= 9.9
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  204    5 5.0       NonHDL                        Total cholesterol minus HDL    30= 30
+                                                                                  .
+                                                                                  .
+                                                                                  300= 300
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  209    4 4.0       SerumIron                     Serum Iron (ug/dL)             38= 38
+                                                                                  .
+                                                                                  .
+                                                                                  159= 159
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  213    4 4.0       TIBC                          Total Iron-Binding Capacity    250= 250
+                                                   (ug/dL)                        .
+                                                                                  .
+                                                                                  450= 450
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  217    4 4.0       TSAT                          Transferrin Saturation (TSAT)  15= 15
+                                                   (%)                            .
+                                                                                  .
+                                                                                  55= 55
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  221    5 5.0       Ferritin                      Ferritin                       10= 10
+                                                                                  .
+                                                                                  .
+                                                                                  322= 322
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  226    4 4.0       Transferrin                   Transferrin                    202= 202
+                                                                                  .
+                                                                                  .
+                                                                                  336= 336
+                                                                                  -1= NA (Skipped)
+                                                                                  -9= Missing
+                                                                                  -90= Extreme Value
+
+  230    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

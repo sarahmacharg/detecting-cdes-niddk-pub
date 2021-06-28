@@ -1,0 +1,313 @@
+                               CODEBOOK
+V2015                              11-9-2017
+F15 - Nutritional Assessment and Steroid Use
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSNS           A.3          Form version                   09/01/04= 09/01/04
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    7 7.3       NSVISDAT         A.4          Date of visit in duration of   0.000= 0.000 years
+                                                   year from the baseline visit   .
+                                                                                  .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   25    3 $         NSINITL          A.5          Initials of person completing  Character
+                                                   form
+
+   28    2 2.0       ACCELVIS         A.6          Accelerated visit              1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   30    2 2.0       NSFCOMBY         A.7          Person completing form         1= Child/young adult
+                                                                                  2= Parent or other adult
+                                                                                  3= Both (Parent and Child/
+                                                                                     young adult)
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   32    2 2.0       NSAPPETI         B.1          Child's appetite in past week  1= Very Good
+                                                                                  2= Good
+                                                                                  3= Fair
+                                                                                  4= Poor
+                                                                                  5= Very Poor
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   34    2 2.0       NSILLPWK         B.1.a        Child had acute illness        1= Yes
+                                                   during past week               2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   36    2 2.0       NSILLDYS         B.1.b        Number of days ill during      1= 1
+                                                   past week                      .
+                                                                                  .
+                                                                                  7= 7
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   38    2 2.0       NSNGTUBE         B.2          Child uses gastrostomy or NG   1= Yes
+                                                   tube                           2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   40    2 2.0       NSNGTUBM         B.2.a        Number of months NG/           1= 1
+                                                   gastrostomy tube               .
+                                                                                  .
+                                                                                  12= 12
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   42    2 2.0       NSNUTSUP         B.3          Child uses formula or          1= Yes
+                                                   nutritional supplement         2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   44    2 2.0       NSSTERCR         OldC.1       Old: Child is currently        1= Yes
+                                                   taking steroids                2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   46    2 2.0       NSSTER24         OldC.2       Old: Child took steroids in    1= Yes
+                                                   past 24 months                 2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   48    2 2.0       NSST24KD         OldC.2.b     Old: Child took steroids for   1= Yes
+                                                   kidney disease past 24 months  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   50    2 2.0       NSSTER12         OldC.2.c     Old: Child took steroids in    1= Yes
+                                                   past 12 months                 2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   52    2 2.0       NSSTER2M         OldC.2.d     Old: Child took steroids qd    1= Yes
+                                                   or qod for more than 2 months  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   54    2 2.0       NSSTER6M         OldC.2.d.i   Old: Child took steroids qd    1= Yes
+                                                   or qod for more than 6 months  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   56    2 2.0       NSSTPYSE         OldC.3       Old: Past year child had side  1= Yes
+                                                   effects from taking steroids   2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   58    2 2.0       NSSTPYWG         OldC.3.a.1   Old: Past year steroid side    1= YES
+                                                   effect - weight gain           2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   60    2 2.0       NSSTPYCM         OldC.3.a.2   Old: Past year steroid side    1= YES
+                                                   effect - change in mood        2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   62    2 2.0       NSSTPYHY         OldC.3.a.3   Old: Past year steroid side    1= YES
+                                                   effect - hyperactivity         2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   64    2 2.0       NSSTPYAC         OldC.3.a.4   Old: Past year steroid side    1= YES
+                                                   effect - acne                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   66    2 2.0       NSSTPYBP         OldC.3.a.5   Old: Past year steroid side    1= YES
+                                                   effect - increased blood       2= NO
+                                                   pressure                       -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   68    2 2.0       NSSTPYBS         OldC.3.a.6   Old: Past year steroid side    1= YES
+                                                   effect - elevated blood sugar  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   70    2 2.0       NSSTPYAP         OldC.3.a.7   Old: Past year steroid side    1= YES
+                                                   effect - increased appetite    2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   72    2 2.0       NSSTPYIN         OldC.3.a.8   Old: Past year steroid side    1= YES
+                                                   effect - insomnia              2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   74    2 2.0       NSVIS1A          OldC.4       Old: This is study visit 1a    1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   76    2 2.0       NSSTEREV         OldC.5       Old: Child has ever taken      1= Yes
+                                                   steroids                       2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   78    2 2.0       NSSTERKD         OldC.6       Old: Child ever took steroids  1= Yes
+                                                   for kidney disease             2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   80    2 2.0       NSSTERAG         OldC.7       Old: Age of child when first   0= 0
+                                                   took steroids                  .
+                                                                                  .
+                                                                                  36= 36
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   82    2 2.0       NSSTERYM         OldC.7       Old: Age of child when first   1= years
+                                                   took steroids - years/months   2= months
+                                                                                  3= days
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   84    2 2.0       NSSTERSE         OldC.8       Old: Child had side effects    1= Yes
+                                                   from taking steroids           2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   86    2 2.0       NSSTSEWG         OldC.8.a.1   Old: Steroid side effect -     1= YES
+                                                   weight gain                    2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   88    2 2.0       NSSTSECM         OldC.8.a.2   Old: Steroid side effect -     1= YES
+                                                   change in mood                 2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   90    2 2.0       NSSTSEHY         OldC.8.a.3   Old: Steroid side effect -     1= YES
+                                                   hyperactivity                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   92    2 2.0       NSSTSEAC         OldC.8.a.4   Old: Steroid side effect -     1= YES
+                                                   acne                           2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   94    2 2.0       NSSTSEBP         OldC.8.a.5   Old: Steroid side effect -     1= YES
+                                                   increased blood pressure       2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   96    2 2.0       NSSTSEBS         OldC.8.a.6   Old: Steroid side effect -     1= YES
+                                                   elevated blood sugar           2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   98    2 2.0       NSSTSIAP         OldC.8.a.7   Old: Steroid side effect -     1= YES
+                                                   increased appetite             2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  100    2 2.0       NSSTSINS         OldC.8.a.8   Old: Steroid side effect -     1= YES
+                                                   insomnia                       2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  102    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  103    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

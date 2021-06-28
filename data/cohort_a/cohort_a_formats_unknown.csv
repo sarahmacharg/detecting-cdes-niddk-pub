@@ -1,0 +1,2736 @@
+FMTNAME,START,END,LABEL,LENGTH,TYPE,HLO
+ACTIV,1,1,<100,7,N,
+ACTIV,2,2,100-250,7,N,
+ACTIV,3,3,>250,7,N,
+AGECAT10F,1,1,1: <35 y,10,N,
+AGECAT10F,2,2,2: 35-39 y,10,N,
+AGECAT10F,3,3,3: 40-44 y,10,N,
+AGECAT10F,4,4,4: 45-49 y,10,N,
+AGECAT10F,5,5,5: 50-54 y,10,N,
+AGECAT10F,6,6,6: 55-59 y,10,N,
+AGECAT10F,7,7,7: 60-64 y,10,N,
+AGECAT10F,8,8,8: 65-69 y,10,N,
+AGECAT10F,9,9,9: 70-74 y,10,N,
+AGECAT10F,10,10,10: 75+ y,10,N,
+AGEGRP5F,1,1,1: <40 y,10,N,
+AGEGRP5F,2,2,2: 40-49 y,10,N,
+AGEGRP5F,3,3,3: 50-59 y,10,N,
+AGEGRP5F,4,4,4: 60-69 y,10,N,
+AGEGRP5F,5,5,5: 70+ y,10,N,
+AGEGRPII,1,1,30-39,5,N,
+AGEGRPII,2,2,40-49,5,N,
+AGEGRPII,3,3,50-59,5,N,
+AGEGRPII,4,4,60-79,5,N,
+AGETRES,1,1,<45,5,N,
+AGETRES,2,2,45-64,5,N,
+AGETRES,3,3,65+,5,N,
+AGP,1,1,30-39,5,N,
+AGP,2,2,40-49,5,N,
+AGP,3,3,50-59,5,N,
+AGP,4,4,60-69,5,N,
+AGP,5,5,70-79,5,N,
+ALCCATF,1,1,1: 0 drinks,18,N,
+ALCCATF,2,2,2: <1 drink/day,18,N,
+ALCCATF,3,3,3: 1-<3 drinks/day,18,N,
+ALCCATF,4,4,4: 3+ drinks/day,18,N,
+AUACAT3AF,1,1,1: None/Mild (0-7),18,N,
+AUACAT3AF,2,2,2: Moderate (8-19),18,N,
+AUACAT3AF,3,3,3: Severe (20+),18,N,
+AUACAT3BF,1,1,1: None (0),23,N,
+AUACAT3BF,2,2,2: Mild (1-7),23,N,
+AUACAT3BF,3,3,3: Moderate/Severe (8+),23,N,
+AUACAT4F,1,1,1: None (0),18,N,
+AUACAT4F,2,2,2: Mild (1-7),18,N,
+AUACAT4F,3,3,3: Moderate (8-19),18,N,
+AUACAT4F,4,4,4: Severe (20+),18,N,
+BATCH_2CATF,1,1,2006,9,N,
+BATCH_2CATF,2,2,2007-2010,9,N,
+BMICF,1,1,1: Normal (<25),23,N,
+BMICF,2,2,2: Overweight (25-29.9),23,N,
+BMICF,3,3,3: Obese (30+),23,N,
+BMIGP,1,1,<25,5,N,
+BMIGP,2,2,25-29,5,N,
+BMIGP,3,3,>=30,5,N,
+CAPCAT,1,1,1:<=$6K,13,N,
+CAPCAT,2,2,2:$6K+ to 30K,13,N,
+CAPCAT,3,3,3:>$30k,13,N,
+CATCOUNT,1,1,None,4,N,
+CATCOUNT,2,2,1,4,N,
+CATCOUNT,3,3,2,4,N,
+CATCOUNT,4,4,3+,4,N,
+CATCOUNTII,1,1,None,4,N,
+CATCOUNTII,2,2,1-2,4,N,
+CATCOUNTII,3,3,3+,4,N,
+CATCOUNTIII,1,1,None,4,N,
+CATCOUNTIII,2,2,1-4,4,N,
+CATCOUNTIII,3,3,5+,4,N,
+CHOLSTAT,1,1,Treated,15,N,
+CHOLSTAT,2,2,Untreated,15,N,
+CHOLSTAT,3,3,No Dyslipidemia,15,N,
+COMMCRF,1,1,Free care,15,N,
+COMMCRF,2,2,Subsidized care,15,N,
+COMMCRF,3,3,No subsidy,15,N,
+CPSI_SYMPTOMF,1,1,0 <= cpsi_pu < 9.5,21,N,
+CPSI_SYMPTOMF,2,2,9.5 <= cpsi_pu < 18.5,21,N,
+CPSI_SYMPTOMF,3,3,cpsi_pu >= 18.5,21,N,
+CVDDIAB,1,1,CVD,19,N,
+CVDDIAB,2,2,Diabetes (any type),19,N,
+CVDDIAB,3,3,Neither,19,N,
+DRKCAT,1,1,None,7,N,
+DRKCAT,2,2,<1/day,7,N,
+DRKCAT,3,3,1-3/day,7,N,
+DRKCAT,4,4,3+/day,7,N,
+DZBIG,1,1,Any HBP CVD DIABEVER,20,N,
+DZBIG,2,2,None,20,N,
+DZCAT,1,1,None,9,N,
+DZCAT,2,2,1 comorb,9,N,
+DZCAT,3,3,2 comorb,9,N,
+DZCAT,4,4,3+ comorb,9,N,
+DZCATD,1,1,None,9,N,
+DZCATD,2,2,1 comorb,9,N,
+DZCATD,3,3,2 comorb,9,N,
+DZCATD,4,4,3+ comorb,9,N,
+DZCATF,1,1,None,9,N,
+DZCATF,2,2,1 comorb,9,N,
+DZCATF,3,3,2 comorb,9,N,
+DZCATF,4,4,3+ comorb,9,N,
+DZCATP,1,1,None,9,N,
+DZCATP,2,2,1 comorb,9,N,
+DZCATP,3,3,2+ comorb,9,N,
+EDCCATF,1,1,1: IIEF-5 22+,15,N,
+EDCCATF,2,2,2: IIEF-5 17-21,15,N,
+EDCCATF,3,3,3: IIEF-5 <17,15,N,
+ELECTDEV_1F,1,1,No,8,N,
+ELECTDEV_1F,2,2,Yes,8,N,
+ELECTDEV_1F,3,3,Not sure,8,N,
+FAT1F,0,0,0: Not weak at all,18,N,
+FAT1F,10,10,10: Very weak,18,N,
+FAT2F,0,0,0: Not sleepy at all,20,N,
+FAT2F,10,10,10: Very sleepy,20,N,
+FAT3F,0,0,0: Not lively at all,20,N,
+FAT3F,10,10,10: Very lively,20,N,
+FAT4F,0,0,0: Not tired at all,19,N,
+FAT4F,10,10,10: Very tired,19,N,
+FAT5F,0,0,0: No energy,18,N,
+FAT5F,10,10,10: Very energetic,18,N,
+FRSCAT,1,1,<0.075,14,N,
+FRSCAT,2,2,0.075 to <0.15,14,N,
+FRSCAT,3,3,>=0.15,14,N,
+FRSCATR,1,1,<0.10,13,N,
+FRSCATR,2,2,0.10 to <0.20,13,N,
+FRSCATR,3,3,>=0.20,13,N,
+HISPOR2F_II,1,1,1:Puerto Rican,20,N,
+HISPOR2F_II,2,2,2:Central American,20,N,
+HISPOR2F_II,3,3,3:South American,20,N,
+HISPOR2F_II,4,4,4:Dominican Republic,20,N,
+HISPOR2F_II,5,5,5:All others,20,N,
+HISPORGF_II,1,1,1:Mexican,20,N,
+HISPORGF_II,2,2,2:Puerto Rican,20,N,
+HISPORGF_II,3,3,3:Cuban,20,N,
+HISPORGF_II,4,4,4:Spanish,20,N,
+HISPORGF_II,5,5,5:Central American,20,N,
+HISPORGF_II,6,6,6:South American,20,N,
+HISPORGF_II,7,7,7:Dominican Republic,20,N,
+HISPORGF_II,8,8,8:Other,20,N,
+HISPORGF_II,9,9,9:Two or more,20,N,
+HLDLM,1,1,High (160+) LDL Cholest,23,N,
+HLDLM,2,2,LDL Chol <160,23,N,
+ICCAT1F,1,1,0 <= icsi <= 3,15,N,
+ICCAT1F,2,2,4 <= icsi <= 6,15,N,
+ICCAT1F,3,3,7 <= icsi <= 11,15,N,
+ICCAT1F,4,4,icsi >= 12,15,N,
+ICCAT1_1F,1,1,0 <= icsi_1 <= 3,17,N,
+ICCAT1_1F,2,2,4 <= icsi_1 <= 6,17,N,
+ICCAT1_1F,3,3,7 <= icsi_1 <= 11,17,N,
+ICCAT1_1F,4,4,icsi_1 >= 12,17,N,
+ICCATF,1,1,0 <= icsi <= 6,14,N,
+ICCATF,2,2,6 < icsi <= 11,14,N,
+ICCATF,3,3,icsi > 11,14,N,
+ICCAT_1F,1,1,0 <= icsi_1 <= 6,16,N,
+ICCAT_1F,2,2,6 < icsi_1 <= 11,16,N,
+ICCAT_1F,3,3,icsi_1 > 11,16,N,
+IIEF5CF,1,1,1: IIEF-5 5-7,15,N,
+IIEF5CF,2,2,2: IIEF-5 8-11,15,N,
+IIEF5CF,3,3,3: IIEF-5 12-16,15,N,
+IIEF5CF,4,4,4: IIEF-5 17-21,15,N,
+IIEF5CF,5,5,5: IIEF-5 22+,15,N,
+INCOMEHF_II,1,1,"1: Less than $5,000",20,N,
+INCOMEHF_II,2,2,"2: $5,000-$9,999",20,N,
+INCOMEHF_II,3,3,"3: $10,000-$19,999",20,N,
+INCOMEHF_II,4,4,"4: $20,000-$29,999",20,N,
+INCOMEHF_II,5,5,"5: $30,000-$39,999",20,N,
+INCOMEHF_II,6,6,"6: $40,000-$49,999",20,N,
+INCOMEHF_II,7,7,"7: $50,000-$59,999",20,N,
+INCOMEHF_II,8,8,"8: $60,000-$69,999",20,N,
+INCOMEHF_II,9,9,"9: $70,000-$79,999",20,N,
+INCOMEHF_II,10,10,"10: $80,000-$89,999",20,N,
+INCOMEHF_II,11,11,"11: $90,000-$99,999",20,N,
+INCOMEHF_II,12,12,"12: $100,000 or more",20,N,
+INCOME_1F_II,1,1,"1: Less than $5,000",21,N,
+INCOME_1F_II,2,2,"2: $5,000-$9,999",21,N,
+INCOME_1F_II,3,3,"3: $10,000-$19,999",21,N,
+INCOME_1F_II,4,4,"4: $20,000-$29,999",21,N,
+INCOME_1F_II,5,5,"5: $30,000-$39,999",21,N,
+INCOME_1F_II,6,6,"6: $40,000-$49,999",21,N,
+INCOME_1F_II,7,7,"7: $50,000-$59,999",21,N,
+INCOME_1F_II,8,8,"8: $60,000-$69,999",21,N,
+INCOME_1F_II,9,9,"9: $70,000-$79,999",21,N,
+INCOME_1F_II,10,10,"10: $80,000-$89,999",21,N,
+INCOME_1F_II,11,11,"11: $90,000-$99,999",21,N,
+INCOME_1F_II,12,12,"12: $100,000-$109,999",21,N,
+INCOME_1F_II,13,13,"13: $110,000-$119,999",21,N,
+INCOME_1F_II,14,14,"14: $120,000 or more",21,N,
+INJF,1,1,1: No injuries,28,N,
+INJF,2,2,2: Minor injuries,28,N,
+INJF,3,3,3: Serious physical injuries,28,N,
+INS,1,1,Private,7,N,
+INS,2,2,Public,7,N,
+INS,3,3,None,7,N,
+INSCAT3F,1,1,1: Any private,14,N,
+INSCAT3F,2,2,2: Public only,14,N,
+INSCAT3F,3,3,3: None,14,N,
+INSCAT4F,1,1,1: Private only,21,N,
+INSCAT4F,2,2,2: Private and public,21,N,
+INSCAT4F,3,3,3: Public only,21,N,
+INSCAT4F,4,4,4: None,21,N,
+INSCATF,1,1,1: Insured both times,23,N,
+INSCATF,2,2,2: Gained insurance,23,N,
+INSCATF,3,3,3: Lost insurance,23,N,
+INSCATF,4,4,4: Uninsured both times,23,N,
+INSTWO,1,1,No insurance,27,N,
+INSTWO,2,2,Public or private insurance,27,N,
+LMHF,1,1,1: Low,9,N,
+LMHF,2,2,2: Middle,9,N,
+LMHF,3,3,3: High,9,N,
+MENO,1,1,1: Pre-menopause,21,N,
+MENO,2,2,2: Peri-menopause,21,N,
+MENO,3,3,3: Post-menopause,21,N,
+MENO,4,4,4: Undetermined,21,N,
+MENO,5,5,5: Surgical menopause,21,N,
+MENO,6,6,6: Hormones,21,N,
+MENOSTAT,1,1,Pre,12,N,
+MENOSTAT,2,2,Peri,12,N,
+MENOSTAT,3,3,Post,12,N,
+MENOSTAT,4,4,Undetermined,12,N,
+MENOSTAT,5,5,Surgical,12,N,
+MENOSTAT,6,6,Hormones,12,N,
+NUTR3F,1,1,1: 0,5,N,
+NUTR3F,2,2,2: 1,5,N,
+NUTR3F,3,3,3: 2+,5,N,
+NUTRF,1,1,1: 0,4,N,
+NUTRF,2,2,2: 1,4,N,
+NUTRF,3,3,3: 2,4,N,
+NUTRF,4,4,4: 3,4,N,
+OCCUGRPF,1,1,"Management, Professional, and Related Occupations",61,N,
+OCCUGRPF,2,2,Service Occupations,61,N,
+OCCUGRPF,3,3,Sales and Office Occupations,61,N,
+OCCUGRPF,4,4,"Farming, Fishing, and Forestry Occupations",61,N,
+OCCUGRPF,5,5,"Construction, Extraction, Maintenance, and Repair Occupations",61,N,
+OCCUGRPF,6,6,"Production, Transportation, and Material Moving Occupations",61,N,
+OCCUGRPF,7,7,Never worked,61,N,
+OCCUGRPF,9,9,Missing,61,N,
+PAINBLADF,0,0,0: No pain or discomfort,34,N,
+PAINBLADF,10,10,10: Pain as bad as you can imagine,34,N,
+POVF,1,1,1: In poverty,17,N,
+POVF,2,2,2: Not in poverty,17,N,
+POVF,3,3,3: Undetermined,17,N,
+RACE,1,1,White,8,N,
+RACE,2,2,Black,8,N,
+RACE,3,3,Hispanic,8,N,
+RE,1,1,Black,8,N,
+RE,2,2,Hispanic,8,N,
+RE,3,3,White,8,N,
+RENUMF,1,1,1: Black,11,N,
+RENUMF,2,2,2: Hispanic,11,N,
+RENUMF,3,3,3: White,11,N,
+SESNECAT,1,1,Low,6,N,
+SESNECAT,2,2,Medium,6,N,
+SESNECAT,3,3,High,6,N,
+SFTWO,1,1,Fair/Poor,24,N,
+SFTWO,2,2,Good/Very Good/Excellent,24,N,
+SLEEPINTER,0,0,0.none/little of the time,27,N,
+SLEEPINTER,1,1,1.most/all/some of the time,27,N,
+SMOKE,1,1,Never,7,N,
+SMOKE,2,2,Former,7,N,
+SMOKE,3,3,Current,7,N,
+SMOKF,1,1,1: Non-smoker,17,N,
+SMOKF,2,2,2: Former smoker,17,N,
+SMOKF,3,3,3: Current smoker,17,N,
+SPOLYHTCA,0,0,0,2,N,
+SPOLYHTCA,1,1,1,2,N,
+SPOLYHTCA,2,2,2,2,N,
+SPOLYHTCA,3,3,3+,2,N,
+STATSTAT,1,1,Treated w/statins,17,N,
+STATSTAT,2,2,Untreated,17,N,
+STATSTAT,3,3,No Dyslipidemia,17,N,
+SUEAGE,1,1,<55,3,N,
+SUEAGE,2,2,55+,3,N,
+S_II,1,1,1:North - lo,14,N,
+S_II,2,2,2:North - AA,14,N,
+S_II,3,3,3:North - Hisp,14,N,
+S_II,4,4,4:WS - lo,14,N,
+S_II,5,5,5:WS - AA,14,N,
+S_II,6,6,6:WS - Hisp,14,N,
+S_II,7,7,7:RM - lo,14,N,
+S_II,8,8,8:RM - AA,14,N,
+S_II,9,9,9:RM - Hisp,14,N,
+S_II,10,10,10:D - lo,14,N,
+S_II,11,11,11:D - AA,14,N,
+S_II,12,12,12:D - Hisp,14,N,
+UNINSCATF,1,1,"1: No insurance, not even workcomp",54,N,
+UNINSCATF,2,2,"2: Some insurance, but trouble paying for healthcare",54,N,
+UNINSCATF,3,3,3: Some insurance and no trouble paying for healthcare,54,N,
+USEV3F,1,1,1: Mild (1-2),17,N,
+USEV3F,2,2,2: Moderate (3-4),17,N,
+USEV3F,3,3,3: Severe (5+),17,N,
+USEV4F,1,1,1: None,17,N,
+USEV4F,2,2,2: Mild (1-2),17,N,
+USEV4F,3,3,3: Moderate (3-4),17,N,
+USEV4F,4,4,4: Severe (5+),17,N,
+UTHLCHOL,1,1,Untreated high LDL chol,23,N,
+UTHLCHOL,2,2,Other,23,N,
+WHOSXAD_II,1,1,1: Have never had sex,27,N,
+WHOSXAD_II,2,2,2: Only with opposite sex,27,N,
+WHOSXAD_II,3,3,3: Mostly with opposite sex,27,N,
+WHOSXAD_II,4,4,4: Both women and men,27,N,
+WHOSXAD_II,5,5,5: Mostly with same sex,27,N,
+WHOSXAD_II,6,6,6: Only with same sex,27,N,
+X1471F_II,.,.Z,XSPECF_II40.,40,N,MF
+X1471F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X1526F_II,.,.Z,XSPECF_II40.,40,N,MF
+X1526F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X1526F_II,1,1,1: Almost always or always,40,N,M
+X1526F_II,2,2,2: Most times (more than half th,40,N,M
+X1526F_II,3,3,3: Sometimes (about half the tim,40,N,M
+X1526F_II,4,4,4: A few times(less than half th,40,N,M
+X1526F_II,5,5,5: Almost never or never,40,N,M
+X1554F_II,.,.Z,XSPECF_II40.,40,N,MF
+X1554F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X1554F_II,1,1,1: Extremely difficult or Imposs,40,N,M
+X1554F_II,2,2,2: Very difficult,40,N,M
+X1554F_II,3,3,3: Difficult,40,N,M
+X1554F_II,4,4,4: Slightly difficult,40,N,M
+X1554F_II,5,5,5: Not difficult,40,N,M
+X1554F_II,6,6,6: No sexual activity,40,N,M
+X1600F_II,.,.Z,XSPECF_II40.,40,N,MF
+X1600F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X1600F_II,1,1,1: No problem,40,N,M
+X1600F_II,2,2,2: Very small problem,40,N,M
+X1600F_II,3,3,3: Small problem,40,N,M
+X1600F_II,4,4,4: Medium problem,40,N,M
+X1600F_II,5,5,5: Big problem,40,N,M
+X1600F_II,6,6,6: No sexual activity,40,N,M
+X1638F_II,.,.Z,XSPECF_II40.,40,N,MF
+X1638F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X1638F_II,1,1,1: Very High,40,N,M
+X1638F_II,2,2,2: High,40,N,M
+X1638F_II,3,3,3: Moderate,40,N,M
+X1638F_II,4,4,4: Low,40,N,M
+X1638F_II,5,5,5: Very Low or none at all,40,N,M
+X1643F_II,.,.Z,XSPECF_II40.,40,N,MF
+X1643F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X1643F_II,1,1,1: Very Satisfied,40,N,M
+X1643F_II,2,2,2: Moderately Satisfied,40,N,M
+X1643F_II,3,3,3: About equally satisfied and d,40,N,M
+X1643F_II,4,4,4: Moderately Dissatisfied,40,N,M
+X1643F_II,5,5,5: Very Dissatisfied,40,N,M
+X1643F_II,6,6,6: No sexual activity,40,N,M
+X1648F_II,.,.Z,XSPECF_II40.,40,N,MF
+X1648F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X1648F_II,1,1,1: Very high,40,N,M
+X1648F_II,2,2,2: High,40,N,M
+X1648F_II,3,3,3: Moderate,40,N,M
+X1648F_II,4,4,4: Low,40,N,M
+X1648F_II,5,5,5: Very low or none at all,40,N,M
+X1651F_II,.,.Z,XSPECF_II40.,40,N,MF
+X1651F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X1651F_II,1,1,1: Very satisfied,40,N,M
+X1651F_II,2,2,2:  Moderately satisfied,40,N,M
+X1651F_II,3,3,3: About equally satisfied and d,40,N,M
+X1651F_II,4,4,4: Moderately dissatisfied,40,N,M
+X1651F_II,5,5,5: Very dissatisfied,40,N,M
+X1652F_II,.,.Z,XSPECF_II40.,40,N,MF
+X1652F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X1652F_II,1,1,1: Very satisfied,40,N,M
+X1652F_II,2,2,2: Moderately satisfied,40,N,M
+X1652F_II,3,3,3: About equally satisfied and d,40,N,M
+X1652F_II,4,4,4: Moderately dissatisfied,40,N,M
+X1652F_II,5,5,5: Very dissatisfied,40,N,M
+X1652F_II,6,6,6: No sexual activity with a par,40,N,M
+X1666F_II,.,.Z,XSPECF_II40.,40,N,MF
+X1666F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X1666F_II,1,1,1: Yes,40,N,M
+X1666F_II,2,2,2: No,40,N,M
+X2311F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2311F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2312F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2312F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2312F_II,0,0,0: Did not attempt vaginal penet,40,N,SM
+X2312F_II,1,1,1: Almost always or always,40,N,SM
+X2312F_II,2,2,2: Most times,40,N,SM
+X2312F_II,3,3,3: Sometimes,40,N,SM
+X2312F_II,4,4,4: A few times,40,N,SM
+X2312F_II,5,5,5: Almost never or never,40,N,SM
+X2313F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2313F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2313F_II,0,0,0: Did not attempt vaginal penet,40,N,SM
+X2313F_II,1,1,1: Very high,40,N,SM
+X2313F_II,2,2,2: Most times,40,N,SM
+X2313F_II,3,3,3: Sometimes,40,N,SM
+X2313F_II,4,4,4: A few times,40,N,SM
+X2313F_II,5,5,5: Almost never or never,40,N,SM
+X2314F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2314F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2314F_II,0,0,0: NOT SELECTED,40,N,SM
+X2314F_II,1,1,1: SELECTED,40,N,SM
+X2315F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2315F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2315F_II,0,0,0: Never,40,N,SM
+X2315F_II,1,1,1: Almost Never,40,N,SM
+X2315F_II,2,2,2: Sometimes,40,N,SM
+X2315F_II,3,3,3: Fairly Often,40,N,SM
+X2315F_II,4,4,4: Very Often,40,N,SM
+X2316F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2316F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2316F_II,0,0,0: Never,40,N,SM
+X2316F_II,1,1,1: Seldom (1-2 days),40,N,SM
+X2316F_II,2,2,2: Sometimes (3-4 days),40,N,SM
+X2316F_II,3,3,3: Often (5-7 days),40,N,SM
+X2317F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2317F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2317F_II,0,0,0: Never,40,N,SM
+X2317F_II,1,1,1: Seldom,40,N,SM
+X2317F_II,2,2,2: Sometimes,40,N,SM
+X2317F_II,3,3,3: Often,40,N,SM
+X2318F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2318F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2318F_II,0,0,0: No pain,40,N,SM
+X2318F_II,10,10,10: Pain as bad as you can imagi,40,N,SM
+X2320F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2320F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2320F_II,0,0,0: Not currently experiencing pe,40,N,SM
+X2320F_II,1,1,1: 1 -2,40,N,SM
+X2320F_II,2,2,2:  3 - 5,40,N,SM
+X2320F_II,3,3,3:  6 - 10,40,N,SM
+X2320F_II,4,4,4:  More than 10,40,N,SM
+X2321F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2321F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2321F_II,1,1,1:  1 shot (1.5oz),40,N,M
+X2321F_II,2,2,2:  2-3 shots,40,N,M
+X2321F_II,3,3,3:  4-6 shots or a 1/2pint,40,N,M
+X2321F_II,4,4,4:  7-11 shots or a pint,40,N,M
+X2321F_II,5,5,5:  2 pints (32oz) or more,40,N,M
+X2322F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2322F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2322F_II,1,1,1:  1-2 12oz serving(s),40,N,M
+X2322F_II,2,2,2:  3-5 12oz servings,40,N,M
+X2322F_II,3,3,3:  1-2 six packs (12oz bottles/,40,N,M
+X2322F_II,4,4,4:  2-3 six packs (12oz bottles/,40,N,M
+X2322F_II,5,5,5:  3+ six packs (12oz bottles/c,40,N,M
+X2323F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2323F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2323F_II,1,1,1:  1-2 glasses (5oz),40,N,M
+X2323F_II,2,2,2:  1/2 carafe (12.5oz),40,N,M
+X2323F_II,3,3,3:  1 bottle,40,N,M
+X2323F_II,4,4,4:  2-4 bottles,40,N,M
+X2323F_II,5,5,5:  5 or more bottles of wine or,40,N,M
+X2324F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2324F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2324F_II,1,1,1:  35 hrs or more/wk,40,N,M
+X2324F_II,2,2,2:  Less than 35 hrs/wk,40,N,M
+X2325F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2325F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2325F_II,1,1,1:  <3 months,40,N,M
+X2325F_II,2,2,2:  3-6 months,40,N,M
+X2325F_II,3,3,3:  7-12 months,40,N,M
+X2325F_II,4,4,4:  1-5 years,40,N,M
+X2325F_II,5,5,5:  6+ years,40,N,M
+X2326F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2326F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2326F_II,1,1,1:  Drops or a little more,40,N,M
+X2326F_II,2,2,2:  Small splashes,40,N,M
+X2326F_II,3,3,3:  Or more,40,N,M
+X2327F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2327F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2327F_II,1,1,1:  English,40,N,M
+X2327F_II,2,2,2:  English + Spanish simultaneo,40,N,M
+X2327F_II,3,3,3:  Spanish,40,N,M
+X2327F_II,99,99,99:  Or something else,40,N,M
+X2328F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2328F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2328F_II,1,1,1:  Every day,40,N,M
+X2328F_II,2,2,2:  5-6 days a week,40,N,M
+X2328F_II,3,3,3:  3-4 days a week,40,N,M
+X2328F_II,4,4,4:  1-2 days a week,40,N,M
+X2328F_II,5,5,"5:  Or, less often than weekly",40,N,M
+X2329F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2329F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2329F_II,1,1,1:  Has not sought treatment,40,N,M
+X2329F_II,2,2,2:  Sought and received treatmen,40,N,M
+X2329F_II,3,3,"3:  Sought, but did not receive",40,N,M
+X2330F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2330F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2330F_II,1,1,1:  I do not have the symptom,40,N,M
+X2330F_II,2,2,2:  Rarely,40,N,M
+X2330F_II,3,3,3:  A few times,40,N,M
+X2330F_II,4,4,4:  Fairly often,40,N,M
+X2330F_II,5,5,5:  Usually,40,N,M
+X2330F_II,6,6,6:  Almost always,40,N,M
+X2331F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2331F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2331F_II,1,1,1:  Less than 3 months,40,N,M
+X2331F_II,2,2,2:  3 to less than 6 months,40,N,M
+X2331F_II,3,3,3:  6 to less than 12 months,40,N,M
+X2331F_II,4,4,4:  1 year to less than 5 years,40,N,M
+X2331F_II,5,5,5:  5 years or more,40,N,M
+X2332F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2332F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2332F_II,1,1,1:  Less than 5 hours a night,40,N,M
+X2332F_II,2,2,2:  Or more than 5 hours a night,40,N,M
+X2333F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2333F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2333F_II,1,1,1:  Less than once per month,40,N,M
+X2333F_II,2,2,2:  One or more times per month,40,N,M
+X2333F_II,3,3,3:  One or more times per week,40,N,M
+X2333F_II,4,4,4:  Everyday,40,N,M
+X2334F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2334F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2334F_II,1,1,1:  Married,40,N,M
+X2334F_II,2,2,2: Living with a partner,40,N,M
+X2334F_II,3,3,3:  Divorced/separated,40,N,M
+X2334F_II,4,4,4:  Widowed,40,N,M
+X2334F_II,5,5,"5:  Single, never married",40,N,M
+X2334F_II,99,99,99:  Other,40,N,M
+X2335F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2335F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2335F_II,1,1,1:  No protection,40,N,M
+X2335F_II,2,2,"2:  Tissue, toilet paper, or pap",40,N,M
+X2335F_II,3,3,3:  Minipad or pantiliner,40,N,M
+X2335F_II,4,4,4:  Menstrual pad,40,N,M
+X2335F_II,5,5,"5:  Incontinence pad (Poise, Ser",40,N,M
+X2335F_II,6,6,6:  Incontinence diaper (Attends,40,N,M
+X2335F_II,7,7,7:  Something else,40,N,M
+X2336F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2336F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2336F_II,1,1,1:  None of the time,40,N,M
+X2336F_II,2,2,2:  A little of the time,40,N,M
+X2336F_II,3,3,3:  Some of the time,40,N,M
+X2336F_II,4,4,4:  Most of the time,40,N,M
+X2336F_II,5,5,5:  All of the time,40,N,M
+X2337F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2337F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2337F_II,1,1,1:  Not at all,40,N,M
+X2337F_II,2,2,2:  Once,40,N,M
+X2337F_II,3,3,3:  A few times (2-3),40,N,M
+X2337F_II,4,4,4:  Several times (4-6),40,N,M
+X2337F_II,5,5,5:  Many times (7 or more),40,N,M
+X2337F_II,6,6,6:  Everyday,40,N,M
+X2338F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2338F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2338F_II,1,1,1:  Not at all,40,N,M
+X2338F_II,2,2,2:  Slightly,40,N,M
+X2338F_II,3,3,3:  Moderately,40,N,M
+X2338F_II,4,4,4:  Greatly,40,N,M
+X2339F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2339F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2339F_II,1,1,1:  Yes,40,N,M
+X2339F_II,2,2,2:  No,40,N,M
+X2340F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2340F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2340F_II,1,1,1:  Zero,40,N,M
+X2340F_II,2,2,2:  One,40,N,M
+X2340F_II,3,3,3:  Two or three,40,N,M
+X2340F_II,4,4,4:  Four or more,40,N,M
+X2341F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2341F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2341F_II,1,1,1:  less than 3 months,40,N,M
+X2341F_II,2,2,2: 3-6 months,40,N,M
+X2341F_II,3,3,3: 7-12 months,40,N,M
+X2341F_II,4,4,4: 1-5 years,40,N,M
+X2341F_II,5,5,5: 6+ years,40,N,M
+X2342F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2342F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2342F_II,1,1,1: 1 shot,40,N,M
+X2342F_II,2,2,2: 2-3 shots,40,N,M
+X2342F_II,3,3,3: 4-6 shots,40,N,M
+X2342F_II,4,4,4: 7-11 shots,40,N,M
+X2342F_II,5,5,5: 2 pints or more,40,N,M
+X2343F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2343F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2343F_II,1,1,1: 1-2 12 oz servings,40,N,M
+X2343F_II,2,2,2: 3-5 12 oz servings,40,N,M
+X2343F_II,3,3,3: 1-2 six packs,40,N,M
+X2343F_II,4,4,4: 2-3 six packs,40,N,M
+X2343F_II,5,5,5: 3+ six packs,40,N,M
+X2344F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2344F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2344F_II,1,1,1: 1-2 glasses,40,N,M
+X2344F_II,2,2,2: 1/2 carafe,40,N,M
+X2344F_II,3,3,3: 1 Bottle,40,N,M
+X2344F_II,4,4,4: 2-4 Bottles,40,N,M
+X2344F_II,5,5,5: 5 or more bottles of wine or,40,N,M
+X2345F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2345F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2345F_II,1,1,1: 1-2,40,N,M
+X2345F_II,2,2,2: 3-5,40,N,M
+X2345F_II,3,3,3: 6-10,40,N,M
+X2345F_II,4,4,4: More than 10,40,N,M
+X2346F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2346F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2346F_II,1,1,1: 10 minutes or less,40,N,M
+X2346F_II,2,2,2: More than 10 minutes,40,N,M
+X2347F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2347F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2347F_II,1,1,1: 35 Hrs or more/wk,40,N,M
+X2347F_II,2,2,2: Less than 35 hrs/wk,40,N,M
+X2348F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2348F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2348F_II,1,1,1: 6 Months ago or less,40,N,M
+X2348F_II,2,2,"2: More than 6 months ago,but le",40,N,M
+X2348F_II,3,3,"3: More than 1 year ago,but less",40,N,M
+X2348F_II,4,4,"4: More than 2 years ago, but le",40,N,M
+X2348F_II,5,5,5: 5 years ago or more,40,N,M
+X2349F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2349F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2349F_II,1,1,1: 6 months or less,40,N,M
+X2349F_II,2,2,"2: More than 6 months, less tha",40,N,M
+X2349F_II,3,3,"3: More than a year, less than 2",40,N,M
+X2349F_II,4,4,"4: More than 2 years, less than",40,N,M
+X2349F_II,5,5,5: 5 years or more,40,N,M
+X2350F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2350F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2350F_II,1,1,1: 6 months or less,40,N,M
+X2350F_II,2,2,"2: More than 6 months, less than",40,N,M
+X2350F_II,3,3,"3: More than 1 year, less than 2",40,N,M
+X2350F_II,4,4,"4: More than 2 years, less than",40,N,M
+X2350F_II,5,5,5: 5 years or more,40,N,M
+X2351F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2351F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2351F_II,1,1,1: <3 months,40,N,M
+X2351F_II,2,2,2: 3-6 months,40,N,M
+X2351F_II,3,3,3: 7-12 months,40,N,M
+X2351F_II,4,4,4: 1-5 years,40,N,M
+X2351F_II,5,5,5: 6+ years,40,N,M
+X2353F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2353F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2353F_II,1,1,1: Abdominally,40,N,M
+X2353F_II,2,2,2: Vaginally,40,N,M
+X2354F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2354F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2354F_II,-8,-8,-8: Don't Know,40,N,SM
+X2354F_II,1,1,1: Abdominally,40,N,SM
+X2354F_II,2,2,2: Vaginally,40,N,SM
+X2355F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2355F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2355F_II,1,1,1: About once a week,40,N,M
+X2355F_II,2,2,2: About once a month,40,N,M
+X2355F_II,3,3,3: Several times a year,40,N,M
+X2356F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2356F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2356F_II,1,1,1: After you finish urinating be,40,N,M
+X2356F_II,2,2,2: When you are not using the to,40,N,M
+X2356F_II,3,3,3: At both times (after urinatin,40,N,M
+X2358F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2358F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2358F_II,1,1,1: All of the Time,40,N,M
+X2358F_II,2,2,2: Most of the Time,40,N,M
+X2358F_II,3,3,3: Some of the time,40,N,M
+X2358F_II,4,4,4: A Little of the Time,40,N,M
+X2358F_II,5,5,5: None of the Time,40,N,M
+X2359F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2359F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2359F_II,1,1,1: All of the Time,40,N,M
+X2359F_II,2,2,2: Most of the Time,40,N,M
+X2359F_II,3,3,3: Some of the time,40,N,M
+X2359F_II,4,4,4: A little of the Time,40,N,M
+X2359F_II,5,5,5: None of the Time,40,N,M
+X2360F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2360F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2360F_II,1,1,1: Almost Never/Never,40,N,M
+X2360F_II,2,2,2: A Few Times,40,N,M
+X2360F_II,3,3,3: Sometimes,40,N,M
+X2360F_II,4,4,4: Most Times,40,N,M
+X2360F_II,5,5,5: Almost always or always,40,N,M
+X2361F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2361F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2361F_II,1,1,1: Almost always or Always,40,N,M
+X2361F_II,2,2,2: Most times(more than half the,40,N,M
+X2361F_II,3,3,3: Sometimes(about half the time,40,N,M
+X2361F_II,4,4,4: A few times(less than half th,40,N,M
+X2361F_II,6,6,6: Did not attempt vaginal penet,40,N,M
+X2361F_II,7,7,7: Did not attempt vaginal penet,40,N,M
+X2362F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2362F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2362F_II,1,1,1: Almost always or Always,40,N,M
+X2362F_II,2,2,2: Most times(more than half the,40,N,M
+X2362F_II,3,3,3: Sometimes(about half the time,40,N,M
+X2362F_II,4,4,4: A few times(less than half th,40,N,M
+X2362F_II,6,6,6: Did not attempt vaginal penet,40,N,M
+X2362F_II,7,7,7: Did not attempt vaginal penet,40,N,M
+X2362F_II,8,8,8: No sexual activity,40,N,M
+X2363F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2363F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2363F_II,1,1,1: Almost always or Always,40,N,M
+X2363F_II,2,2,2: Most times(more than half the,40,N,M
+X2363F_II,3,3,3: Sometimes(about half the time,40,N,M
+X2363F_II,4,4,4: A few times(less than half th,40,N,M
+X2363F_II,6,6,6: No sexual activity,40,N,M
+X2367F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2367F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2367F_II,1,1,1: Almost always or always,40,N,M
+X2367F_II,2,2,2: Most times(more than half the,40,N,M
+X2367F_II,3,3,3: Sometimes(about half time,40,N,M
+X2367F_II,4,4,4: A few times(less than half th,40,N,M
+X2367F_II,5,5,5: Almost never or never,40,N,M
+X2367F_II,6,6,6: No sexual activity,40,N,M
+X2368F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2368F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2368F_II,1,1,1: Almost always or always,40,N,M
+X2368F_II,2,2,2: Most times,40,N,M
+X2368F_II,3,3,3: Sometimes,40,N,M
+X2368F_II,4,4,4: A few times,40,N,M
+X2368F_II,5,5,5: Almost never or never,40,N,M
+X2369F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2369F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2369F_II,1,1,1: Almost never/never,40,N,M
+X2369F_II,2,2,2: A few times(much less than ha,40,N,M
+X2369F_II,3,3,3: Sometime(about half the time),40,N,M
+X2369F_II,4,4,4: Most times(much more than hal,40,N,M
+X2369F_II,5,5,5: Almost always/always,40,N,M
+X2369F_II,6,6,6: Did not attempt intercourse,40,N,M
+X2370F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2370F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2370F_II,1,1,1: Almost never/never,40,N,M
+X2370F_II,2,2,2: A few times(much less than ha,40,N,M
+X2370F_II,3,3,3: Sometime(about half the time),40,N,M
+X2370F_II,4,4,4: Most times(much more than hal,40,N,M
+X2370F_II,5,5,5: Almost always/always,40,N,M
+X2370F_II,6,6,6: Did not penetrate partner,40,N,M
+X2371F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2371F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2371F_II,1,1,1: Almost never/never,40,N,M
+X2371F_II,2,2,2: A few times(much less than ha,40,N,M
+X2371F_II,3,3,3: Sometime(about half the time),40,N,M
+X2371F_II,4,4,4: Most times(much more than hal,40,N,M
+X2371F_II,5,5,5: Almost always/always,40,N,M
+X2371F_II,6,6,6: No sexual activity,40,N,M
+X2375F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2375F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2375F_II,1,1,1: Almost never/never,40,N,M
+X2375F_II,2,2,2: A few times,40,N,M
+X2375F_II,3,3,3: Sometimes,40,N,M
+X2375F_II,4,4,4: Most times,40,N,M
+X2375F_II,5,5,5: Almost always/always,40,N,M
+X2376F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2376F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2376F_II,1,1,1: As a result of a fall from a,40,N,M
+X2376F_II,2,2,2: Because of a harder fall,40,N,M
+X2376F_II,3,3,3: Or from a car accident or oth,40,N,M
+X2376F_II,99,99,99: Other,40,N,M
+X2377F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2377F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2377F_II,1,1,1: Before noon,40,N,M
+X2377F_II,2,2,2: Noon to 5 PM,40,N,M
+X2377F_II,3,3,3: After 5 PM,40,N,M
+X2379F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2379F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2379F_II,1,1,1: Child,40,N,M
+X2379F_II,2,2,2: Adult,40,N,M
+X2380F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2380F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2380F_II,0,0,0: Not Completed,40,N,SM
+X2380F_II,1,1,1: Completed,40,N,SM
+X2381F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2381F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2381F_II,1,1,1: Continue more than 10 minutes,40,N,M
+X2381F_II,2,2,2: Disappear in 10 minutes,40,N,M
+X2383F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2383F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2383F_II,1,1,1: Day,40,N,M
+X2383F_II,2,2,2: Week,40,N,M
+X2383F_II,3,3,3: Month,40,N,M
+X2383F_II,4,4,4: Year,40,N,M
+X2384F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2384F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2384F_II,-8,-8,-8: Don't Know,40,N,SM
+X2384F_II,1,1,1: Deep inside the vagina,40,N,SM
+X2384F_II,2,2,2: At the opening of the vagina,40,N,SM
+X2384F_II,3,3,3: Both deep inside and at the o,40,N,SM
+X2384F_II,99,99,99: Other,40,N,SM
+X2385F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2385F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2385F_II,1,1,1: Delighted,40,N,M
+X2385F_II,2,2,2: Pleased,40,N,M
+X2385F_II,3,3,3: Mostly satisfied,40,N,M
+X2385F_II,4,4,"4: Mixed, about equally satisfie",40,N,M
+X2385F_II,5,5,5: Mostly dissatisfied,40,N,M
+X2385F_II,6,6,6: Unhappy,40,N,M
+X2385F_II,7,7,7: Terrible,40,N,M
+X2386F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2386F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2386F_II,1,1,1: Dial-up,40,N,M
+X2386F_II,2,2,2: Fiber Optic,40,N,M
+X2386F_II,3,3,3: DSL,40,N,M
+X2386F_II,4,4,4: Cable,40,N,M
+X2386F_II,5,5,5: Satellite Wireless,40,N,M
+X2386F_II,6,6,6: Other,40,N,M
+X2387F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2387F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2387F_II,1,1,1: Does not cause me any problem,40,N,M
+X2387F_II,2,2,2: Causes me some very minor pro,40,N,M
+X2387F_II,3,3,3: Causes me some minor problems,40,N,M
+X2387F_II,4,4,4: Causes me (some) moderate pro,40,N,M
+X2387F_II,5,5,5: Causes me severe problems,40,N,M
+X2387F_II,6,6,6: Causes many severe problems,40,N,M
+X2389F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2389F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2389F_II,1,1,1: Drops or a little more,40,N,M
+X2389F_II,2,2,2: Small splashes,40,N,M
+X2389F_II,3,3,3: Or more,40,N,M
+X2390F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2390F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2390F_II,1,1,1: ENGLISH,40,N,M
+X2390F_II,2,2,2: SPANISH,40,N,M
+X2391F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2391F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2391F_II,1,1,1: English,40,N,M
+X2391F_II,2,2,2: Spanish,40,N,M
+X2392F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2392F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2392F_II,1,1,1: Everyday,40,N,M
+X2392F_II,2,2,2: 5-6 days a week,40,N,M
+X2392F_II,3,3,3: 3-4 days a week,40,N,M
+X2392F_II,4,4,4: 1-2 days a week,40,N,M
+X2392F_II,5,5,5: Less often than weekly,40,N,M
+X2393F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2393F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2393F_II,1,1,1: Excellent,40,N,M
+X2393F_II,2,2,2: Very good,40,N,M
+X2393F_II,3,3,3: Good,40,N,M
+X2393F_II,4,4,4: Fair,40,N,M
+X2393F_II,5,5,5: Poor,40,N,M
+X2394F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2394F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2394F_II,1,1,1: Extremely difficult or Imposs,40,N,M
+X2394F_II,2,2,2: Very difficult,40,N,M
+X2394F_II,3,3,3: Difficult,40,N,M
+X2394F_II,4,4,4: Slightly difficult,40,N,M
+X2394F_II,5,5,5: Not difficult,40,N,M
+X2394F_II,6,6,6: No sexual activity,40,N,M
+X2395F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2395F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2395F_II,1,1,1: Extremely difficult or imposs,40,N,M
+X2395F_II,2,2,2: Very difficult,40,N,M
+X2395F_II,3,3,3: Difficult,40,N,M
+X2395F_II,4,4,4: Slightly difficult,40,N,M
+X2395F_II,5,5,5: Not difficult,40,N,M
+X2396F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2396F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2396F_II,1,1,1: Extremely difficult,40,N,M
+X2396F_II,2,2,2: Very difficult,40,N,M
+X2396F_II,3,3,3: Difficult,40,N,M
+X2396F_II,4,4,4: Slightly difficult,40,N,M
+X2396F_II,5,5,5: Not difficult,40,N,M
+X2397F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2397F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2397F_II,1,1,1: Extremely difficult,40,N,M
+X2397F_II,2,2,2: Very difficult,40,N,M
+X2397F_II,3,3,3: Difficult,40,N,M
+X2397F_II,4,4,4: Slightly difficult,40,N,M
+X2397F_II,5,5,5: Not difficult,40,N,M
+X2397F_II,6,6,6: Did not attempt intercourse,40,N,M
+X2398F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2398F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2398F_II,1,1,1: Extremely unimportant,40,N,M
+X2398F_II,2,2,2: Unimportant,40,N,M
+X2398F_II,3,3,"3: Neither un-important, nor imp",40,N,M
+X2398F_II,4,4,4: Important,40,N,M
+X2398F_II,5,5,5: Extremely important,40,N,M
+X2403F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2403F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2403F_II,1,1,1: Heterosexual,40,N,M
+X2403F_II,2,2,2: Gay,40,N,M
+X2403F_II,3,3,3: Bisexual,40,N,M
+X2403F_II,4,4,4: Asexual,40,N,M
+X2403F_II,5,5,5: Other,40,N,M
+X2406F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2406F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2406F_II,1,1,1: I do not have the symptom,40,N,M
+X2406F_II,2,2,2: Rarely,40,N,M
+X2406F_II,3,3,3: A few times,40,N,M
+X2406F_II,4,4,4: Fairly often,40,N,M
+X2406F_II,5,5,5: Usually,40,N,M
+X2406F_II,6,6,6: Almost always,40,N,M
+X2407F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2407F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2407F_II,1,1,1: IN-PERSON,40,N,M
+X2407F_II,2,2,2: TELEPHONE,40,N,M
+X2409F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2409F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2409F_II,1,1,1: In-home,40,N,M
+X2409F_II,2,2,2: Other,40,N,M
+X2410F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2410F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2410F_II,1,1,1: In-person,40,N,M
+X2410F_II,2,2,2: Telephone,40,N,M
+X2410F_II,3,3,3: Mixed,40,N,M
+X2411F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2411F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2411F_II,1,1,1: Increased,40,N,M
+X2411F_II,2,2,2: Decreased,40,N,M
+X2411F_II,3,3,3: Not changed,40,N,M
+X2412F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2412F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2412F_II,1,1,1: Lbs,40,N,M
+X2412F_II,2,2,2: Kgs,40,N,M
+X2414F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2414F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2414F_II,-8,-8,-8: DON'T KNOW,40,N,SM
+X2414F_II,-7,-7,-7: REFUSED,40,N,SM
+X2414F_II,1,1,"1: Less than $5,000",40,N,SM
+X2414F_II,2,2,"2: $5,000-$9,999",40,N,SM
+X2414F_II,3,3,"3: $10,000-$19,999",40,N,SM
+X2414F_II,4,4,"4: $20,000-$29,999",40,N,SM
+X2414F_II,5,5,"5: $30,000-$39,999",40,N,SM
+X2414F_II,6,6,"6: $40,000-$49,999",40,N,SM
+X2414F_II,7,7,"7: $50,000-$59,999",40,N,SM
+X2414F_II,8,8,"8: $60,000-$69,000",40,N,SM
+X2414F_II,9,9,"9: $70,000-$79,999",40,N,SM
+X2414F_II,10,10,"10: $80,000-$89,999",40,N,SM
+X2414F_II,11,11,"11: $90,000-$99,999",40,N,SM
+X2414F_II,12,12,"12: $100,000-$109,999",40,N,SM
+X2414F_II,13,13,"13: $110,000-$119,999",40,N,SM
+X2414F_II,14,14,"14: $120,000 or more",40,N,SM
+X2415F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2415F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2415F_II,1,1,1: Less than 1 hour,40,N,M
+X2415F_II,2,2,2: 1 but less than 2 hours,40,N,M
+X2415F_II,3,3,3: 2-4 hours,40,N,M
+X2415F_II,4,4,4: More than 4 hours,40,N,M
+X2416F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2416F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2416F_II,1,1,1: Less than 3 months,40,N,M
+X2416F_II,2,2,2: 3 to less than 6 months,40,N,M
+X2416F_II,3,3,3: 6 to less than 12 months,40,N,M
+X2416F_II,4,4,4: 1 years to less than 5 years,40,N,M
+X2416F_II,5,5,5: 5 years or more,40,N,M
+X2417F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2417F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2417F_II,1,1,1: Less than 3 months,40,N,M
+X2417F_II,2,2,"2: More than 3, but less than 6",40,N,M
+X2417F_II,3,3,"3: More than 6 months, but less",40,N,M
+X2417F_II,4,4,4: A year or longer,40,N,M
+X2418F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2418F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2418F_II,1,1,1: Less than 3 months,40,N,M
+X2418F_II,2,2,"2: More than 3, but less than 6",40,N,M
+X2418F_II,3,3,"3: More than 6, but less than a",40,N,M
+X2418F_II,4,4,4: A year or longer,40,N,M
+X2419F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2419F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2419F_II,1,1,1: Less than 8th grade,40,N,M
+X2419F_II,2,2,2: 8th grade,40,N,M
+X2419F_II,3,3,3: 9th through 11th grade,40,N,M
+X2419F_II,4,4,4: High school diploma/GED,40,N,M
+X2419F_II,5,5,5: Technical training,40,N,M
+X2419F_II,6,6,6: Associate degree,40,N,M
+X2419F_II,7,7,7: Bachelors degree,40,N,M
+X2419F_II,8,8,8: Master degree,40,N,M
+X2419F_II,9,9,"9: Doctorate degree (e.g. MD, Ph",40,N,M
+X2420F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2420F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2420F_II,1,1,1: Less than half the time,40,N,M
+X2420F_II,2,2,2: Half the time or more,40,N,M
+X2421F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2421F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2421F_II,1,1,1: Less than once per month,40,N,M
+X2421F_II,2,2,2: One or more times per month,40,N,M
+X2421F_II,3,3,3: One or more times per week,40,N,M
+X2421F_II,4,4,4: Everyday,40,N,M
+X2422F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2422F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2422F_II,1,1,1: Light Clothing,40,N,M
+X2422F_II,2,2,2: Undergarments,40,N,M
+X2423F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2423F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2423F_II,1,1,1: Light clothing,40,N,M
+X2423F_II,2,2,2: Undergarments,40,N,M
+X2424F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2424F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2424F_II,1,1,1: MALE,40,N,M
+X2424F_II,2,2,2: FEMALE,40,N,M
+X2426F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2426F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2426F_II,1,1,1: Mainly sitting with slight ar,40,N,M
+X2426F_II,2,2,2: Sitting or standing with some,40,N,M
+X2426F_II,3,3,"3: Walking, with some handling o",40,N,M
+X2426F_II,4,4,4: Walking and heavy manual work,40,N,M
+X2427F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2427F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2427F_II,1,1,1: Mainly sitting,40,N,M
+X2427F_II,2,2,2: Sitting/standing,40,N,M
+X2427F_II,3,3,3: Walking < 50lb,40,N,M
+X2427F_II,4,4,4: Walking > 50lb,40,N,M
+X2428F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2428F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2428F_II,1,1,1: Male,40,N,M
+X2428F_II,2,2,2: Female,40,N,M
+X2429F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2429F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2429F_II,1,1,1: Married,40,N,M
+X2429F_II,2,2,2: Living with a partner,40,N,M
+X2429F_II,3,3,3: Divorced/separated,40,N,M
+X2429F_II,4,4,4: Widowed,40,N,M
+X2429F_II,5,5,"5: Single, never married",40,N,M
+X2429F_II,99,99,99: OTHER,40,N,M
+X2430F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2430F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2430F_II,1,1,"1: Mexican, Mexican American or",40,N,M
+X2430F_II,2,2,2: Puerto Rican,40,N,M
+X2430F_II,3,3,3: Cuban,40,N,M
+X2430F_II,99,99,99: Other Hispanic/Latino,40,N,M
+X2431F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2431F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2431F_II,1,1,1: Months,40,N,M
+X2431F_II,2,2,2: Years,40,N,M
+X2432F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2432F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2432F_II,1,1,1: Never,40,N,M
+X2432F_II,2,2,2: Rarely,40,N,M
+X2432F_II,3,3,3: A few times,40,N,M
+X2432F_II,4,4,4: Fairly often,40,N,M
+X2432F_II,5,5,5: Usually,40,N,M
+X2432F_II,6,6,6: Almost always,40,N,M
+X2433F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2433F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2433F_II,1,1,1: Never,40,N,M
+X2433F_II,2,2,2: Seldom,40,N,M
+X2433F_II,3,3,3: Occasionally,40,N,M
+X2433F_II,4,4,4: Often,40,N,M
+X2434F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2434F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2434F_II,1,1,1: No ED/Not Impotent,40,N,M
+X2434F_II,2,2,2: Minimal ED/Minimal Impotent,40,N,M
+X2434F_II,3,3,3: Moderate ED/Moderate Impotent,40,N,M
+X2434F_II,4,4,4: Complete ED/Complete Impotent,40,N,M
+X2436F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2436F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2436F_II,0,0,0: Has pain,40,N,SM
+X2436F_II,1,1,1: No Pain,40,N,SM
+X2437F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2437F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2437F_II,1,1,1: No Problem,40,N,M
+X2437F_II,2,2,2: Very small problem,40,N,M
+X2437F_II,3,3,3: Small problem,40,N,M
+X2437F_II,4,4,4: Medium problem,40,N,M
+X2437F_II,5,5,5: Big problem,40,N,M
+X2439F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2439F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2439F_II,1,1,1: No problem,40,N,M
+X2439F_II,2,2,2: Very small problem,40,N,M
+X2439F_II,3,3,3: Small problem,40,N,M
+X2439F_II,4,4,4: Medium problem,40,N,M
+X2439F_II,5,5,5: Big problem,40,N,M
+X2441F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2441F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2441F_II,1,1,1: No problem,40,N,M
+X2441F_II,2,2,2: Very small,40,N,M
+X2441F_II,3,3,3: Small,40,N,M
+X2441F_II,4,4,4: Medium,40,N,M
+X2441F_II,5,5,5: Big,40,N,M
+X2443F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2443F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2443F_II,1,1,1: None of the time,40,N,M
+X2443F_II,2,2,2: A little of the time,40,N,M
+X2443F_II,3,3,3: Some of the time,40,N,M
+X2443F_II,4,4,4: A good bit of the time,40,N,M
+X2443F_II,5,5,5: Most of the time,40,N,M
+X2443F_II,6,6,6: All of the time,40,N,M
+X2444F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2444F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2444F_II,1,1,1: None of the time,40,N,M
+X2444F_II,2,2,2: A little of the time,40,N,M
+X2444F_II,3,3,3: Some of the time,40,N,M
+X2444F_II,4,4,4: Most of the time,40,N,M
+X2444F_II,5,5,5: All of the time,40,N,M
+X2445F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2445F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2445F_II,1,1,1: None(no protection),40,N,M
+X2445F_II,2,2,"2: Tissue, toilet paper, or pape",40,N,M
+X2445F_II,3,3,3: Minipad or pantiliner,40,N,M
+X2445F_II,4,4,4: Menstrual pad,40,N,M
+X2445F_II,5,5,"5: Incontinence pad (Poise, Sere",40,N,M
+X2445F_II,6,6,"6: Incontinence diaper (Attends,",40,N,M
+X2445F_II,7,7,7: Something else,40,N,M
+X2446F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2446F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2446F_II,1,1,1: None,40,N,M
+X2446F_II,2,2,2: Mild,40,N,M
+X2446F_II,3,3,3: Moderate,40,N,M
+X2446F_II,4,4,4: Severe,40,N,M
+X2446F_II,5,5,5: Extremely Severe,40,N,M
+X2447F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2447F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2447F_II,1,1,1: None,40,N,M
+X2447F_II,2,2,2: Only a little,40,N,M
+X2447F_II,3,3,3: Some,40,N,M
+X2447F_II,4,4,4: A lot,40,N,M
+X2448F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2448F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2448F_II,1,1,1: Not at all,40,N,M
+X2448F_II,2,2,2: Once,40,N,M
+X2448F_II,3,3,3: A few times (2-3),40,N,M
+X2448F_II,4,4,4: Several times (4-6),40,N,M
+X2448F_II,5,5,5: Many times (7 or more) but no,40,N,M
+X2448F_II,6,6,6: Everyday,40,N,M
+X2449F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2449F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2449F_II,1,1,1: Not at all,40,N,M
+X2449F_II,2,2,2: Slightly,40,N,M
+X2449F_II,3,3,3: Moderately,40,N,M
+X2449F_II,4,4,4: Greatly,40,N,M
+X2450F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2450F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2450F_II,1,1,1: Not at all,40,N,M
+X2450F_II,2,2,2: Slightly,40,N,M
+X2450F_II,3,3,3: Moderatley,40,N,M
+X2450F_II,4,4,4: Quite a bit,40,N,M
+X2450F_II,5,5,5: Extremely,40,N,M
+X2451F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2451F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2451F_II,1,1,1: Not at all,40,N,M
+X2451F_II,2,2,2: Slight,40,N,M
+X2451F_II,3,3,3: Moderately,40,N,M
+X2451F_II,4,4,4: Greatly,40,N,M
+X2452F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2452F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2452F_II,1,1,1: Not at all,40,N,M
+X2452F_II,2,2,2: Some,40,N,M
+X2452F_II,3,3,3: A Lot,40,N,M
+X2453F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2453F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2453F_II,1,1,1: Not at all,40,N,M
+X2453F_II,2,2,2: Some,40,N,M
+X2453F_II,3,3,3: A lot,40,N,M
+X2454F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2454F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2454F_II,1,1,1: Not impotent,40,N,M
+X2454F_II,2,2,2: Minimally impotent,40,N,M
+X2454F_II,3,3,3: Moderately impotent,40,N,M
+X2454F_II,4,4,4: Completely impotent,40,N,M
+X2455F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2455F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2455F_II,1,1,1: Not problem,40,N,M
+X2455F_II,2,2,2: Very Small Problem,40,N,M
+X2455F_II,3,3,3: Small Problem,40,N,M
+X2455F_II,4,4,4: Medium problem,40,N,M
+X2455F_II,5,5,5: Big Problem,40,N,M
+X2456F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2456F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2456F_II,1,1,1: No,40,N,M
+X2456F_II,2,2,"2: Yes, only with flare-ups of m",40,N,M
+X2456F_II,3,3,"3: Yes, I take medications regul",40,N,M
+X2458F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2458F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2458F_II,1,1,1: One,40,N,M
+X2458F_II,2,2,2: Two,40,N,M
+X2459F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2459F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2459F_II,-8,-8,-8: Don't Know,40,N,SM
+X2459F_II,1,1,1: One,40,N,SM
+X2459F_II,2,2,2: Two,40,N,SM
+X2464F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2464F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2464F_II,-8,-8,-8: DK,40,N,SM
+X2464F_II,1,1,1: Slightly louder than breathin,40,N,SM
+X2464F_II,2,2,2: As loud as talking,40,N,SM
+X2464F_II,3,3,3: Louder than talking,40,N,SM
+X2464F_II,4,4,"4: Very loud, can be heard in ne",40,N,SM
+X2465F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2465F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2465F_II,1,1,1: Sought and received,40,N,M
+X2465F_II,2,2,"2: Sought, but did not receive",40,N,M
+X2466F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2466F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2466F_II,1,1,1: Stongly disagree,40,N,M
+X2466F_II,2,2,2: Moderately disagree,40,N,M
+X2466F_II,3,3,3: Slightly disagree,40,N,M
+X2466F_II,4,4,4: Slightly agree,40,N,M
+X2466F_II,5,5,5: Moderately agree,40,N,M
+X2466F_II,6,6,6: Strongly agree,40,N,M
+X2467F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2467F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2467F_II,1,1,1: Stop,40,N,M
+X2467F_II,2,2,2: Slow down,40,N,M
+X2467F_II,3,3,3: Continue at the same pace,40,N,M
+X2468F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2468F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2468F_II,1,1,1: Stop,40,N,M
+X2468F_II,2,2,2: Slow down,40,N,M
+X2468F_II,3,3,3: Or continue at the same pace,40,N,M
+X2477F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2477F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2477F_II,1,1,1: Very High Confidence,40,N,M
+X2477F_II,2,2,2: High Confidence,40,N,M
+X2477F_II,3,3,3: Moderate Confidence,40,N,M
+X2477F_II,4,4,4: Low Confidence,40,N,M
+X2477F_II,5,5,5: Very Low or no confidence,40,N,M
+X2477F_II,6,6,6: No sexual activity,40,N,M
+X2479F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2479F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2479F_II,1,1,1: Very High,40,N,M
+X2479F_II,2,2,2: High,40,N,M
+X2479F_II,3,3,3: Moderate,40,N,M
+X2479F_II,4,4,4: Low,40,N,M
+X2479F_II,5,5,5: Very low or None at All,40,N,M
+X2479F_II,6,6,6: Did not attempt vaginal penet,40,N,M
+X2479F_II,7,7,7: Did not attempt vaginal penet,40,N,M
+X2479F_II,8,8,8: No sexual activity,40,N,M
+X2481F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2481F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2481F_II,1,1,1: Very Low,40,N,M
+X2481F_II,2,2,2: Low,40,N,M
+X2481F_II,3,3,3: Moderate,40,N,M
+X2481F_II,4,4,4: High,40,N,M
+X2481F_II,5,5,5: Very Low,40,N,M
+X2483F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2483F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2483F_II,1,1,1: Very Satisfied,40,N,M
+X2483F_II,2,2,2: Moderately Satisfied,40,N,M
+X2483F_II,3,3,3: About equally satisfied and d,40,N,M
+X2483F_II,4,4,4: Moderately Dissatisfied,40,N,M
+X2483F_II,5,5,5: Very Dissatisfied,40,N,M
+X2483F_II,6,6,6: No sexual activity,40,N,M
+X2484F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2484F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2484F_II,1,1,1: Very Satisfied,40,N,M
+X2484F_II,2,2,2: Moderately Satisfied,40,N,M
+X2484F_II,3,3,3: About equally satisfied and d,40,N,M
+X2484F_II,4,4,4: Moderately Dissatisfied,40,N,M
+X2484F_II,5,5,5: Very Dissatisfied,40,N,M
+X2484F_II,6,6,6: No sexual activity with a par,40,N,M
+X2487F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2487F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2487F_II,1,1,1: Very high confidence,40,N,M
+X2487F_II,2,2,2: High confidence,40,N,M
+X2487F_II,3,3,3: Moderate confidence,40,N,M
+X2487F_II,4,4,4: Low confidence,40,N,M
+X2487F_II,5,5,5: Very low or no confidence,40,N,M
+X2488F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2488F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2488F_II,1,1,1: Very high,40,N,M
+X2488F_II,2,2,2: High,40,N,M
+X2488F_II,3,3,3: Moderate,40,N,M
+X2488F_II,4,4,4: Low,40,N,M
+X2488F_II,5,5,5: Very low or none at all,40,N,M
+X2489F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2489F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2489F_II,1,1,1: Very low,40,N,M
+X2489F_II,2,2,2: Low,40,N,M
+X2489F_II,3,3,3: Moderate,40,N,M
+X2489F_II,4,4,4: High,40,N,M
+X2489F_II,5,5,5: Very High,40,N,M
+X2490F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2490F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2490F_II,1,1,1: Very low,40,N,M
+X2490F_II,2,2,2: Low,40,N,M
+X2490F_II,3,3,3: Moderate,40,N,M
+X2490F_II,4,4,4: High,40,N,M
+X2490F_II,5,5,5: Very high,40,N,M
+X2491F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2491F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2491F_II,1,1,1: Very satisfied,40,N,M
+X2491F_II,2,2,2:  Moderately satisfied,40,N,M
+X2491F_II,3,3,3: About equally satisfied and d,40,N,M
+X2491F_II,4,4,4: Moderately dissatisfied,40,N,M
+X2491F_II,5,5,5: Very dissatisfied,40,N,M
+X2492F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2492F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2492F_II,1,1,1: Very satisfied,40,N,M
+X2492F_II,2,2,2: Moderately satisfied,40,N,M
+X2492F_II,3,3,3: About equally satisfied and d,40,N,M
+X2492F_II,4,4,4: Moderately dissatisfied,40,N,M
+X2492F_II,5,5,5: Very dissatisfied,40,N,M
+X2492F_II,6,6,6: No sexual activity with a par,40,N,M
+X2493F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2493F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2493F_II,1,1,1: Weeks,40,N,M
+X2493F_II,2,2,2: Months,40,N,M
+X2494F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2494F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2494F_II,1,1,1: Working for pay,40,N,M
+X2494F_II,2,2,2: Unemployed and looking for wo,40,N,M
+X2494F_II,3,3,3: Temporarily laid off; On sick,40,N,M
+X2494F_II,4,4,4: Disabled,40,N,M
+X2494F_II,5,5,5: Retired,40,N,M
+X2494F_II,6,6,6: Homemaker,40,N,M
+X2494F_II,7,7,7: Full-Time Student,40,N,M
+X2494F_II,99,99,99: Other (INCLUDING VOLUNTEER),40,N,M
+X2495F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2495F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2495F_II,1,1,1: Working for pay,40,N,M
+X2495F_II,2,2,2: Unemployed/looking for work,40,N,M
+X2495F_II,3,3,"3: Temporarily laid off, sick/ot",40,N,M
+X2495F_II,4,4,4: Disabled,40,N,M
+X2495F_II,5,5,5: Retired,40,N,M
+X2495F_II,6,6,6: Homemaker,40,N,M
+X2495F_II,7,7,7: Full time student,40,N,M
+X2495F_II,99,99,99: Other,40,N,M
+X2496F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2496F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2496F_II,1,1,1: YES,40,N,M
+X2496F_II,2,2,2: NO,40,N,M
+X2497F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2497F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2497F_II,-8,-8,-8: DK,40,N,SM
+X2497F_II,1,1,1: YES,40,N,SM
+X2497F_II,2,2,2: NO,40,N,SM
+X2498F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2498F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2498F_II,1,1,"1: Yes, computer at home",40,N,M
+X2498F_II,2,2,"2: No computer at home, but acce",40,N,M
+X2498F_II,3,3,3: No computer at home and no ac,40,N,M
+X2499F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2499F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2499F_II,1,1,"1: Yes, current",40,N,M
+X2499F_II,2,2,"2: Yes, past",40,N,M
+X2499F_II,3,3,3: No,40,N,M
+X2500F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2500F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2500F_II,1,1,"1: Yes, limited a lot",40,N,M
+X2500F_II,2,2,"2: Yes, limited a little",40,N,M
+X2500F_II,3,3,"3: No, not limited at all",40,N,M
+X2501F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2501F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2501F_II,1,1,"1: Yes, past",40,N,M
+X2501F_II,2,2,"2: Yes, current",40,N,M
+X2501F_II,3,3,3: No,40,N,M
+X2502F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2502F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2502F_II,1,1,"1: Yes, shortly before a period",40,N,M
+X2502F_II,2,2,"2: Yes, shortfly after a period",40,N,M
+X2502F_II,3,3,"3: Yes, at mid-cycle",40,N,M
+X2502F_II,4,4,"4: Yes, during a period",40,N,M
+X2502F_II,5,5,"5: Or not, not at the same time",40,N,M
+X2503F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2503F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2503F_II,1,1,"1: Yes,Current",40,N,M
+X2503F_II,2,2,"2: Yes,Past",40,N,M
+X2503F_II,3,3,3: No,40,N,M
+X2504F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2504F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2504F_II,1,1,"1: Yes,shortly before a period",40,N,M
+X2504F_II,2,2,"2: Yes, shortly after a period",40,N,M
+X2504F_II,3,3,"3: Yes, at mid cycle",40,N,M
+X2504F_II,4,4,"4: Yes, during a period",40,N,M
+X2504F_II,5,5,"5: No, not at the same time in y",40,N,M
+X2505F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2505F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2505F_II,0,0,0: No,40,N,SM
+X2505F_II,1,1,1: Yes,40,N,SM
+X2506F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2506F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2506F_II,1,1,1: Yes,40,N,M
+X2506F_II,2,2,2: No,40,N,M
+X2507F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2507F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2507F_II,-8,-8,-8: DK,40,N,SM
+X2507F_II,-7,-7,-7: REFUSED,40,N,SM
+X2507F_II,1,1,1: Yes,40,N,SM
+X2507F_II,2,2,2: No,40,N,SM
+X2508F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2508F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2508F_II,-8,-8,-8: DON'T KNOW,40,N,SM
+X2508F_II,-7,-7,-7: REFUSED,40,N,SM
+X2508F_II,1,1,1: Yes,40,N,SM
+X2508F_II,2,2,2: No,40,N,SM
+X2509F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2509F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2509F_II,-8,-8,-8: Don't Know,40,N,SM
+X2509F_II,-7,-7,-7: REFUSED,40,N,SM
+X2509F_II,1,1,1: Yes,40,N,SM
+X2509F_II,2,2,2: No,40,N,SM
+X2511F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2511F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2511F_II,-8,-8,-8: DK,40,N,SM
+X2511F_II,1,1,1: Yes,40,N,SM
+X2511F_II,2,2,2: No,40,N,SM
+X2512F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2512F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2512F_II,-8,-8,-8: Don,40,N,SM
+X2512F_II,1,1,1: Yes,40,N,SM
+X2512F_II,2,2,2: No,40,N,SM
+X2513F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2513F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2513F_II,-8,-8,-8: Don't Know,40,N,SM
+X2513F_II,1,1,1: Yes,40,N,SM
+X2513F_II,2,2,2: No,40,N,SM
+X2515F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2515F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2515F_II,1,1,1: Your employer,40,N,M
+X2515F_II,2,2,2: Medicaid,40,N,M
+X2515F_II,3,3,3: Medicare,40,N,M
+X2515F_II,4,4,4: Yourself,40,N,M
+X2516F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2516F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2516F_II,1,1,1: Zero,40,N,M
+X2516F_II,2,2,2: One,40,N,M
+X2516F_II,3,3,3: Two or three,40,N,M
+X2516F_II,4,4,4: Four or more,40,N,M
+X2520F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2520F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2941F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2941F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2942F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2942F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2942F_II,0,0,0: Did not attempt vaginal penet,40,N,SM
+X2942F_II,1,1,1: Almost always or always,40,N,SM
+X2942F_II,2,2,2: Most times,40,N,SM
+X2942F_II,3,3,3: Sometimes,40,N,SM
+X2942F_II,4,4,4: A few times,40,N,SM
+X2942F_II,5,5,5: Almost never or never,40,N,SM
+X2943F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2943F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2943F_II,0,0,0: Did not attempt vaginal penet,40,N,SM
+X2943F_II,1,1,1: Very high,40,N,SM
+X2943F_II,2,2,2: Most times,40,N,SM
+X2943F_II,3,3,3: Sometimes,40,N,SM
+X2943F_II,4,4,4: A few times,40,N,SM
+X2943F_II,5,5,5: Almost never or never,40,N,SM
+X2944F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2944F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2944F_II,0,0,0: NOT SELECTED,40,N,SM
+X2944F_II,1,1,1: SELECTED,40,N,SM
+X2945F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2945F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2945F_II,0,0,0: Never,40,N,SM
+X2945F_II,1,1,1: Almost Never,40,N,SM
+X2945F_II,2,2,2: Sometimes,40,N,SM
+X2945F_II,3,3,3: Fairly Often,40,N,SM
+X2945F_II,4,4,4: Very Often,40,N,SM
+X2946F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2946F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2946F_II,0,0,0: Never,40,N,SM
+X2946F_II,1,1,1: Seldom (1-2 days),40,N,SM
+X2946F_II,2,2,2: Sometimes (3-4 days),40,N,SM
+X2946F_II,3,3,3: Often (5-7 days),40,N,SM
+X2947F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2947F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2947F_II,0,0,0: Never,40,N,SM
+X2947F_II,1,1,1: Seldom,40,N,SM
+X2947F_II,2,2,2: Sometimes,40,N,SM
+X2947F_II,3,3,3: Often,40,N,SM
+X2948F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2948F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2948F_II,0,0,0: No pain,40,N,SM
+X2948F_II,10,10,10: Pain as bad as you can imagi,40,N,SM
+X2949F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2949F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2949F_II,0,0,0: Not Circled,40,N,SM
+X2949F_II,1,1,1: Circled,40,N,SM
+X2950F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2950F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2950F_II,0,0,0: Not currently experiencing pe,40,N,SM
+X2950F_II,1,1,1: 1 -2,40,N,SM
+X2950F_II,2,2,2:  3 - 5,40,N,SM
+X2950F_II,3,3,3:  6 - 10,40,N,SM
+X2950F_II,4,4,4:  More than 10,40,N,SM
+X2951F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2951F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2951F_II,1,1,1:  1 shot (1.5oz),40,N,M
+X2951F_II,2,2,2:  2-3 shots,40,N,M
+X2951F_II,3,3,3:  4-6 shots or a 1/2pint,40,N,M
+X2951F_II,4,4,4:  7-11 shots or a pint,40,N,M
+X2951F_II,5,5,5:  2 pints (32oz) or more,40,N,M
+X2952F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2952F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2952F_II,1,1,1:  1-2 12oz serving(s),40,N,M
+X2952F_II,2,2,2:  3-5 12oz servings,40,N,M
+X2952F_II,3,3,3:  1-2 six packs (12oz bottles/,40,N,M
+X2952F_II,4,4,4:  2-3 six packs (12oz bottles/,40,N,M
+X2952F_II,5,5,5:  3+ six packs (12oz bottles/c,40,N,M
+X2953F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2953F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2953F_II,1,1,1:  1-2 glasses (5oz),40,N,M
+X2953F_II,2,2,2:  1/2 carafe (12.5oz),40,N,M
+X2953F_II,3,3,3:  1 bottle,40,N,M
+X2953F_II,4,4,4:  2-4 bottles,40,N,M
+X2953F_II,5,5,5:  5 or more bottles of wine or,40,N,M
+X2954F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2954F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2954F_II,1,1,1:  35 hrs or more/wk,40,N,M
+X2954F_II,2,2,2:  Less than 35 hrs/wk,40,N,M
+X2955F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2955F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2955F_II,1,1,1:  <3 months,40,N,M
+X2955F_II,2,2,2:  3-6 months,40,N,M
+X2955F_II,3,3,3:  7-12 months,40,N,M
+X2955F_II,4,4,4:  1-5 years,40,N,M
+X2955F_II,5,5,5:  6+ years,40,N,M
+X2956F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2956F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2956F_II,1,1,1:  Drops or a little more,40,N,M
+X2956F_II,2,2,2:  Small splashes,40,N,M
+X2956F_II,3,3,3:  Or more,40,N,M
+X2957F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2957F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2957F_II,1,1,1:  English,40,N,M
+X2957F_II,2,2,2:  English + Spanish simultaneo,40,N,M
+X2957F_II,3,3,3:  Spanish,40,N,M
+X2957F_II,99,99,99:  Or something else,40,N,M
+X2958F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2958F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2958F_II,1,1,1:  Every day,40,N,M
+X2958F_II,2,2,2:  5-6 days a week,40,N,M
+X2958F_II,3,3,3:  3-4 days a week,40,N,M
+X2958F_II,4,4,4:  1-2 days a week,40,N,M
+X2958F_II,5,5,"5:  Or, less often than weekly",40,N,M
+X2959F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2959F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2959F_II,1,1,1:  Has not sought treatment,40,N,M
+X2959F_II,2,2,2:  Sought and received treatmen,40,N,M
+X2959F_II,3,3,"3:  Sought, but did not receive",40,N,M
+X2960F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2960F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2960F_II,1,1,1:  I do not have the symptom,40,N,M
+X2960F_II,2,2,2:  Rarely,40,N,M
+X2960F_II,3,3,3:  A few times,40,N,M
+X2960F_II,4,4,4:  Fairly often,40,N,M
+X2960F_II,5,5,5:  Usually,40,N,M
+X2960F_II,6,6,6:  Almost always,40,N,M
+X2961F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2961F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2961F_II,1,1,1:  Less than 3 months,40,N,M
+X2961F_II,2,2,2:  3 to less than 6 months,40,N,M
+X2961F_II,3,3,3:  6 to less than 12 months,40,N,M
+X2961F_II,4,4,4:  1 year to less than 5 years,40,N,M
+X2961F_II,5,5,5:  5 years or more,40,N,M
+X2962F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2962F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2962F_II,1,1,1:  Less than 5 hours a night,40,N,M
+X2962F_II,2,2,2:  Or more than 5 hours a night,40,N,M
+X2963F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2963F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2963F_II,1,1,1:  Less than once per month,40,N,M
+X2963F_II,2,2,2:  One or more times per month,40,N,M
+X2963F_II,3,3,3:  One or more times per week,40,N,M
+X2963F_II,4,4,4:  Everyday,40,N,M
+X2964F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2964F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2964F_II,1,1,1:  Married,40,N,M
+X2964F_II,2,2,2: Living with a partner,40,N,M
+X2964F_II,3,3,3:  Divorced/separated,40,N,M
+X2964F_II,4,4,4:  Widowed,40,N,M
+X2964F_II,5,5,"5:  Single, never married",40,N,M
+X2964F_II,99,99,99:  Other,40,N,M
+X2965F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2965F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2965F_II,1,1,1:  No protection,40,N,M
+X2965F_II,2,2,"2:  Tissue, toilet paper, or pap",40,N,M
+X2965F_II,3,3,3:  Minipad or pantiliner,40,N,M
+X2965F_II,4,4,4:  Menstrual pad,40,N,M
+X2965F_II,5,5,"5:  Incontinence pad (Poise, Ser",40,N,M
+X2965F_II,6,6,6:  Incontinence diaper (Attends,40,N,M
+X2965F_II,7,7,7:  Something else,40,N,M
+X2966F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2966F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2966F_II,1,1,1:  None of the time,40,N,M
+X2966F_II,2,2,2:  A little of the time,40,N,M
+X2966F_II,3,3,3:  Some of the time,40,N,M
+X2966F_II,4,4,4:  Most of the time,40,N,M
+X2966F_II,5,5,5:  All of the time,40,N,M
+X2967F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2967F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2967F_II,1,1,1:  Not at all,40,N,M
+X2967F_II,2,2,2:  Once,40,N,M
+X2967F_II,3,3,3:  A few times (2-3),40,N,M
+X2967F_II,4,4,4:  Several times (4-6),40,N,M
+X2967F_II,5,5,5:  Many times (7 or more),40,N,M
+X2967F_II,6,6,6:  Everyday,40,N,M
+X2968F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2968F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2968F_II,1,1,1:  Not at all,40,N,M
+X2968F_II,2,2,2:  Slightly,40,N,M
+X2968F_II,3,3,3:  Moderately,40,N,M
+X2968F_II,4,4,4:  Greatly,40,N,M
+X2969F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2969F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2969F_II,1,1,1:  Yes,40,N,M
+X2969F_II,2,2,2:  No,40,N,M
+X2970F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2970F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2970F_II,1,1,1:  Zero,40,N,M
+X2970F_II,2,2,2:  One,40,N,M
+X2970F_II,3,3,3:  Two or three,40,N,M
+X2970F_II,4,4,4:  Four or more,40,N,M
+X2971F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2971F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2971F_II,1,1,1:  less than 3 months,40,N,M
+X2971F_II,2,2,2: 3-6 months,40,N,M
+X2971F_II,3,3,3: 7-12 months,40,N,M
+X2971F_II,4,4,4: 1-5 years,40,N,M
+X2971F_II,5,5,5: 6+ years,40,N,M
+X2972F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2972F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2972F_II,1,1,1: 1 shot,40,N,M
+X2972F_II,2,2,2: 2-3 shots,40,N,M
+X2972F_II,3,3,3: 4-6 shots,40,N,M
+X2972F_II,4,4,4: 7-11 shots,40,N,M
+X2972F_II,5,5,5: 2 pints or more,40,N,M
+X2973F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2973F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2973F_II,1,1,1: 1-2 12 oz servings,40,N,M
+X2973F_II,2,2,2: 3-5 12 oz servings,40,N,M
+X2973F_II,3,3,3: 1-2 six packs,40,N,M
+X2973F_II,4,4,4: 2-3 six packs,40,N,M
+X2973F_II,5,5,5: 3+ six packs,40,N,M
+X2974F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2974F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2974F_II,1,1,1: 1-2 glasses,40,N,M
+X2974F_II,2,2,2: 1/2 carafe,40,N,M
+X2974F_II,3,3,3: 1 Bottle,40,N,M
+X2974F_II,4,4,4: 2-4 Bottles,40,N,M
+X2974F_II,5,5,5: 5 or more bottles of wine or,40,N,M
+X2975F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2975F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2975F_II,1,1,1: 1-2,40,N,M
+X2975F_II,2,2,2: 3-5,40,N,M
+X2975F_II,3,3,3: 6-10,40,N,M
+X2975F_II,4,4,4: More than 10,40,N,M
+X2976F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2976F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2976F_II,1,1,1: 10 minutes or less,40,N,M
+X2976F_II,2,2,2: More than 10 minutes,40,N,M
+X2977F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2977F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2977F_II,1,1,1: 35 Hrs or more/wk,40,N,M
+X2977F_II,2,2,2: Less than 35 hrs/wk,40,N,M
+X2978F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2978F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2978F_II,1,1,1: 6 Months ago or less,40,N,M
+X2978F_II,2,2,"2: More than 6 months ago,but le",40,N,M
+X2978F_II,3,3,"3: More than 1 year ago,but less",40,N,M
+X2978F_II,4,4,"4: More than 2 years ago, but le",40,N,M
+X2978F_II,5,5,5: 5 years ago or more,40,N,M
+X2979F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2979F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2979F_II,1,1,1: 6 months or less,40,N,M
+X2979F_II,2,2,"2: More than 6 months, less tha",40,N,M
+X2979F_II,3,3,"3: More than a year, less than 2",40,N,M
+X2979F_II,4,4,"4: More than 2 years, less than",40,N,M
+X2979F_II,5,5,5: 5 years or more,40,N,M
+X2980F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2980F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2980F_II,1,1,1: 6 months or less,40,N,M
+X2980F_II,2,2,"2: More than 6 months, less than",40,N,M
+X2980F_II,3,3,"3: More than 1 year, less than 2",40,N,M
+X2980F_II,4,4,"4: More than 2 years, less than",40,N,M
+X2980F_II,5,5,5: 5 years or more,40,N,M
+X2981F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2981F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2981F_II,1,1,1: <3 months,40,N,M
+X2981F_II,2,2,2: 3-6 months,40,N,M
+X2981F_II,3,3,3: 7-12 months,40,N,M
+X2981F_II,4,4,4: 1-5 years,40,N,M
+X2981F_II,5,5,5: 6+ years,40,N,M
+X2982F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2982F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2982F_II,1,1,1: AM,40,N,M
+X2982F_II,2,2,2: PM,40,N,M
+X2983F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2983F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2983F_II,1,1,1: Abdominally,40,N,M
+X2983F_II,2,2,2: Vaginally,40,N,M
+X2984F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X2984F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X2984F_II,-8,-8,-8: Don't Know,40,N,SM
+X2984F_II,1,1,1: Abdominally,40,N,SM
+X2984F_II,2,2,2: Vaginally,40,N,SM
+X2985F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2985F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2985F_II,1,1,1: About once a week,40,N,M
+X2985F_II,2,2,2: About once a month,40,N,M
+X2985F_II,3,3,3: Several times a year,40,N,M
+X2986F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2986F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2986F_II,1,1,1: After you finish urinating be,40,N,M
+X2986F_II,2,2,2: When you are not using the to,40,N,M
+X2986F_II,3,3,3: At both times (after urinatin,40,N,M
+X2987F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2987F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2987F_II,1,1,1: Age 13 or younger,40,N,M
+X2987F_II,2,2,2: Age 14 or older,40,N,M
+X2987F_II,3,3,3: Age 13 or younger AND age 14,40,N,M
+X2988F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2988F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2988F_II,1,1,1: All of the Time,40,N,M
+X2988F_II,2,2,2: Most of the Time,40,N,M
+X2988F_II,3,3,3: Some of the time,40,N,M
+X2988F_II,4,4,4: A Little of the Time,40,N,M
+X2988F_II,5,5,5: None of the Time,40,N,M
+X2989F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2989F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2989F_II,1,1,1: All of the Time,40,N,M
+X2989F_II,2,2,2: Most of the Time,40,N,M
+X2989F_II,3,3,3: Some of the time,40,N,M
+X2989F_II,4,4,4: A little of the Time,40,N,M
+X2989F_II,5,5,5: None of the Time,40,N,M
+X2990F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2990F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2990F_II,1,1,1: Almost Never/Never,40,N,M
+X2990F_II,2,2,2: A Few Times,40,N,M
+X2990F_II,3,3,3: Sometimes,40,N,M
+X2990F_II,4,4,4: Most Times,40,N,M
+X2990F_II,5,5,5: Almost always or always,40,N,M
+X2991F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2991F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2991F_II,1,1,1: Almost always or Always,40,N,M
+X2991F_II,2,2,2: Most times(more than half the,40,N,M
+X2991F_II,3,3,3: Sometimes(about half the time,40,N,M
+X2991F_II,4,4,4: A few times(less than half th,40,N,M
+X2991F_II,6,6,6: Did not attempt vaginal penet,40,N,M
+X2991F_II,7,7,7: Did not attempt vaginal penet,40,N,M
+X2992F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2992F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2992F_II,1,1,1: Almost always or Always,40,N,M
+X2992F_II,2,2,2: Most times(more than half the,40,N,M
+X2992F_II,3,3,3: Sometimes(about half the time,40,N,M
+X2992F_II,4,4,4: A few times(less than half th,40,N,M
+X2992F_II,6,6,6: Did not attempt vaginal penet,40,N,M
+X2992F_II,7,7,7: Did not attempt vaginal penet,40,N,M
+X2992F_II,8,8,8: No sexual activity,40,N,M
+X2993F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2993F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2993F_II,1,1,1: Almost always or Always,40,N,M
+X2993F_II,2,2,2: Most times(more than half the,40,N,M
+X2993F_II,3,3,3: Sometimes(about half the time,40,N,M
+X2993F_II,4,4,4: A few times(less than half th,40,N,M
+X2993F_II,6,6,6: No sexual activity,40,N,M
+X2994F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2994F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2994F_II,1,1,1: Almost always or always,40,N,M
+X2994F_II,2,2,2: Most Times(More than half the,40,N,M
+X2994F_II,3,3,3: Sometimes(about half the time,40,N,M
+X2994F_II,4,4,4: A few times(less than half th,40,N,M
+X2994F_II,5,5,5: Almost never or never,40,N,M
+X2995F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2995F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2995F_II,1,1,1: Almost always or always,40,N,M
+X2995F_II,2,2,2: Most times (more than half th,40,N,M
+X2995F_II,3,3,3: Sometimes (about half the tim,40,N,M
+X2995F_II,4,4,4: A few times (less than half t,40,N,M
+X2995F_II,5,5,5: Almost never or never,40,N,M
+X2996F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2996F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2996F_II,1,1,1: Almost always or always,40,N,M
+X2996F_II,2,2,2: Most times (more than half th,40,N,M
+X2996F_II,3,3,3: Sometimes (about half the tim,40,N,M
+X2996F_II,4,4,4: A few times(less than half th,40,N,M
+X2996F_II,5,5,5: Almost never or never,40,N,M
+X2997F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2997F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2997F_II,1,1,1: Almost always or always,40,N,M
+X2997F_II,2,2,2: Most times(more than half the,40,N,M
+X2997F_II,3,3,3: Sometimes(about half time,40,N,M
+X2997F_II,4,4,4: A few times(less than half th,40,N,M
+X2997F_II,5,5,5: Almost never or never,40,N,M
+X2997F_II,6,6,6: No sexual activity,40,N,M
+X2998F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2998F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2998F_II,1,1,1: Almost always or always,40,N,M
+X2998F_II,2,2,2: Most times,40,N,M
+X2998F_II,3,3,3: Sometimes,40,N,M
+X2998F_II,4,4,4: A few times,40,N,M
+X2998F_II,5,5,5: Almost never or never,40,N,M
+X2999F_II,.,.Z,XSPECF_II40.,40,N,MF
+X2999F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X2999F_II,1,1,1: Almost never/never,40,N,M
+X2999F_II,2,2,2: A few times(much less than ha,40,N,M
+X2999F_II,3,3,3: Sometime(about half the time),40,N,M
+X2999F_II,4,4,4: Most times(much more than hal,40,N,M
+X2999F_II,5,5,5: Almost always/always,40,N,M
+X2999F_II,6,6,6: Did not attempt intercourse,40,N,M
+X3000F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3000F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3000F_II,1,1,1: Almost never/never,40,N,M
+X3000F_II,2,2,2: A few times(much less than ha,40,N,M
+X3000F_II,3,3,3: Sometime(about half the time),40,N,M
+X3000F_II,4,4,4: Most times(much more than hal,40,N,M
+X3000F_II,5,5,5: Almost always/always,40,N,M
+X3000F_II,6,6,6: Did not penetrate partner,40,N,M
+X3001F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3001F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3001F_II,1,1,1: Almost never/never,40,N,M
+X3001F_II,2,2,2: A few times(much less than ha,40,N,M
+X3001F_II,3,3,3: Sometime(about half the time),40,N,M
+X3001F_II,4,4,4: Most times(much more than hal,40,N,M
+X3001F_II,5,5,5: Almost always/always,40,N,M
+X3001F_II,6,6,6: No sexual activity,40,N,M
+X3002F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3002F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3002F_II,1,1,1: Almost never/never,40,N,M
+X3002F_II,2,2,2: A few times(much less thatn h,40,N,M
+X3002F_II,3,3,3: Sometime(about half the time),40,N,M
+X3002F_II,4,4,4: Most times(much more than hal,40,N,M
+X3002F_II,5,5,5: Almost always/always,40,N,M
+X3002F_II,6,6,6: Did not attempt intercourse,40,N,M
+X3003F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3003F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3003F_II,1,1,1: Almost never/never,40,N,M
+X3003F_II,2,2,2: A few times(much less thatn h,40,N,M
+X3003F_II,3,3,3: Sometime(about half the time),40,N,M
+X3003F_II,4,4,4: Most times(much more than hal,40,N,M
+X3003F_II,5,5,5: Almost always/always,40,N,M
+X3003F_II,6,6,6: Did not penetrate partner,40,N,M
+X3004F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3004F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3004F_II,1,1,1: Almost never/never,40,N,M
+X3004F_II,2,2,2: A few times(much less thatn h,40,N,M
+X3004F_II,3,3,3: Sometime(about half the time),40,N,M
+X3004F_II,4,4,4: Most times(much more than hal,40,N,M
+X3004F_II,5,5,5: Almost always/always,40,N,M
+X3004F_II,6,6,6: No sexual activity,40,N,M
+X3005F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3005F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3005F_II,1,1,1: Almost never/never,40,N,M
+X3005F_II,2,2,2: A few times,40,N,M
+X3005F_II,3,3,3: Sometimes,40,N,M
+X3005F_II,4,4,4: Most times,40,N,M
+X3005F_II,5,5,5: Almost always/always,40,N,M
+X3006F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3006F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3006F_II,1,1,1: As a result of a fall from a,40,N,M
+X3006F_II,2,2,2: Because of a harder fall,40,N,M
+X3006F_II,3,3,3: Or from a car accident or oth,40,N,M
+X3006F_II,99,99,99: Other,40,N,M
+X3007F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3007F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3007F_II,1,1,1: Before noon,40,N,M
+X3007F_II,2,2,2: Noon to 5 PM,40,N,M
+X3007F_II,3,3,3: After 5 PM,40,N,M
+X3008F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3008F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3008F_II,1,1,1: Black or African American,40,N,M
+X3008F_II,2,2,2: Asian,40,N,M
+X3008F_II,3,3,3: White or Caucasian,40,N,M
+X3008F_II,99,99,99: Other,40,N,M
+X3009F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3009F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3009F_II,1,1,1: Child,40,N,M
+X3009F_II,2,2,2: Adult,40,N,M
+X3010F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X3010F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X3010F_II,0,0,0: Not Completed,40,N,SM
+X3010F_II,1,1,1: Completed,40,N,SM
+X3011F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3011F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3011F_II,1,1,1: Continue more than 10 minutes,40,N,M
+X3011F_II,2,2,2: Disappear in 10 minutes,40,N,M
+X3012F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3012F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3012F_II,1,1,1: Correct address,40,N,M
+X3012F_II,2,2,2: Incorrect address,40,N,M
+X3013F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3013F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3013F_II,1,1,1: Day,40,N,M
+X3013F_II,2,2,2: Week,40,N,M
+X3013F_II,3,3,3: Month,40,N,M
+X3013F_II,4,4,4: Year,40,N,M
+X3014F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X3014F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X3014F_II,-8,-8,-8: Don't Know,40,N,SM
+X3014F_II,1,1,1: Deep inside the vagina,40,N,SM
+X3014F_II,2,2,2: At the opening of the vagina,40,N,SM
+X3014F_II,3,3,3: Both deep inside and at the o,40,N,SM
+X3014F_II,99,99,99: Other,40,N,SM
+X3015F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3015F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3015F_II,1,1,1: Delighted,40,N,M
+X3015F_II,2,2,2: Pleased,40,N,M
+X3015F_II,3,3,3: Mostly satisfied,40,N,M
+X3015F_II,4,4,"4: Mixed, about equally satisfie",40,N,M
+X3015F_II,5,5,5: Mostly dissatisfied,40,N,M
+X3015F_II,6,6,6: Unhappy,40,N,M
+X3015F_II,7,7,7: Terrible,40,N,M
+X3016F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3016F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3016F_II,1,1,1: Dial-up,40,N,M
+X3016F_II,2,2,2: Fiber Optic,40,N,M
+X3016F_II,3,3,3: DSL,40,N,M
+X3016F_II,4,4,4: Cable,40,N,M
+X3016F_II,5,5,5: Satellite Wireless,40,N,M
+X3016F_II,6,6,6: Other,40,N,M
+X3017F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3017F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3017F_II,1,1,1: Does not cause me any problem,40,N,M
+X3017F_II,2,2,2: Causes me some very minor pro,40,N,M
+X3017F_II,3,3,3: Causes me some minor problems,40,N,M
+X3017F_II,4,4,4: Causes me (some) moderate pro,40,N,M
+X3017F_II,5,5,5: Causes me severe problems,40,N,M
+X3017F_II,6,6,6: Causes many severe problems,40,N,M
+X3018F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3018F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3018F_II,1,1,1: Door to door enumeration,40,N,M
+X3018F_II,2,2,2: Resident list,40,N,M
+X3019F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3019F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3019F_II,1,1,1: Drops or a little more,40,N,M
+X3019F_II,2,2,2: Small splashes,40,N,M
+X3019F_II,3,3,3: Or more,40,N,M
+X3020F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3020F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3020F_II,1,1,1: ENGLISH,40,N,M
+X3020F_II,2,2,2: SPANISH,40,N,M
+X3021F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3021F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3021F_II,1,1,1: English,40,N,M
+X3021F_II,2,2,2: Spanish,40,N,M
+X3022F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3022F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3022F_II,1,1,1: Everyday,40,N,M
+X3022F_II,2,2,2: 5-6 days a week,40,N,M
+X3022F_II,3,3,3: 3-4 days a week,40,N,M
+X3022F_II,4,4,4: 1-2 days a week,40,N,M
+X3022F_II,5,5,5: Less often than weekly,40,N,M
+X3023F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3023F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3023F_II,1,1,1: Excellent,40,N,M
+X3023F_II,2,2,2: Very good,40,N,M
+X3023F_II,3,3,3: Good,40,N,M
+X3023F_II,4,4,4: Fair,40,N,M
+X3023F_II,5,5,5: Poor,40,N,M
+X3024F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3024F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3024F_II,1,1,1: Extremely difficult or Imposs,40,N,M
+X3024F_II,2,2,2: Very difficult,40,N,M
+X3024F_II,3,3,3: Difficult,40,N,M
+X3024F_II,4,4,4: Slightly difficult,40,N,M
+X3024F_II,5,5,5: Not difficult,40,N,M
+X3024F_II,6,6,6: No sexual activity,40,N,M
+X3025F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3025F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3025F_II,1,1,1: Extremely difficult or imposs,40,N,M
+X3025F_II,2,2,2: Very difficult,40,N,M
+X3025F_II,3,3,3: Difficult,40,N,M
+X3025F_II,4,4,4: Slightly difficult,40,N,M
+X3025F_II,5,5,5: Not difficult,40,N,M
+X3026F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3026F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3026F_II,1,1,1: Extremely difficult,40,N,M
+X3026F_II,2,2,2: Very difficult,40,N,M
+X3026F_II,3,3,3: Difficult,40,N,M
+X3026F_II,4,4,4: Slightly difficult,40,N,M
+X3026F_II,5,5,5: Not difficult,40,N,M
+X3027F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3027F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3027F_II,1,1,1: Extremely difficult,40,N,M
+X3027F_II,2,2,2: Very difficult,40,N,M
+X3027F_II,3,3,3: Difficult,40,N,M
+X3027F_II,4,4,4: Slightly difficult,40,N,M
+X3027F_II,5,5,5: Not difficult,40,N,M
+X3027F_II,6,6,6: Did not attempt intercourse,40,N,M
+X3028F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3028F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3028F_II,1,1,1: Extremely unimportant,40,N,M
+X3028F_II,2,2,2: Unimportant,40,N,M
+X3028F_II,3,3,"3: Neither un-important, nor imp",40,N,M
+X3028F_II,4,4,4: Important,40,N,M
+X3028F_II,5,5,5: Extremely important,40,N,M
+X3029F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3029F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3029F_II,1,1,1: FU 1,40,N,M
+X3030F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3030F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3030F_II,1,1,1: Have never had sex,40,N,M
+X3030F_II,2,2,2: Only with men,40,N,M
+X3030F_II,3,3,3: Mosty with men,40,N,M
+X3030F_II,4,4,4: Both women and men,40,N,M
+X3030F_II,5,5,5: Mostly with women,40,N,M
+X3030F_II,6,6,6: Only with women,40,N,M
+X3031F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3031F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3031F_II,1,1,1: Have never had sex,40,N,M
+X3031F_II,2,2,2: Only with women,40,N,M
+X3031F_II,3,3,3: Mostly with women,40,N,M
+X3031F_II,4,4,4: Both women and men,40,N,M
+X3031F_II,5,5,5: Mostly with men,40,N,M
+X3031F_II,6,6,6: Only with men,40,N,M
+X3032F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3032F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3032F_II,1,1,1: Have never had sex,40,N,M
+X3032F_II,2,2,2: Only with women,40,N,M
+X3032F_II,3,3,3: Mosty with women,40,N,M
+X3032F_II,4,4,4: Both women and men,40,N,M
+X3032F_II,5,5,5: Mostly with men,40,N,M
+X3032F_II,6,6,6: Only with men,40,N,M
+X3033F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3033F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3033F_II,1,1,1: Heterosexual,40,N,M
+X3033F_II,2,2,2: Gay,40,N,M
+X3033F_II,3,3,3: Bisexual,40,N,M
+X3033F_II,4,4,4: Asexual,40,N,M
+X3033F_II,5,5,5: Other,40,N,M
+X3034F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3034F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3034F_II,1,1,1: Heterosexual,40,N,M
+X3034F_II,2,2,2: Lesbian/Gay,40,N,M
+X3034F_II,3,3,3: Bisexual,40,N,M
+X3034F_II,4,4,4: Asexual,40,N,M
+X3034F_II,5,5,5: Other,40,N,M
+X3035F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3035F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3035F_II,1,1,1: Home,40,N,M
+X3035F_II,2,2,2: NERI,40,N,M
+X3035F_II,99,99,99: Other location,40,N,M
+X3036F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3036F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3036F_II,1,1,1: I do not have the symptom,40,N,M
+X3036F_II,2,2,2: Rarely,40,N,M
+X3036F_II,3,3,3: A few times,40,N,M
+X3036F_II,4,4,4: Fairly often,40,N,M
+X3036F_II,5,5,5: Usually,40,N,M
+X3036F_II,6,6,6: Almost always,40,N,M
+X3037F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3037F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3037F_II,1,1,1: IN-PERSON,40,N,M
+X3037F_II,2,2,2: TELEPHONE,40,N,M
+X3038F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3038F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3038F_II,1,1,1: In-Person,40,N,M
+X3038F_II,2,2,2: Telephone,40,N,M
+X3039F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3039F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3039F_II,1,1,1: In-home,40,N,M
+X3039F_II,2,2,2: Other,40,N,M
+X3040F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3040F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3040F_II,1,1,1: In-person,40,N,M
+X3040F_II,2,2,2: Telephone,40,N,M
+X3040F_II,3,3,3: Mixed,40,N,M
+X3041F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3041F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3041F_II,1,1,1: Increased,40,N,M
+X3041F_II,2,2,2: Decreased,40,N,M
+X3041F_II,3,3,3: Not changed,40,N,M
+X3042F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3042F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3042F_II,1,1,1: Lbs,40,N,M
+X3042F_II,2,2,2: Kgs,40,N,M
+X3043F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3043F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3043F_II,1,1,1: Left,40,N,M
+X3043F_II,2,2,2: Right,40,N,M
+X3044F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X3044F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X3044F_II,-8,-8,-8: DON'T KNOW,40,N,SM
+X3044F_II,-7,-7,-7: REFUSED,40,N,SM
+X3044F_II,1,1,"1: Less than $5,000",40,N,SM
+X3044F_II,2,2,"2: $5,000-$9,999",40,N,SM
+X3044F_II,3,3,"3: $10,000-$19,999",40,N,SM
+X3044F_II,4,4,"4: $20,000-$29,999",40,N,SM
+X3044F_II,5,5,"5: $30,000-$39,999",40,N,SM
+X3044F_II,6,6,"6: $40,000-$49,999",40,N,SM
+X3044F_II,7,7,"7: $50,000-$59,999",40,N,SM
+X3044F_II,8,8,"8: $60,000-$69,000",40,N,SM
+X3044F_II,9,9,"9: $70,000-$79,999",40,N,SM
+X3044F_II,10,10,"10: $80,000-$89,999",40,N,SM
+X3044F_II,11,11,"11: $90,000-$99,999",40,N,SM
+X3044F_II,12,12,"12: $100,000-$109,999",40,N,SM
+X3044F_II,13,13,"13: $110,000-$119,999",40,N,SM
+X3044F_II,14,14,"14: $120,000 or more",40,N,SM
+X3045F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3045F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3045F_II,1,1,1: Less than 1 hour,40,N,M
+X3045F_II,2,2,2: 1 but less than 2 hours,40,N,M
+X3045F_II,3,3,3: 2-4 hours,40,N,M
+X3045F_II,4,4,4: More than 4 hours,40,N,M
+X3046F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3046F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3046F_II,1,1,1: Less than 3 months,40,N,M
+X3046F_II,2,2,2: 3 to less than 6 months,40,N,M
+X3046F_II,3,3,3: 6 to less than 12 months,40,N,M
+X3046F_II,4,4,4: 1 years to less than 5 years,40,N,M
+X3046F_II,5,5,5: 5 years or more,40,N,M
+X3047F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3047F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3047F_II,1,1,1: Less than 3 months,40,N,M
+X3047F_II,2,2,"2: More than 3, but less than 6",40,N,M
+X3047F_II,3,3,"3: More than 6 months, but less",40,N,M
+X3047F_II,4,4,4: A year or longer,40,N,M
+X3048F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3048F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3048F_II,1,1,1: Less than 3 months,40,N,M
+X3048F_II,2,2,"2: More than 3, but less than 6",40,N,M
+X3048F_II,3,3,"3: More than 6, but less than a",40,N,M
+X3048F_II,4,4,4: A year or longer,40,N,M
+X3049F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3049F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3049F_II,1,1,1: Less than 8th grade,40,N,M
+X3049F_II,2,2,2: 8th grade,40,N,M
+X3049F_II,3,3,3: 9th through 11th grade,40,N,M
+X3049F_II,4,4,4: High school diploma/GED,40,N,M
+X3049F_II,5,5,5: Technical training,40,N,M
+X3049F_II,6,6,6: Associate degree,40,N,M
+X3049F_II,7,7,7: Bachelors degree,40,N,M
+X3049F_II,8,8,8: Master degree,40,N,M
+X3049F_II,9,9,"9: Doctorate degree (e.g. MD, Ph",40,N,M
+X3050F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3050F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3050F_II,1,1,1: Less than half the time,40,N,M
+X3050F_II,2,2,2: Half the time or more,40,N,M
+X3051F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3051F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3051F_II,1,1,1: Less than once per month,40,N,M
+X3051F_II,2,2,2: One or more times per month,40,N,M
+X3051F_II,3,3,3: One or more times per week,40,N,M
+X3051F_II,4,4,4: Everyday,40,N,M
+X3052F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3052F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3052F_II,1,1,1: Light Clothing,40,N,M
+X3052F_II,2,2,2: Undergarments,40,N,M
+X3053F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3053F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3053F_II,1,1,1: Light clothing,40,N,M
+X3053F_II,2,2,2: Undergarments,40,N,M
+X3054F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3054F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3054F_II,1,1,1: MALE,40,N,M
+X3054F_II,2,2,2: FEMALE,40,N,M
+X3055F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3055F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3055F_II,1,1,1: MONTHS,40,N,M
+X3055F_II,2,2,2: YEARS,40,N,M
+X3056F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3056F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3056F_II,1,1,1: Mainly sitting with slight ar,40,N,M
+X3056F_II,2,2,2: Sitting or standing with some,40,N,M
+X3056F_II,3,3,"3: Walking, with some handling o",40,N,M
+X3056F_II,4,4,4: Walking and heavy manual work,40,N,M
+X3057F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3057F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3057F_II,1,1,1: Mainly sitting,40,N,M
+X3057F_II,2,2,2: Sitting/standing,40,N,M
+X3057F_II,3,3,3: Walking < 50lb,40,N,M
+X3057F_II,4,4,4: Walking > 50lb,40,N,M
+X3058F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3058F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3058F_II,1,1,1: Male,40,N,M
+X3058F_II,2,2,2: Female,40,N,M
+X3059F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3059F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3059F_II,1,1,1: Married,40,N,M
+X3059F_II,2,2,2: Living with a partner,40,N,M
+X3059F_II,3,3,3: Divorced/separated,40,N,M
+X3059F_II,4,4,4: Widowed,40,N,M
+X3059F_II,5,5,"5: Single, never married",40,N,M
+X3059F_II,99,99,99: OTHER,40,N,M
+X3060F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3060F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3060F_II,1,1,"1: Mexican, Mexican American or",40,N,M
+X3060F_II,2,2,2: Puerto Rican,40,N,M
+X3060F_II,3,3,3: Cuban,40,N,M
+X3060F_II,99,99,99: Other Hispanic/Latino,40,N,M
+X3061F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3061F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3061F_II,1,1,1: Months,40,N,M
+X3061F_II,2,2,2: Years,40,N,M
+X3062F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3062F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3062F_II,1,1,1: Never,40,N,M
+X3062F_II,2,2,2: Rarely,40,N,M
+X3062F_II,3,3,3: A few times,40,N,M
+X3062F_II,4,4,4: Fairly often,40,N,M
+X3062F_II,5,5,5: Usually,40,N,M
+X3062F_II,6,6,6: Almost always,40,N,M
+X3063F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3063F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3063F_II,1,1,1: Never,40,N,M
+X3063F_II,2,2,2: Seldom,40,N,M
+X3063F_II,3,3,3: Occasionally,40,N,M
+X3063F_II,4,4,4: Often,40,N,M
+X3064F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3064F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3064F_II,1,1,1: No ED/Not Impotent,40,N,M
+X3064F_II,2,2,2: Minimal ED/Minimal Impotent,40,N,M
+X3064F_II,3,3,3: Moderate ED/Moderate Impotent,40,N,M
+X3064F_II,4,4,4: Complete ED/Complete Impotent,40,N,M
+X3065F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3065F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3065F_II,1,1,1: No ED/Not impotent: always ab,40,N,M
+X3065F_II,2,2,2: Minimal ED/Minimally impotent,40,N,M
+X3065F_II,3,3,3: Moderate ED/Moderately impote,40,N,M
+X3065F_II,4,4,4: Complete ED/Completely impote,40,N,M
+X3066F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X3066F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X3066F_II,0,0,0: Has pain,40,N,SM
+X3066F_II,1,1,1: No Pain,40,N,SM
+X3067F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3067F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3067F_II,1,1,1: No Problem,40,N,M
+X3067F_II,2,2,2: Very small problem,40,N,M
+X3067F_II,3,3,3: Small problem,40,N,M
+X3067F_II,4,4,4: Medium problem,40,N,M
+X3067F_II,5,5,5: Big problem,40,N,M
+X3068F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3068F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3068F_II,1,1,1: No injuries,40,N,M
+X3068F_II,2,2,2: Minor injuries,40,N,M
+X3068F_II,3,3,3: Serious physical injuries,40,N,M
+X3069F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3069F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3069F_II,1,1,1: No problem,40,N,M
+X3069F_II,2,2,2: Very small problem,40,N,M
+X3069F_II,3,3,3: Small problem,40,N,M
+X3069F_II,4,4,4: Medium problem,40,N,M
+X3069F_II,5,5,5: Big problem,40,N,M
+X3070F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3070F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3070F_II,1,1,1: No problem,40,N,M
+X3070F_II,2,2,2: Very small problem,40,N,M
+X3070F_II,3,3,3: Small problem,40,N,M
+X3070F_II,4,4,4: Medium problem,40,N,M
+X3070F_II,5,5,5: Big problem,40,N,M
+X3070F_II,6,6,6: No sexual activity,40,N,M
+X3071F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3071F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3071F_II,1,1,1: No problem,40,N,M
+X3071F_II,2,2,2: Very small,40,N,M
+X3071F_II,3,3,3: Small,40,N,M
+X3071F_II,4,4,4: Medium,40,N,M
+X3071F_II,5,5,5: Big,40,N,M
+X3072F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3072F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3072F_II,1,1,1: No sexual activity,40,N,M
+X3072F_II,2,2,2: Almost always or always,40,N,M
+X3072F_II,3,3,3: Most times(more than half the,40,N,M
+X3072F_II,4,4,4: Sometimes(about half time,40,N,M
+X3072F_II,5,5,5: A few times(less than half th,40,N,M
+X3072F_II,6,6,6: Almost never or never,40,N,M
+X3073F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3073F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3073F_II,1,1,1: None of the time,40,N,M
+X3073F_II,2,2,2: A little of the time,40,N,M
+X3073F_II,3,3,3: Some of the time,40,N,M
+X3073F_II,4,4,4: A good bit of the time,40,N,M
+X3073F_II,5,5,5: Most of the time,40,N,M
+X3073F_II,6,6,6: All of the time,40,N,M
+X3074F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3074F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3074F_II,1,1,1: None of the time,40,N,M
+X3074F_II,2,2,2: A little of the time,40,N,M
+X3074F_II,3,3,3: Some of the time,40,N,M
+X3074F_II,4,4,4: Most of the time,40,N,M
+X3074F_II,5,5,5: All of the time,40,N,M
+X3075F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3075F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3075F_II,1,1,1: None(no protection),40,N,M
+X3075F_II,2,2,"2: Tissue, toilet paper, or pape",40,N,M
+X3075F_II,3,3,3: Minipad or pantiliner,40,N,M
+X3075F_II,4,4,4: Menstrual pad,40,N,M
+X3075F_II,5,5,"5: Incontinence pad (Poise, Sere",40,N,M
+X3075F_II,6,6,"6: Incontinence diaper (Attends,",40,N,M
+X3075F_II,7,7,7: Something else,40,N,M
+X3076F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3076F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3076F_II,1,1,1: None,40,N,M
+X3076F_II,2,2,2: Mild,40,N,M
+X3076F_II,3,3,3: Moderate,40,N,M
+X3076F_II,4,4,4: Severe,40,N,M
+X3076F_II,5,5,5: Extremely Severe,40,N,M
+X3077F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3077F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3077F_II,1,1,1: None,40,N,M
+X3077F_II,2,2,2: Only a little,40,N,M
+X3077F_II,3,3,3: Some,40,N,M
+X3077F_II,4,4,4: A lot,40,N,M
+X3078F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3078F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3078F_II,1,1,1: Not at all,40,N,M
+X3078F_II,2,2,2: Once,40,N,M
+X3078F_II,3,3,3: A few times (2-3),40,N,M
+X3078F_II,4,4,4: Several times (4-6),40,N,M
+X3078F_II,5,5,5: Many times (7 or more) but no,40,N,M
+X3078F_II,6,6,6: Everyday,40,N,M
+X3079F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3079F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3079F_II,1,1,1: Not at all,40,N,M
+X3079F_II,2,2,2: Slightly,40,N,M
+X3079F_II,3,3,3: Moderately,40,N,M
+X3079F_II,4,4,4: Greatly,40,N,M
+X3080F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3080F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3080F_II,1,1,1: Not at all,40,N,M
+X3080F_II,2,2,2: Slightly,40,N,M
+X3080F_II,3,3,3: Moderatley,40,N,M
+X3080F_II,4,4,4: Quite a bit,40,N,M
+X3080F_II,5,5,5: Extremely,40,N,M
+X3081F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3081F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3081F_II,1,1,1: Not at all,40,N,M
+X3081F_II,2,2,2: Slight,40,N,M
+X3081F_II,3,3,3: Moderately,40,N,M
+X3081F_II,4,4,4: Greatly,40,N,M
+X3082F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3082F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3082F_II,1,1,1: Not at all,40,N,M
+X3082F_II,2,2,2: Some,40,N,M
+X3082F_II,3,3,3: A Lot,40,N,M
+X3083F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3083F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3083F_II,1,1,1: Not at all,40,N,M
+X3083F_II,2,2,2: Some,40,N,M
+X3083F_II,3,3,3: A lot,40,N,M
+X3084F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3084F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3084F_II,1,1,1: Not impotent,40,N,M
+X3084F_II,2,2,2: Minimally impotent,40,N,M
+X3084F_II,3,3,3: Moderately impotent,40,N,M
+X3084F_II,4,4,4: Completely impotent,40,N,M
+X3085F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3085F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3085F_II,1,1,1: Not problem,40,N,M
+X3085F_II,2,2,2: Very Small Problem,40,N,M
+X3085F_II,3,3,3: Small Problem,40,N,M
+X3085F_II,4,4,4: Medium problem,40,N,M
+X3085F_II,5,5,5: Big Problem,40,N,M
+X3086F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3086F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3086F_II,1,1,1: No,40,N,M
+X3086F_II,2,2,"2: Yes, only with flare-ups of m",40,N,M
+X3086F_II,3,3,"3: Yes, I take medications regul",40,N,M
+X3087F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3087F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3087F_II,1,1,1: No,40,N,M
+X3087F_II,2,2,2: Yes,40,N,M
+X3087F_II,3,3,3: Not Sure,40,N,M
+X3088F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3088F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3088F_II,1,1,1: One,40,N,M
+X3088F_II,2,2,2: Two,40,N,M
+X3089F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X3089F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X3089F_II,-8,-8,-8: Don't Know,40,N,SM
+X3089F_II,1,1,1: One,40,N,SM
+X3089F_II,2,2,2: Two,40,N,SM
+X3090F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3090F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3090F_II,1,1,1: Pediatric,40,N,M
+X3090F_II,2,2,2: Adult,40,N,M
+X3090F_II,3,3,3: Large adult,40,N,M
+X3090F_II,4,4,4: Thigh,40,N,M
+X3091F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3091F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3091F_II,1,1,1: Primary,40,N,M
+X3091F_II,2,2,2: Re-appointed primary,40,N,M
+X3092F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3092F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3092F_II,1,1,1: Scheduled,40,N,M
+X3092F_II,2,2,2: On the spot,40,N,M
+X3093F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3093F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3093F_II,1,1,1: Sitting,40,N,M
+X3093F_II,2,2,2: Lying down,40,N,M
+X3094F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X3094F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X3094F_II,-8,-8,-8: DK,40,N,SM
+X3094F_II,1,1,1: Slightly louder than breathin,40,N,SM
+X3094F_II,2,2,2: As loud as talking,40,N,SM
+X3094F_II,3,3,3: Louder than talking,40,N,SM
+X3094F_II,4,4,"4: Very loud, can be heard in ne",40,N,SM
+X3095F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3095F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3095F_II,1,1,1: Sought and received,40,N,M
+X3095F_II,2,2,"2: Sought, but did not receive",40,N,M
+X3096F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3096F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3096F_II,1,1,1: Stongly disagree,40,N,M
+X3096F_II,2,2,2: Moderately disagree,40,N,M
+X3096F_II,3,3,3: Slightly disagree,40,N,M
+X3096F_II,4,4,4: Slightly agree,40,N,M
+X3096F_II,5,5,5: Moderately agree,40,N,M
+X3096F_II,6,6,6: Strongly agree,40,N,M
+X3097F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3097F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3097F_II,1,1,1: Stop,40,N,M
+X3097F_II,2,2,2: Slow down,40,N,M
+X3097F_II,3,3,3: Continue at the same pace,40,N,M
+X3098F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3098F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3098F_II,1,1,1: Stop,40,N,M
+X3098F_II,2,2,2: Slow down,40,N,M
+X3098F_II,3,3,3: Or continue at the same pace,40,N,M
+X3099F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3099F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3099F_II,1,1,1: Subject's Death,40,N,M
+X3099F_II,2,2,2: Subject's Decision To Withdra,40,N,M
+X3099F_II,3,3,3: NERI Decision To Deactivate S,40,N,M
+X3099F_II,4,4,4: Family Refuses Access,40,N,M
+X3100F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3100F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3100F_II,1,1,1: Temporarily unavailable,40,N,M
+X3100F_II,2,2,2: Unavailable for 3 months or m,40,N,M
+X3100F_II,3,3,3: No longer a resident of this,40,N,M
+X3101F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3101F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3101F_II,1,1,1: Temporarily unavailable,40,N,M
+X3101F_II,2,2,2: Unavailable for 3 months or m,40,N,M
+X3101F_II,3,3,3: No longer a resident of this,40,N,M
+X3101F_II,99,99,99: Other,40,N,M
+X3102F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3102F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3102F_II,1,1,1: Today (After midnight last ni,40,N,M
+X3102F_II,2,2,2: Yesterday (Before midnight la,40,N,M
+X3102F_II,3,3,3: The day before yesterday,40,N,M
+X3103F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3103F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3103F_II,1,1,1: Today,40,N,M
+X3103F_II,2,2,2: Yesterday,40,N,M
+X3103F_II,3,3,3: The day before yesterday,40,N,M
+X3104F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3104F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3104F_II,1,1,1: Vaginal,40,N,M
+X3104F_II,2,2,2: C-section,40,N,M
+X3104F_II,3,3,3: Both,40,N,M
+X3105F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3105F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3105F_II,1,1,1: Very High Confidence,40,N,M
+X3105F_II,2,2,2: High Confidence,40,N,M
+X3105F_II,3,3,3: Moderate Confidence,40,N,M
+X3105F_II,4,4,4: Low Confidence,40,N,M
+X3105F_II,5,5,5: Very Low Confidence or no con,40,N,M
+X3105F_II,6,6,6: No sexual activity,40,N,M
+X3106F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3106F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3106F_II,1,1,1: Very High Confidence,40,N,M
+X3106F_II,2,2,2: High Confidence,40,N,M
+X3106F_II,3,3,3: Moderate Confidence,40,N,M
+X3106F_II,4,4,4: Low Confidence,40,N,M
+X3106F_II,5,5,5: Very Low or No Confidence,40,N,M
+X3107F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3107F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3107F_II,1,1,1: Very High Confidence,40,N,M
+X3107F_II,2,2,2: High Confidence,40,N,M
+X3107F_II,3,3,3: Moderate Confidence,40,N,M
+X3107F_II,4,4,4: Low Confidence,40,N,M
+X3107F_II,5,5,5: Very Low or no confidence,40,N,M
+X3107F_II,6,6,6: No sexual activity,40,N,M
+X3108F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3108F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3108F_II,1,1,1: Very High,40,N,M
+X3108F_II,2,2,2: High,40,N,M
+X3108F_II,3,3,3: Moderate,40,N,M
+X3108F_II,4,4,4: Low,40,N,M
+X3108F_II,5,5,5: Very Low or none at all,40,N,M
+X3109F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3109F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3109F_II,1,1,1: Very High,40,N,M
+X3109F_II,2,2,2: High,40,N,M
+X3109F_II,3,3,3: Moderate,40,N,M
+X3109F_II,4,4,4: Low,40,N,M
+X3109F_II,5,5,5: Very low or None at All,40,N,M
+X3109F_II,6,6,6: Did not attempt vaginal penet,40,N,M
+X3109F_II,7,7,7: Did not attempt vaginal penet,40,N,M
+X3109F_II,8,8,8: No sexual activity,40,N,M
+X3110F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3110F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3110F_II,1,1,1: Very High,40,N,M
+X3110F_II,2,2,2: Most times(more than half the,40,N,M
+X3110F_II,3,3,3: Sometimes(about half the time,40,N,M
+X3110F_II,4,4,4: A few times(less than half th,40,N,M
+X3110F_II,6,6,6: Did not attempt vaginal penet,40,N,M
+X3110F_II,7,7,7: Did not attempt vaginal penet,40,N,M
+X3111F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3111F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3111F_II,1,1,1: Very Low,40,N,M
+X3111F_II,2,2,2: Low,40,N,M
+X3111F_II,3,3,3: Moderate,40,N,M
+X3111F_II,4,4,4: High,40,N,M
+X3111F_II,5,5,5: Very Low,40,N,M
+X3112F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3112F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3112F_II,1,1,1: Very Satisfied,40,N,M
+X3112F_II,2,2,2: Moderately Satisfied,40,N,M
+X3112F_II,3,3,3: About equally satisfied and d,40,N,M
+X3112F_II,4,4,4: Moderately Dissatisfied,40,N,M
+X3112F_II,5,5,5: Very Dissatisfied,40,N,M
+X3113F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3113F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3113F_II,1,1,1: Very Satisfied,40,N,M
+X3113F_II,2,2,2: Moderately Satisfied,40,N,M
+X3113F_II,3,3,3: About equally satisfied and d,40,N,M
+X3113F_II,4,4,4: Moderately Dissatisfied,40,N,M
+X3113F_II,5,5,5: Very Dissatisfied,40,N,M
+X3113F_II,6,6,6: No sexual activity,40,N,M
+X3114F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3114F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3114F_II,1,1,1: Very Satisfied,40,N,M
+X3114F_II,2,2,2: Moderately Satisfied,40,N,M
+X3114F_II,3,3,3: About equally satisfied and d,40,N,M
+X3114F_II,4,4,4: Moderately Dissatisfied,40,N,M
+X3114F_II,5,5,5: Very Dissatisfied,40,N,M
+X3114F_II,6,6,6: No sexual activity with a par,40,N,M
+X3115F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3115F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3115F_II,1,1,1: Very Satisfied,40,N,M
+X3115F_II,2,2,2: Moderately Satisfied,40,N,M
+X3115F_II,3,3,3: About equally satisfied and d,40,N,M
+X3115F_II,4,4,4: Moderately dissatisfied,40,N,M
+X3115F_II,5,5,5: Very dissatisfied,40,N,M
+X3116F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3116F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3116F_II,1,1,1: Very Satisfied,40,N,M
+X3116F_II,2,2,2: Moderately Satisfied,40,N,M
+X3116F_II,3,3,3: About equally satisfied and d,40,N,M
+X3116F_II,4,4,4: Moderately dissatisfied,40,N,M
+X3116F_II,5,5,5: Very dissatisfied,40,N,M
+X3116F_II,6,6,6: No sexual activity with a par,40,N,M
+X3117F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3117F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3117F_II,1,1,1: Very high confidence,40,N,M
+X3117F_II,2,2,2: High confidence,40,N,M
+X3117F_II,3,3,3: Moderate confidence,40,N,M
+X3117F_II,4,4,4: Low confidence,40,N,M
+X3117F_II,5,5,5: Very low or no confidence,40,N,M
+X3118F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3118F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3118F_II,1,1,1: Very high,40,N,M
+X3118F_II,2,2,2: High,40,N,M
+X3118F_II,3,3,3: Moderate,40,N,M
+X3118F_II,4,4,4: Low,40,N,M
+X3118F_II,5,5,5: Very low or none at all,40,N,M
+X3119F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3119F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3119F_II,1,1,1: Very low,40,N,M
+X3119F_II,2,2,2: Low,40,N,M
+X3119F_II,3,3,3: Moderate,40,N,M
+X3119F_II,4,4,4: High,40,N,M
+X3119F_II,5,5,5: Very High,40,N,M
+X3120F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3120F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3120F_II,1,1,1: Very low,40,N,M
+X3120F_II,2,2,2: Low,40,N,M
+X3120F_II,3,3,3: Moderate,40,N,M
+X3120F_II,4,4,4: High,40,N,M
+X3120F_II,5,5,5: Very high,40,N,M
+X3121F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3121F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3121F_II,1,1,1: Very satisfied,40,N,M
+X3121F_II,2,2,2:  Moderately satisfied,40,N,M
+X3121F_II,3,3,3: About equally satisfied and d,40,N,M
+X3121F_II,4,4,4: Moderately dissatisfied,40,N,M
+X3121F_II,5,5,5: Very dissatisfied,40,N,M
+X3122F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3122F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3122F_II,1,1,1: Very satisfied,40,N,M
+X3122F_II,2,2,2: Moderately satisfied,40,N,M
+X3122F_II,3,3,3: About equally satisfied and d,40,N,M
+X3122F_II,4,4,4: Moderately dissatisfied,40,N,M
+X3122F_II,5,5,5: Very dissatisfied,40,N,M
+X3122F_II,6,6,6: No sexual activity with a par,40,N,M
+X3123F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3123F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3123F_II,1,1,1: Weeks,40,N,M
+X3123F_II,2,2,2: Months,40,N,M
+X3124F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3124F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3124F_II,1,1,1: Working for pay,40,N,M
+X3124F_II,2,2,2: Unemployed and looking for wo,40,N,M
+X3124F_II,3,3,3: Temporarily laid off; On sick,40,N,M
+X3124F_II,4,4,4: Disabled,40,N,M
+X3124F_II,5,5,5: Retired,40,N,M
+X3124F_II,6,6,6: Homemaker,40,N,M
+X3124F_II,7,7,7: Full-Time Student,40,N,M
+X3124F_II,99,99,99: Other (INCLUDING VOLUNTEER),40,N,M
+X3125F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3125F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3125F_II,1,1,1: Working for pay,40,N,M
+X3125F_II,2,2,2: Unemployed/looking for work,40,N,M
+X3125F_II,3,3,"3: Temporarily laid off, sick/ot",40,N,M
+X3125F_II,4,4,4: Disabled,40,N,M
+X3125F_II,5,5,5: Retired,40,N,M
+X3125F_II,6,6,6: Homemaker,40,N,M
+X3125F_II,7,7,7: Full time student,40,N,M
+X3125F_II,99,99,99: Other,40,N,M
+X3126F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3126F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3126F_II,1,1,1: YES,40,N,M
+X3126F_II,2,2,2: NO,40,N,M
+X3127F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X3127F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X3127F_II,-8,-8,-8: DK,40,N,SM
+X3127F_II,1,1,1: YES,40,N,SM
+X3127F_II,2,2,2: NO,40,N,SM
+X3128F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3128F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3128F_II,1,1,"1: Yes, computer at home",40,N,M
+X3128F_II,2,2,"2: No computer at home, but acce",40,N,M
+X3128F_II,3,3,3: No computer at home and no ac,40,N,M
+X3129F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3129F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3129F_II,1,1,"1: Yes, current",40,N,M
+X3129F_II,2,2,"2: Yes, past",40,N,M
+X3129F_II,3,3,3: No,40,N,M
+X3130F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3130F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3130F_II,1,1,"1: Yes, limited a lot",40,N,M
+X3130F_II,2,2,"2: Yes, limited a little",40,N,M
+X3130F_II,3,3,"3: No, not limited at all",40,N,M
+X3131F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3131F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3131F_II,1,1,"1: Yes, past",40,N,M
+X3131F_II,2,2,"2: Yes, current",40,N,M
+X3131F_II,3,3,3: No,40,N,M
+X3132F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3132F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3132F_II,1,1,"1: Yes, shortly before a period",40,N,M
+X3132F_II,2,2,"2: Yes, shortfly after a period",40,N,M
+X3132F_II,3,3,"3: Yes, at mid-cycle",40,N,M
+X3132F_II,4,4,"4: Yes, during a period",40,N,M
+X3132F_II,5,5,"5: Or not, not at the same time",40,N,M
+X3133F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3133F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3133F_II,1,1,"1: Yes,Current",40,N,M
+X3133F_II,2,2,"2: Yes,Past",40,N,M
+X3133F_II,3,3,3: No,40,N,M
+X3134F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3134F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3134F_II,1,1,"1: Yes,shortly before a period",40,N,M
+X3134F_II,2,2,"2: Yes, shortly after a period",40,N,M
+X3134F_II,3,3,"3: Yes, at mid cycle",40,N,M
+X3134F_II,4,4,"4: Yes, during a period",40,N,M
+X3134F_II,5,5,"5: No, not at the same time in y",40,N,M
+X3135F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X3135F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X3135F_II,0,0,0: No,40,N,SM
+X3135F_II,1,1,1: Yes,40,N,SM
+X3136F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3136F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3136F_II,1,1,1: Yes,40,N,M
+X3136F_II,2,2,2: No,40,N,M
+X3137F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X3137F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X3137F_II,-8,-8,-8: DK,40,N,SM
+X3137F_II,-7,-7,-7: REFUSED,40,N,SM
+X3137F_II,1,1,1: Yes,40,N,SM
+X3137F_II,2,2,2: No,40,N,SM
+X3138F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X3138F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X3138F_II,-8,-8,-8: DON'T KNOW,40,N,SM
+X3138F_II,-7,-7,-7: REFUSED,40,N,SM
+X3138F_II,1,1,1: Yes,40,N,SM
+X3138F_II,2,2,2: No,40,N,SM
+X3139F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X3139F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X3139F_II,-8,-8,-8: Don't Know,40,N,SM
+X3139F_II,-7,-7,-7: REFUSED,40,N,SM
+X3139F_II,1,1,1: Yes,40,N,SM
+X3139F_II,2,2,2: No,40,N,SM
+X3140F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X3140F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X3140F_II,-8,-8,-8: Dont Know,40,N,SM
+X3140F_II,-7,-7,-7: Refused,40,N,SM
+X3140F_II,1,1,1: Yes,40,N,SM
+X3140F_II,2,2,2: No,40,N,SM
+X3141F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X3141F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X3141F_II,-8,-8,-8: DK,40,N,SM
+X3141F_II,1,1,1: Yes,40,N,SM
+X3141F_II,2,2,2: No,40,N,SM
+X3142F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X3142F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X3142F_II,-8,-8,-8: Don,40,N,SM
+X3142F_II,1,1,1: Yes,40,N,SM
+X3142F_II,2,2,2: No,40,N,SM
+X3143F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X3143F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X3143F_II,-8,-8,-8: Don't Know,40,N,SM
+X3143F_II,1,1,1: Yes,40,N,SM
+X3143F_II,2,2,2: No,40,N,SM
+X3144F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3144F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3144F_II,1,1,1: Yes,40,N,M
+X3144F_II,2,2,2: No,40,N,M
+X3144F_II,3,3,3: Wrong number,40,N,M
+X3145F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3145F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3145F_II,1,1,1: Your employer,40,N,M
+X3145F_II,2,2,2: Medicaid,40,N,M
+X3145F_II,3,3,3: Medicare,40,N,M
+X3145F_II,4,4,4: Yourself,40,N,M
+X3146F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3146F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3146F_II,1,1,1: Zero,40,N,M
+X3146F_II,2,2,2: One,40,N,M
+X3146F_II,3,3,3: Two or three,40,N,M
+X3146F_II,4,4,4: Four or more,40,N,M
+X3147F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3147F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X3147F_II,1,1,1: using Both the Computer and t,40,N,M
+X3147F_II,2,2,2: using Paper forms Only,40,N,M
+X3147F_II,3,3,3: using Computer forms Only (wi,40,N,M
+X3147F_II,4,4,4: interview was prematurely ter,40,N,M
+X3147F_II,5,5,5: using Computer forms Only (no,40,N,M
+X3149F_II,.,.,Have nev: 1,40,N,SM
+X3149F_II,.,.,Only wit: 2,40,N,SM
+X3149F_II,.,.,Mostly w: 3,40,N,SM
+X3149F_II,.,.,Both wit: 4,40,N,SM
+X3149F_II,.,.,Mostly w: 5,40,N,SM
+X3149F_II,.,.,Only wit: 6,40,N,SM
+X3149F_II,.,.Z,XSPECF_II40.,40,N,SMF
+X3149F_II,LOW,0,XSPECF_II40.,40,N,SMLF
+X3150F_II,.,.Z,XSPECF_II40.,40,N,MF
+X3150F_II,LOW,0,XSPECF_II40.,40,N,MLF
+X682F_NEW,1,1,1: Almost always or Always,61,N,
+X682F_NEW,2,2,2: Most times(more than half the time),61,N,
+X682F_NEW,3,3,3: Sometimes(about half the time),61,N,
+X682F_NEW,4,4,4: A few times(less than half the time),61,N,
+X682F_NEW,5,5,5: Almost never or never,61,N,
+X682F_NEW,6,6,6: Did not attempt vaginal penetration due to pain/discomfort,61,N,
+X682F_NEW,7,7,7: Did not attempt vaginal penetration due to another reason,61,N,
+X682F_NEW,8,8,8: No sexual activity,61,N,
+X683F_NEW,1,1,1: Almost always or Always,39,N,
+X683F_NEW,2,2,2: Most times(more than half the time),39,N,
+X683F_NEW,3,3,3: Sometimes(about half the time),39,N,
+X683F_NEW,4,4,4: A few times(less than half the time),39,N,
+X683F_NEW,5,5,5: Almost never or never,39,N,
+X683F_NEW,6,6,6: No sexual activity,39,N,
+X797F_II,1,1,Very High Confidence,25,N,
+X797F_II,2,2,High Confidence,25,N,
+X797F_II,3,3,Moderate Confidence,25,N,
+X797F_II,4,4,Low Confidence,25,N,
+X797F_II,5,5,Very Low or no confidence,25,N,
+X797F_II,6,6,No sexual activity,25,N,
+X799F_II,1,1,Very High,35,N,
+X799F_II,2,2,High,35,N,
+X799F_II,3,3,Moderate,35,N,
+X799F_II,4,4,Low,35,N,
+X799F_II,5,5,Very low or None at All,35,N,
+X799F_II,6,6,Did not attempt vaginal penetration,35,N,
+X799F_II,7,7,Did not attempt vaginal penetration,35,N,
+X799F_II,8,8,No sexual activity,35,N,
+XSPECF_II,.D,.D,DK:O,4,N,
+XSPECF_II,.I,.I,IL:T,4,N,
+XSPECF_II,.M,.M,MI:O,4,N,
+XSPECF_II,.N,.N,NA:K,4,N,
+XSPECF_II,.R,.R,RF:K,4,N,
+XSPECF_II,.S,.S,Skip,4,N,
+XSPECF_II,-9,-9,MI:O,4,N,
+XSPECF_II,-8,-8,DK:O,4,N,
+XSPECF_II,-7,-7,RF:K,4,N,
+XSPECF_II,-4,-4,IL:T,4,N,
+XSPECF_II,-2,-2,Skip,4,N,
+XSPECF_II,-1,-1,NA:K,4,N,
+XTRACVD,1,1,No other CVD meds,17,N,
+XTRACVD,2,2,1 other CVD meds,17,N,
+XTRACVD,3,3,2+ other CVD meds,17,N,
+YN,0,0,No,3,N,
+YN,1,1,Yes,3,N,
+YNONE,1,1,Yes,3,N,
+YNONE,2,2,No,3,N,
+YNRE,1,1,1.yes,5,N,
+YNRE,2,2,2.no,5,N,
+YN_ONEZERO_II,0,0,0: No,6,N,
+YN_ONEZERO_II,1,1,1: Yes,6,N,
+RE_II,B,B,Black,8,C,
+RE_II,H,H,Hispanic,8,C,
+RE_II,W,W,White,8,C,

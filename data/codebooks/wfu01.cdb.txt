@@ -1,0 +1,245 @@
+                               CODEBOOK
+V2015                              11-17-2017
+WFU01 - Post-Study Web-based Follow-Up Interview
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID                        Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    7 7.3       GHDOB                         Year of birth                  1988= 1988
+                                                                                  .
+                                                                                  .
+                                                                                  2013= 2013
+                                                                                  -9= Missing
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   14    8 $         VERSPF                        Form version                   04/01/11= 04/01/11
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   22   15 $15.      LANGUAGE                      Interview Language             Character
+
+   37    7 7.3       PFDTSTAT                      Date of status determination   0.000= 0.000 years
+                                                   in duration of year from the   .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   44    2 2.0       PFEVKDTP                      Child has had kidney           1= Yes
+                                                   transplant                     2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   46    2 2.0       PFNMKDTP                      Number of kidney transplants   1= One
+                                                                                  2= Two
+                                                                                  3= Three or more
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   48    2 2.0       PFKTDONR                      Kidney transplant - type of    1= Living donor - Related
+                                                   donor                          2= Living donor - Not related
+                                                                                  3= Deceased donor
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   50    7 7.3       PFMRKTDT                      Date of kidney transplant in   0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   57    2 2.0       PFMMRKT                       Month of kidney transplant     01= January
+                                                                                  .
+                                                                                  .
+                                                                                  12= December
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   59    2 2.0       PFDMRKT                       Day of kidney transplant       01= 01
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   61    4 4.0       PFYMRKT                       Year of kidney transplant      2007= 2007
+                                                                                  .
+                                                                                  .
+                                                                                  2015= 2015
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   65    2 2.0       PFKTSTAT                      Current clinical status of     1= Functioning Graft
+                                                   kidney transplant              2= Graft Failure
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   67    2 2.0       PFDISCKT                      Discussed renal transplant     1= Yes
+                                                   with nephrologist in past year 2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   69    2 2.0       PFDISCLD                      Kidney transplant donor        1= YES
+                                                   option - living                2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   71    2 2.0       PFDISCDD                      Kidney transplant donor        1= YES
+                                                   option - deceased              2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   73    2 2.0       PFLISTDD                      Child has been listed for      1= Yes
+                                                   deceased donor transplant      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   75    7 7.3       PFDTLIST                      Date listed for deceased       0.000= 0.000 years
+                                                   donor transplant in duration   .
+                                                   of year from the baseline      .
+                                                   visit                          50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   82    2 2.0       PFMWLIST                      Month of listed for deceased   01= January
+                                                   donor transplant               .
+                                                                                  .
+                                                                                  12= December
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   84    2 2.0       PFDWLIST                      Day of listed for deceased     01= 01
+                                                   donor transplant               .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   86    4 4.0       PFYWLIST                      Year of listed for deceased    2007= 2007
+                                                   donor transplant               .
+                                                                                  .
+                                                                                  2015= 2015
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   90    2 2.0       PFEVDIAL                      Child has been on dialysis     1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   92    2 2.0       PFDLTYPE                      Type of dialysis used most     1= Hemodialysis
+                                                   recently                       2= Peritoneal Dialysis
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   94    7 7.3       PFMRDLDT                      Date most recent dialysis      0.000= 0.000 years
+                                                   initiated in duration of year  .
+                                                   from the baseline visit        .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  101    2 2.0       PFMMRDLY                      Month of most recent dialysis  01= January
+                                                                                  .
+                                                                                  .
+                                                                                  12= December
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  103    2 2.0       PFDMRDLY                      Day of most recent dialysis    01= 01
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  105    4 4.0       PFYMRDLY                      Year of most recent dialysis   2007= 2007
+                                                                                  .
+                                                                                  .
+                                                                                  2015= 2015
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  109    2 2.0       PFCURDIA                      Child currently on dialysis    1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  111    2 2.0       PFDISCDL                      Discussed dialysis with        1= Yes
+                                                   nephrologist in past year      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  113    2 2.0       PFDLMODL                      Dialysis modality recommended/ 1= Hemodialysis
+                                                   preferred                      2= Peritoneal Dialysis
+                                                                                  3= No Recommendation/
+                                                                                     Preference
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  115    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

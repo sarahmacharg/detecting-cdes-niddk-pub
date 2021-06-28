@@ -1,0 +1,398 @@
+                               CODEBOOK
+V2015                              11-9-2017
+HLC01 - Health Literacy Assessment Coding Sheet
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSHL           A.3          Form version                   06/01/13= 06/01/13
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    7 7.3       HLTSTDAT         A.4          Testing date in duration of    0.000= 0.000 years
+                                                   year from the baseline visit   .
+                                                                                  .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   25    3 $         HLINITL          A.5          Initials of person completing  Character
+                                                   form
+
+   28    2 2.0       HLTSTAK          A.6          Individual taking test         1= Parent
+                                                                                  2= Participant &ge; 15 years
+                                                                                     old
+                                                                                  4= Mother
+                                                                                  5= Father
+                                                                                  3= Other
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   30   50 $         HLTSTAKS         A.6.i        Specify other person taking    Character
+                                                   test
+
+   80    2 2.0       HLNUMERC         B.0.a        Numeracy section completed at  1= Yes
+                                                   study visit                    2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   82    2 2.0       HLNUMRSN         B.0.b        Reason Numeracy section not    1= Participant refused to
+                                                   completed                         take the test
+                                                                                  2= Participant unable to
+                                                                                     complete, vision &lt;20/100
+                                                                                  3= Participant unable to
+                                                                                     complete, states illiterate
+                                                                                  4= Participant unable to
+                                                                                     complete, no reason given
+                                                                                  5= Participant unable to
+                                                                                     complete, other reason
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   84   50 $         HLNUMRSS         B.0.b.i      Specify other reason Numeracy  Character
+                                                   not completed
+
+  134    2 2.0       HLNUM1PM         B.1          Numeracy - participant         1= Yes
+                                                   recorded 1:00 PM               2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  136    2 2.0       HLNUMNO          B.2          Numeracy - participant         1= Yes
+                                                   recorded NO                    2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  138    2 2.0       HLNUMAP2         B.3          Numeracy - participant         1= Yes
+                                                   recorded APRIL 2/THURSDAY      2= No
+                                                   APRIL 2                        -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  140    2 2.0       HLNUMB11         B.4          Numeracy - participant         1= Yes
+                                                   recorded 11:00/BEFORE 11:00    2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  142    2 2.0       HLREADGC         C.0.a        Reading Comprehension section  1= Yes
+                                                   completed at study visit       2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  144    2 2.0       HLRCMRSN         C.0.b        Reason Reading Comprehension   1= Participant refused to
+                                                   section not completed             take the test
+                                                                                  2= Participant unable to
+                                                                                     complete, vision &lt;20/100
+                                                                                  3= Participant unable to
+                                                                                     complete, states illiterate
+                                                                                  4= Participant unable to
+                                                                                     complete, no reason given
+                                                                                  5= Participant unable to
+                                                                                     complete, other reason
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  146   50 $         HLRCMRSS         C.0.b.i      Specify other reason Reading   Character
+                                                   Comprehension not completed
+
+  196    2 2.0       HLRCSTOM         C.1          Reading - participant circled  1= Yes
+                                                   a. stomach                     2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  198    2 2.0       HLRCEMPT         C.2          Reading - participant circled  1= Yes
+                                                   b. empty                       2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  200    2 2.0       HLRCIT           C.3          Reading - participant circled  1= Yes
+                                                   d. it                          2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  202    2 2.0       HLRCTAKE         C.4          Reading - participant circled  1= Yes
+                                                   a. take                        2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  204    2 2.0       HLRCHOUR         C.5          Reading - participant circled  1= Yes
+                                                   c. hours                       2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  206    2 2.0       HLRCLITL         C.6          Reading - participant circled  1= Yes
+                                                   a. little                      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  208    2 2.0       HLRCTOAS         C.7          Reading - participant circled  1= Yes
+                                                   c. toast                       2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  210    2 2.0       HLRCMDNT         C.8          Reading - participant circled  1= Yes
+                                                   b. midnight                    2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  212    2 2.0       HLRCEAT          C.9          Reading - participant circled  1= Yes
+                                                   d. eat                         2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  214    2 2.0       HLRCALL          C.10         Reading - participant circled  1= Yes
+                                                   b. all                         2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  216    2 2.0       HLRCHAD          C.11         Reading - participant circled  1= Yes
+                                                   c. had                         2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  218    2 2.0       HLRCBKFS         C.12         Reading - participant circled  1= Yes
+                                                   c. breakfast                   2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  220    2 2.0       HLRCDRNK         C.13         Reading - participant circled  1= Yes
+                                                   b. drink                       2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  222    2 2.0       HLRCWATR         C.14         Reading - participant circled  1= Yes
+                                                   c. water                       2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  224    2 2.0       HLRCQUES         C.15         Reading - participant circled  1= Yes
+                                                   d. questions                   2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  226    2 2.0       HLRCDEPT         C.16         Reading - participant circled  1= Yes
+                                                   a. Department                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  228    2 2.0       HLRCSEE          C.17         Reading - participant circled  1= Yes
+                                                   c. see                         2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  230    2 2.0       HLRCAGRE         C.18         Reading - participant circled  1= Yes
+                                                   a. agree                       2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  232    2 2.0       HLRCPRVE         C.19         Reading - participant circled  1= Yes
+                                                   d. prove                       2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  234    2 2.0       HLRCAPPL         C.20         Reading - participant circled  1= Yes
+                                                   b. application                 2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  236    2 2.0       HLRCCNTY         C.21         Reading - participant circled  1= Yes
+                                                   d. county                      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  238    2 2.0       HLRCUNDR         C.22         Reading - participant circled  1= Yes
+                                                   c. understand                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  240    2 2.0       HLRCCHNG         C.23         Reading - participant circled  1= Yes
+                                                   a. changes                     2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  242    2 2.0       HLRCTEN          C.24         Reading - participant circled  1= Yes
+                                                   d. ten                         2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  244    2 2.0       HLRCAWRE         C.25         Reading - participant circled  1= Yes
+                                                   b. aware                       2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  246    2 2.0       HLRCTHAT         C.26         Reading - participant circled  1= Yes
+                                                   c. that                        2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  248    2 2.0       HLRCDECI         C.27         Reading - participant circled  1= Yes
+                                                   d. decision                    2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  250    2 2.0       HLRCRGHT         C.28         Reading - participant circled  1= Yes
+                                                   d. right                       2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  252    2 2.0       HLRCREQS         C.29         Reading - participant circled  1= Yes
+                                                   a. request                     2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  254    2 2.0       HLRCCALL         C.30         Reading - participant circled  1= Yes
+                                                   c. calling                     2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  256    2 2.0       HLRCWANT         C.31         Reading - participant circled  1= Yes
+                                                   b. want                        2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  258    2 2.0       HLRCMEMB         C.32         Reading - participant circled  1= Yes
+                                                   a. member                      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  260    2 2.0       HLRCSIGN         C.33         Reading - participant circled  1= Yes
+                                                   d. sign                        2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  262    2 2.0       HLRCHOWV         C.34         Reading - participant circled  1= Yes
+                                                   c. However                     2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  264    2 2.0       HLRCDATE         C.35         Reading - participant circled  1= Yes
+                                                   b. date                        2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  266    2 2.0       HLRCELIG         C.36         Reading - participant circled  1= Yes
+                                                   b. eligibility                 2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  268    7 7.3       HLFCMPDT         C.37         Date form completed in         0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  275    3 $         HLFCINIT         C.37         Initials of person completing  Character
+                                                   the form
+
+  278    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  279    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

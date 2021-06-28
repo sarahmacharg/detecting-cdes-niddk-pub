@@ -1,0 +1,119 @@
+                               CODEBOOK
+V2015.2                              11-9-2017
+MEDSUMMARY_SHORT: Medication and Supplement Use Summary File (short)
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID                        Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    4 4.0       VISIT                         Visit #                        10= 10
+                                                                                  .
+                                                                                  .
+                                                                                  100= 100
+
+   11    7 7.3       MSVISDAT                      Date of visit in duration of   0.000= 0.000 years
+                                                   year from the baseline visit   .
+                                                                                  .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   18    2 2.0       nutrsup                       Currently taking nutritional   1= yes
+                                                   supplements (caloric           0= no
+                                                   supplements only) (med_code =
+                                                   139900,130500, or 130600)
+
+   20    2 2.0       vtminsup                      Currently taking vitamin and   1= yes
+                                                   mineral supplements            0= no
+                                                   (excluding vitamin D)
+                                                   (med_code=130101,130102, or
+                                                   130199)
+
+   22    2 2.0       vitDinact                     Currently taking inactive      1= yes
+                                                   vitamin D (med_code=130202)    0= no
+
+   24    2 2.0       vitDactv                      Currently taking active        1= yes
+                                                   vitamin D (med_code=130201)    0= no
+
+   26    2 2.0       PO4bindr                      Currently taking phosphate     1= yes
+                                                   binder (med_code=120100)       0= no
+
+   28    2 2.0       alkthrpy                      Currently taking alkali        1= yes
+                                                   therapy (med_code=100501 or    0= no
+                                                   100502)
+
+   30    2 2.0       grwthhor                      Currently taking growth        1= yes
+                                                   hormone (med_code=50000)       0= no
+
+   32    2 2.0       ESArx                         Currently taking               1= yes
+                                                   erythropoetin stimulating      0= no
+                                                   agent (ESA) (med_code=30101,
+                                                   30102, or 30199)
+
+   34    2 2.0       FEsupp                        Currently taking iron          1= yes
+                                                   supplement (med_code=30200)    0= no
+
+   36    2 2.0       liplowrx                      Currently taking lipid         1= yes
+                                                   lowering medication            0= no
+                                                   (med_code=80000)
+
+   38    2 2.0       antihyp                       Currently taking               1= yes
+                                                   antihypertensive medication    0= no
+                                                   (10000<med_code<20000)
+
+   40    2 2.0       ACEi                          Currently taking ACE           1= yes
+                                                   inhibitor (med_code=10100 or   0= no
+                                                   11000)
+
+   42    2 2.0       ARB                           Currently taking ARB           1= yes
+                                                   (med_code=10200 or 11000)      0= no
+
+   44    2 2.0       diuretic                      Currently taking diuretic      1= yes
+                                                   (med_code=10901,10902,10903,   0= no
+                                                   10999, or 11000)
+
+   46    2 2.0       Kbindr                        Currently taking potassium     1= yes
+                                                   binder (med_code=120200)       0= no
+
+   48    2 2.0       immnsupr                      Currently taking               1= yes
+                                                   immunosuppressant              0= no
+                                                   (40000<med_code<50000)
+
+   50    2 2.0       cortstrd                      Currently taking               1= yes
+                                                   corticosteroid (systemic)      0= no
+                                                   (med_code=40100)
+
+   52    2 2.0       bladrrx                       Currently taking bladder       1= yes
+                                                   medication (110100)            0= no
+
+   54    2 2.0       laxative                      Currently taking a laxative/   1= yes
+                                                   stool softener                 0= no
+                                                   (med_code=100200)
+
+   56    2 2.0       antacids                      Currently taking antacids      1= yes
+                                                   (other than phosphate          0= no
+                                                   binders) (med_code=100301 or
+                                                   100302)
+
+   58    2 2.0       antibac                       Currently taking antibiotic    1= yes
+                                                   (med_code=20100)               0= no
+
+   60    2 2.0       AsthAlrg                      Currently taking asthma and/   1= yes
+                                                   or allergy medication          0= no
+                                                   (med_code=60100,60301, 60399,
+                                                   or 69900)
+
+   62    2 2.0       CNSstim                       Currently taking CNS           1= yes
+                                                   stimulant medication           0= no
+                                                   (med_code=70200)
+
+   64    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

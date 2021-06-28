@@ -1,0 +1,204 @@
+                               CODEBOOK
+V2015                              11-9-2017
+L05 - Central Laboratory - Renal Panel Tests
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSRL           A.3          Form version                   09/01/04= 09/01/04
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    2 2.0       RLMUPGFR         OldA.4       Old: Make-up GFR visit         1= Yes
+                                                                                  2= No
+
+   20    2 2.0       RLTESTAV         B.1          Renal panel test results       1= Yes
+                                                   available                      2= No, Sample Inadequate
+                                                                                  3= No, Other Reason
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   22   25 $         RLRNAVAL         B.1.a        Specify reason renal panel     Character
+                                                   test results not available
+
+   47    7 7.3       RLDATESM         B.2          Date sample drawn for renal    0.000= 0.000 years
+                                                   panel tests in duration of     .
+                                                   year from the baseline visit   .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   54    3 3.0       RLSODIUM         B.3.a        Result: Sodium (mmol/L)        120= 120
+                                                                                  .
+                                                                                  .
+                                                                                  160= 160
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   57    4 4.1       RLPOTAS          B.3.b        Result: Potassium (mmol/L)     3.0= 3.0
+                                                                                  .
+                                                                                  .
+                                                                                  6.1= 6.1
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   61    3 3.0       RLCHLOR          B.3.c        Result: Chloride (mmol/L)      93= 93
+                                                                                  .
+                                                                                  .
+                                                                                  117= 117
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   64    2 2.0       RL_CO2           B.3.d        Result: Carbon dioxide (mmol/  15= 15
+                                                   L)                             .
+                                                                                  .
+                                                                                  40= 40
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   66    3 3.0       RL_BUN           B.3.e        Result: Urea Nitrogen (UN)     7= 7
+                                                   (mg/dL)                        .
+                                                                                  .
+                                                                                  120= 120
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   69    5 5.2       RLSERCRE         B.3.f        Result: Serum Creatinine -     0.10= 0.10
+                                                   Enzymatic(mg/dL)               .
+                                                                                  .
+                                                                                  5.00= 5.00
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   74    3 3.0       RL_GLUC          B.3.g        Result: Glucose (mg/dL)        50= 50
+                                                                                  .
+                                                                                  .
+                                                                                  600= 600
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   77    4 4.1       RL_CAL           B.3.h        Result: Calcium (mg/dL)        6.0= 6.0
+                                                                                  .
+                                                                                  .
+                                                                                  13.0= 13.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   81    4 4.1       RL_PHOS          B.3.i        Result: Phosphate (mg/dL)      1.0= 1.0
+                                                                                  .
+                                                                                  .
+                                                                                  20.0= 20.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   85    4 4.1       RLURICAC         B.3.j        Result: Uric Acid (Urate) (mg/ 3.1= 3.1
+                                                   dL)                            .
+                                                                                  .
+                                                                                  9.2= 9.2
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   89    4 4.1       RL_ALB           B.3.k        Result: Albumin (g/dL)         3.0= 3.0
+                                                                                  .
+                                                                                  .
+                                                                                  6.0= 6.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   93    4 4.1       RLSCHPLC         OldB.3.k     Old: Result: Serum Creatinine  0.1= 0.1
+                                                   - HPLC (mg/dL)                 .
+                                                                                  .
+                                                                                  9.9= 9.9
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   97    3 3.0       RLURCREA         B.4.a        Result: Urine creatinine (mg/  1= 1
+                                                   dL)                            .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  100    4 4.0       RLURPROT         B.4.b        Result: Urine protein (mg/dL)  1= 1
+                                                                                  .
+                                                                                  .
+                                                                                  9999= 9999
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  104    7 7.2       RLURMALB         B.4.c        Result: Microalbumin (mg/dL)   0.01= 0.01
+                                                                                  .
+                                                                                  .
+                                                                                  99.99= 99.99
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  111    2 2.0       RLSCAPPR         B.5.a        Appearance of serum            1= Gross hemolysis
+                                                                                  2= Moderate hemolysis
+                                                                                  3= Slight hemolysis
+                                                                                  4= No hemolysis
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  113    2 2.0       RLAFTNV7         OldB.5.b     Old: Assay was run on/after    1= Yes
+                                                   November 7, 2007               2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  115    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  116    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

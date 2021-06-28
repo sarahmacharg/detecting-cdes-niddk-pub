@@ -1,0 +1,1028 @@
+                               CODEBOOK
+V2015                               11-9-2017
+NRC03E - Cognitive-Developmental Data Coding Sheet - 17 years and older
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        001= 001
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSC5           A.3          Form version                   01/01/05= 01/01/05
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    7 7.3       C5TSTDAT         A.4          Date of testing in duration    0.000= 0.000 years
+                                                   of year from the baseline      .
+                                                   visit                          .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   25    2 2.0       ACCELVIS         OldA.5       Old: Accelerated visit         1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   27    2 2.0       C5CHDAGE         B.1          Child is ge;17 years           1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   29    2 2.0       C5NUMSSN         B.2          Number of sessions             1= 1
+                                                                                  .
+                                                                                  .
+                                                                                  15= 15
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   31    2 2.0       C5BLORDR         B.3          Order of Block administration  1= Block A then Block B
+                                                                                  2= Block B then Block A
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   33    2 2.0       C5WASCMP         D.0.a        WASI II completed at study     1= YES
+                                                   visit                          2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   35    4 4.1       C5WASRCD         D.0.b        WASI II not completed -        2.0= 2.0
+                                                   reliability code               .
+                                                                                  .
+                                                                                  8.2= 8.2
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   39    2 2.0       C5VORAWS         D.1          Vocabulary - raw score         0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   41    2 2.0       C5VOTSCR         D.2          Vocabulary - T-score           0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   43    4 4.1       C5VORLCD         D.3          Vocabulary - reliability code  1.0= 1.0
+                                                                                  .
+                                                                                  .
+                                                                                  8.3= 8.3
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   47    2 2.0       C5BDRAWS         OldE.1       Old: Block Design - raw score  0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   49    2 2.0       C5BDTSCR         OldE.2       Old: Block Design - T-score    0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   51    4 4.1       C5BDRLCD         OldE.3       Old: Block Design -            1.0= 1.0
+                                                   reliability code               .
+                                                                                  .
+                                                                                  8.3= 8.3
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   55    2 2.0       C5SMRAWS         OldF.1       Old: Similarities - raw score  0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   57    2 2.0       C5SMTSCR         OldF.2       Old: Similarities - T-score    0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   59    4 4.1       C5SMRLCD         OldF.3       Old: Similarities -            1.0= 1.0
+                                                   reliability code               .
+                                                                                  .
+                                                                                  8.3= 8.3
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   63    2 2.0       C5MRRAWS         G.1          Matrix Reasoning - raw score   0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   65    2 2.0       C5MRTSCR         G.2          Matrix Reasoning - T-score     0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   67    4 4.1       C5MRRLCD         G.3          Matrix Reasoning -             1.0= 1.0
+                                                   reliability code               .
+                                                                                  .
+                                                                                  8.3= 8.3
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   71    3 3.0       C5IQVERB         OldH.1       Old: Verbal IQ                 20= 20
+                                                                                  .
+                                                                                  .
+                                                                                  200= 200
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   74    4 4.1       C5IQVBPS         OldH.1.a     Old: Verbal IQ - percentile    0.0= 0.0
+                                                   score                          .
+                                                                                  .
+                                                                                  99.9= 99.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   78    3 3.0       C5IQPERF         OldH.2       Old: Performance IQ            20= 20
+                                                                                  .
+                                                                                  .
+                                                                                  200= 200
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   81    4 4.1       C5IQPFPS         OldH.2.a     Old: Performance IQ -          0.0= 0.0
+                                                   percentile score               .
+                                                                                  .
+                                                                                  99.9= 99.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   85    3 3.0       C5IQFUL4         OldH.3       Old: Full Scale - 4 IQ         20= 20
+                                                                                  .
+                                                                                  .
+                                                                                  200= 200
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   88    4 4.1       C5IQF4PS         OldH.3.a     Old: Full Scale - 4 IQ -       0.0= 0.0
+                                                   percentile score               .
+                                                                                  .
+                                                                                  99.9= 99.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   92    3 3.0       C5IQFUL2         H.4          Full Scale - 2 IQ              20= 20
+                                                                                  .
+                                                                                  .
+                                                                                  200= 200
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   95    4 4.1       C5IQF2PS         H.4.a        Full Scale - 2 IQ -            0.0= 0.0
+                                                   percentile score               .
+                                                                                  .
+                                                                                  99.9= 99.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   99    2 2.0       C5CPTCMP         I.0.a        CPT-II completed at study      1= YES
+                                                   visit                          2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  101    5 5.1       C5EORAWS         I.1          Errors of Omission - raw score 000.0= 000.0
+                                                                                  .
+                                                                                  .
+                                                                                  140.0= 140.0
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  106    3 3.0       C5EOTSCR         I.2          Errors of Omission - T-score   0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  140= 140
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  109    4 4.1       C5ECRAWS         J.1          Errors of Commission - raw     00.0= 00.0
+                                                   score                          .
+                                                                                  .
+                                                                                  90.0= 90.0
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  113    3 3.0       C5ECTSCR         J.2          Errors of Commission - T-score 0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  140= 140
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  116    5 5.1       C5HRRAWS         K.1          Hit Reaction Time - raw score  000.0= 000.0
+                                                                                  .
+                                                                                  .
+                                                                                  800.0= 800.0
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  121    3 3.0       C5HRTSCR         K.2          Hit Reaction Time - T-score    0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  140= 140
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  124    5 5.1       C5VRRAWS         L.1          Variability - raw score        000.0= 000.0
+                                                                                  .
+                                                                                  .
+                                                                                  180.0= 180.0
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  129    3 3.0       C5VRTSCR         L.2          Variability - T-score          0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  140= 140
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  132    5 5.2       C5DTRAWS         M.1          Detectability - raw score      00.00= 00.00
+                                                                                  .
+                                                                                  .
+                                                                                  90.00= 90.00
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  137    3 3.0       C5DTTSCR         M.2          Detectability - T-score        0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  140= 140
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  140    6 6.2       C5RSRAWS         N.1          Response Style - raw score     000.00= 000.00
+                                                                                  .
+                                                                                  .
+                                                                                  100.00= 100.00
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  146    3 3.0       C5RSTSCR         N.2          Response Style - T-score       0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  140= 140
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  149    4 4.1       C5ORRLCD         O.1          Overall Reliability -          1.0= 1.0
+                                                   reliability code               .
+                                                                                  .
+                                                                                  8.3= 8.3
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  153    2 2.0       C5WAICMP         P.0.a        WAIS-IV Digit Span Subtest     1= YES
+                                                   completed at study visit       2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  155    4 4.1       C5WAIRCD         P.0.b        WAIS-IV Digit Span Subtest     2.0= 2.0
+                                                   not completed - reliability    .
+                                                   code                           .
+                                                                                  8.2= 8.2
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  159    2 2.0       C5WADFRS         P.1.a        WAIS-IV Digit Span Forward -   0= 0
+                                                   raw score                      .
+                                                                                  .
+                                                                                  16= 16
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  161    2 2.0       C5WADFSS         P.1.b        WAIS-IV Digit Span Forward -   0= 0
+                                                   scaled score                   .
+                                                                                  .
+                                                                                  32= 32
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  163    4 4.1       C5WADFRC         P.1.c        WAIS-IV Digit Span Forward -   1.0= 1.0
+                                                   reliability code               .
+                                                                                  .
+                                                                                  9.9= 9.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  167    2 2.0       C5WADBRS         P.2.a        WAIS-IV Digit Span Backward -  0= 0
+                                                   raw score                      .
+                                                                                  .
+                                                                                  16= 16
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  169    2 2.0       C5WADBSS         P.2.b        WAIS-IV Digit Span Backward -  0= 0
+                                                   scaled score                   .
+                                                                                  .
+                                                                                  32= 32
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  171    4 4.1       C5WADBRC         P.2.c        WAIS-IV Digit Span Backward -  1.0= 1.0
+                                                   reliability code               .
+                                                                                  .
+                                                                                  9.9= 9.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  175    2 2.0       C5WSSCMP         Q.0.a        WMS-III completed at study     1= YES
+                                                   visit                          2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  177    4 4.1       C5WSSRCD         Q.0.b        WMS-III not completed -        2.0= 2.0
+                                                   reliability code               .
+                                                                                  .
+                                                                                  8.2= 8.2
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  181    2 2.0       C5WMSFRS         Q.1.a        WMS-III Spatial Span Forward - 0= 0
+                                                   raw score                      .
+                                                                                  .
+                                                                                  16= 16
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  183    2 2.0       C5WMSFSS         Q.1.b        WMS-III Spatial Span Forward - 0= 0
+                                                   scaled score                   .
+                                                                                  .
+                                                                                  32= 32
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  185    4 4.1       C5WMSFRC         Q.1.c        WMS-III Spatial Span Forward - 1.0= 1.0
+                                                   reliability code               .
+                                                                                  .
+                                                                                  9.9= 9.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  189    2 2.0       C5WMSBRS         Q.2.a        WMS-III Spatial Span Backward  0= 0
+                                                   - raw score                    .
+                                                                                  .
+                                                                                  16= 16
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  191    2 2.0       C5WMSBSS         Q.2.b        WMS-III Spatial Span Backward  0= 0
+                                                   - scaled score                 .
+                                                                                  .
+                                                                                  32= 32
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  193    4 4.1       C5WMSBRC         Q.2.c        WMS-III Spatial Span Backward  1.0= 1.0
+                                                   - reliability code             .
+                                                                                  .
+                                                                                  9.9= 9.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  197    2 2.0       C5DKTCMP         R.0.a        D-KEFS Tower completed at      1= YES
+                                                   study visit                    2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  199    4 4.1       C5DKTARS         R.1.a        D-KEFS Tower Total             0.0= 0.0
+                                                   Achievement - raw score        .
+                                                                                  .
+                                                                                  30.0= 30.0
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  203    4 4.1       C5DKTASS         R.1.b        D-KEFS Tower Total             1.0= 1.0
+                                                   Achievement - scaled score     .
+                                                                                  .
+                                                                                  19.0= 19.0
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  207    4 4.1       C5DKMFRS         R.2.a        D-KEFS Tower Mean First-Move   0.1= 0.1
+                                                   Time Ratio - raw score         .
+                                                                                  .
+                                                                                  19.6= 19.6
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  211    4 4.1       C5DKMFSS         R.2.b        D-KEFS Tower Mean First-Move   1.0= 1.0
+                                                   Time Ratio - scaled score      .
+                                                                                  .
+                                                                                  19.0= 19.0
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  215    4 4.1       C5DKTPRS         R.3.a        D-KEFS Tower Time-Per-Move     0.1= 0.1
+                                                   Ratio - raw score              .
+                                                                                  .
+                                                                                  9.8= 9.8
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  219    4 4.1       C5DKTPSS         R.3.b        D-KEFS Tower Time-Per-Move     1.0= 1.0
+                                                   Ratio - scaled score           .
+                                                                                  .
+                                                                                  19.0= 19.0
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  223    4 4.1       C5DKMARS         R.4.a        D-KEFS Tower Move Accuracy     0.0= 0.0
+                                                   Ratio - raw score              .
+                                                                                  .
+                                                                                  3.2= 3.2
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  227    4 4.1       C5DKMASS         R.4.b        D-KEFS Tower Move Accuracy     1.0= 1.0
+                                                   Ratio - scaled score           .
+                                                                                  .
+                                                                                  19.0= 19.0
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  231    4 4.1       C5DKTRRS         R.5.a        D-KEFS Tower Rule Violations - 0.0= 0.0
+                                                   raw score                      .
+                                                                                  .
+                                                                                  16.0= 16.0
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  235    4 4.1       C5DKRVRS         R.6.a        D-KEFS Tower Rule-Violation-   0.0= 0.0
+                                                   Per-Item Ratio - raw score     .
+                                                                                  .
+                                                                                  2.4= 2.4
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  239    4 4.1       C5DKRVSS         R.6.b        D-KEFS Tower Rule-Violation-   1.0= 1.0
+                                                   Per-Item Ratio - scaled score  .
+                                                                                  .
+                                                                                  19.0= 19.0
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  243    4 4.1       C5DKORRC         R.7.a        D-KEFS Tower Overall           1.0= 1.0
+                                                   Reliability - reliability code .
+                                                                                  .
+                                                                                  9.9= 9.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  247    2 2.0       C5DKVCMP         S.0.a        D-KEFS Verbal completed at     1= YES
+                                                   study visit                    2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  249    4 4.1       C5DKVRCD         S.0.b        D-KEFS Verbal not completed -  2.0= 2.0
+                                                   reliability code               .
+                                                                                  .
+                                                                                  8.2= 8.2
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  253    2 2.0       C5DVLFRS         S.1.a        D-KEFS Verbal FAS Letter       0= 0
+                                                   Fluency - raw score            .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  255    2 2.0       C5DVLFSS         S.1.b        D-KEFS Verbal FAS Letter       0= 0
+                                                   Fluency - scaled score         .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  257    4 4.1       C5DVLFRC         S.1.c        D-KEFS Verbal FAS Letter       0.0= 0.0
+                                                   Fluency - reliability code     .
+                                                                                  .
+                                                                                  9.9= 9.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  261    2 2.0       C5DVCFRS         S.2.a        D-KEFS Verbal Category         0= 0
+                                                   Fluency - raw score            .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  263    2 2.0       C5DVCFSS         S.2.b        D-KEFS Verbal Category         0= 0
+                                                   Fluency - scaled score         .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  265    4 4.1       C5DVCFRC         S.2.c        D-KEFS Category Fluency -      0.0= 0.0
+                                                   reliability code               .
+                                                                                  .
+                                                                                  9.9= 9.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  269    2 2.0       C5DVCSRS         S.3.a        D-KEFS Verbal Category         0= 0
+                                                   Switching - correct responses  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  271    2 2.0       C5DVCSSS         S.3.b        D-KEFS Verbal Category         0= 0
+                                                   Switching - scaled score       .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  273    4 4.1       C5DVCSRC         S.3.c        D-KEFS Category Switching -    0.0= 0.0
+                                                   reliability code               .
+                                                                                  .
+                                                                                  9.9= 9.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  277    2 2.0       C5DVTSRS         S.4.a        D-KEFS Verbal Category         0= 0
+                                                   Switching Total Switching -    .
+                                                   raw score                      .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  279    2 2.0       C5DVTSSS         S.4.b        D-KEFS Verbal Category         0= 0
+                                                   Switching Total Switching -    .
+                                                   scaled score                   .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  281    4 4.1       C5DVTSRC         S.4.c        D-KEFS Verbal Category         0.0= 0.0
+                                                   Switching Total Switching -    .
+                                                   reliability code               .
+                                                                                  9.9= 9.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  285    2 2.0       C5DKDCMP         T.0.a        D-KEFS Design completed at     1= YES
+                                                   study visit                    2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  287    4 4.1       C5DKDRCD         T.0.b        D-KEFS Design not completed -  2.0= 2.0
+                                                   reliability code               .
+                                                                                  .
+                                                                                  8.2= 8.2
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  291    2 2.0       C5DDFDRS         T.1.a        D-KEFS Design Filled Dots -    0= 0
+                                                   raw score                      .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  293    2 2.0       C5DDFDSS         T.1.b        D-KEFS Design Filled Dots -    0= 0
+                                                   scaled score                   .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  295    4 4.1       C5DDFDRC         T.1.c        D-KEFS Design Filled Dots -    0.0= 0.0
+                                                   reliability code               .
+                                                                                  .
+                                                                                  9.9= 9.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  299    2 2.0       C5DDEDRS         T.2.a        D-KEFS Design Empty Dots -     0= 0
+                                                   raw score                      .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  301    2 2.0       C5DDEDSS         T.2.b        D-KEFS Design Empty Dots -     0= 0
+                                                   scaled score                   .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  303    4 4.1       C5DDEDRC         T.2.c        D-KEFS Design Empty Dots -     0.0= 0.0
+                                                   reliability code               .
+                                                                                  .
+                                                                                  9.9= 9.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  307    2 2.0       C5DDSWRS         T.3.a        D-KEFS Design Switching - raw  0= 0
+                                                   score                          .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  309    2 2.0       C5DDSWSS         T.3.b        D-KEFS Design Switching -      0= 0
+                                                   scaled score                   .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  311    4 4.1       C5DDSWRC         T.3.c        D-KEFS Design Switching -      0.0= 0.0
+                                                   reliability code               .
+                                                                                  .
+                                                                                  9.9= 9.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  315    2 2.0       C5DDTDRS         T.4.a        D-KEFS Design Fluency Total -  0= 0
+                                                   raw score                      .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  317    2 2.0       C5DDTDSS         T.4.b        D-KEFS Design Fluency Total -  0= 0
+                                                   scaled score                   .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  319    4 4.1       C5DDTDRC         T.4.c        D-KEFS Design Fluency Total -  0.0= 0.0
+                                                   reliability code               .
+                                                                                  .
+                                                                                  9.9= 9.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  323    2 2.0       C5DKCCMP         U.0.a        D-KEFS Color-Word completed    1= YES
+                                                   at study visit                 2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  325    4 4.1       C5DKCRCD         U.0.b        D-KEFS Color-Word not          2.0= 2.0
+                                                   completed - reliability code   .
+                                                                                  .
+                                                                                  8.2= 8.2
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  329    2 2.0       C5DCCNRS         U.1.a        D-KEFS Color-Word Color        0= 0
+                                                   Naming - raw score             .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  331    2 2.0       C5DCCNSS         U.1.b        D-KEFS Color-Word Color        0= 0
+                                                   Naming - scaled score          .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  333    4 4.1       C5DCCNRC         U.1.c        D-KEFS Color-Word Color        0.0= 0.0
+                                                   Naming - reliability code      .
+                                                                                  .
+                                                                                  9.9= 9.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  337    2 2.0       C5DCWRRS         U.2.a        D-KEFS Color-Word Word         0= 0
+                                                   Reading - raw score            .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  339    2 2.0       C5DCWRSS         U.2.b        D-KEFS Color-Word Word         0= 0
+                                                   Reading - scaled score         .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  341    4 4.1       C5DCWRRC         U.2.c        D-KEFS Color-Word Word         0.0= 0.0
+                                                   Reading - reliability code     .
+                                                                                  .
+                                                                                  9.9= 9.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  345    3 3.0       C5DCINRS         U.3.a        D-KEFS Color-Word Inhibition - 0= 0
+                                                   raw score                      .
+                                                                                  .
+                                                                                  180= 180
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  348    2 2.0       C5DCINSS         U.3.b        D-KEFS Color-Word Inhibition - 0= 0
+                                                   scaled score                   .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  350    4 4.1       C5DCINRC         U.3.c        D-KEFS Color-Word Inhibition - 0.0= 0.0
+                                                   reliability code               .
+                                                                                  .
+                                                                                  9.9= 9.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  354    3 3.0       C5DCISRS         U.4.a        D-KEFS Color-Word Inhibition/  0= 0
+                                                   Switching - raw score          .
+                                                                                  .
+                                                                                  180= 180
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  357    2 2.0       C5DCISSS         U.4.b        D-KEFS Color-Word Inhibition/  0= 0
+                                                   Switching - scaled score       .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  359    4 4.1       C5DCISRC         U.4.c        D-KEFS Color-Word Inhibition/  0.0= 0.0
+                                                   Switching - reliability code   .
+                                                                                  .
+                                                                                  9.9= 9.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  363    7 7.3       C5DTCOMP         R.1          Date form completed in         0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  370    3 $         C5PSINIT         R.2          Initials of psychologist       Character
+                                                   completing form
+
+  373    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  374    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

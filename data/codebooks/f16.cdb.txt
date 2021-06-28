@@ -1,0 +1,183 @@
+                               CODEBOOK
+V2015                              11-9-2017
+F16 - Sun Exposure
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSSE           A.3          Form version                   03/01/11= 03/01/11
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    7 7.3       SEVISDAT         A.4          Date of visit in duration of   0.000= 0.000 years
+                                                   year from the baseline visit   .
+                                                                                  .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   25    3 $         SEINITL          A.5          Initials of person completing  Character
+                                                   form
+
+   28    2 2.0       ACCELVIS         A.6          Accelerated visit              1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   30    2 2.0       SEFCOMBY         A.7          Person completing form         1= Child/young adult
+                                                                                  2= Parent or other adult
+                                                                                  3= Both (Parent and Child/
+                                                                                     young adult)
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   32    2 2.0       SEPHASUN         B.1          Amount of physical activity    1= None
+                                                   per week performed outside in  2= less than 25%
+                                                   sun                            3= 25 to <50%
+                                                                                  4= 50 to <75%
+                                                                                  5= 75% or more
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   34    2 2.0       SES10TO4         B.2          Past year average summer       1= 30 minutes or less
+                                                   outdoor time between 10am to   2= 31 minutes to <1 hour
+                                                   4pm                            3= 1 hour to <2 hours
+                                                                                  4= 2 hours to <3 hours
+                                                                                  5= 3 hours to <4 hours
+                                                                                  6= 4 hours to <5 hours
+                                                                                  7= 5 hours to <6 hours
+                                                                                  8= 6 hours
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   36    2 2.0       SESUSKIN         B.2.b        Reaction of unprotected skin   0= No change in skin color
+                                                   after first summer exposure    1= Burns but does not tan
+                                                                                  2= Burns, then tans a minimal
+                                                                                     amount
+                                                                                  3= Burns, then tans
+                                                                                  4= Tans but does not burn
+                                                                                  9= Other
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   38   50 $         SESUSKSP         B.2.b.i      Specify other reaction of      Character
+                                                   unprotected skin - summer
+
+   88    2 2.0       SEW10TO4         B.3          Past year average winter       1= 30 minutes or less
+                                                   outdoor time between 10am to   2= 31 minutes to <1 hour
+                                                   4pm                            3= 1 hour to <2 hours
+                                                                                  4= 2 hours to <3 hours
+                                                                                  5= 3 hours to <4 hours
+                                                                                  6= 4 hours to <5 hours
+                                                                                  7= 5 hours to <6 hours
+                                                                                  8= 6 hours
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   90    2 2.0       SEWUSKIN         B.3.b        Reaction of unprotected skin   0= No change in skin color
+                                                   after first winter exposure    1= Burns but does not tan
+                                                                                  2= Burns, then tans a minimal
+                                                                                     amount
+                                                                                  3= Burns, then tans
+                                                                                  4= Tans but does not burn
+                                                                                  9= Other
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   92   50 $         SEWUSKSP         B.3.b.i      Specify other reaction of      Character
+                                                   unprotected skin - winter
+
+  142    2 2.0       SESTHSCR         B.4          Past year summer temps         1= Yes
+                                                   highest - use of sunscreen     2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  144    2 2.0       SESSPF           B.5          SPF of sunscreen participant   1= 2 to 9
+                                                   usually used                   2= 10 to 14
+                                                                                  3= 15 to 24
+                                                                                  4= 25 to 30
+                                                                                  5= 31 to 35
+                                                                                  6= 36 to 45
+                                                                                  7= 46 to 50
+                                                                                  8= 51 or more
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  146    2 2.0       SESWKSCR         B.6          Summer frequency per week      1= Never
+                                                   participant wears sunscreen    2= 1 day
+                                                                                  3= 3 days
+                                                                                  4= 5 days
+                                                                                  5= Daily
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  148    2 2.0       SEWWKSCR         B.7          Winter frequency per week      1= Never
+                                                   participant wears sunscreen    2= 1 day
+                                                                                  3= 3 days
+                                                                                  4= 5 days
+                                                                                  5= Daily
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  150    2 2.0       SEPYTANB         B.8          Past year participant has      1= Yes
+                                                   used tanning booth             2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  152    2 2.0       SEPYTANT         B.8.a        Past year frequency used       1= 1 - 20
+                                                   tanning booth                  2= 21 - 50
+                                                                                  3= 51 - 75
+                                                                                  4= 76 - 100
+                                                                                  5= 101 - 150
+                                                                                  6= 151 - 200
+                                                                                  7= 200+
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  154    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  155    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

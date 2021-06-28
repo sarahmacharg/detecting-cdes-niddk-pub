@@ -1,0 +1,1091 @@
+                               CODEBOOK
+V2015                              11-9-2017
+L21 - Specimen Collection Form for Visit 2
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSSC           A.3          Form version                   09/01/04= 09/01/04
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    7 7.3       SCVISDAT         A.4          Specimen collection date in    0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   25    3 $         SCINITL          A.5          Initials of person completing  Character
+                                                   form
+
+   28    2 2.0       ACCELVIS         OldA.6       Old: Accelerated visit         1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   30    2 2.0       SCFEMCBP         B.1          Participant is female of       1= YES
+                                                   child-bearing potential        2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   32    7 7.3       SCUPRGDT         B.2          Date of urine pregnancy test   0.000= 0.000 years
+                                                   in duration of year from the   .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   39    2 2.0       SCUPRGRS         B.2.b        Urine pregnancy test result    1= Positive
+                                                                                  2= Negative
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   41    2 2.0       SCMUPGFR         OldB.3       Old: Make-up GFR visit         1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   43    7 7.3       SCMUGFRD         OldB.3.a     Old: Make-up GFR date in       0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   50    2 2.0       SCMUIVIN         OldB.4.a     Old: Reason for make-up GFR -  1= YES
+                                                   IV infiltration                2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   52    2 2.0       SCMU4BLD         OldB.4.b     Old: Reason for make-up GFR -  1= YES
+                                                   unable to draw 4 blood samples 2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   54    2 2.0       SCMUOTHR         OldB.4.c     Old: Reason for make-up GFR -  1= YES
+                                                   other reason                   2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   56   50 $         SCMUOTSP         OldB.4.c.i   Old: Reason for make-up GFR -  Character
+                                                   specify other reason
+
+  106    2 2.0       SCFURINE         B.3.a        Urine creatinine/protein/      1= YES
+                                                   albumin sample obtained        2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  108    2 2.0       SCFURESN         B.3.b        Reason urine creatinine/       1= Not required
+                                                   protein/albumin sample not     2= Difficult urine collection
+                                                   obtained                       3= Participant refused
+                                                                                  4= Collection contamination
+                                                                                  5= Inadvertently destroyed
+                                                                                  6= Oversight
+                                                                                  7= Insuffiecient Volume
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  110    2 2.0       SCFMURIN         B.3.c.i      Urine creatinine/protein/      1= YES
+                                                   albumin is 1st morning urine   2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  112    5 time5.    SCURTIME         B.3.c.ii     Time urine creatinine/protein/ 01:00= 01:00
+                                                   albumin collected              .
+                                                                                  .
+                                                                                  12:59= 12:59
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  117    2 2.0       SCURMER          B.3.c.ii     AM/PM for time urine           1= AM
+                                                   creatinine/protein/albumin     2= PM
+                                                   collected                      -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  119    2 2.0       SCURMTAL         OldB.4.a     Old: Urine heavy metals        1= YES
+                                                   sample obtained                2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  121    2 2.0       SCUMRESN         OldB.4.b     Old: Reason urine heavy        1= Not required
+                                                   metals sample not obtained     2= Difficult urine collection
+                                                                                  3= Participant refused
+                                                                                  4= Collection contamination
+                                                                                  5= Inadvertently destroyed
+                                                                                  6= Oversight
+                                                                                  7= Insuffiecient Volume
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  123    2 2.0       SCUMSMVD         B.4.c.i      Old: Same void used to         1= YES
+                                                   collect CBL and heavy metal    2= NO
+                                                   samples                        -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  125    2 2.0       SCFUHOME         OldB.5.c.i   Old: Urine collected at home   1= YES
+                                                                                  2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  127    5 time5.    SCTIMZRO         C.1          Time of time zero blood draw   01:00= 01:00
+                                                                                  .
+                                                                                  .
+                                                                                  12:59= 12:59
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  132    2 2.0       SCMERZRO         C.1          AM/PM for time of time=zero    1= AM
+                                                   blood draw                     2= PM
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  134    2 2.0       SCRNCHEM         C.2.a        Renal/uric acid chemistries    1= YES
+                                                   sample obtained                2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  136    2 2.0       SCRCRESN         C.2.b        Reason renal/uric acid         1= Not required
+                                                   chemistries sample not         2= Difficult blood draw
+                                                   obtained                       3= Participant refused
+                                                                                  4= Red blood cell
+                                                                                     contamination
+                                                                                  5= Inadvertently destroyed
+                                                                                  6= Oversight
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  138    2 2.0       SCRCAPPR         C.2.c        Renal/uric acid chemistries -  1= Grossly (Dark Red)
+                                                   appearance of serum after      2= Moderately (Red/Light Red)
+                                                   centrifuging                   3= Slightly (Pink)
+                                                                                  4= Not Hemolyzed (Yellow)
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  140    2 2.0       SCCYSTAC         C.3.a        Cystatin C sample obtained     1= YES
+                                                                                  2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  142    2 2.0       SCCCRESN         C.4.b        Reason Cystatin C sample not   1= Not required
+                                                   obtained                       2= Difficult blood draw
+                                                                                  3= Participant refused
+                                                                                  4= Red blood cell
+                                                                                     contamination
+                                                                                  5= Inadvertently destroyed
+                                                                                  6= Oversight
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  144    7 7.3       SCCCFROZ         C.3.c        Date Cystatin C frozen in      0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  151    2 2.0       SCLOCCBC         C.4a.a       Local CBC sample obtained      1= YES
+                                                                                  2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  153    2 2.0       SCLCRESN         C.4a.b       Reason Local CBC sample not    1= Not required
+                                                   obtained                       2= Difficult blood draw
+                                                                                  3= Participant refused
+                                                                                  4= Red blood cell
+                                                                                     contamination
+                                                                                  5= Inadvertently destroyed
+                                                                                  6= Oversight
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  155    2 2.0       SCLOCRPL         C.4b.a       Local Renal Panel sample       1= YES
+                                                   obtained                       2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  157    2 2.0       SCLRRESN         C.4b.b       Reason Local Renal Panel       1= Not required
+                                                   sample not obtained            2= Difficult blood draw
+                                                                                  3= Participant refused
+                                                                                  4= Red blood cell
+                                                                                     contamination
+                                                                                  5= Inadvertently destroyed
+                                                                                  6= Oversight
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  159    2 2.0       SCFASTLP         C.5.a        Serum for lipid panel sample   1= YES
+                                                   obtained                       2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  161    2 2.0       SCLPRESN         C.5.b        Reason lipid panel sample not  1= Not required
+                                                   obtained                       2= Difficult blood draw
+                                                                                  3= Participant refused
+                                                                                  4= Red blood cell
+                                                                                     contamination
+                                                                                  5= Inadvertently destroyed
+                                                                                  6= Oversight
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  163    2 2.0       SCLPFAST         C.5.c        Child fasted after midnight    1= YES
+                                                                                  2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  165    2 2.0       SCWBMTAL         OldC.6.a     Old: Whole blood for Heavy     1= YES
+                                                   Metals sample obtained         2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  167    2 2.0       SCWMRESN         OldC.6.b     Old: Reason whole blood for    1= Not required
+                                                   Heavy Metals sample not        2= Difficult blood draw
+                                                   obtained                       3= Participant refused
+                                                                                  4= Red blood cell
+                                                                                     contamination
+                                                                                  5= Inadvertently destroyed
+                                                                                  6= Oversight
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  169   20 $         SCFAXNUM         OldC.6.a     Old: Fax number for results    Character
+
+  189   30 $         SCRCNAME         OldC.6.b     Old: Recipient's name          Character
+
+  219    2 2.0       SCCONMCK         C.6          Participant consented to have  1= Yes
+                                                   biological samples stored at   2= No
+                                                   NIDDK                          -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  221    2 2.0       SCSRMCKS         C.7.a        Serum for NIDDK Biosample      1= YES
+                                                   Repository sample obtained     2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  223    2 2.0       SCSRRESN         C.7.b        Reason serum for NIDDK         1= Not required
+                                                   Biosample Repository sample    2= Difficult blood draw
+                                                   not obtained                   3= Participant refused
+                                                                                  4= Red blood cell
+                                                                                     contamination
+                                                                                  5= Inadvertently destroyed
+                                                                                  6= Oversight
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  225    7 7.3       SCSRFROZ         C.7.c        Date serum for NIDDK           0.000= 0.000 years
+                                                   Biosample Repository frozen    .
+                                                   in duration of year from the   .
+                                                   baseline visit                 50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  232    2 2.0       SCPLMCKS         C.8.a        Plasma for NIDDK Biosample     1= YES
+                                                   Repository sample obtained     2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  234    2 2.0       SCPLRESN         C.8.b        Reason plasma for NIDDK        1= Not required
+                                                   Biosample Repository sample    2= Difficult blood draw
+                                                   not obtained                   3= Participant refused
+                                                                                  4= Red blood cell
+                                                                                     contamination
+                                                                                  5= Inadvertently destroyed
+                                                                                  6= Oversight
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  236    7 7.3       SCPLFROZ         C.8.c        Date plasma for NIDDK          0.000= 0.000 years
+                                                   Biosample Repository frozen    .
+                                                   in duration of year from the   .
+                                                   baseline visit                 50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  243    2 2.0       SCURMCKS         D.1.a        Urine for NIDDK Biosample      1= YES
+                                                   Repository sample obtained     2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  245    2 2.0       SCURRESN         D.1.b        Reason urine for NIDDK         1= Not required
+                                                   Biosample Repository sample    2= Difficult urine collection
+                                                   not obtained                   3= Participant refused
+                                                                                  4= Collection contamination
+                                                                                  5= Inadvertently destroyed
+                                                                                  6= Oversight
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  247    2 2.0       SCURCRYO         D.1.c.i      Supernate decanted into urine  1= YES
+                                                   transport cyrovials            2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  249    7 7.3       SCURFROZ         OldD.1.c.ii  Old: Date urine for NIDDK      0.000= 0.000 years
+                                                   Biosample Repository frozen    .
+                                                   in duration of year from the   .
+                                                   baseline visit                 50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  256    2 2.0       SCMPLLAB         OldE.1       Old: Basic metabolic panel     1= YES
+                                                   performed at local lab         2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  258    2 2.0       SCFULLAB         E.2          Urine protein to creatinine    1= YES
+                                                   assay performed at local       2= NO
+                                                   laboratory                     -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  260    5 5.2       SCISWTWM         F.1.a        Infusion syringe weight -      5.00= 5.00
+                                                   with iohexol                   .
+                                                                                  .
+                                                                                  25.00= 25.00
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  265    5 5.2       SCISWTAI         F.1.b        Infusion syringe weight -      4.00= 4.00
+                                                   after infusion                 .
+                                                                                  .
+                                                                                  15.00= 15.00
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  270    5 time5.    SCIOSTIM         G.1.a        Iohexol infusion start time    01:00= 01:00
+                                                                                  .
+                                                                                  .
+                                                                                  12:59= 12:59
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  275    2 2.0       SCIOSMER         G.1.a        AM/PM for iohexol infusion     1= AM
+                                                   start time                     2= PM
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  277    2 2.0       SC10MBL          OldG.2.a.i   Old: Minutes on timer - B1 10  5= 5
+                                                   minute                         .
+                                                                                  .
+                                                                                  15= 15
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  279    5 time5.    SC10MTIM         OldG.2.a.ii  Old: Time of B1 10 minute      01:00= 01:00
+                                                   blood draw                     .
+                                                                                  .
+                                                                                  12:59= 12:59
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  284    2 2.0       SC10MMER         OldG.2.a.ii  Old: AM/PM for time of B1 10   1= AM
+                                                   minute blood draw              2= PM
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  286    2 2.0       SC10DIF          OldG.2.a.iii  Old: Difficult blood draw -    1= YES
+                                                   B1 10 minute                   2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  288    4 4.1       SC10MBV          OldG.2.a.iv  Old: Blood volume collected -  0.1= 0.1
+                                                   B1 10 minute                   .
+                                                                                  .
+                                                                                  8.0= 8.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  292    2 2.0       SC10MCS          OldG.2.a.v   Old: Centrifuged at clinical   1= YES
+                                                   site -  B1 10 minute           2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  294    2 2.0       SC10M2A          OldG.2.b.i   Old: Minutes on timer - B1 10  10= 10
+                                                   2nd attempt                    .
+                                                                                  .
+                                                                                  20= 20
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  296    5 time5.    SC10M2TM         OldG.2.b.ii  Old: Time of B1 10 minute      01:00= 01:00
+                                                   blood draw - 2nd attempt       .
+                                                                                  .
+                                                                                  12:59= 12:59
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  301    2 2.0       SC10M2MR         OldG.2.b.ii  Old: AM/PM for time of B1 10   1= AM
+                                                   minute blood draw - 2nd        2= PM
+                                                   attempt                        -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  303    2 2.0       SC10DIF2         OldG.2.b.iii  Old: Difficult blood draw -    1= YES
+                                                   B1 10 2nd attempt              2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  305    4 4.1       SC10M2BV         OldG.2.b.iv  Old: Blood volume collected -  0.1= 0.1
+                                                   B1 10 2nd attempt              .
+                                                                                  .
+                                                                                  8.0= 8.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  309    2 2.0       SC10M2CS         OldG.2.b.v   Old: Centrifuged at clinical   1= YES
+                                                   site -  B1 10 2nd attempt      2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  311    3 3.0       SCPSTSYS         G.2.a.i      Post-infusion blood pressure - 20= 20
+                                                   systolic                       .
+                                                                                  .
+                                                                                  240= 240
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  314    3 3.0       SCPSTDIA         G.2.a.i      Post-infusion blood pressure - 20= 20
+                                                   diastolic                      .
+                                                                                  .
+                                                                                  200= 200
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  317    5 5.1       SCPSTTMP         G.2.b.i      Post-infusion temperature      34.0= 34.0
+                                                                                  .
+                                                                                  .
+                                                                                  105.0= 105.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  322    2 2.0       SCCNTFAR         G.2.b.i      Centigrade or Farenheit        1= Centigrade Typical range:
+                                                                                     36.1-38.3
+                                                                                  2= Farenheit Typical range:
+                                                                                     94.5-100.6
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  324    3 3.0       SCPSTPLS         G.2.c.i      Post-infusion pulse            20= 20
+                                                   measurement                    .
+                                                                                  .
+                                                                                  180= 180
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  327    2 2.0       SCPSTRES         G.2.d.i      Post-infusion respirations     4= 4
+                                                                                  .
+                                                                                  .
+                                                                                  44= 44
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  329    2 2.0       SC30MBL          OldG.4.a.i   Old: Minutes on timer - B2 30  25= 25
+                                                   minute                         .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  331    5 time5.    SC30MTIM         OldG.4.a.ii  Old: Time of B2 30 minute      01:00= 01:00
+                                                   blood draw                     .
+                                                                                  .
+                                                                                  12:59= 12:59
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  336    2 2.0       SC30MMER         OldG.4.a.ii  Old: AM/PM for time of B2 30   1= AM
+                                                   minute blood draw              2= PM
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  338    2 2.0       SC30DIF          OldG.4.a.iii  Old: Difficult blood draw -    1= YES
+                                                   B2 30 minute                   2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  340    4 4.1       SC30MBV          OldG.4.a.iv  Old: Blood volume collected -  0.1= 0.1
+                                                   B2 30 minute                   .
+                                                                                  .
+                                                                                  8.0= 8.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  344    2 2.0       SC30MCS          OldG.4.a.v   Old: Centrifuged at clinical   1= YES
+                                                   site -  B2 30 minute           2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  346    2 2.0       SC30M2A          OldG.4.b.i   Old: Minutes on timer - B2 30  25= 25
+                                                   2nd attempt                    .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  348    5 time5.    SC30M2TM         OldG.4.b.ii  Old: Time of B2 30 minute      01:00= 01:00
+                                                   blood draw - 2nd attempt       .
+                                                                                  .
+                                                                                  12:59= 12:59
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  353    2 2.0       SC30M2MR         OldG.4.b.ii  Old: AM/PM for time of B2 30   1= AM
+                                                   minute blood draw - 2nd        2= PM
+                                                   attempt                        -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  355    2 2.0       SC30DIF2         OldG.4.b.iii  Old: Difficult blood draw -    1= YES
+                                                   B2 30 2nd attempt              2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  357    4 4.1       SC30M2BV         OldG.4.b.iv  Old: Blood volume collected -  0.1= 0.1
+                                                   B2 30 2nd attempt              .
+                                                                                  .
+                                                                                  8.0= 8.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  361    2 2.0       SC30M2CS         OldG.4.b.v   Old: Centrifuged at clinical   1= YES
+                                                   site -  B2 30 2nd attempt      2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  363    2 2.0       SC120HBL         G.3.a.i      Hours on timer - B1 120 hour   1= 1
+                                                                                  .
+                                                                                  .
+                                                                                  3= 3
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  365    2 2.0       SC120MBL         G.3.a.i      Minutes on timer - B1 120      0= 0
+                                                   minute                         .
+                                                                                  .
+                                                                                  59= 59
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  367    5 time5.    SC120MTM         G.3.a.ii     Time of B1 120 minute blood    01:00= 01:00
+                                                   draw                           .
+                                                                                  .
+                                                                                  12:59= 12:59
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  372    2 2.0       SC120MMR         G.3.a.ii     AM/PM for time of B1 120       1= AM
+                                                   minute blood draw              2= PM
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  374    2 2.0       SC120DIF         G.3.a.iii    Difficult blood draw - B1 120  1= YES
+                                                   minute                         2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  376    2 2.0       SC120VEN         G.3.a.iv     Drawn by venipuncture - B1     1= YES
+                                                   120 minute                     2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  378    4 4.1       SC120MBV         G.3.a.v      Blood volume collected - B1    0.1= 0.1
+                                                   120 minute                     .
+                                                                                  .
+                                                                                  8.0= 8.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  382    2 2.0       SC120MCS         G.3.a.vi     Centrifuged at clinical site - 1= YES
+                                                   B1 120 minute                  2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  384    2 2.0       SC120H2A         G.3.b.i      Minutes on timer - B1 120      1= 1
+                                                   hour 2nd attempt               .
+                                                                                  .
+                                                                                  3= 3
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  386    2 2.0       SC120M2A         G.3.b.i      Minutes on timer - B1 120 2nd  0= 0
+                                                   attempt mins                   .
+                                                                                  .
+                                                                                  59= 59
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  388    5 time5.    SC120M2T         G.3.b.ii     Time of B1 120 minute blood    01:00= 01:00
+                                                   draw - 2nd attempt             .
+                                                                                  .
+                                                                                  12:59= 12:59
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  393    2 2.0       SC120M2M         G.3.b.ii     AM/PM for time of B1 120       1= AM
+                                                   minute blood draw - 2nd        2= PM
+                                                   attempt                        -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  395    2 2.0       SC120DF2         G.3.b.iii    Difficult blood draw - B1 120  1= YES
+                                                   2nd attempt                    2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  397    2 2.0       SC120VN2         G.3.b.iv     Drawn by venipuncture - B1     1= YES
+                                                   120 2nd attempt                2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  399    4 4.1       SC1202BV         G.3.b.v      Blood volume collected - B1    0.1= 0.1
+                                                   120 2nd attempt                .
+                                                                                  .
+                                                                                  8.0= 8.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  403    2 2.0       SC1202CS         G.3.b.vi     Centrifuged at clinical site - 1= YES
+                                                   B1 120 2nd attempt             2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  405    2 2.0       SC300HBL         G.4.a.i      Hours on timer - B2 300 hour   4= 4
+                                                                                  .
+                                                                                  .
+                                                                                  6= 6
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  407    2 2.0       SC300MBL         G.4.a.i      Minutes on timer - B2 300      0= 0
+                                                   minute                         .
+                                                                                  .
+                                                                                  59= 59
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  409    5 time5.    SC300MTM         G.4.a.ii     Time of B2 300 minute blood    01:00= 01:00
+                                                   draw                           .
+                                                                                  .
+                                                                                  12:59= 12:59
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  414    2 2.0       SC300MMR         G.4.a.ii     AM/PM for time of B2 300       1= AM
+                                                   minute blood draw              2= PM
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  416    2 2.0       SC300DIF         G.4.a.iii    Difficult blood draw - B2 300  1= YES
+                                                   minute                         2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  418    2 2.0       SC300VEN         G.4.a.iv     Drawn by venipuncture - B2     1= YES
+                                                   300 minute                     2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  420    4 4.1       SC300MBV         G.4.a.v      Blood volume collected - B2    0.1= 0.1
+                                                   300 minute                     .
+                                                                                  .
+                                                                                  8.0= 8.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  424    2 2.0       SC300MCS         G.4.a.vi     Centrifuged at clinical site - 1= YES
+                                                   B2 300 minute                  2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  426    2 2.0       SC300H2A         G.4.b.i      Minutes on timer - B2 300      4= 4
+                                                   hour 2nd attempt               .
+                                                                                  .
+                                                                                  6= 6
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  428    2 2.0       SC300M2A         G.4.b.i      Minutes on timer - B2 300 2nd  0= 0
+                                                   attempt mins                   .
+                                                                                  .
+                                                                                  59= 59
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  430    5 time5.    SC300M2T         G.4.b.ii     Time of B2 300 minute blood    01:00= 01:00
+                                                   draw - 2nd attempt             .
+                                                                                  .
+                                                                                  12:59= 12:59
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  435    2 2.0       SC300M2M         G.4.b.ii     AM/PM for time of B2 300       1= AM
+                                                   minute blood draw - 2nd        2= PM
+                                                   attempt                        -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  437    2 2.0       SC300DF2         G.4.b.iii    Difficult blood draw - B2 300  1= YES
+                                                   2nd attempt                    2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  439    2 2.0       SC300VN2         G.4.b.iv     Drawn by venipuncture - B2     1= YES
+                                                   300 2nd attempt                2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  441    4 4.1       SC3002BV         G.4.b.v      Blood volume collected - B2    0.1= 0.1
+                                                   300 2nd attempt                .
+                                                                                  .
+                                                                                  8.0= 8.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  445    2 2.0       SC3002CS         G.4.b.vi     Centrifuged at clinical site - 1= YES
+                                                   B2 300 2nd attempt             2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  447    2 2.0       SCNHCV1B         H.2          Nail clippings and hair        1= Yes
+                                                   samples were collected at V1b  2= No
+                                                   or V2                          -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  449    2 2.0       SCPCNSNT         H.3          Participant consented to have  1= Yes
+                                                   samples stored at NIDDK        2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  451    2 2.0       SCACRYLC         H.4          Participant has acrylic nails  1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  453    2 2.0       SC10FNLS         H.5          10 fingernail clippings        1= Yes
+                                                   collected                      2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  455    2 2.0       SCNMFNLS         H.5.a        Number of fingernails          0= 0
+                                                   collected                      .
+                                                                                  .
+                                                                                  9= 9
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  457    2 2.0       SC10FRSN         H.5.b        Reason 10 fingernail           1= Nails not long enough
+                                                   clippings not collected        2= Other
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  459   75 $         SCSPOTFN         H.5.b.i      Specify other reason 10        Character
+                                                   fingernails not collected
+
+  534    2 2.0       SC10TNLS         H.6          10 toenail clippings collected 1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  536    2 2.0       SCNMTNLS         H.6.a        Number of toenails collected   0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  9= 9
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  538    2 2.0       SC10TRSN         H.6.b        Reason 10 toenail clippings    1= Nailfungus or discoloration
+                                                   not collected                  2= Nails not long enough
+                                                                                  3= Other
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  540   75 $         SCSPOTTN         H.6.b.i      Specify other reason 10        Character
+                                                   toenails not collected
+
+  615    2 2.0       SCALTHR          I.1          Participant has altered hair   1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  617    2 2.0       SC20HAIR         I.2          Able to cut 20 fibers of hair  1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  619    2 2.0       SC20HRSN         I.2.a        Reason 20 hair fibers not      1= Hair not long enough
+                                                   collected                      2= Other
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  621   75 $         SCSPOTHR         I.2.b.i      Specify other reason 20 hair   Character
+                                                   fibers not collected
+
+  696    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  697    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

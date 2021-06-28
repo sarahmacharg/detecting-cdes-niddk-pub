@@ -1,0 +1,1345 @@
+                               CODEBOOK
+V2015                              11-9-2017
+F14 - Medical History Follow-Up Form
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSMH           A.3          Form version                   09/01/04= 09/01/04
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    7 7.3       MHVISDAT         A.4          Date of visit in duration of   0.000= 0.000 years
+                                                   year from the baseline visit   .
+                                                                                  .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   25    3 $         MHINITL          A.5          Initials of person completing  Character
+                                                   form
+
+   28    5 $         MHSTIME          OldA.6       Old: Time began                1:00= 1:00
+                                                                                  .
+                                                                                  .
+                                                                                  12:59= 12:59
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   33    2 2.0       MHSMER           OldA.6       Old: AM/PM for time began      1= AM
+                                                                                  2= PM
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   35    2 2.0       ACCELVIS         A.6          Accelerated visit              1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   37    2 2.0       MHUROLOG         B.1          Child has been seen by an      1= Yes
+                                                   urologist                      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   39    2 2.0       MHURPROC         B.2          Child has had urologic         1= Yes
+                                                   procedure to treat kidney      2= No
+                                                   problem                        -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   41    2 2.0       MHGENTST         B.3          Child has had genetic test to  1= Yes
+                                                   treat kidney problem           2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   43    2 2.0       MHKINFFV         B.4          Child has had kidney           1= Yes
+                                                   infection with fever           2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   45    2 2.0       MHKINFNL         B.4.b        Number of kidney infections    1= 1
+                                                   with fever during past year    .
+                                                                                  .
+                                                                                  12= 12
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   47    2 2.0       MHFEMALE         B.5          Child is female                1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   49    2 2.0       MHMENSES         B.6          Child started menses in past   1= Yes
+                                                   year                           2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   51    2 2.0       MHMENAGE         B.6.a        Age at time of first menses    8= 8
+                                                                                  .
+                                                                                  .
+                                                                                  17= 17
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   53    2 2.0       MHDIABTS         C.1.a        Child has Diabetes Mellitus    1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   55    2 2.0       MHSKLCEL         C.1.b        Child has Sickle Cell disease  1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   57    2 2.0       MHAUTOIM         C.1.c        Child has Auto-immune disease  1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   59    2 2.0       MH_HBP           C.2.a        Child has Hypertension         1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   61    2 2.0       MHBPSTAT         C.2.a.i      Status of hypertension         1= Continued problem
+                                                                                  2= Resolved problem
+                                                                                  3= Controlled with medication
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   63    2 2.0       MH_CHF           C.2.b        Child has congestive heart     1= YES
+                                                   failure                        2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   65    2 2.0       MHSTROKE         C.2.c        Child has had a stroke         1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   67    2 2.0       MH_LVH           C.2.d        Child has had left             1= YES
+                                                   ventricular hypertrophy        2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   69    2 2.0       MHASTHMA         C.3.a        Child has Asthma               1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   71    2 2.0       MHCHRLD          C.3.b        Child has chronic lung disease 1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   73    2 2.0       MH_BPD           C.3.c        Child has bronchopulmonary     1= YES
+                                                   dysplasia                      2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   75    2 2.0       MHBLDINF         C.4.a        Child has bladder infections   1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   77    2 2.0       MHBLINUR         C.4.b        Child has blood in urine       1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   79    2 2.0       MHPRINUR         C.4.c        Child has protein in urine     1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   81    2 2.0       MHKDSTNE         C.4.d        Child has passage of kidney    1= YES
+                                                   stone                          2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   83    2 2.0       MHPAINUR         C.4.e        Child has recurrent pain on    1= YES
+                                                   urinating                      2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   85    2 2.0       MHGENTER         C.5.a        Child has gastroenteritis      1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   87    2 2.0       MHGERD           C.5.b        Child has gastroesophageal     1= YES
+                                                   reflux                         2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   89    2 2.0       MHGIULCR         C.5.c        Child has gastrointestinal     1= YES
+                                                   ulcer                          2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   91    2 2.0       MHGIBLED         C.5.d        Child has gastrointestinal     1= YES
+                                                   bleeding                       2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   93    2 2.0       MHLIVINF         C.5.e        Child has liver inflammation   1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   95    2 2.0       MHFATLIV         C.5.f        Child has fatty liver          1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   97    2 2.0       MHIRRBWL         C.5.g        Child has irritable bowel      1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   99    2 2.0       MHENCOPR         C.5.h        Child has encopresis           1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  101    2 2.0       MHHEPAT          C.6.a        Child has hepatitis            1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  103    2 2.0       MH_HEPA          C.6.a.i      Child has hepatitis - Type A   1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  105    2 2.0       MH_HEPB          C.6.a.ii     Child has hepatitis - Type B   1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  107    2 2.0       MH_HEPC          C.6.a.iii    Child has hepatitis - Type C   1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  109    2 2.0       MH_HOTH          C.6.a.iv     Child has hepatitis - Other    1= YES
+                                                   type                           2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  111   40 $         MHHOTHSP         C.6.a.iv     Specify other hepatitis type   Character
+
+  151    2 2.0       MHIDOTHR         C.6.b        Child has other infectious     1= YES
+                                                   disease                        2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  153   25 $         MHIDOTHS         C.6.b        Specify other infectious       Character
+                                                   disease type
+
+  178    2 2.0       MHCLEUKM         C.7.a        Child has leukemia             1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  180    2 2.0       MHCLYMPH         C.7.b        Child has lymphoma             1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  182    2 2.0       MHCBONEC         C.7.c        Child has bone cancer          1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  184    2 2.0       MHCLIVER         C.7.d        Child has liver cancer         1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  186    2 2.0       MHCSTSAR         C.7.e        Child has soft tissue sarcoma  1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  188    2 2.0       MHCOTHER         C.7.f        Child has other cancer         1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  190   25 $         MHCOTHSP         C.7.f        Specify other cancer type      Character
+
+  215    2 2.0       MH_ADD           C.8.a        Child has attention deficit    1= YES
+                                                   disorder                       2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  217    2 2.0       MH_ADHD          C.8.b        Child has attention deficit    1= YES
+                                                   hyperactivity disorder         2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  219    2 2.0       MHDEPRES         C.8.c        Child has depression           1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  221    2 2.0       MHLRNDIS         C.8.d        Child has learning disability  1= YES
+                                                   other than ADD or ADHD         2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  223    2 2.0       MHANXIET         C.8.e        Child has anxiety disorder     1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  225    2 2.0       MHOTNPSY         C.8.f        Child has other                1= YES
+                                                   neuropsychiatric disease       2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  227   50 $         MHSPOTNP         C.8.f        Specify other                  Character
+                                                   neuropsychiatric disease
+
+  277    2 2.0       MHCIMSLS         C.9.a        Child has had measles          1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  279    2 2.0       MHCIGERM         C.9.b        Child has had German Measles   1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  281    2 2.0       MHCIMMPS         C.9.c        Child has had Mumps            1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  283    2 2.0       MHCICPOX         C.9.d        Child has had Chickenpox       1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  285    2 2.0       MHCITBCL         C.9.e        Child has had Tuberculosis     1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  287    2 2.0       MHCIWHPC         C.9.f        Child has had Whooping Cough   1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  289    2 2.0       MHCISCFV         C.9.g        Child has had Scarlet Fever    1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  291    2 2.0       MHCIRHFV         C.9.h        Child has had Rheumatic Fever  1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  293    2 2.0       MHCIDPTH         C.9.i        Child has had Diptheria        1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  295    2 2.0       MHCIMNGT         C.9.j        Child has had Meningitis       1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  297    2 2.0       MHCIENCP         C.9.k        Child has had Encephalitis     1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  299    2 2.0       MHCIANEM         C.9.l        Child has had Anemia           1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  301    2 2.0       MHCIF104         C.9.m        Child has had Fever above 104  1= YES
+                                                   for greater than 2 days        2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  303    2 2.0       MHCIHINJ         C.9.n        Child has had Head Injury      1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  305    2 2.0       MHCICOMA         C.9.o        Child has had Coma/loss of     1= YES
+                                                   consciousness                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  307    2 2.0       MHCIOTHR         C.9.p        Child has had other childhood  1= YES
+                                                   illness                        2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  309   50 $         MHCIOTSP         C.9.p        Specify other childhood        Character
+                                                   illness
+
+  359    2 2.0       MHCISUSF         OldC.7.p     Old: Child has had sustained   1= YES
+                                                   high fever                     2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  361    2 2.0       MHNRSEIZ         C.10.a       Neurological - seizures/       1= YES
+                                                   convulsions                    2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  363    2 2.0       MHNRSPCH         C.10.b       Neurological - Speech defects  1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  365    2 2.0       MHNRACCP         C.10.c       Neurological - Accident Prone  1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  367    2 2.0       MHNRBTNL         C.10.d       Neurological - Bites nails     1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  369    2 2.0       MHNRSCKT         C.10.e       Neurological - Sucks thumb     1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  371    2 2.0       MHNRGRTH         C.10.f       Neurological - Grinds teeth    1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  373    2 2.0       MHNRTICS         C.10.g       Neurological - Twitches/Tics   1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  375    2 2.0       MHNRBNGH         C.10.h       Neurological - Bangs head      1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  377    2 2.0       MHNRRCKS         C.10.i       Neurological - Rocks back and  1= YES
+                                                   forth                          2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  379    2 2.0       MHNRBOWM         C.10.j       Neurological - Bowel           1= YES
+                                                   movements in bed/pants         2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  381    2 2.0       MHHREINF         C.11.a       Hearing - Ear infections       1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  383    2 2.0       MHHRHPRB         C.11.b       Hearing - Hearing problems     1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  385    2 2.0       MHHRTUBE         C.11.c       Hearing - Ear tubes            1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  387    2 2.0       MHVSVPRB         C.12.a       Vision - Vision problems       1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  389    2 2.0       MHVSGLAS         C.12.b       Vision - Wears glasses/        1= YES
+                                                   contacts                       2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  391    2 2.0       MHVSCBLN         C.12.c       Vision - Color blind           1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  393    2 2.0       MHBRBONE         D.1          Child has had broken bones     1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  395    2 2.0       MHBRSKUL         D.1.a.1      Child has had broken skull     1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  397    2 2.0       MHBRNECK         D.1.a.2      Child has had broken neck      1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  399    2 2.0       MHBRBACK         D.1.a.3      Child has had broken back      1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  401    2 2.0       MHBRSHLD         D.1.a.4      Child has had broken shoulder  1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  403    2 2.0       MHBRARME         D.1.a.5      Child has had broken arm/elbow 1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  405    2 2.0       MHBRWRHD         D.1.a.6      Child has had broken wrist/    1= YES
+                                                   hand                           2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  407    2 2.0       MHBRHIP          D.1.a.7      Child has had broken hip       1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  409    2 2.0       MHBRKNEE         D.1.a.8      Child has had broken knee      1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  411    2 2.0       MHBRANKL         D.1.a.9      Child has had broken ankle     1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  413    2 2.0       MHBRFOOT         D.1.a.10     Child has had broken foot      1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  415    2 2.0       MHBRLEG          D.1.a.11     Child has had broken leg       1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  417    2 2.0       MHBRFNGR         D.1.a.12     Child has had broken finger    1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  419    2 2.0       MHBRTOES         D.1.a.13     Child has had broken toes      1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  421    2 2.0       MHBRRIBS         D.1.a.14     Child has had broken ribs      1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  423    2 2.0       MHBRCOLR         D.1.a.15     Child has had broken collar    1= YES
+                                                   bone                           2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  425    2 2.0       MHBONEDS         D.2          Child has bone disease in hips 1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  427    2 2.0       MHBNDSPY         D.2.a        Bone disease diagnosed in      1= Yes
+                                                   past year                      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  429    2 2.0       MHAPPETI         OldE.1       Old: Child's appetite in past  1= Very Good
+                                                   week                           2= Good
+                                                                                  3= Fair
+                                                                                  4= Poor
+                                                                                  5= Very Poor
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  431    2 2.0       MHNGTUBE         OldE.2       Old: Child uses gastrostomy    1= Yes
+                                                   or NG tube                     2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  433    2 2.0       MHNGTUBM         OldE.2.a     Old: Number of months NG/      1= 1
+                                                   gastrostomy tube               .
+                                                                                  .
+                                                                                  12= 12
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  435    2 2.0       MHRCCLHC         F.1.a        Child received medical care -  1= YES
+                                                   clinic or health center        2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  437    2 2.0       MHRCPRDO         F.1.b        Child received medical care -  1= YES
+                                                   private doctor's office        2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  439    2 2.0       MHRCHOD          F.1.c        Child received medical care -  1= YES
+                                                   hospital outpatient department 2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  441    2 2.0       MHRCEMER         F.1.d        Child received medical care -  1= YES
+                                                   emergency room                 2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  443    2 2.0       MHRCENUM         F.1.d.1      Number of times received care  1= 1
+                                                   in ER past year                .
+                                                                                  .
+                                                                                  30= 30
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  445    2 2.0       MHRCOTHR         F.1.e        Child received medical care -  1= YES
+                                                   other location                 2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  447   50 $         MHRCOTSP         F.1.e.1      Specify other health care      Character
+                                                   location
+
+  497    2 2.0       MHHCPNUM         F.2          Number of times child saw      0= 0
+                                                   health care provider in past   .
+                                                   year                           .
+                                                                                  30= 30
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  499    2 2.0       MHHCPSME         F.3          Child's usually saw same       1= Yes
+                                                   health care provider           2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  501    2 2.0       MHHOSP12         F.4          Child has been hospitalized    1= Yes
+                                                   in past 12 months              2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  503    2 2.0       MHHSPNUM         F.4.a        Number of times child          1= 1
+                                                   hospitalized in past year      .
+                                                                                  .
+                                                                                  30= 30
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  505    2 2.0       MHSOCW12         F.5          Child saw social worker in     1= Yes
+                                                   past 12 months                 2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  507    2 2.0       MHPSYC12         F.6          Child saw mental health        1= Yes
+                                                   professional in past 12 months 2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  509    2 2.0       MHASST12         F.7          Child received food            1= Yes
+                                                   assistance in past 12 months   2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  511    2 2.0       MHPLLV12         F.8          Child received help finding a  1= Yes
+                                                   place to live                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  513    2 2.0       MHDENT12         F.9          Child saw dentist in past 12   1= Yes
+                                                   months                         2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  515    2 2.0       MHNUTR12         F.10         Child saw nutritionist in      1= Yes
+                                                   past 12 months                 2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  517    2 2.0       MHHLTHIN         G.1          Child has health insurance     1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  519    2 2.0       MHLSHLIN         G.1.a        Length of time since child     1= 6 months or less
+                                                   had health insurance           2= More than 6 months, but no
+                                                                                     more than 1 year ago
+                                                                                  3= More than 1 year, but no
+                                                                                     more than 3 years ago
+                                                                                  4= More than 3 years
+                                                                                  5= Never had health insurance
+                                                                                     coverage
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  521    2 2.0       MHPYHLIN         G.1.b        Past year any time child had   1= Yes
+                                                   no health insurance            2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  523    3 3.0       MHPYLWHI         G.1.c        Past year length of time       1= 1
+                                                   child was without insurance    .
+                                                                                  .
+                                                                                  365= 365
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  526    2 2.0       MHPYLMWD         G.1.c        Past year length of time       1= Months
+                                                   child was without insurance -  2= Weeks
+                                                   months/weeks/days              3= Days
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  528    2 2.0       MHPYHIMC         G.1.d        Past year child had no health  1= Yes
+                                                   insurance due to medical cost  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  530    2 2.0       MHMDICAL         G.2          Child has California Medi-CAL  1= Yes
+                                                                                  2= No
+                                                                                  99= NA
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  532    2 2.0       MHMDASST         G.3          Child has Maryland Medical     1= Yes
+                                                   Assistance                     2= No
+                                                                                  99= NA
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  534    2 2.0       MHMDCAID         G.4          Child has Medicaid             1= Yes
+                                                                                  2= No
+                                                                                  99= NA
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  536    2 2.0       MHEMPPLN         G.5          Child has private plan from    1= Yes
+                                                   employer                       2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  538    2 2.0       MHEMPPAY         G.5.a        Family pays for (part of)      1= Yes
+                                                   premium - employer plan        2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  540    2 2.0       MHPRVPLN         G.6          Child has private plan         1= Yes
+                                                   purchased directly             2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  542    2 2.0       MHPRVPAY         G.6.a        Family pays for (part of)      1= Yes
+                                                   premium - direct private plan  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  544    2 2.0       MHGOVPLN         G.7          Child has government plan      1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  546    2 2.0       MHGOVPAY         G.7.a        Family pays for (part of)      1= Yes
+                                                   premium - government plan      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  548    2 2.0       MH_CHIP          G.8          Child has CHIP plan            1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  550    2 2.0       MHCHPPAY         G.8.a        Family pays for (part of)      1= Yes
+                                                   premium - CHIP plan            2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  552    2 2.0       MHMLTYVA         G.9          Child has Military/VA plan     1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  554    2 2.0       MHVAPAY          G.9.a        Family pays for (part of)      1= Yes
+                                                   premium - military/VA plan     2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  556    2 2.0       MHCHMPUS         G.10         Child has CHAMPUS/VA plan      1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  558    2 2.0       MHCPSPAY         G.10.a       Family pays for (part of)      1= Yes
+                                                   premium - CHAMPUS/VA plan      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  560    2 2.0       MHSTDTHC         G.11         Child has Student plan         1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  562    2 2.0       MHSTUPAY         G.11.a       Family pays for (part of)      1= Yes
+                                                   premium - Student plan         2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  564    2 2.0       MHSTATEP         G.12         Child has State plan           1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  566    2 2.0       MHSTEPAY         G.12.a       Family pays for (part of)      1= Yes
+                                                   premium - State plan           2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  568    2 2.0       MHDNTINS         G.13         Child has dental insurance     1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  570    2 2.0       MHVISINS         G.14         Child has vision insurance     1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  572    2 2.0       MHOTHINS         G.15         Child has other types of       1= Yes
+                                                   insurance                      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  574   50 $         MHOTINSP         G.15         Specify other type of          Character
+                                                   insurance
+
+  624    2 2.0       MHPRESCR         G.16         Plan(s) assist with            1= Yes
+                                                   prescriptions/medications      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  626    2 2.0       MHPYWRXC         G.17         Past year child without        1= Yes
+                                                   prescriptions due to medical   2= No
+                                                   cost                           -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  628    2 2.0       MHDOCHSP         G.18         Health plans pay for doctors   1= Yes
+                                                   and hospitals                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  630    2 2.0       MHPYFCRI         G.19         Past year difficulty filing    1= Yes
+                                                   claims/getting reimbursed      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  632    2 2.0       MHPYDFCR         G.20         Past year problem getting      1= A big problem
+                                                   necessary care                 2= A small problem
+                                                                                  3= No problem
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  634    2 2.0       MHPYLSTN         G.21         Past year health care          1= Never
+                                                   providers listened carefully   2= Sometimes
+                                                                                  3= Usually
+                                                                                  4= Always
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  636    2 2.0       MHPYEXPL         G.22         Past year health care          1= Never
+                                                   providers explained so client  2= Sometimes
+                                                   understood                     3= Usually
+                                                                                  4= Always
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  638    2 2.0       MHPYRESP         G.23         Past year health care          1= Never
+                                                   providers showed respect for   2= Sometimes
+                                                   what client said               3= Usually
+                                                                                  4= Always
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  640    2 2.0       MHPYTIME         G.24         Past year health care          1= Never
+                                                   providers spent enough time    2= Sometimes
+                                                   with client                    3= Usually
+                                                                                  4= Always
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  642    2 2.0       MHPYRATE         G.25         Past year 0-10 rating of       0= 0
+                                                   health care                    .
+                                                                                  .
+                                                                                  10= 10
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  644    2 2.0       MHEVRRTX         OldH.1       Old: Ever discussed renal      1= Yes
+                                                   replacement therapy with HCP   2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  646    2 2.0       MHPYRRTX         H.2          Past year discussed renal      1= Yes
+                                                   replacement therapy with HCP   2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  648    2 2.0       MHPYRTXS         H.2.a        Past year discussed            1= Yes
+                                                   replacement therapy specifics  2= No
+                                                   with HCP                       -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  650    2 2.0       MHDSDIAL         H.3          Discussed dialysis             1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  652    2 2.0       MHPRFMOD         H.4          Dialysis modality preferred    1= Hemodialysis
+                                                                                  2= Peritoneal dialysis
+                                                                                  3= No preference
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  654    2 2.0       MHDSTRNS         H.5          Discussed transplantation      1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  656    2 2.0       MHDSDOLD         H.6.a        Donor option discussed -       1= YES
+                                                   Living donor                   2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  658    2 2.0       MHDSDODD         H.6.b        Donor option discussed -       1= YES
+                                                   Deceased donor                 2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  660    2 2.0       MHDDTRNS         H.7          Child has been listed for      1= Yes
+                                                   deceased donor transplantation 2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  662    7 7.3       MHDDDATE         H.7.a        Date listed for deceased       0.000= 0.000 years
+                                                   donor transplantation in       .
+                                                   duration of year from the      .
+                                                   baseline visit                 50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  669    5 $         MHETIME          OldH.1       Old: Time ended                1:00= 1:00
+                                                                                  .
+                                                                                  .
+                                                                                  12:59= 12:59
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  674    2 2.0       MHEMER           OldH.1       Old: AM/PM for time ended      1= AM
+                                                                                  2= PM
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  676    7 7.3       MHREVDAT         I.1          Date of form review in         0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  683    3 $         MHRVINIT         I.2          Initials of person reviewing   Character
+                                                   form
+
+  686    2 2.0       MHFADMIN         I.3          Form administration            1= Interviewer-Assisted
+                                                                                  2= Self-Administered
+                                                                                  3= Both
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  688    2 2.0       MHDLCONF         I.4          Date listed for                1= YES
+                                                   transplantation confirmed by   2= NO
+                                                   site in duration of year from  -1= N.A. (Skipped)
+                                                   the baseline visit             -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  690    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  691    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

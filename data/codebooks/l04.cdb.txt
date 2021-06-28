@@ -1,0 +1,150 @@
+                               CODEBOOK
+V2015                              11-9-2017
+L04 - Local Laboratory - CBC Results
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSCB           A.3          Form version                   09/01/04= 09/01/04
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    7 7.3       CBDTCOMP         A.4          Date form completed in         0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   25    3 $         CBINITL          A.5          Initials of person completing  Character
+                                                   form
+
+   28    2 2.0       ACCELVIS         A.6          Accelerated visit              1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   30    2 2.0       CBTESTAV         B.1          CBC test results available     1= Yes
+                                                                                  2= No, Sample Inadequate
+                                                                                  3= No, Other Reason
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   32  200 $         CBRNAVAL         B.1.a        Specify reason CBC test        Character
+                                                   results not available
+
+  232    7 7.3       CBDATESM         B.2          Date sample drawn for CBC      0.000= 0.000 years
+                                                   tests in duration of year      .
+                                                   from the baseline visit        .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  239    5 5.0       CB_WBC           B.3.a        Result: Leukocyte Count (cu    1000= 1000
+                                                   mm)                            .
+                                                                                  .
+                                                                                  30000= 30000
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  244    5 5.2       CB_RBC           B.3.b        Result: Erythrocyte Count (M/  4.20= 4.20
+                                                   cu mm) or (x10-6 uL)           .
+                                                                                  .
+                                                                                  9.99= 9.99
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  249    3 3.0       CB_PLT           B.3.c        Result: Platelet Count (K/cu   100= 100
+                                                   mm) or (x10-3 uL)              .
+                                                                                  .
+                                                                                  500= 500
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  252    5 5.1       CB_HGB           B.3.d        Result: Hemoglobin (g/dL)      10.0= 10.0
+                                                                                  .
+                                                                                  .
+                                                                                  16.0= 16.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  257    4 4.1       CB_HCT           B.3.e        Result: PCV - Hematocrit (%)   30.0= 30.0
+                                                                                  .
+                                                                                  .
+                                                                                  50.0= 50.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  261    4 4.1       CB_MCH           B.3.f        Result: Mean Corpuscular       23= 23
+                                                   Hemoglobin (pg/cell)           .
+                                                                                  .
+                                                                                  35= 35
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  265    5 5.1       CB_MCHC          B.3.g        Result: MCH Concentration (g/  30.0= 30.0
+                                                   dL)                            .
+                                                                                  .
+                                                                                  40.0= 40.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  270    6 6.1       CB_MCV           B.3.h        Result: MC Volume (fL)         74.0= 74.0
+                                                                                  .
+                                                                                  .
+                                                                                  110.0= 110.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  276    5 5.1       CB_RCD           B.3.i        Result: Red Cell Distribution  9.0= 9.0
+                                                   Width (%)                      .
+                                                                                  .
+                                                                                  20.0= 20.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  281    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  282    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

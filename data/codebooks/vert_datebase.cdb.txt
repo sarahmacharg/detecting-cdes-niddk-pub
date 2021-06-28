@@ -1,0 +1,44 @@
+                               CODEBOOK
+DATEBASE Summary File                              11-9-2017
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID                        Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    4 4.0       VISIT                         Visit #                        10= v1a
+                                                                                  15= v1b
+                                                                                  20= v2
+                                                                                  30= v3
+                                                                                  .
+                                                                                  .
+                                                                                  90= v9
+                                                                                  x1 or x6= Transitional
+                                                                                  (visstatus=2)
+
+   11    7 7.3       YEAR                          Time after baseline visit      0.000= 0.000 years
+                                                   (years)                        .
+                                                                                  .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   18    3 3.0       VISSTATUS                     Visit Status                   0= Regular
+                                                                                  1= Irregular
+                                                                                  2= Transitional
+                                                                                  3= Dialysis
+                                                                                  4= Transplant
+                                                                                  5= Phone/In-Person (PIP)
+                                                                                     Follow-up
+                                                                                  6= Online Survey (ePIP)
+                                                                                  9= Disenrollment
+
+   21    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

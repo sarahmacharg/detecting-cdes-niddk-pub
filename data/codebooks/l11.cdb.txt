@@ -1,0 +1,85 @@
+                               CODEBOOK
+V2015                              11-9-2017
+L11 - Children's Mercy Hospital - Cystatin C Results
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSCC           A.3          Form version                   09/01/04= 09/01/04
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    2 2.0       CCTESTAV         B.1          Cystatin C test results        1= Yes
+                                                   available                      2= No, Sample Inadequate
+                                                                                  3= No, Other Reason
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   20   25 $         CCRNAVAL         B.1.a        Specify reason Cystatin C      Character
+                                                   test results not available
+
+   45    7 7.3       CCDATESM         B.2          Date sample drawn for          0.000= 0.000 years
+                                                   Cystatin C tests in duration   .
+                                                   of year from the baseline      .
+                                                   visit                          50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   52    2 2.0       CCLABANL         B.3          Lab which analyzed sample      1= CBL
+                                                                                  2= CMH
+                                                                                  3= BOTH
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   54    5 5.2       CCCYCCBL         B.4          Result: Cystatin C (mg/L)- CBL 1.0= 1.0
+                                                                                  .
+                                                                                  .
+                                                                                  9.99= 9.99
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   59    5 5.2       CCSRMCYC         B.5          Result: Cystatin C (mg/L)- CMH 1.0= 1.0
+                                                                                  .
+                                                                                  .
+                                                                                  9.99= 9.99
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   64    5 5.2       CCCYCVOL         B.5.a        Result: Cystatin C CMH volume  1.00= 1.00
+                                                                                  .
+                                                                                  .
+                                                                                  12.99= 12.99
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   69    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+   70    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

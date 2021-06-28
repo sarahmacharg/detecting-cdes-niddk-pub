@@ -1,0 +1,352 @@
+                               CODEBOOK
+V2015                              11-9-2017
+F19 - Hand Grip Test
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSHG           A.3          Form version                   09/01/04= 09/01/04
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    7 7.3       HGVISDAT         A.4          Date of Visit in duration of   0.000= 0.000 years
+                                                   year from the baseline visit   .
+                                                                                  .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   25    3 $         HGINITL          A.5          Initials of person completing  Character
+                                                   form
+
+   28    2 2.0       HGAGE6Y          A.6          Participant is at least 6      1= YES
+                                                   years of age                   2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   30    2 2.0       HGVISLIM         A.6.b        Participant has visible        0= No visible limitations
+                                                   limitations to hand(s)         1= Visible limitation to
+                                                                                     <B>right</B> hand
+                                                                                  2= Visible limitation to
+                                                                                     <B>left</B> hand
+                                                                                  3= Visible limitation to
+                                                                                     <B>both</B> hands
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   32    2 2.0       HGHNDSRG         A.6.c        Participant had hand surgery   0= No surgery to hands in the
+                                                   in past 3 months                  last 3 months
+                                                                                  1= Yes, surgery to <B>right</
+                                                                                     B> hand in the last 3
+                                                                                     months
+                                                                                  2= Yes, surgery to <B>left</
+                                                                                     B> hand in the last 3
+                                                                                     months
+                                                                                  3= Yes, surgery to <B>both</
+                                                                                     B> hands in the last 3
+                                                                                     months
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   34    2 2.0       HGONEHND         A.6.d        Participant has at least one   1= YES
+                                                   hand without limitations or    2= NO
+                                                   surgery                        -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   36    2 2.0       HGWHLCHR         A.6.e        Participant is using a         1= YES
+                                                   wheelchair                     2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   38    2 2.0       HGCMPHGT         A.7          Participant completed hand     1= YES
+                                                   grip test                      2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   40    2 2.0       HGSUARCT         B.1          Participant has had surgery    1= YES
+                                                   for arthritis or carpal tunnel 2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   42    2 2.0       HGSUHAND         B.1.b        Hand which had arthritis/      1= Right hand/wrist
+                                                   carpal tunnel surgery          2= Left hand/wrist
+                                                                                  3= Both hands/wrists
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   44    2 2.0       HGPNP7DY         B.2          Participant has had hand pain/ 1= YES
+                                                   stiffness past 7 days          2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   46    2 2.0       HGPNCAUS         B.2.b        Hand pain/stiffness caused by  0= No, pain is not caused by
+                                                   arthritis, tendonitis, carpal     arthritis, tendonitis or
+                                                   tunnel                            carpal tunnel syndrome
+                                                                                  1= Yes, pain in <B>right<B>
+                                                                                     hand is caused by
+                                                                                     arthritis, tendonitis or
+                                                                                     carpal tunnel syndrome
+                                                                                  2= Yes, pain in <B>left<B>
+                                                                                     hand is caused by
+                                                                                     arthritis, tendonitis or
+                                                                                     carpal tunnel syndrome
+                                                                                  3= Yes, pain in <B>both<B>
+                                                                                     hand is caused by
+                                                                                     arthritis, tendonitis or
+                                                                                     carpal tunnel syndrome
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   48    2 2.0       HGPNWP7D         B.2.c        Hand pain/stiffness worse in   0= No, pain has not gotten
+                                                   past 7 days                       worse
+                                                                                  1= Yes, pain has gotten worse
+                                                                                     in <B>right</B> hand
+                                                                                  2= Yes, pain has gotten worse
+                                                                                     in <B>left</B> hand
+                                                                                  3= Yes, pain has gotten worse
+                                                                                     in <B>both</B> hands
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   50    2 2.0       HGHANDED         B.3          Participant is right/left/     1= Right-handed
+                                                   both-handed                    2= Left-handed
+                                                                                  3= Use both hands equally
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   52    2 2.0       HG90DRIF         B.4          Participant able to achieve    1= YES
+                                                   90 degrees with right index    2= NO
+                                                   finger                         -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   54   75 $         HG90DRSP         B.4.a.1      Specify reason unable to       Character
+                                                   achieve 90 degrees - right
+
+  129    2 2.0       HG90DLIF         B.5          Participant able to achieve    1= YES
+                                                   90 degrees with left index     2= NO
+                                                   finger                         -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  131   75 $         HG90DLSP         B.5.a.1      Specify reason unable to       Character
+                                                   achieve 90 degrees - left
+
+  206    2 2.0       HGBHTSTD         C.1          Both hands being tested        1= YES
+                                                                                  2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  208    2 2.0       HGPTHAND         C.1.b        Hand used for practice test    1= Right hand
+                                                                                  2= Left hand
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  210    2 2.0       HGDYNCLR         C.1.c        Dynamometer cleared            1= YES
+                                                                                  2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  212    2 2.0       HGGT1HND         D.1.i        Grip Test 1 - Hand             1= Right
+                                                                                  2= Left
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  214    4 4.1       HGGT1DYN         D.1.ii       Grip Test 1 - Dynamometer      0.0= 0.0
+                                                   reading                        .
+                                                                                  .
+                                                                                  99.9= 99.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  218    2 2.0       HGGT1EFF         D.1.iii      Grip Test 1 - Effort           1= Maximal
+                                                                                  2= Questionable
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  220   75 $         HGGT1COM         D.1.iv       Grip Test 1 - Comments         Character
+
+  295    2 2.0       HGGT2HND         D.2.i        Grip Test 2 - Hand             1= Right
+                                                                                  2= Left
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  297    4 4.1       HGGT2DYN         D.2.ii       Grip Test 2 - Dynamometer      0.0= 0.0
+                                                   reading                        .
+                                                                                  .
+                                                                                  99.9= 99.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  301    2 2.0       HGGT2EFF         D.2.iii      Grip Test 2 - Effort           1= Maximal
+                                                                                  2= Questionable
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  303   75 $         HGGT2COM         D.2.iv       Grip Test 2 - Comments         Character
+
+  378    2 2.0       HGGT3HND         D.3.i        Grip Test 3 - Hand             1= Right
+                                                                                  2= Left
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  380    4 4.1       HGGT3DYN         D.3.ii       Grip Test 3 - Dynamometer      0.0= 0.0
+                                                   reading                        .
+                                                                                  .
+                                                                                  99.9= 99.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  384    2 2.0       HGGT3EFF         D.3.iii      Grip Test 3 - Effort           1= Maximal
+                                                                                  2= Questionable
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  386   75 $         HGGT3COM         D.3.iv       Grip Test 3 - Comments         Character
+
+  461    2 2.0       HGGT4HND         D.4.i        Grip Test 4 - Hand             1= Right
+                                                                                  2= Left
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  463    4 4.1       HGGT4DYN         D.4.ii       Grip Test 4 - Dynamometer      0.0= 0.0
+                                                   reading                        .
+                                                                                  .
+                                                                                  99.9= 99.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  467    2 2.0       HGGT4EFF         D.4.iii      Grip Test 4 - Effort           1= Maximal
+                                                                                  2= Questionable
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  469   75 $         HGGT4COM         D.4.iv       Grip Test 4 - Comments         Character
+
+  544    2 2.0       HGGT5HND         D.5.i        Grip Test 5 - Hand             1= Right
+                                                                                  2= Left
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  546    4 4.1       HGGT5DYN         D.5.ii       Grip Test 5 - Dynamometer      0.0= 0.0
+                                                   reading                        .
+                                                                                  .
+                                                                                  99.9= 99.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  550    2 2.0       HGGT5EFF         D.5.iii      Grip Test 5 - Effort           1= Maximal
+                                                                                  2= Questionable
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  552   75 $         HGGT5COM         D.5.iv       Grip Test 5 - Comments         Character
+
+  627    2 2.0       HGGT6HND         D.6.i        Grip Test 6 - Hand             1= Right
+                                                                                  2= Left
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  629    4 4.1       HGGT6DYN         D.6.ii       Grip Test 6 - Dynamometer      0.0= 0.0
+                                                   reading                        .
+                                                                                  .
+                                                                                  99.9= 99.9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  633    2 2.0       HGGT6EFF         D.6.iii      Grip Test 6 - Effort           1= Maximal
+                                                                                  2= Questionable
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  635   75 $         HGGT6COM         D.6.iv       Grip Test 6 - Comments         Character
+
+  710    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  711    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

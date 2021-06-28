@@ -1,0 +1,585 @@
+                               CODEBOOK
+V2015                              11-9-2017
+PFU02 - Follow-Up Site Questionnaire
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.0          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.0          Old: Visit #                   000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    2 2.0       P2PROTCL         A.0          Protocol type                  1= Phone/in-person interview
+                                                                                  2= Online survey
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   12    2 2.0       P2PIPN           A.0          PIP #                          00= 00
+                                                                                  .
+                                                                                  .
+                                                                                  10= 10
+
+   14    2 2.0       P2WEBN           A.0          Web #                          00= 00
+                                                                                  .
+                                                                                  .
+                                                                                  10= 10
+
+   16    3 $         P2INITL          A.0          Initials of person completing  Character
+                                                   form
+
+   19    7 7.3       P2DTCOMP         A.0          Date form completed in         0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   26    8 $         VERSP2           A.0          Form version                   0.000= 0.000 years
+                                                                                  .
+                                                                                  .
+                                                                                  50.000= 50.000 years
+
+   34    2 2.0       P2RTSTAV         A.1          Serum renal panel test         1= Yes
+                                                   results available              2= No, specify reason below
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   36   25 $         P2RRNAVL         A.1.i        Specify reason serum renal     Character
+                                                   panel test results not
+                                                   available
+
+   61    7 7.3       P2RDTESM         A.2          Date sample drawn for serum    0.000= 0.000 years
+                                                   renal panel tests in duration  .
+                                                   of year from the baseline      .
+                                                   visit                          50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   68    3 3.0       P2SODIUM         A.2.a        Result: Sodium (MEQ/L) or      120= 120
+                                                   (mmol/L)                       .
+                                                                                  .
+                                                                                  160= 160
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   71    4 4.1       P2POTAS          A.2.b        Result: Potassium (MEQ/L) or   3.0= 3.0
+                                                   (mmol/L)                       .
+                                                                                  .
+                                                                                  6.1= 6.1
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   75    3 3.0       P2CHLOR          A.2.c        Result: Chloride (MEQ/L) or    93= 93
+                                                   (mmol/L)                       .
+                                                                                  .
+                                                                                  117= 117
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   78    2 2.0       P2_CO2           A.2.d        Result: Carbon dioxide (MEQ/   15= 15
+                                                   L) or (mmol/L)                 .
+                                                                                  .
+                                                                                  40= 40
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   80    3 3.0       P2_BUN           A.2.e        Result: Urea Nitrogen (BUN)    7= 7
+                                                   (mg/dL)                        .
+                                                                                  .
+                                                                                  120= 120
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   83    3 3.0       P2_GLUC          A.2.f        Result: Glucose (mg/dL)        50= 50
+                                                                                  .
+                                                                                  .
+                                                                                  600= 600
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   86    4 4.1       P2_CAL           A.2.g        Result: Calcium (mg/dL)        6.0= 6.0
+                                                                                  .
+                                                                                  .
+                                                                                  13.0= 13.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   90    4 4.1       P2_PHOS          A.2.h        Result: Phosphate (mg/dL)      1.0= 1.0
+                                                                                  .
+                                                                                  .
+                                                                                  20.0= 20.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   94    4 4.1       P2_ALB           A.2.i        Result: Albumin (g/dL)         3.0= 3.0
+                                                                                  .
+                                                                                  .
+                                                                                  6.0= 6.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   98    5 5.2       P2SERCRE         A.2.j        Result: Serum Creatinine -     0.10= 0.10
+                                                   (mg/dL) - measured locally/    .
+                                                   check assay                    .
+                                                                                  5.00= 5.00
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  103    2 2.0       P2SCASSY         A.2.j.1      Assay used to measure serum    1= Enzymatic
+                                                   creatinine                     2= Modified Jaffe Reaction
+                                                                                  3= Other
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  105   25 $         P2SCLAB          A.2.j.2      Specify lab used to measure    Character
+                                                   serum creatinine
+
+  130    2 2.0       P2BTSTAV         A.3          CBC test results available     1= Yes
+                                                                                  2= No, specify reason below
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  132   25 $         P2BRNAVL         A.3.a        Specify reason CBC Blood test  Character
+                                                   results not available
+
+  157    7 7.3       P2BDTESM         A.4          Date sample drawn for CBC      0.000= 0.000 years
+                                                   tests in duration of year      .
+                                                   from the baseline visit        .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  164    5 5.0       P2_WBC           A.4.a        Result: Leukocyte Count (cu    1000= 1000
+                                                   mm)                            .
+                                                                                  .
+                                                                                  30000= 30000
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  169    5 5.2       P2_RBC           A.4.b        Result: Erythrocyte Count (M/  4.20= 4.20
+                                                   cu mm) or (x10-6 uL)           .
+                                                                                  .
+                                                                                  9.99= 9.99
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  174    3 3.0       P2_PLT           A.4.c        Result: Platelet Count (K/cu   100= 100
+                                                   mm) or (x10-3 uL)              .
+                                                                                  .
+                                                                                  500= 500
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  177    4 4.1       P2_HGB           A.4.d        Result: Hemoglobin (g/dL)      10.0= 10.0
+                                                                                  .
+                                                                                  .
+                                                                                  16.0= 16.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  181    4 4.1       P2_HCT           A.4.e        Result: PCV - Hematocrit (%)   30.0= 30.0
+                                                                                  .
+                                                                                  .
+                                                                                  50.0= 50.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  185    4 4.1       P2_MCH           A.4.f        Result: Mean Corpuscular       23= 23
+                                                   Hemoglobin (pg/cell)           .
+                                                                                  .
+                                                                                  35= 35
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  189    4 4.1       P2_MCHC          A.4.g        Result: MCH Concentration (g/  30.0= 30.0
+                                                   dL)                            .
+                                                                                  .
+                                                                                  40.0= 40.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  193    5 5.1       P2_MCV           A.4.h        Result: MC Volume (fL)         74.0= 74.0
+                                                                                  .
+                                                                                  .
+                                                                                  110.0= 110.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  198    4 4.1       P2_RCD           A.4.i        Result: Red Cell Distribution  9.0= 9.0
+                                                   Width (%)                      .
+                                                                                  .
+                                                                                  20.0= 20.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  202    2 2.0       P2CTSTAV         OldA.5       Old: Cystatin C test results   1= Yes
+                                                   available                      2= No, specify reason below
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  204   25 $         P2CRNAVL         OldA.5.a     Old: Specify reason Cystatin   Character
+                                                   C test results not available
+
+  229    7 7.3       P2CDTESM         OldA.6       Old: Date sample drawn for     0.000= 0.000 years
+                                                   Cystatin C tests in duration   .
+                                                   of year from the baseline      .
+                                                   visit                          50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  236    5 5.2       P2_CYSTC         OldA.6.a     Old: Result: Cystatin C (mg/L) 1.0= 1.0
+                                                                                  .
+                                                                                  .
+                                                                                  9.99= 9.99
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  241    2 2.0       P2CCASSY         OldA.6.a.1   Old: Assay used to measure     1= Turbidometry (DAKO)
+                                                   Cystatin C                     2= Nephelometry (Dade Behring)
+                                                                                  3= Other
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  243   25 $         P2CCLAB          OldA.6.a.2   Old: Specify lab used to       Character
+                                                   measure Cystatin C
+
+  268    2 2.0       P2ITSTAV         A.5          Iron tests results available   1= Yes
+                                                                                  2= No, specify reason below
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  270   25 $         P2IRNAVL         A.5.a        Specify reason iron tests      Character
+                                                   results not available
+
+  295    7 7.3       P2IDTESM         A.6          Date sample drawn for iron     0.000= 0.000 years
+                                                   tests in duration of year      .
+                                                   from the baseline visit        .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  302    3 3.0       P2TSAT           A.6.a        Result: Transferrin            15= 15
+                                                   Saturation (TSAT) (%)          .
+                                                                                  .
+                                                                                  55= 55
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  305    3 3.0       P2TRFERR         OldA.8.b     Old: Result: Transferrin       202= 202
+                                                                                  .
+                                                                                  .
+                                                                                  336= 336
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  308    4 4.0       P2FERRTN         OldA.8.c     Old: Result: Ferritin          10= 10
+                                                                                  .
+                                                                                  .
+                                                                                  322= 322
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  312    4 4.0       P2SRIRON         A.6.b        Serum Iron (ug/dL)             38= 38
+                                                                                  .
+                                                                                  .
+                                                                                  159= 159
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  316    3 3.0       P2LBPSYS         B.1a         Clinical blood pressure -      20= 20
+                                                   systolic                       .
+                                                                                  .
+                                                                                  240= 240
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  319    3 3.0       P2LBPDIA         B.1a         Clinical blood pressure -      20= 20
+                                                   diastolic                      .
+                                                                                  .
+                                                                                  200= 200
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  322    7 7.3       P2BPDTE          B.1.b        Date clinical BP was measured  0.000= 0.000 years
+                                                   in duration of year from the   .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  329    2 2.0       P2BPMTHD         B.1.c        Method used to obtain BP       1= Manual
+                                                                                  2= Automatic
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  331    5 5.1       P2WGT1           B.2.a        Child weight (kg)              3.0= 3.0
+                                                                                  .
+                                                                                  .
+                                                                                  175.0= 175.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  336    7 7.3       P2WGTDTE         B.2.b        Date weight measured in        0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  343    5 5.1       P2HGT1           B.3.a        Child height (cm)              60.0= 60.0
+                                                                                  .
+                                                                                  .
+                                                                                  230.0= 230.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  348    7 7.3       P2HGTDTE         B.3.b        Date height measured in        0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  355    2 2.0       P2KTRANS         C.1          Participant has undergone      1= Yes
+                                                   kidney transplant              2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  357    2 2.0       P2NMKDTP         C.2          Number of kidney transplants   1= One
+                                                                                  2= Two
+                                                                                  3= Three or more
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  359    7 7.3       P2KTRDTE         OldC.2       Old: Date of kidney            0.000= 0.000 years
+                                                   transplant in duration of      .
+                                                   year from the baseline visit   .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  366    7 7.3       P2MRKTDT         C.3          Date of most recent kidney     0.000= 0.000 years
+                                                   transplant in duration of      .
+                                                   year from the baseline visit   .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  373    2 2.0       P2KTSTAT         C.4          Clinical status of kidney      1= Functioning graft
+                                                   transplant                     2= Graft failure
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  375    2 2.0       P2DIAPYR         OldD.1       Old: Patient initiated         1= Yes
+                                                   dialysis in past year          2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  377    2 2.0       P2EVRDIA         D.1          Participant ever on dialysis   1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  379    2 2.0       P2INDTYP         D.2          Type of dialysis used          1= Hemodialysis
+                                                   initially                      2= Peritoneal dialysis
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  381    7 7.3       P2INDDT          D.2.a        Date first dialysis initiated  0.000= 0.000 years
+                                                   in duration of year from the   .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  388    2 2.0       P2SAMEDT         D.3          Initial dialysis same as most  1= Yes
+                                                   recent                         2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  390    2 2.0       P2RCDTYP         D.4          Type of dialysis used most     1= Hemodialysis
+                                                   recently                       2= Peritoneal dialysis
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  392    7 7.3       P2RCDDT          D.4.a        Date most recent dialysis      0.000= 0.000 years
+                                                   started in duration of year    .
+                                                   from the baseline visit        .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  399    2 2.0       P2CURDIA         D.5          Child currently on dialysis    1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  401    2 2.0       P2CURHMD         OldD.3       Old: Patient currently         1= Yes
+                                                   undergoing hemodialysis        2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  403    7 7.3       P2HMDDTE         OldD.3.a     Old: Date hemodialysis         0.000= 0.000 years
+                                                   initiated in duration of year  .
+                                                   from the baseline visit        .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  410    2 2.0       P2CURPTD         OldD.4       Old: Patient currently         1= Yes
+                                                   undergoing peritoneal dialysis 2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  412    7 7.3       P2PTDDTE         OldD.4.a     Old: Date peritoneal dialysis  0.000= 0.000 years
+                                                   initiated in duration of year  .
+                                                   from the baseline visit        .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  419    2 2.0       P2PTDTYP         OldD.4.b     Old: Type of peritoneal        1= Continuous Ambulatory
+                                                   dialysis                          Peritoneal Dialysis
+                                                                                  2= Automatic/Continuous
+                                                                                     Cycling Peritoneal Dialysis
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  421    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  422    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

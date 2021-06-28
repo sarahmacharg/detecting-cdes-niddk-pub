@@ -1,0 +1,981 @@
+                               CODEBOOK
+V2015                              11-20-2017
+PFU01 - Post-Study Phone/In-Person Follow-Up Interview
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.0          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.0          Old: Visit #                   000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    2 2.0       PFPIPN           A.0          PIP #                          00= 00
+                                                                                  .
+                                                                                  .
+                                                                                  10= 10
+
+   12    3 $         PFINITL          A.0          Initials of person completing  Character
+                                                   form
+
+   15    7 7.3       PFFCMPDT         A.0          Date form completed in         0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   22    8 $         VERSPF           A.0          Form version                   04/01/11= 04/01/11
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   30    2 2.0       PFFCOMBY         A.0          Person completing form         1= Child/young adult
+                                                                                  2= Parent or other adult
+                                                                                  3= Both (Parent and Child/
+                                                                                     young adult)
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   32    7 7.3       PFDTSTAT         A.1          Date of status determination   0.000= 0.000 years
+                                                   in duration of year from the   .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   39    2 2.0       PFVTLSTA         A.2          Participant's vital status     1= Alive
+                                                                                  2= *Deceased
+                                                                                  3= Unknown
+                                                                                  4= Contacted but refused
+                                                                                     interview
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   41    7 7.3       PFDTEDTH         A.3          Date of participant's death    0.000= 0.000 years
+                                                   in duration of year from the   .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   48    2 2.0       PFCSEDTH         A.3.i        Cause of death                 01= Pericarditis (incl
+                                                                                      Cardiac Tamponade)
+                                                                                  02= Myocardial Infarction,
+                                                                                      Acute
+                                                                                  03= Cerebrovascular
+                                                                                  04= Embolism
+                                                                                  05= GI Hemorrhage
+                                                                                  06= Hemorrhage (other than 03
+                                                                                      or 05)
+                                                                                  07= Pulmonary Infection
+                                                                                  08= Septicemia
+                                                                                  09= Viral Hepatitis
+                                                                                  10= Infection (Other than 07,
+                                                                                      08 or 09)
+                                                                                  11= Hyperkalemia
+                                                                                  12= Pancreatitis
+                                                                                  13= Malignancy
+                                                                                  14= Suicide
+                                                                                  15= Accidental, Treatment
+                                                                                      Related
+                                                                                  16= Accidental, Not Treatment
+                                                                                      Related
+                                                                                  17= Artherosclerotic Heart
+                                                                                      Disease
+                                                                                  18= Cardiomyopathy
+                                                                                  19= Cardiac Arrhythmia
+                                                                                  20= Cardiac Arrest, Cause
+                                                                                      Unknown
+                                                                                  21= Valvular Heart Disease
+                                                                                  22= Pulmonary Edema Due to
+                                                                                      Exogenous Fluid
+                                                                                  23= Cerebro-Vascular Accident
+                                                                                      Including Intracranial
+                                                                                      Hemorrhage
+                                                                                  24= Ischemic Brain Damage/
+                                                                                      Anoxic Enecephalopathy
+                                                                                  25= Hemorrhage From Ruptured
+                                                                                      Vascular Aneurysm
+                                                                                  26= Hemorrhage From Surgery
+                                                                                  27= Viral Infection
+                                                                                  28= Viral Infection (Not 32
+                                                                                      or 33)
+                                                                                  29= Tuberculosis
+                                                                                  30= AIDS
+                                                                                  31= Other Infection
+                                                                                  32= Hepatitis B
+                                                                                  33= Other Viral Infection
+                                                                                  34= Gastro-Intestinal
+                                                                                      Hemorrhage
+                                                                                  35= Seizures
+                                                                                  36= Drug Overdose (Street
+                                                                                      Drugs)
+                                                                                  37= Drug Overdose (Not 14 or
+                                                                                      36)
+                                                                                  98= Unknown
+                                                                                  99= Other Identified Cause of
+                                                                                      Death
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   50    2 2.0       PFVSUHOM         A.4          Vital status method of         1= YES
+                                                   contact - home number          2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   52    2 2.0       PFVSUWRK         A.4          Vital status method of         1= YES
+                                                   contact - work number          2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   54    2 2.0       PFVSUFAM         A.4          Vital status method of         1= YES
+                                                   contact - family               2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   56    2 2.0       PFVSUSOC         A.4          Vital status method of         1= YES
+                                                   contact - social               2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   58    2 2.0       PFVSUOTH         A.4          Vital status method of         1= YES
+                                                   contact - other                2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   60   50 $         PFVSUOSP         A.4          Specify other method of vital  Character
+                                                   status contact
+
+  110    7 7.3       PFDTFACT         A.4.A4i      Date of first attempt to       0.000= 0.000 years
+                                                   contact in duration of year    .
+                                                   from the baseline visit        .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  117    2 2.0       PFNTATCT         A.4.A4ii     Number of times attempted      0= 0
+                                                   contact                        .
+                                                                                  .
+                                                                                  9= 9
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  119    7 7.3       PFDTLACT         A.4.A4iii    Date of last attempt to        0.000= 0.000 years
+                                                   contact in duration of year    .
+                                                   from the baseline visit        .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  126    2 2.0       PFPRSRPT         A.5          Person reporting vital status  1= Participant
+                                                                                  2= Mother
+                                                                                  3= Father
+                                                                                  4= Relative or Acquaintance
+                                                                                  5= Other Method
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  128   50 $         PFPRRASP         A.5.i        Specify relative/acquaintance  Character
+                                                   reporting vital status
+
+  178   50 $         PFPROMSP         A.5.ii       Specify other method           Character
+                                                   reporting vital status
+
+  228    2 2.0       PFEVKDTP         B.1          Child has had kidney           1= Yes
+                                                   transplant                     2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  230    2 2.0       PFNMKDTP         B.1a         Number of kidney transplants   1= One
+                                                                                  2= Two
+                                                                                  3= Three or more
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  232    2 2.0       PFKTDONR         B.1b         Kidney transplant - type of    1= Living donor - Related
+                                                   donor                          2= Living donor - Not related
+                                                                                  3= Deceased donor
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  234    2 2.0       PFKTLRDN         OldB.1.a     Old: Kidney transplant -       1= YES
+                                                   living related donor           2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  236    2 2.0       PFKTLUDN         OldB.1.a     Old: Kidney transplant -       1= YES
+                                                   living unrelated donor         2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  238    2 2.0       PFKTDCDN         OldB.1.a     Old: Kidney transplant -       1= YES
+                                                   deceased donor                 2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  240    7 7.3       PFKTDATE         OldB.1b      Old: Date of kidney            0.000= 0.000 years
+                                                   transplant in duration of      .
+                                                   year from the baseline visit   .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  247    7 7.3       PFMRKTDT         OldB.1c      Old: Date of most recent       0.000= 0.000 years
+                                                   kidney transplant in duration  .
+                                                   of year from the baseline      .
+                                                   visit                          50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  254    2 2.0       PFMMRKT          B.1.c        Date most recent transplant -  01= 01
+                                                   month in duration of year      .
+                                                   from the baseline visit        .
+                                                                                  12= 12
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  256    2 2.0       PFDMRKT          B.1.c        Date most recent transplant -  01= 01
+                                                   day in duration of year from   .
+                                                   the baseline visit             .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  258    4 4.0       PFYMRKT          B.1.c        Date most recent transplant -  2005= 2005
+                                                   year in duration of year from  .
+                                                   the baseline visit             .
+                                                                                  2029= 2029
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  262    2 2.0       PFKTSTAT         B.1d         Current clinical status of     1= The kidney finction is
+                                                   kidney transplant                 good/excellent
+                                                                                  3= The kidney function is OK
+                                                                                     but <I>(name of child)</I>
+                                                                                     might need another
+                                                                                     transplant in the near
+                                                                                     future (in 1 year or so)
+                                                                                  2= The kidney function is not
+                                                                                     working well and <I>(name
+                                                                                     of child)</I> is on
+                                                                                     dialysis
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  264    2 2.0       PFDISCKT         B.2          Discussed renal transplant     1= Yes
+                                                   with nephrologist in past year 2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  266    2 2.0       PFDISCLD         B.3          Kidney transplant donor        1= YES
+                                                   option - living                2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  268    2 2.0       PFDISCDD         B.3          Kidney transplant donor        1= YES
+                                                   option - deceased              2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  270    2 2.0       PFLISTDD         B.4          Child has been listed for      1= Yes
+                                                   deceased donor transplant      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  272    2 2.0       PFMWLIST         B.4.a        Date listed for deceased       01= 01
+                                                   donor transplant - month in    .
+                                                   duration of year from the      .
+                                                   baseline visit                 12= 12
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  274    2 2.0       PFDWLIST         B.4.a        Date listed for deceased       01= 01
+                                                   donor transplant - day in      .
+                                                   duration of year from the      .
+                                                   baseline visit                 31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  276    4 4.0       PFYWLIST         B.4.a        Date listed for deceased       2005= 2005
+                                                   donor transplant - year in     .
+                                                   duration of year from the      .
+                                                   baseline visit                 2029= 2029
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  280    7 7.3       PFDTLIST         OldB.4.a     Old: Date listed for deceased  0.000= 0.000 years
+                                                   donor transplant in duration   .
+                                                   of year from the baseline      .
+                                                   visit                          50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  287    2 2.0       PFEVDIAL         B.5          Child has been on dialysis     1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  289    2 2.0       PFDLBRTH         OldB.5.B5a   Old: Child was on dialysis at  1= Yes
+                                                   birth                          2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  291    2 2.0       PFDLTYPE         B.5.B5a      Type of dialysis used most     1= Hemodialysis (cleansing
+                                                   recently                          the blood outside of the
+                                                                                     body)
+                                                                                  2= Peritoneal Dialysis
+                                                                                     (cleansing the blood using
+                                                                                     his/her own body tissues
+                                                                                     inside the body)
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  293    7 7.3       PFMRDLDT         OldB.5.B5b   Old: Date most recent          0.000= 0.000 years
+                                                   dialysis initiated in          .
+                                                   duration of year from the      .
+                                                   baseline visit                 50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  300    2 2.0       PFMMRDLY         B.5.b        Date most recent dialysis      01= 01
+                                                   started - month in duration    .
+                                                   of year from the baseline      .
+                                                   visit                          12= 12
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  302    2 2.0       PFDMRDLY         B.5.b        Date most recent dialysis      01= 01
+                                                   started - day in duration of   .
+                                                   year from the baseline visit   .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  304    4 4.0       PFYMRDLY         B.5.b        Date most recent dialysis      2005= 2005
+                                                   started - year in duration of  .
+                                                   year from the baseline visit   .
+                                                                                  2029= 2029
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  308    7 7.3       PFDIADTE         OldB.5.c     Old: Date dialysis initiated   0.000= 0.000 years
+                                                   in duration of year from the   .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  315    2 2.0       PFCURDIA         B.5d.B5c     Child currently on dialysis    1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  317    2 2.0       PFDISCDL         B.6          Discussed dialysis with        1= Yes
+                                                   nephrologist in past year      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  319    2 2.0       PFDLMODL         B.7          Dialysis modality recommended/ 1= Hemodialysis (cleansing
+                                                   planned                           the blood outside of the
+                                                                                     body)
+                                                                                  2= Peritoneal Dialysis
+                                                                                     (cleansing the blood using
+                                                                                     his/her own body tissues
+                                                                                     inside the body)
+                                                                                  3= No Recommendation/
+                                                                                     Preference
+                                                                                  9= No decision yet
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  321    5 $         PFCURZIP         OldC.1       Old: Current zip code of       Character
+                                                   child's primary household
+
+  326    2 2.0       PFSCHOOL         OldC.2       Old: Child's school            1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  328    3 3.0       PFMISSDY         OldC.3       Old: Child missed school r/t   0= 0
+                                                   illness - days                 .
+                                                                                  .
+                                                                                  90= 90
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  331    2 2.0       PFWRKOUT         OldC.4       Old: Child works outside of    1= Yes
+                                                   home                           2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  333    2 2.0       PFCHDEMP         OldC.4       Old: Current employment        1= Working full-time (35
+                                                   status of child                   hours or more per week)
+                                                                                  2= Working part-time (less
+                                                                                     than 35 hours per week)
+                                                                                  3= Unemployed but seeking work
+                                                                                  4= Unemployed not seeking work
+                                                                                  5= Student
+                                                                                  6= Retired
+                                                                                  7= Disability
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  335    2 2.0       PFCSFEMP         OldC.4..a    Old: Child is self-employed    1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  337    2 2.0       PFMISSWK         OldC.5       Old: Child missed work r/t     0= 0
+                                                   illness - days                 .
+                                                                                  .
+                                                                                  90= 90
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  339    2 2.0       PFURPROC         OldD.1       Old: Child has had urologic    1= Yes
+                                                   procedure to treat kidney      2= No
+                                                   problem                        -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  341    2 2.0       PFDIABTS         OldD.2.a     Old: Child has Diabetes        1= YES
+                                                   Mellitus                       2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  343    2 2.0       PF_HBP           OldD.3.a     Old: Child has Hypertension    1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  345    2 2.0       PFBPSTAT         OldD.3.a.i   Old: Status of hypertension    1= Continued problem
+                                                                                  2= Resolved problem
+                                                                                  3= Controlled with medication
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  347    2 2.0       PF_CHF           OldD.3.b     Old: Child has congestive      1= YES
+                                                   heart failure                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  349    2 2.0       PFSTROKE         OldD.3.c     Old: Child has had a stroke    1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  351    2 2.0       PF_LVH           OldD.3.d     Old: Child has had left        1= YES
+                                                   ventricular hypertrophy        2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  353    2 2.0       PFBLDINF         OldD.4.a     Old: Child has bladder         1= YES
+                                                   infections                     2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  355    2 2.0       PFKDSTNE         OldD.4.b     Old: Child has passage of      1= YES
+                                                   kidney stone                   2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  357    2 2.0       PFNRSEIZ         OldD.5.a     Old: Neurological - seizures/  1= YES
+                                                   convulsions                    2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  359    2 2.0       PFRTHLTH         OldE.1       Old: Child's health in past    1= Very Good
+                                                   year compared to peers         2= Good
+                                                                                  3= Fair
+                                                                                  4= Poor
+                                                                                  5= Very Poor
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  361    2 2.0       PFAPPETI         OldE.2       Old: Child's appetite in past  1= Very Good
+                                                   week                           2= Good
+                                                                                  3= Fair
+                                                                                  4= Poor
+                                                                                  5= Very Poor
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  363    2 2.0       PFILLPWK         OldE.2.a     Old: Child had acute illness   1= Yes
+                                                   during past week               2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  365    2 2.0       PFILLDYS         OldE.2.b     Old: Number of days ill        1= 1
+                                                   during past week               .
+                                                                                  .
+                                                                                  7= 7
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  367    2 2.0       PFRCCLHC         OldF.1.a     Old: Child received medical    1= YES
+                                                   care - clinic or health center 2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  369    2 2.0       PFRCPRDO         OldF.1.b     Old: Child received medical    1= YES
+                                                   care - private doctor's office 2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  371    2 2.0       PFRCHOD          OldF.1.c     Old: Child received medical    1= YES
+                                                   care - hospital outpatient     2= NO
+                                                   department                     -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  373    2 2.0       PFRCEMER         OldF.1.d     Old: Child received medical    1= YES
+                                                   care - emergency room          2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  375    2 2.0       PFRCENUM         OldF.1.d.1   Old: Number of times received  1= 1
+                                                   care in ER past year           .
+                                                                                  .
+                                                                                  30= 30
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  377    2 2.0       PFRCOTHR         OldF.1.e     Old: Child received medical    1= YES
+                                                   care - other location          2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  379   50 $         PFRCOTSP         OldF.1.e.1   Old: Specify other health      Character
+                                                   care location
+
+  429    3 3.0       PFNUMHCP         OldF.2       Old: Number of times child     0= 0
+                                                   saw health care provider in    .
+                                                   past year                      .
+                                                                                  30= 30
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  432    2 2.0       PFNUMIMC         OldF.3       Old: Number of times child     0= 0
+                                                   saw health care provider in    .
+                                                   past year for immediate care   .
+                                                                                  30= 30
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  434    2 2.0       PFSMEHCP         OldF.4       Old: Child's usually saw same  1= Yes
+                                                   health care provider           2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  436    2 2.0       PFHOSP12         OldF.5       Old: Child has been            1= Yes
+                                                   hospitalized in past year      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  438    2 2.0       PFHSPNUM         OldF.5.a     Old: Number of times child     1= 1
+                                                   hospitalized in past year      .
+                                                                                  .
+                                                                                  30= 30
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  440    2 2.0       PFPSYC12         OldF.6       Old: Child saw mental health   1= Yes
+                                                   professional in past year      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  442    2 2.0       PFDENT12         OldF.7       Old: Child saw dentist in      1= Yes
+                                                   past year                      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  444    2 2.0       PFNAUSEA         OldG.1       Old: Number of days nausea     0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  446    2 2.0       PFNAUSSV         OldG.1.a     Old: Severity of nausea        1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  448    2 2.0       PFVOMIT          OldG.2       Old: Number of days vomiting   0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  450    2 2.0       PFVOMTSV         OldG.2.a     Old: Severity of vomiting      1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  452    2 2.0       PFCONSTI         OldG.3       Old: Number of days            0= 0
+                                                   constipation                   .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  454    2 2.0       PFCONSSV         OldG.3.a     Old: Severity of constipation  1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  456    2 2.0       PFNUMBHF         OldG.4       Old: Number of days numbness   0= 0
+                                                   hands/feet                     .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  458    2 2.0       PFNUMBSV         OldG.4.a     Old: Severity of numbness in   1= Mild
+                                                   hands/feet                     2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  460    2 2.0       PFBLRVIS         OldG.5       Old: Number of days blurred    0= 0
+                                                   vision                         .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  462    2 2.0       PFBLVSSV         OldG.5.a     Old: Severity of blurred       1= Mild
+                                                   vision                         2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  464    2 2.0       PFLAPPET         OldG.6       Old: Number of days loss of    0= 0
+                                                   appetite                       .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  466    2 2.0       PFLAPPSV         OldG.6.a     Old: Severity of loss of       1= Mild
+                                                   appetite                       2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  468    2 2.0       PFINCAPP         OldG.7       Old: Number of days increased  0= 0
+                                                   appetite                       .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  470    2 2.0       PFINAPSV         OldG.7.a     Old: Severity of increased     1= Mild
+                                                   appetite                       2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  472    2 2.0       PFINWGHT         OldG.8       Old: Number of days weight     0= 0
+                                                   increase                       .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  474    2 2.0       PFINWTSV         OldG.8.a     Old: Severity of weight        1= Mild
+                                                   increase                       2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  476    2 2.0       PFSWLING         OldG.9       Old: Number of days swelling   0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  478    2 2.0       PFSWLGSV         OldG.9.a     Old: Severity of swelling      1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  480    2 2.0       PFWEAKNS         OldG.10      Old: Number of days weakness   0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  482    2 2.0       PFWEAKSV         OldG.10.a    Old: Severity of weakness      1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  484    2 2.0       PFFALSLP         OldG.11      Old: Number of days falling    0= 0
+                                                   asleep during day              .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  486    2 2.0       PFFASLSV         OldG.11.a    Old: Severity of falling       1= Mild
+                                                   asleep during day              2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  488    2 2.0       PFLEGPN          OldH.12      Old: Number of days leg pain   0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  490    2 2.0       PFLGPNSV         OldH.12.a    Old: Severity of leg pain      1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  492    2 2.0       PFRXMEDS         OldH.1       Old: Child has taken meds in   1= Yes
+                                                   past 30 days                   2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  494    2 2.0       PFTOTMDS         OldH.3       Old: Total number of           0= 0
+                                                   medications reported in s1     .
+                                                                                  .
+                                                                                  30= 30
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  496    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  497    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

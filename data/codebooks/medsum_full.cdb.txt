@@ -1,0 +1,519 @@
+                               CODEBOOK
+V2015.2                              11-9-2017
+MEDSUMMARY_FULL: Medication and Supplement Use Summary File (full)
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    4 4.0       VISIT            A.2          Visit #                        10= 00
+                                                                                  .
+                                                                                  .
+                                                                                  100= 100
+
+   11    7 7.3       MSVISDAT         A.4          Date of visit in duration of   0.000= 0.000 years
+                                                   year from the baseline visit   .
+                                                                                  .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   18    7 7.0       med_code                      summary file drug code         10100= ACE Inhibitor
+                                                                                  10200= ARB
+                                                                                  10300= Beta Blocker
+                                                                                  10400= Alpha Blocker
+                                                                                  10500= Alpha/Beta Blocker
+                                                                                  10600= Calcium Channel Blocker
+                                                                                  10700= Centrally Acting Alpha-
+                                                                                         2 Agonist
+                                                                                  10800= Direct Vasodialator
+                                                                                  10901= Diuretic, Loop
+                                                                                  10902= Diuretic, Potassium-
+                                                                                         sparing
+                                                                                  10903= Diuretic, Thiazides
+                                                                                  10999= Diuretic, Other
+                                                                                  11000= Combination
+                                                                                         Antihypertensive Med
+                                                                                  11100= Other Antihypertensive
+                                                                                         Med
+                                                                                  20100= antibiotic
+                                                                                  20200= anti-viral
+                                                                                  20300= anti=fungal
+                                                                                  29900= antibiotics, other
+                                                                                         (OLD)
+                                                                                  30101= ESA, Erythropoietin
+                                                                                  30102= ESA, Darbepoetin alfa
+                                                                                  30199= ESA, other
+                                                                                  30200= Iron supplement
+                                                                                  39900= Other Anemia Medication
+                                                                                  40100= Immunosuppressive,
+                                                                                         Corticosteroid
+                                                                                  40200= Immunosuppressive,
+                                                                                         antineoplastic/
+                                                                                         chemotherapeutic agents
+                                                                                  49900= immunosuppressive,
+                                                                                         other
+                                                                                  50000= Growth Hormone
+                                                                                  60100= Asthma/Allergy,
+                                                                                         Inhaled/intranasal
+                                                                                         corticosteroids
+                                                                                  60200= Asthma/Allergy,
+                                                                                         antihistamine
+                                                                                  60301= Asthma/Allergy, short-
+                                                                                         acting B2-agonist
+                                                                                  60399= Asthma/Allergy, other
+                                                                                         bronchodilator
+                                                                                  69900= Asthma/Allergy, other
+                                                                                         med
+                                                                                  70100= Antidepressants
+                                                                                  70200= CNS stimulants
+                                                                                  70300= Antipsychotic
+                                                                                  70400= sleep medication
+                                                                                  79900= mood/behavior med,
+                                                                                         other
+                                                                                  80000= Lipid Lowering
+                                                                                         Medications
+                                                                                  90000= Seizure/Antiepileptic
+                                                                                         Med
+                                                                                  100100= Antiemetic and GI
+                                                                                         motility agents
+                                                                                  100200= Laxatives and stool
+                                                                                         softeners
+                                                                                  100301= Antacid, H2-receptor
+                                                                                         blocker
+                                                                                  100302= Antacid, Proton Pump
+                                                                                         inhibitor
+                                                                                  100399= Antacid, other
+                                                                                  100400= antidiarrheals
+                                                                                  100501= Alkalinizing agent,
+                                                                                         Sodium Bicarb
+                                                                                  100502= Alkalizing Agent,
+                                                                                         Citrate and Citric acid
+                                                                                  109900= Digestive sys med,
+                                                                                         other
+                                                                                  110100= Bladder medication
+                                                                                  120100= Phosphate binder
+                                                                                  120200= Potassium binder
+                                                                                  129900= Phosphate/Potassium
+                                                                                         Binders, other
+                                                                                  130101= Multivitamin, Nephro-
+                                                                                         vite/Nephrocaps/Nephro
+                                                                                  130102= Vitamin/mineral
+                                                                                         supplement
+                                                                                  130103= Fluoride
+                                                                                  130199= Multivitamin, other
+                                                                                  130200= Calcium/Vitamin D
+                                                                                         Supplement (OLD)
+                                                                                  130201= Vitamin D, active
+                                                                                  130202= Vitamin D, inactive
+                                                                                  130300= Herbal Supplement
+                                                                                  130400= Misc Electrolyte/
+                                                                                         vitamin/mineral
+                                                                                         Supplement (OLD)
+                                                                                  130401= Electrolyte
+                                                                                         Replacement
+                                                                                  130402= Cysteamine
+                                                                                  130500= Amino Acid Supplement
+                                                                                  130600= Caloric nutritional
+                                                                                         supplement
+                                                                                  130700= Fish oils
+                                                                                  139900= Dietary Supplement,
+                                                                                         other
+                                                                                  140100= insulin and oral
+                                                                                         hypoglycemics
+                                                                                  140200= Thyroid replacement
+                                                                                  150000= Xanthine Oxidase
+                                                                                         Inhibitor
+                                                                                  160100= Contraceptives (birth
+                                                                                         control)
+                                                                                  160200= Progesterone therapy
+                                                                                         (appetite stimulant)
+                                                                                  160301= Estrogen therapy
+                                                                                  160302= Testosterone therapy
+                                                                                  170100= Analgesics,
+                                                                                         Paracetamol/
+                                                                                         Acetominophen
+                                                                                  170200= Analgesics, NSAIDS
+                                                                                         (aspirin, ibuprofen,
+                                                                                         naproxen)
+                                                                                  170300= Analgesics, opiate
+                                                                                         (narcotics)
+                                                                                  170900= Analgesics, other
+                                                                                  990101= Analgesics,
+                                                                                         Ibuprophen (NSAID)
+                                                                                         (OLD)
+                                                                                  990199= Anagesics, Aspirin/
+                                                                                         Acetaminophen (OLD)
+                                                                                  999900= Other medication/
+                                                                                         supplement
+                                                                                  999999= unknown medication
+                                                                                  -1= NA (Skipped)
+
+   25   35 $         MSMEDICA         B.1a         Specify medication (from       Character
+                                                   meds.data)
+
+   60    3 3.0       MSADMIN          B.1c         Administration route           1= oral
+                                                                                  2= injection
+                                                                                  6= nasogastric tube
+                                                                                  14= G-tube/button
+                                                                                  7= per rectal
+                                                                                  3= inhalation
+                                                                                  4= intranasal
+                                                                                  9= sublingual
+                                                                                  5= intravenous
+                                                                                  8= subcutaneous injection
+                                                                                  12= intramuscular injection
+                                                                                  13= intradermal injection
+                                                                                  10= transdermal
+                                                                                  11= topical
+                                                                                  15= otic (to ear)
+                                                                                  16= ophthalmologic (to eye)
+                                                                                  98= other
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   63   35 $         MSADMNSP         B.1.c        Specify other method of        Character
+                                                   administration
+
+   98    3 3.0       MSFORM           B.1d         Form of drug                   1= Pill/Tablet/Patch/Powder
+                                                                                  2= Drop
+                                                                                  3= Inhaler/Spray
+                                                                                  4= Nebulizer
+                                                                                  5= Liquid (syrup/gel/cream/
+                                                                                     lotion/injections)
+                                                                                  6= Rectal Formulation
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  101    3 3.0       MSDRPSDL         B.1.d.1      Delivery location for drops    1= right
+                                                                                  2= left
+                                                                                  3= both
+                                                                                  99= other
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  104    9 9.3       DOSE                          Medication dose per            0.020= 0.020
+                                                   administration, mg             .
+                                                   (ANTIHYPERTENSIVE RX ONLY)     .
+                                                                                  2000= 2000
+                                                                                  -9= missing
+                                                                                  -1= not available (for
+                                                                                  antihypertensive rx only)
+
+  113    7 7.3       DLYFREQ                       Number of medication           1= x1 per day
+                                                   administrations per day        .
+                                                   (ANTIHYPERTENSIVE RX ONLY)     .
+                                                                                  6= x6 per day
+                                                                                  0.5= every other day
+                                                                                  0.429= x3 per week
+                                                                                  0.286= x2 per week
+                                                                                  0.143= x1 per week
+                                                                                  0.071= x1 per 2 weeks
+                                                                                  0.048= x1 per 3 weeks
+                                                                                  0.033= X1 per month
+                                                                                  -9= missing
+                                                                                  -1= not available (for
+                                                                                  antihypertensive rx only)
+
+  120    9 9.3       DLYDOSE                       Daily medication dose, mg/day  0.014= 0.014
+                                                   (ANTIHYPERTENSIVE RX ONLY)     .
+                                                                                  .
+                                                                                  4000= 4000
+                                                                                  -9= missing
+                                                                                  -1= not available (for
+                                                                                  antihypertensive rx only)
+
+  129    3 3.0       DOSEFLAG                      Calculated daily medication    1= Yes, exceeds max value
+                                                   dose (DLYDOSE, mg/day)         0= No, within guideline range
+                                                   exceeds maximum published      -9 or blank= missing
+                                                   (Micromedex) guidelines value  -1= not applicable (for
+                                                                                     antihypertensive rx only)
+
+  132    8 8.2       MSVOLUME         B.1e         Volume of medication dose      0.00= 0.00
+                                                                                  .
+                                                                                  .
+                                                                                  999.00= 999.00
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  140    3 3.0       MSVLUNIT         B.1.e        Units for volume of            1= mL/cc
+                                                   medication dose                2= L
+                                                                                  3= drop
+                                                                                  4= puff/ nebulizer
+                                                                                  5= suppository
+                                                                                  6= grams
+                                                                                  99= other
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  143   35 $         MSVLUNSP         B.1.e        Specify units for volume of    Character
+                                                   medication dose
+
+  178   11 11.3      MSCONDSE         B.1f         Concentration dose of          0.000= 0.000
+                                                   medication                     .
+                                                                                  .
+                                                                                  999.999= 999.999
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  189    3 3.0       MSMSRUN          B.1.f        Measuring unit for             1= mcg
+                                                   concentration of medication    2= mg
+                                                                                  3= g
+                                                                                  4= %
+                                                                                  5= units
+                                                                                  99= other
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  192   35 $         MSMSRUSP         B.1.f.i      Specify measuring unit for     Character
+                                                   concentration of medication
+
+  227    5 5.0       MSCONVOL         B.1.f        Concentration volume of        0= 0
+                                                   medication                     .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  232    3 3.0       MSVOLMUN         B.1.f        Volume unit for concentration  1= mL or cc
+                                                   of medication                  2= L
+                                                                                  3= gm
+                                                                                  4= per actuation (spray/puff)
+                                                                                  99= other
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  235   35 $         MSVOLUSP         B.1.f.i      Specify volume unit for        Character
+                                                   concentration of medication
+
+  270    9 9.2       MSMDDOSE         B.2          Dose of medication             0.00= 0.00
+                                                                                  .
+                                                                                  .
+                                                                                  5000.00= 5000.00
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  279    3 3.0       MSMDUNIT         B.3          Units for dose                 1= mg
+                                                                                  2= mcg
+                                                                                  3= ml/cc
+                                                                                  4= tsp
+                                                                                  5= tbsp
+                                                                                  6= oz
+                                                                                  7= drop
+                                                                                  8= spray/inhaler
+                                                                                  9= vitamins
+                                                                                  10= g
+                                                                                  11= %
+                                                                                  98= other
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  282   35 $         MSUNITSP         B.3          Specify other units of         Character
+                                                   medication
+
+  317    3 3.0       MSMDFREQ         B.5          Frequency                      1= q4 (every 4 hours)
+                                                                                  2= q6 (every 6 hours or 4
+                                                                                     times/day)
+                                                                                  3= q8/tid (every 8 hours or 3
+                                                                                     times/day)
+                                                                                  4= q12/bid (every 12 hours or
+                                                                                     twice/day)
+                                                                                  5= q24/qday (every day or
+                                                                                     once/day)
+                                                                                  6= qod (every other day)
+                                                                                  10= tiweek (3 times/week)
+                                                                                  14= biweek (2 times/week)
+                                                                                  7= qweek (every week)
+                                                                                  11= q2week (every 2 weeks)
+                                                                                  12= q3week (every 3 weeks)
+                                                                                  13= qmonth (every month)
+                                                                                  9= PRN (as needed)
+                                                                                  8= other
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  320   35 $         MSFREQSP         B.5          Specify other frequency of     Character
+                                                   medication
+
+  355    3 3.0       MSMEDRXD         B.6          Drug is a prescribed           1= Yes
+                                                   medication                     2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  358    4 4.0       MSTLMNTH         B.7          Number of times taken in last  0= 0
+                                                   30 days                        .
+                                                                                  .
+                                                                                  180= 180
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  362    3 3.0       MSMSDS30         B.8          Missed dose in past 30 days    1= Yes
+                                                                                  2= No
+                                                                                  99= N/A
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  365    3 3.0       MSMDRXD          B.9          Drug taken as prescribed in    1= Yes
+                                                   past 7 days                    2= No
+                                                                                  99= N/A
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  368    3 3.0       MSTAKE7D         C.1          Times took drug in past 7 days 0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  371    3 3.0       MSMISS7D         C.2          Times missed taking drug in    0= 0
+                                                   past 7 days                    .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  374    3 3.0       MSREFUSE         C.2.a        Times missed taking drug in    0= 0
+                                                   past 7 days due to refusal     .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  377    3 3.0       MSBOTHER         C.3          Drug bothers child             1= Never
+                                                                                  2= Sometimes
+                                                                                  3= Often
+                                                                                  4= Always
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  380    3 3.0       MSHWHELP         C.4          Drug helps child               1= Very well
+                                                                                  2= Somewhat
+                                                                                  3= Not at All
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  383    3 3.0       MSDRSEFF         C.5.a        Medication causes side effects 0= Never
+                                                                                  1= Sometimes
+                                                                                  2= A lot
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  386    3 3.0       MSDRRMBR         C.5.b        Hard to remember to give drug  0= Never
+                                                                                  1= Sometimes
+                                                                                  2= A lot
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  389    3 3.0       MSDRPHRM         C.5.c        Hard to get to pharmacy for    0= Never
+                                                   medication                     1= Sometimes
+                                                                                  2= A lot
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  392    3 3.0       MSDROPEN         C.5.d        Hard to open container         0= Never
+                                                                                  1= Sometimes
+                                                                                  2= A lot
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  395    3 3.0       MSDRRFIL         C.5.e        Hard to get refill on time     0= Never
+                                                                                  1= Sometimes
+                                                                                  2= A lot
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  398    3 3.0       MSDRWKND         C.5.f        Hard to remember on weekends   0= Never
+                                                                                  1= Sometimes
+                                                                                  2= A lot
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  401    3 3.0       MSDRHPAY         C.5.g        Hard to pay for medication     0= Never
+                                                                                  1= Sometimes
+                                                                                  2= A lot
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  404    3 3.0       MSDRTSTB         C.5.h        Medication tastes bad          0= Never
+                                                                                  1= Sometimes
+                                                                                  2= A lot
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  407    3 3.0       MSDRHRTS         C.5.i        Medication hurts/is painful    0= Never
+                                                                                  1= Sometimes
+                                                                                  2= A lot
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  410    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

@@ -1,0 +1,76 @@
+                               CODEBOOK
+Summary of Blood Pressure and Hypertension Markers, June 2011                              11-17-2017
+UPDATED: 09DEC2016
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID                        ID number                 101001
+                                                                                  .
+                                                                                  .
+                                                                                  699999
+
+    7    3 3.0       VISIT                         Visit number              10
+                                                                                  .
+                                                                                  .
+                                                                                  50
+
+   10    9 9.3       DB_Date                       Datebase date of Visit         0.000= 0.000 years
+                                                   (casual BP measurements) in    .
+                                                   duration of year from the      .
+                                                   baseline visit                 50.000= 50.000 years
+
+   19    4 4.0       SBP                           Average Systolic BP from PE    50mm Hg
+                                                                                  .
+                                                                                  .
+                                                                                  200mm Hg
+
+   23    4 4.0       DBP                           Average Diastolic BP from PE   30mm Hg
+                                                                                  .
+                                                                                  .
+                                                                                  99mm Hg
+
+   27    6 6.3       SBPINDXagh                    SBP Index based on age,        0.000
+                                                   gender & height                .
+                                                                                  .
+                                                                                  9.999
+                                                                                  -9 or Blank= Missing
+
+   33    7 7.2       SBPPCTagh                     Systolic BP percentile based   00.00%
+                                                   on age, gender & height        .
+                                                                                  .
+                                                                                  100.00%
+
+   40    6 6.2       SBPZagh                       Systolic BP z-score based on   -9.99
+                                                   age, gender & height           .
+                                                                                  .
+                                                                                  9.99
+
+   46    3 3.0       SHYPagh                       Systolic Hypertension,         1= Yes
+                                                   >=95%ile based on age, gender  0= No
+                                                   & height                       -9 or Blank= Missing
+
+   49    6 6.3       DBPINDXagh                    DBP Index based on age,        0.000
+                                                   gender & height                .
+                                                                                  .
+                                                                                  9.999
+                                                                                  -9 or Blank= Missing
+
+   55    7 7.2       DBPPCTagh                     Diastolic BP percentile based  00.00%
+                                                   on age, gender & height        .
+                                                                                  .
+                                                                                  100.00%
+
+   62    6 6.2       DBPZagh                       Diastolic BP z-score based on  -9.99
+                                                   age, gender & height           .
+                                                                                  .
+                                                                                  9.99
+
+   68    3 3.0       DHYPagh                       Diastolic Hypertension,        1= Yes
+                                                   >=95%ile based on age, gender  0= No
+                                                   & height                       -9 or Blank= Missing
+
+   71    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

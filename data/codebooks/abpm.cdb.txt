@@ -1,0 +1,173 @@
+                               CODEBOOK
+Summary of Blood Pressure and Hypertension Markers, June 2011                              11-17-2017
+UPDATED: 09DEC2016
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID                        ID number                 101001
+                                                                                  .
+                                                                                  .
+                                                                                  699999
+
+    7    3 3.0       VISIT                         Visit number              10
+                                                                                  .
+                                                                                  .
+                                                                                  50
+
+   10    9 9.3       ABPM_Date                     Date of ABPM protocol in       0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+
+   19    7 7.2       WkSysMean                     Systolic Mean during Wake      0.00= 0.00
+                                                   State                          .
+                                                                                  .
+                                                                                  300.00= 300.00
+
+   26    7 7.2       SlSysMean                     Systolic Mean during Sleep     0.00= 0.00
+                                                   State                          .
+                                                                                  .
+                                                                                  300.00= 300.00
+
+   33    6 6.2       WkSysStDev                    Systolic SD during Wake State  0.00= 0.0
+                                                                                  .
+                                                                                  .
+                                                                                  1= 1
+
+   39    6 6.2       SlSysStDev                    Systolic SD during Sleep State 0.00= 0.0
+                                                                                  .
+                                                                                  .
+                                                                                  1= 1
+
+   45    5 5.2       WkSysIndx                     Wake Systolic Index based on   0= 0.00
+                                                   95%ile Soergel 1997 Limits     .
+                                                                                  .
+                                                                                  1.99= 1.99
+
+   50    5 5.2       SlSysIndx                     Sleep Systolic Index based on  0= 0.00
+                                                   95%ile Soergel 1997 Limits     .
+                                                                                  .
+                                                                                  1.99= 1.99
+
+   55    6 6.1       SysPctDipping                 ((Wake Mean Systolic BP -      -15= -15.0
+                                                   Sleep Mean Systolic BP)/Wake   .
+                                                   Mean Systolic BP)*100          .
+                                                                                  100.0= 100.0
+
+   61    7 7.2       WkDiaMean                     Diastolic Mean during Wake     0.00= 0.0
+                                                   State                          .
+                                                                                  .
+                                                                                  300= 300
+
+   68    7 7.2       SlDiaMean                     Diastolic Mean during Sleep    0.00= 0.0
+                                                   State                          .
+                                                                                  .
+                                                                                  300= 300
+
+   75    6 6.2       WkDiaStDev                    Diastolic SD during Wake State 0.00= 0.0
+                                                                                  .
+                                                                                  .
+                                                                                  1= 1
+
+   81    6 6.2       SlDiaStDev                    Diastolic SD during Sleep      0.00= 0.0
+                                                   State                          .
+                                                                                  .
+                                                                                  1= 1
+
+   87    5 5.2       WkDiaIndx                     Wake Diastolic Index based on  0= 0.00
+                                                   95%ile Soergel 1997 Limits     .
+                                                                                  .
+                                                                                  1.99= 1.99
+
+   92    5 5.2       SlDiaIndx                     Sleep Diastolic Index based    0= 0.00
+                                                   on 95%ile Soergel 1997 Limits  .
+                                                                                  .
+                                                                                  1.99= 1.99
+
+   97    6 6.1       DiaPctDipping                 ((Wake Mean Diastolic BP -     -15= -15.0
+                                                   Sleep Mean Diastolic BP)/Wake  .
+                                                   Mean Diastolic BP)*100         .
+                                                                                  100.0= 100.0
+
+  103    7 7.2       WkHRMean                      HR Mean during wake state      0.0= 0.0
+                                                                                  .
+                                                                                  .
+                                                                                  160.00= 160.00
+
+  110    7 7.2       SlHRMean                      HR Mean during sleep state     0.0= 0.0
+                                                                                  .
+                                                                                  .
+                                                                                  160.00= 160.00
+
+  117    4 4.0       WkSys95Lim                    Wake Systolic Limit (95%ile    0.0
+                                                   Soergel 1997 Limits)           .
+                                                                                  .
+                                                                                  200= 200
+
+  121    4 4.0       SlSys95Lim                    Sleep Systolic Limit (95%ile   0.0
+                                                   Soergel 1997 Limits)           .
+                                                                                  .
+                                                                                  200= 200
+
+  125    4 4.0       WGSBP90Limit                  Working Group 90%ile Systolic  0.0= 0.0
+                                                   Limit                          .
+                                                                                  .
+                                                                                  200= 200
+
+  129    4 4.0       WGSBP95Limit                  Working Group 95%ile Systolic  0.0= 0.0
+                                                   Limit                          .
+                                                                                  .
+                                                                                  200= 200
+
+  133    4 4.0       WkDia95Lim                    Wake Diastolic Limit (95%ile   0.0= 0.0
+                                                   Soergel 1997 Limits)           .
+                                                                                  .
+                                                                                  200= 200
+
+  137    4 4.0       SlDia95Lim                    Sleep Diastolic Limit (95%ile  0.0= 0.0
+                                                   Soergel 1997 Limits)           .
+                                                                                  .
+                                                                                  200= 200
+
+  141    4 4.0       WGDBP90Limit                  Working Group 90%ile           0.0= 0.0
+                                                   Diastolic Limit                .
+                                                                                  .
+                                                                                  200= 200
+
+  145    4 4.0       WGDBP95Limit                  Working Group 95%ile           0.0= 0.0
+                                                   Diastolic Limit                .
+                                                                                  .
+                                                                                  200= 200
+
+  149    4 4.0       WkSysLoad                     Wake State % systolic          0= 0
+                                                   readings greater than or       .
+                                                   equal to 95%ile Soergel        .
+                                                   1997limit                      100= 100
+
+  153    4 4.0       SlSysLoad                     Sleep State % systolic         0= 0
+                                                   readings greater than or       .
+                                                   equal to 95%ile Soergel        .
+                                                   1997limit                      100= 100
+
+  157    4 4.0       WkDiaLoad                     Wake State % Diastolic         0= 0
+                                                   readings greater than or       .
+                                                   equal to limit                 .
+                                                                                  100= 100
+
+  161    4 4.0       SlDiaLoad                     Sleep State % Diastolic        0= 0
+                                                   readings greater than or       .
+                                                   equal to limit                 .
+                                                                                  100= 100
+
+  165    3 2.0       ABPMSuccess                   Indicator variable for         0= Not successful ABPM
+                                                   Successful ABPM: >21 hours     1= Successful ABPM
+                                                   collected, no more than 3      -1= NA
+                                                   total missed hours, wake       -9= missing
+                                                   success rate = 75%, sleep
+                                                   success rate = 75%
+
+  168    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

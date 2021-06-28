@@ -1,0 +1,290 @@
+                               CODEBOOK
+V2015                              11-9-2017
+NRC04A - Behavioral Data Coding Sheet: 12 to 24 months
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        001= 001
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSB1           A.3          Form version                   09/01/04= 09/01/04
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    7 7.3       B1TSTDAT         A.4          Date of testing in duration    0.000= 0.000 years
+                                                   of year from the baseline      .
+                                                   visit                          .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   25    2 2.0       B1CHDAGE         B.1          Child is between 12 and 24     1= YES
+                                                   months                         2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   27    2 2.0       B1ABSCMP         C.0.a        ABAS-II completed at study     1= YES
+                                                   visit                          2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   29    2 2.0       B1COMMRW         C.1.a        Adaptive Behavior -            0= 0
+                                                   Communication Raw Score        .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   31    2 2.0       B1COMMSC         C.1.b        Adaptive Behavior -            0= 0
+                                                   Communication Scaled Score     .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   33    2 2.0       B1CUSERW         C.2.a        Adaptive Behavior - Community  0= 0
+                                                   Use Raw Score                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   35    2 2.0       B1CUSESC         C.2.b        Adaptive Behavior - Community  0= 0
+                                                   Use Scaled Score               .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   37    2 2.0       B1FACARW         C.3.a        Adaptive Behavior -            0= 0
+                                                   Functional Pre-Academics Raw   .
+                                                   Score                          .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   39    2 2.0       B1FACASC         C.3.b        Adaptive Behavior -            0= 0
+                                                   Functional Pre-Academics       .
+                                                   Scaled Score                   .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   41    2 2.0       B1HLIVRW         C.4.a        Adaptive Behavior - Home       0= 0
+                                                   Living Raw Score               .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   43    2 2.0       B1HLIVSC         C.4.b        Adaptive Behavior - Home       0= 0
+                                                   Living Scaled Score            .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   45    2 2.0       B1HSAFRW         C.5.a        Adaptive Behavior - Health     0= 0
+                                                   and Safety Raw Score           .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   47    2 2.0       B1HSAFSC         C.5.b        Adaptive Behavior - Health     0= 0
+                                                   and Safety Scaled Score        .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   49    2 2.0       B1LEISRW         C.6.a        Adaptive Behavior - Leisure    0= 0
+                                                   Raw Score                      .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   51    2 2.0       B1LEISSC         C.6.b        Adaptive Behavior - Leisure    0= 0
+                                                   Scaled Score                   .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   53    2 2.0       B1SLFCRW         C.7.a        Adaptive Behavior - Self-Care  0= 0
+                                                   Raw Score                      .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   55    2 2.0       B1SLFCSC         C.7.b        Adaptive Behavior - Self-Care  0= 0
+                                                   Scaled Score                   .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   57    2 2.0       B1SLFDRW         C.8.a        Adaptive Behavior - Self-      0= 0
+                                                   Direction Raw Score            .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   59    2 2.0       B1SLFDSC         C.8.b        Adaptive Behavior - Self-      0= 0
+                                                   Direction Scaled Score         .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   61    2 2.0       B1SOCLRW         C.9.a        Adaptive Behavior - Social     0= 0
+                                                   Raw Score                      .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   63    2 2.0       B1SOCLSC         C.9.b        Adaptive Behavior - Social     0= 0
+                                                   Scaled Score                   .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   65    2 2.0       B1MOTRRW         C.10.a       Adaptive Behavior - Motor Raw  0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   67    2 2.0       B1MOTRSC         C.10.b       Adaptive Behavior - Motor      0= 0
+                                                   Scaled Score                   .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   69    3 3.0       B1GACSUM         C.11.a       Adaptive Behavior - General    0= 0
+                                                   Adaptive Composite Raw Score   .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   72    3 3.0       B1GACCOM         C.11.b       Adaptive Behavior - General    71= 71
+                                                   Adaptive Composite Standard    .
+                                                   Score                          .
+                                                                                  150= 150
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   75    3 3.0       B1CONCOM         C.11.c       Adaptive Behavior -            0= 0
+                                                   Conceptual Composite Score     .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   78    3 3.0       B1SOCCOM         C.11.d       Adaptive Behavior - Social     0= 0
+                                                   Composite Score                .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   81    3 3.0       B1PRCCOM         C.11.e       Adaptive Behavior - Practical  0= 0
+                                                   Composite Score                .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   84    7 7.3       B1FCMPDT         D.1          Date form completed in         0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   91    3 $         B1INIT           D.2          Initials of coordinator        Character
+                                                   reviewing form
+
+   94    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+   95    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

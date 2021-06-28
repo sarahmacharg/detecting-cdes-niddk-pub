@@ -1,0 +1,287 @@
+                               CODEBOOK
+V2015: Prospective Cohort Study of Kidney Disease in Children                              11-14-2017
+ADVR - Adverse Event Form
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSAE           A.3          Form version                   09/01/04= 09/01/04
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    7 7.3       AEDATE           A.4          Date of adverse event in       0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   25    7 7.3       AEDTCOMP         A.5          Date form completed in         0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   32    3 $         AEINITL          A.6          Initials of person completing  Character
+                                                   form
+
+   35    2 2.0       ACCELVIS         OldA.7       Old: Accelerated visit         1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   37    2 2.0       AEUNRLTD         A.7          Adverse Event completely       1= Yes
+                                                   unrelated to study procedure   2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   39    2 2.0       AEIOHEXR         B.1          Suspected iohexol reaction     1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   41    2 2.0       AEIRRASH         B.2.a        Iohexol reaction - rash        1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   43    2 2.0       AEIRDSBP         B.2.b        Iohexol reaction - decreased   1= YES
+                                                   systolic BP                    2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   45    2 2.0       AEIRDDBP         B.2.c        Iohexol reaction - decreased   1= YES
+                                                   diastolic BP                   2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   47    2 2.0       AEIRIPLS         B.2.d        Iohexol reaction - increased   1= YES
+                                                   pulse                          2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   49    2 2.0       AEIRDPLS         B.2.e        Iohexol reaction - decreased   1= YES
+                                                   pulse                          2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   51    2 2.0       AEIROTHR         B.2.f        Iohexol reaction - other       1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   53   60 $         AEIRSPOT         B.2.f.i      Specify other iohexol reaction Character
+
+  113    2 2.0       AEIRLKLY         B.3          Likelihood that reaction due   1= Most Probably
+                                                   to iohexol                     2= Probably
+                                                                                  3= Possibly
+                                                                                  4= Probably Not
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  115    2 2.0       AEBLDRAW         B.4          Suspected blood draw adverse   1= Yes
+                                                   event                          2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  117    2 2.0       AEBDINFC         B.5.a        Blood draw adverse event -     1= YES
+                                                   infection                      2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  119    2 2.0       AEBDOTHR         B.5.b        Blood draw adverse event -     1= YES
+                                                   other                          2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  121   60 $         AEBDSPOT         B.5.b.i      Specify other blood draw       Character
+                                                   adverse event
+
+  181    2 2.0       AEBDLKLY         B.6          Likelihood that adverse event  1= Most Probably
+                                                   related to blood draw          2= Probably
+                                                                                  3= Possibly
+                                                                                  4= Probably Not
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  183    2 2.0       AEABPM           B.7          Suspected ABPM adverse event   1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  185    2 2.0       AEBPBRUS         B.8.a        ABPM adverse event - bruising  1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  187    2 2.0       AEBPOTHR         B.8.b        ABPM adverse event - other     1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  189   60 $         AEBPSPOT         B.8.b.i      Specify other ABPM adverse     Character
+                                                   event
+
+  249    2 2.0       AEBPLKLY         B.9          Likelihood that adverse event  1= Most Probably
+                                                   related to ABPM                2= Probably
+                                                                                  3= Possibly
+                                                                                  4= Probably Not
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  251    2 2.0       AEPRLOBS         B.10.a       Adverse event resulted in -    1= Yes
+                                                   prolonged observational period 2= No
+                                                                                  3= Other
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  253    2 2.0       AEPOERVS         B.10.b       Adverse event resulted in -    1= Yes
+                                                   emergency room visit           2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  255    2 2.0       AEPOHOSP         B.10.c       Adverse event resulted in -    1= Yes
+                                                   hospitalization                2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  257    2 2.0       AEPOOTHR         B.10.d       Adverse event resulted in -    1= Yes
+                                                   other adverse event            2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  259   60 $         AEPROBSP         B.10.d.i     Specify other adverse event    Character
+
+  319    2 2.0       AEWTHDRW         B.11         Adverse event caused           1= Yes
+                                                   participant to withdraw        2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  321    2 2.0       AENSHEAD         C.1.1        Non-study event - headache     1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  323    2 2.0       AENSDIZZ         C.1.2        Non-study event - dizziness    1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  325    2 2.0       AENSGIPB         C.1.3        Non-study event - GI problem/  1= YES
+                                                   vomiting                       2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  327    2 2.0       AENSLWBP         C.1.4        Non-study event - Low blood    1= YES
+                                                   pressure                       2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  329    2 2.0       AENSCOLD         C.1.5        Non-study event - cold/flu     1= YES
+                                                   symptoms                       2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  331    2 2.0       AENSDEHY         C.1.6        Non-study event - dehydration  1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  333    2 2.0       AENSMUSC         C.1.7        Non-study event -              1= YES
+                                                   musculoskeletal injuries       2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  335    2 2.0       AENSOTHR         C.1.8        Non-study event - other        1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  337   60 $         AENSOTSP         C.1.8.i      Specify other non-study event  Character
+
+  397    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  398    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

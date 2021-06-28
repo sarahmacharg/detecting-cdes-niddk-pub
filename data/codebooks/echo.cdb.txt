@@ -1,0 +1,315 @@
+                               CODEBOOK
+Codebook-ECHOCARDIO DATA (means of measurements and created variables)                              12-21-2017
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID                        Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    4 4.0       VISIT                         Visit #                        00= 00
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+
+   11    9 9.5       LA4C                          Left atrial area from apical   0.00000= 0.00000
+                                                   4 chamber view(cm2)            .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+   20    9 9.5       LLA                           L atrial length from apical 4  0.00000= 0.00000
+                                                   chamber view(cm)               .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+   29    9 9.5       LVAdepi                       L ventricular area end-        0.00000= 0.00000
+                                                   diastole short axis of         .
+                                                   epicardium(cm2)                .
+                                                                                  999.99999= 999.99999
+
+   38    9 9.5       LVAd                          L ventricular area end-        0.00000= 0.00000
+                                                   diastole short axis of         .
+                                                   endocardium(cm2)               .
+                                                                                  999.99999= 999.99999
+
+   47    9 9.5       LVAs                          L ventricular area end-        0.00000= 0.00000
+                                                   systole short axis of          .
+                                                   endocardium(cm2)               .
+                                                                                  999.99999= 999.99999
+
+   56    9 9.5       L                             Length of the LV end-diastole  0.00000= 0.00000
+                                                   apical 4 chamber view(cm)      .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+   65    9 9.5       RV                            Right ventricle internal       0.00000= 0.00000
+                                                   diameter end-diastole(cm)      .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+   74    9 9.5       IVSd                          Interventricular septum end-   0.00000= 0.00000
+                                                   diastole(cm)                   .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+   83    9 9.5       LVPWd                         L ventricular posterior wall   0.00000= 0.00000
+                                                   end-diastole(cm)               .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+   92    9 9.5       LVIDd                         L ventricle internal diameter  0.00000= 0.00000
+                                                   end-diastole(cm)               .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  101    9 9.5       LVIDs                         L ventricle internal diameter  0.00000= 0.00000
+                                                   end-systole(cm)                .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  110    9 9.5       LADiam                        Left atrium diameter end-      0.00000= 0.00000
+                                                   systole(cm)                    .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  119    9 9.5       AOd                           Ascending aortic diameter at   0.00000= 0.00000
+                                                   end-diastole(cm)               .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  128    9 9.5       AOs                           Ascending aortic diameter at   0.00000= 0.00000
+                                                   end-systole(cm)                .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  137   10 10.5      Ewave                         E-wave maximum velocity from   0.00000= 0.00000
+                                                   mitral valve inflow(cm/s)      .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  147   10 10.5      Awave                         A-wave maximum velocity from   0.00000= 0.00000
+                                                   mitral valve inflow(cm/s)      .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  157   10 10.5      EmSept                        Em wave septal velocity from   0.00000= 0.00000
+                                                   Tissue Velocity Imaging(cm/s)  .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  167    9 9.5       AmSept                        Am wave septal velocity from   0.00000= 0.00000
+                                                   Tissue Velocity Imaging(cm/s)  .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  176    9 9.5       SmSept                        Sm wave septal velocity from   0.00000= 0.00000
+                                                   Tissue Velocity Imaging(cm/s)  .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  185   10 10.5      EmLat                         Em wave lateral velocity from  0.00000= 0.00000
+                                                   Tissue Velocity Imaging(cm/s)  .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  195    9 9.5       AmLat                         Am wave lateral velocity from  0.00000= 0.00000
+                                                   Tissue Velocity Imaging(cm/s)  .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  204    9 9.5       SmLat                         Sm wave lateral velocity from  0.00000= 0.00000
+                                                   Tissue Velocity Imaging(cms/s) .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  213    3           PP                            Pulse Pressure (SBP-DBP)       1= 1
+                                                                                  .
+                                                                                  .
+                                                                                  100= 100
+
+  216    9 9.5       SF                            Shortening Fraction            0.00000= 0.00000
+                                                                                  .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  225    9 9.5       RWT                           Relative Wall Thickness (cm)   0.00000= 0.00000
+                                                                                  .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  234   10 10.5      LVM                           Left Ventricular Mass (g)      0.00000= 0.00000
+                                                                                  .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  244    9 9.5       MWST                          Mid-wall Systolic Thickness    0.00000= 0.00000
+                                                   (cm)                           .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  253    9 9.5       MWSF                          Mid-wall Shortening Fraction   0.00000= 0.00000
+                                                                                  .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  262    9 9.5       LAV                           Left Atrial Volume             0.00000= 0.00000
+                                                                                  .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  271    9 9.5       FAC                           Fractional Area Change         0.00000= 0.00000
+                                                                                  .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  280    9 9.5       MRWT                          Mean Relative Wall Thickness   0.00000= 0.00000
+                                                   (g)                            .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  289   10 10.5      LVM2D                         Left Ventricular mass          0.00000= 0.00000
+                                                   measured by 2D (g)             .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  299    9 9.5       E_ARatio                      E-wave to A-wave Ratio         0.00000= 0.00000
+                                                                                  .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  308    9 9.5       Em_AmSeptRatio                Em/Am at septal side of        0.00000= 0.00000
+                                                   mitral valve annulus from      .
+                                                   Tissue Velocity                .
+                                                                                  999.99999= 999.99999
+
+  317    9 9.5       Em_AmLatRatio                 Em/Am at lateral side of       0.00000= 0.00000
+                                                   mitral valve annulus from      .
+                                                   Tissue Velocity                .
+                                                                                  999.99999= 999.99999
+
+  326   10 10.5      AOStrain                      Ascending aortic strain        0.00000= 0.00000
+                                                                                  .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+                                                                                  -90.000= Recoded, original
+                                                                                  value extreme outlier
+
+  336    9 9.5       AODis                         Ascending aortic               0.00000= 0.00000
+                                                   distensibility (cm**2*dyne**-  .
+                                                   1*10**-6)                      .
+                                                                                  999.99999= 999.99999
+                                                                                  -90.000= Recoded, original
+                                                                                  value extreme outlier
+
+  345   10 10.5      AOStiff                       Ascending aortic stiffness     0.00000= 0.00000
+                                                                                  .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+                                                                                  -90.000= Recoded, original
+                                                                                  value extreme outlier
+
+  355   12 12.5      AOMod                         Ascending aortic pressure      0.00000= 0.00000
+                                                   strain modulus(cm**2*dyne**-   .
+                                                   1*10**-6)                      .
+                                                                                  9999.99999= 9999.99999
+
+  367    9 9.3       echodatey                     Date of Echoin duration of     0.000= 0.000 years
+                                                   year from the baseline visit   .
+                                                                                  .
+                                                                                  50.000= 50.000 years
+
+  376   10 10.5      LVMI                          LVM index (units gr/m**2.7)    0.00000= 0.00000
+                                                                                  .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  386    2 2.0       LVHf                          left Ventricle Hypertrophy     1= Yes
+                                                   (Figures)                      0= No
+                                                                                  .= Missing
+
+  388    2 2.0       LVHe                          left Ventricle Hypertrophy     1= Yes
+                                                   (Equation)                     0= No
+                                                                                  .= Missing
+
+  390    2 2.0       lvh                           left Ventricle Hypertrophy     1= Yes
+                                                   (Same as LVHf - Used for       0= No
+                                                   KIDMAC Report)                 .= Missing
+
+  392    2 2.0       lvmgeomcat                    Left Ventricular Geometry      1= Normal
+                                                   Categories                     2= Eccentric Hypertrophy
+                                                                                  3= Concentric Remodeling
+                                                                                  4= Concentric Hypertrophy
+                                                                                  .= Missing
+
+  394    8 8.2       elbm                          estimated lean body mass       00.00
+                                                                                  .
+                                                                                  .
+                                                                                  99.99
+
+  402    6 6.2       LVMzelbm                      LVM z-score adjusted for       -9.99
+                                                   estimated lean body mass       .
+                                                                                  .
+                                                                                  9.99
+
+  408    8 8.2       LVMpctelbm                    LVM percentile adjusted for    00.00%
+                                                   estimated lean body mass       .
+                                                                                  .
+                                                                                  99.99%
+
+  416    2 2.0       LVH_elbm                      LVH determined by indexing to  1= Yes
+                                                   estimated lean body mass       0= No
+                                                                                  .= Missing
+
+  418    2 2.0       sfabnorm                      Shortening Fraction            1= =< 0.25 Abnormally Low
+                                                   Categories (2=Normal)          2= >0.25 and <0.47 Normal
+                                                                                  3= >0.47 Abnormally High
+
+  420    2 2.0       sfLowY1n0                     Abnormally Low Shortening      1= Yes
+                                                   Fraction (<0.25)               0= No
+                                                                                  .= Missing
+
+  422    2 2.0       sfHighY1n0                    Abnormally High Shortening     1= Yes
+                                                   Fraction (>0.47)               0= No
+                                                                                  .= Missing
+
+  424    2 2.0       mwsfabnormy1n0                Abnormal Mid Wall Shortening   1= Yes
+                                                   Fraction (<0.16)               0= No
+                                                                                  .= Missing
+
+  426    2 2.0       e_aRatioAbY1n0                Abnormal E-wave to A-wave      1= Yes
+                                                   ratio (<1.0)                   0= No
+                                                                                  .= Missing
+
+  428    2 2.0       Em_AmRatioAbY1N0              Abnormal Em/Am Ratio Septal    1= Yes
+                                                   Side (<1.0)                    0= No
+                                                                                  .= Missing
+
+  430    3 2.0       RWTge04y1n0                   Relative Wall Thickness >=0.4  1= Yes
+                                                                                  0= No
+                                                                                  .= Missing
+
+  433    3 2.0       cd1vhs2                       ECHO study read on CD/DVD      1= CD study
+                                                   (higher quality), or VHS tape  2= VHS tape study
+                                                   (lower quality)
+
+  436    3 2.0       Caution                       Cautioned variable             0= No Caution
+                                                                                  1= ECHO at odd visit, use
+                                                                                     extreme caution
+                                                                                  2= Echo not yet in
+                                                                                     vert_datebase
+                                                                                  11= ECHO before datebase
+                                                                                     visit date (>30 days
+                                                                                     before)
+                                                                                  12= Echo after datebase visit
+                                                                                     date (>30 days after)
+
+  439  201 $201.     NOTES                         Notes                          Character
+
+  640    6 $         VERSION                       Version number of data         V01.01= Version 01,
+                                                                                     in Visit 01.
+                                                                                  .
+                                                                                  .
+                                                                                  V99.03= Version 03,
+                                                                                     in Visit 99.

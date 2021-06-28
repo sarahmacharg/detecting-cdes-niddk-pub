@@ -1,0 +1,588 @@
+                               CODEBOOK
+V2015                              11-9-2017
+F01 - Symptoms List
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSSY           A.3          Form version                   09/01/04= 09/01/04
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    7 7.3       SYVISDAT         A.4          Date of visit in duration of   0.000= 0.000 years
+                                                   year from the baseline visit   .
+                                                                                  .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   25    2 2.0       SYFCOMBY         A.5          Person completing form         1= Child/young adult
+                                                                                  2= Parent or other adult
+                                                                                  3= Both (Parent and Child/
+                                                                                     young adult)
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   27    2 2.0       ACCELVIS         A.6          Accelerated visit              1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   29    2 2.0       SYNAUSEA         B.1          Number of days nausea          0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   31    2 2.0       SYNAUSSV         B.1.a        Severity of nausea             1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   33    2 2.0       SYVOMIT          B.2          Number of days vomiting        0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   35    2 2.0       SYVOMTSV         B.2.a        Severity of vomiting           1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   37    2 2.0       SYDIARR          B.3          Number of days diarrhea        0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   39    2 2.0       SYDIARSV         B.3.a        Severity of diarrhea           1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   41    2 2.0       SYCONSTI         B.4          Number of days constipation    0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   43    2 2.0       SYCONSSV         B.4.a        Severity of constipation       1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   45    2 2.0       SYITCHNG         B.5          Number of days itching         0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   47    2 2.0       SYITCHSV         B.5.a        Severity of itching            1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   49    2 2.0       SYNUMBHF         B.6          Number of days numbness hands/ 0= 0
+                                                   feet                           .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   51    2 2.0       SYNUMBSV         B.6.a        Severity of numbness in hands/ 1= Mild
+                                                   feet                           2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   53    2 2.0       SYFAINT          B.7          Number of days feel faint      0= 0
+                                                   standing up                    .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   55    2 2.0       SYFANTSV         B.7.a        Severity of feeling faint      1= Mild
+                                                   standing up                    2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   57    2 2.0       SYBLRVIS         B.8          Number of days blurred vision  0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   59    2 2.0       SYBLVSSV         B.8.a        Severity of blurred vision     1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   61    2 2.0       SYURINE          B.9          Number of days problems        0= 0
+                                                   urinating                      .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   63    2 2.0       SYURINSV         B.9.a        Severity of urinating problems 1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   65    2 2.0       SYHDACHE         B.10         Number of days headaches       0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   67    2 2.0       SYHDACSV         B.10.a       Severity of headaches          1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   69    2 2.0       SYBADTST         B.11         Number of days bad taste       0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   71    2 2.0       SYBDTSSV         B.11.a       Severity of bad taste          1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   73    2 2.0       SYLAPPET         B.12         Number of days loss of         0= 0
+                                                   appetite                       .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   75    2 2.0       SYLAPPSV         B.12.a       Severity of loss of appetite   1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   77    2 2.0       SYINCAPP         B.13         Number of days increased       0= 0
+                                                   appetite                       .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   79    2 2.0       SYINAPSV         B.13.a       Severity of increased appetite 1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   81    2 2.0       SYINWGHT         B.14         Number of days weight increase 0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   83    2 2.0       SYINWTSV         B.14.a       Severity of weight increase    1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   85    2 2.0       SYHTBURN         B.15         Number of days heartburn       0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   87    2 2.0       SYHTBNSV         B.15.a       Severity of heartburn          1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   89    2 2.0       SYABDGAS         B.16         Number of days abdominal       0= 0
+                                                   bloating or gas                .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   91    2 2.0       SYABGSSV         B.16.a       Severity of abdominal          1= Mild
+                                                   bloating/gas                   2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   93    2 2.0       SYABDPAN         B.17         Number of days abdominal pain  0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   95    2 2.0       SYABPNSV         B.17.a       Severity of abdominal pain     1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   97    2 2.0       SYSWLING         B.18         Number of days swelling        0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   99    2 2.0       SYSWLGSV         B.18.a       Severity of swelling           1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  101    2 2.0       SYHICCUP         B.19         Number of days hiccoughs       0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  103    2 2.0       SYHICCSV         B.19.a       Severity of hiccoughs          1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  105    2 2.0       SYHIVESR         B.20         Number of days hives/rash      0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  107    2 2.0       SYHVRSSV         B.20.a       Severity of hives/rash         1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  109    2 2.0       SYBRUSBL         B.21         Number of days bruising/       0= 0
+                                                   bleeding                       .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  111    2 2.0       SYBRUSSV         B.21.a       Severity of bruising/bleeding  1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  113    2 2.0       SYWEAKNS         B.22         Number of days weakness        0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  115    2 2.0       SYWEAKSV         B.22.a       Severity of weakness           1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  117    2 2.0       SYMUSCRM         B.23         Number of days muscle cramps   0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  119    2 2.0       SYMUSCSV         B.23.a       Severity of muscle cramps      1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  121    2 2.0       SYUPERLY         B.24         Number of days up too early    0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  123    2 2.0       SYUPERSV         B.24.a       Severity of up too early       1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  125    2 2.0       SYFALSLP         B.25         Number of days falling asleep  0= 0
+                                                   during day                     .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  127    2 2.0       SYFASLSV         B.25.a       Severity of falling asleep     1= Mild
+                                                   during day                     2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  129    2 2.0       SYFLIRRI         B.26         Number of days feeling         0= 0
+                                                   irritable                      .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  131    2 2.0       SYFIRISV         B.26.a       Severity of feeling irritable  1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  133    2 2.0       SYDCRALT         B.27         Number of days decreased       0= 0
+                                                   alertness                      .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  135    2 2.0       SYDALTSV         B.27.a       Severity of decreased          1= Mild
+                                                   alertness                      2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  137    2 2.0       SYLEGPAN         B.28         Number of days leg pain        0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  139    2 2.0       SYLGPNSV         B.28.a       Severity of leg pain           1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  141    2 2.0       SYFLKPAN         B.29         Number of days flank pain      0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  143    2 2.0       SYFLPNSV         B.29.a       Severity of flank pain         1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  145    2 2.0       SYOTHER          B.30         Number of days other symptom   0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  31= 31
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  147   45 $         SYOTSYSP         B.30         Specify other unexpected       Character
+                                                   symptoms
+
+  192    2 2.0       SYOTHRSV         B.30.a       Severity of other symptom      1= Mild
+                                                                                  2= Moderate
+                                                                                  3= Severe
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  194    7 7.3       SYREVDAT         C.1          Date of form review in         0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  201    3 $         SYRVINIT         C.2          Initials of person reviewing   Character
+                                                   form
+
+  204    2 2.0       SYFADMIN         C.3          Form administration            1= Interviewer-Assisted
+                                                                                  2= Self-Administered
+                                                                                  3= Both
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  206    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  207    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

@@ -1,0 +1,77 @@
+                               CODEBOOK
+V2015                              11-9-2017
+L13 - Central Laboratory - Vitamin D
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSVD           A.3          Form version                   09/01/04= 09/01/04
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    2 2.0       VDTESTAV         B.1          Vitamin D results available    1= Yes
+                                                                                  2= No, Sample Inadequate
+                                                                                  3= No, Other Reason
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   20   25 $         VDRNAVAL         B.1.a        Specify reason vitamin D       Character
+                                                   results not available
+
+   45    7 7.3       VDDATESM         B.2          Date sample drawn for vitamin  0.000= 0.000 years
+                                                   D in duration of year from     .
+                                                   the baseline visit             .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   52    3 3.0       VD25OHD2         B.3.a        25-OH Vitamin D2 (ng/mL)       30= 30
+                                                                                  .
+                                                                                  .
+                                                                                  80= 80
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   55    3 3.0       VD25OHD3         B.3.b        25-OH Vitamin D3 (ng/mL)       1= 1
+                                                                                  .
+                                                                                  .
+                                                                                  80= 80
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   58    3 3.0       VD25OHVT         B.3.c        25-OH Vitamin Total (ng/mL)    30= 30
+                                                                                  .
+                                                                                  .
+                                                                                  80= 80
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   61    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+   62    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

@@ -1,0 +1,890 @@
+                               CODEBOOK
+V2015                              11-9-2017
+PE - Physical Exam
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        001= 001
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSPE           A.3          Form version                   09/01/04= 09/01/04
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    7 7.3       PEVISDAT         A.4          Date of visit in duration of   0.000= 0.000 years
+                                                   year from the baseline visit   .
+                                                                                  .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   25    3 $         PEINITLS         A.5          Initials of examiner           Character
+
+   28    2 2.0       ACCELVIS         A.6          Accelerated visit              1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   30    2 2.0       PEV1ABSV         A.7          Visit 1A or 1B study visit     1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   32    2 2.0       PEV1BSTV         OldA.7       Old: Visit 1B study visit      1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   34    2 2.0       PECONSNT         A.8          Consent form signed by         1= YES
+                                                   participant or parent/guardian 2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   36    7 7.3       PECNSTDT         A.9          Date consent form signed in    0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   43    2 2.0       PEDOCASN         A.10         Documented assent required     1= YES
+                                                                                  2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   45    7 7.3       PEASNTDT         A.11         Date assent obtained in        0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   52    2 2.0       PECNSTGT         A.12         Consent for genetic testing    1= YES
+                                                   obtained                       2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   54    2 2.0       PECNSTBS         A.13         Consent to store biological    1= YES
+                                                   specimens obtained             2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   56    5 5.1       PETEMP           B.1.a        Temperature                    34.0= 34.0
+                                                                                  .
+                                                                                  .
+                                                                                  105.0= 105.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   61    2 2.0       PECNTFAR         B.1.a        Centigrade or Farenheit        1= Centigrade Typical range:
+                                                                                     36.1-38.3
+                                                                                  2= Farenheit Typical range:
+                                                                                     94.5-100.6
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   63    2 2.0       PETMPTYP         B.1.b        Type of temperature            1= Oral
+                                                                                  2= Axillary
+                                                                                  3= Tympanic
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   65    3 3.0       PEPULSE          B.2.a        Pulse measurement              20= 20
+                                                                                  .
+                                                                                  .
+                                                                                  180= 180
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   68    3 3.0       PELBPSYS         B.3          Local blood pressure -         20= 20
+                                                   systolic                       .
+                                                                                  .
+                                                                                  240= 240
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   71    3 3.0       PELBPDIA         B.3          Local blood pressure -         20= 20
+                                                   diastolic                      .
+                                                                                  .
+                                                                                  200= 200
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   74    2 2.0       PERESPPM         B.4.a        Respiratory rate               8= 8
+                                                                                  .
+                                                                                  .
+                                                                                  40= 40
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   76    5 5.1       PEWGT1           C.1.a        Weight (kg) - first            3.0= 3.0
+                                                   measurement                    .
+                                                                                  .
+                                                                                  175.0= 175.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   81    5 5.1       PEWGT2           C.1.b        Weight (kg) - second           3.0= 3.0
+                                                   measurement                    .
+                                                                                  .
+                                                                                  175.0= 175.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   86    2 2.0       PEWGTDIF         C.1.b.i      Weight 1 and 2 differ by more  1= YES
+                                                   than 0.2 kg                    2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   88    5 5.1       PEWGT3           C.1.b.ii     Weight (kg) - third            3.0= 3.0
+                                                   measurement                    .
+                                                                                  .
+                                                                                  175.0= 175.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   93    2 2.0       PEHGTDVC         D.1.a        Device used to obtain length/  1= Measuring table with firm
+                                                   height                            block and moveable
+                                                                                     footboard
+                                                                                  2= Wall-mounted stadiometer
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   95    5 5.1       PEHGT1           D.1.b        Height (cm) - first            60.0= 60.0
+                                                   measurement                    .
+                                                                                  .
+                                                                                  230.0= 230.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  100    5 5.1       PEHGT2           D.1.c        Height (cm) - second           60.0= 60.0
+                                                   measurement                    .
+                                                                                  .
+                                                                                  230.0= 230.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  105    2 2.0       PEHGTDIF         D.1.c.i      Height 1 and 2 differ by more  1= YES
+                                                   than 0.3 cm                    2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  107    5 5.1       PEHGT3           D.1.c.ii     Height (cm) - third            60.0= 60.0
+                                                   measurement                    .
+                                                                                  .
+                                                                                  230.0= 230.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  112    2 2.0       PEODDVIS         D.2          Visit 1A or 1B study visit     1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  114    5 5.1       PERLEG1          D.2.a        Right leg length (cm) - first  60.0= 60.0
+                                                   measurement                    .
+                                                                                  .
+                                                                                  230.0= 230.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  119    5 5.1       PERLEG2          D.2.b        Right leg length (cm) -        60.0= 60.0
+                                                   second measurement             .
+                                                                                  .
+                                                                                  230.0= 230.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  124    5 5.1       PERLEG3          D.2.c        Right leg length (cm) - third  60.0= 60.0
+                                                   measurement                    .
+                                                                                  .
+                                                                                  230.0= 230.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  129    2 2.0       PEV1BVIS         OldD.2.a     Old: Visit is a V1b - first    1= Yes
+                                                   question                       2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  131    2 2.0       PEPARENT         OldD.2.b     Old: Parent used for height    1= Father
+                                                   measurement                    2= Mother
+                                                                                  3= Parent not present at visit
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  133    5 5.1       PEPAHGT1         OldD.2.c     Old: Parent Height (cm) -      60.0= 60.0
+                                                   first measurement              .
+                                                                                  .
+                                                                                  230.0= 230.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  138    5 5.1       PEPAHGT2         OldD.2.d     Old: Parent Height (cm) -      60.0= 60.0
+                                                   second measurement             .
+                                                                                  .
+                                                                                  230.0= 230.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  143    2 2.0       PEPAHTDF         OldD.2.c.i   Old: Parent height 1 and 2     1= YES
+                                                   differ by more than 0.3 cm     2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  145    5 5.1       PEPAHGT3         OldD.2.c.ii  Old: Parent Height (cm) -      60.0= 60.0
+                                                   third measurement              .
+                                                                                  .
+                                                                                  230.0= 230.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  150    5 5.1       PEWST1           D.3.a        Child waist circumference      8.0= 8.0
+                                                   (cm) - first measurement       .
+                                                                                  .
+                                                                                  150.0= 150.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  155    5 5.1       PEWST2           D.3.b        Child waist circumference      8.0= 8.0
+                                                   (cm) - second measurement      .
+                                                                                  .
+                                                                                  150.0= 150.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  160    2 2.0       PEWSTDIF         D.3.b.i      Child waist circumference 1    1= YES
+                                                   and 2 differ by more than 0.1  2= NO
+                                                   cm                             -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  162    5 5.1       PEWST3           D.3.b.ii     Child waist circumference      8.0= 8.0
+                                                   (cm) - third measurement       .
+                                                                                  .
+                                                                                  150.0= 150.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  167    5 5.1       PEHIP1           D.4.a        Child hip circumference (cm) - 8.0= 8.0
+                                                   first measurement              .
+                                                                                  .
+                                                                                  150.0= 150.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  172    5 5.1       PEHIP2           D.4.b        Child hip circumference (cm) - 8.0= 8.0
+                                                   second measurement             .
+                                                                                  .
+                                                                                  150.0= 150.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  177    2 2.0       PEHIPDIF         D.4.b.i      Child hip circumference 1 and  1= YES
+                                                   2 differ by more than 0.1 cm   2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  179    5 5.1       PEHIP3           D.4.b.ii     Child hip circumference (cm) - 8.0= 8.0
+                                                   third measurement              .
+                                                                                  .
+                                                                                  150.0= 150.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  184    2 2.0       PEMOMHTP         D.5.a        Biological mother's height     1= Yes
+                                                   taken at previous visit        2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  186    2 2.0       PEMOMPRS         D.5.b        Biological mother present at   1= Yes
+                                                   visit                          3= No (Biological mother not
+                                                                                     present at visit)
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  188    5 5.1       PEMOHGT1         D.5.c        Mother Height (cm) - first     60.0= 60.0
+                                                   measurement                    .
+                                                                                  .
+                                                                                  230.0= 230.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  193    5 5.1       PEMOHGT2         D.5.d        Mother's Height (cm) - second  60.0= 60.0
+                                                   measurement                    .
+                                                                                  .
+                                                                                  230.0= 230.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  198    2 2.0       PEMOHTDF         D.5.d.i      Mother's height 1 and 2        1= YES
+                                                   differ by more than 0.3 cm     2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  200    5 5.1       PEMOHGT3         D.5.d.ii     Mother's Height (cm) - third   60.0= 60.0
+                                                   measurement                    .
+                                                                                  .
+                                                                                  230.0= 230.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  205    2 2.0       PEDADHTP         D.5.e        Biological father's height     1= Yes
+                                                   taken at previous visit        2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  207    2 2.0       PEDADPRS         D.5.f        Biological father present at   1= Yes
+                                                   visit                          3= No (Biological father not
+                                                                                     present at visit)
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  209    5 5.1       PEDAHGT1         D.5.g        Father's Height (cm) - first   60.0= 60.0
+                                                   measurement                    .
+                                                                                  .
+                                                                                  230.0= 230.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  214    5 5.1       PEDAHGT2         D.5.h        Father's Height (cm) - second  60.0= 60.0
+                                                   measurement                    .
+                                                                                  .
+                                                                                  230.0= 230.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  219    2 2.0       PEDAHTDF         D.5.h.i      Father's height 1 and 2        1= YES
+                                                   differ by more than 0.3 cm     2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  221    5 5.1       PEDAHGT3         D.5.h.ii     Father's Height (cm) - third   60.0= 60.0
+                                                   measurement                    .
+                                                                                  .
+                                                                                  230.0= 230.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  226    5 5.1       PEMAC1           E.1.a        Mid arm circumference (cm) -   8.0= 8.0
+                                                   first measurement              .
+                                                                                  .
+                                                                                  50.0= 50.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  231    5 5.1       PEMAC2           E.1.b        Mid arm circumference (cm) -   8.0= 8.0
+                                                   second measurement             .
+                                                                                  .
+                                                                                  50.0= 50.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  236    2 2.0       PEMACDIF         E.1.b.i      Mid arm circumference 1 and 2  1= YES
+                                                   differ by more than 0.2 cm     2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  238    5 5.1       PEMAC3           E.1.b.ii     Mid arm circumference (cm) -   8.0= 8.0
+                                                   third measurement              .
+                                                                                  .
+                                                                                  50.0= 50.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  243    2 2.0       PEBPCUFF         E.2.a        BP cuff size used              1= Infant (9.0 to 14.0 cm)
+                                                                                  2= Child (>14.0 to 21.0 cm)
+                                                                                  3= Adult (>21.0 to 29.0 cm)
+                                                                                  4= Large Adult (>29.0 to 40.0
+                                                                                     cm)
+                                                                                  5= Thigh (>40.0 to 52.0 cm)
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  245    3 3.0       PEOPLSOV         E.2.b        Observed pulse obliteration    50= 50
+                                                   value                          .
+                                                                                  .
+                                                                                  220= 220
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  248    3 3.0       PEPEAKIN         E.2.c        Blood pressure - peak          50= 50
+                                                   inflation                      .
+                                                                                  .
+                                                                                  220= 220
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  251    3 3.0       PEBP1SYS         E.2.d        First blood pressure -         20= 20
+                                                   systolic                       .
+                                                                                  .
+                                                                                  240= 240
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  254    3 3.0       PEBP1DIA         E.2.d        First blood pressure -         20= 20
+                                                   diastolic                      .
+                                                                                  .
+                                                                                  200= 200
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  257    2 2.0       PEK4K5FB         E.2.d        First blood pressure - K4/K5   1= K4
+                                                                                  2= K5
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  259    3 3.0       PEBP2SYS         E.2.e        Second blood pressure -        20= 20
+                                                   systolic                       .
+                                                                                  .
+                                                                                  240= 240
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  262    3 3.0       PEBP2DIA         E.2.e        Second blood pressure -        20= 20
+                                                   diastolic                      .
+                                                                                  .
+                                                                                  200= 200
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  265    2 2.0       PEK4K5SB         E.2.e        Second blood pressure - K4/K5  1= K4
+                                                                                  2= K5
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  267    3 3.0       PEBP3SYS         E.2.f        Third blood pressure -         20= 20
+                                                   systolic                       .
+                                                                                  .
+                                                                                  240= 240
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  270    3 3.0       PEBP3DIA         E.2.f        Third blood pressure -         20= 20
+                                                   diastolic                      .
+                                                                                  .
+                                                                                  200= 200
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  273    2 2.0       PEK4K5TB         E.2.f        Third blood pressure - K4/K5   1= K4
+                                                                                  2= K5
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  275    3 $         PEBPINIT         E.2.g        Initials of blood pressure     Character
+                                                   reader
+
+  278    2 2.0       PELT3YO          F.1          Child is less than 3 years old 1= YES
+                                                                                  2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  280    3 3.0       PEHCR1           F.2.a        Head circumference (cm) -      45= 45
+                                                   first measurement              .
+                                                                                  .
+                                                                                  80= 80
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  283    3 3.0       PEHCR2           F.2.b        Head circumference (cm) -      45= 45
+                                                   second measurement             .
+                                                                                  .
+                                                                                  80= 80
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  286    2 2.0       PEHCRDIF         F.2.b.i      Head circumference 1 and 2     1= YES
+                                                   differ by more than 0.3 cm     2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  288    3 3.0       PEHCR3           F.2.b.ii     Head circumference (cm) -      45= 45
+                                                   third measurement              .
+                                                                                  .
+                                                                                  80= 80
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  291    2 2.0       PEEDEMA          G.1          Edema                          0= None
+                                                                                  1= Facial
+                                                                                  2= Pretibial
+                                                                                  3= Above knee
+                                                                                  4= Presacral
+                                                                                  5= Ascites
+                                                                                  6= Anasarca
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  293    2 2.0       PEV1BVST         G.2          Visit is a V1b - second        1= Yes
+                                                   question                       2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  295    2 2.0       PEPRTANN         H.1          Participant's previous tanner  1= YES
+                                                   assessment                     2= NO
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  297    2 2.0       PEGENDER         H.1.b        Participant's gender           1= Male
+                                                                                  2= Female
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  299    2 2.0       PEFPBHDV         H.2          Developmental stage of female  1= Pre-pubertal
+                                                   pubic hair                     2= Sparse growth of slightly
+                                                                                     pigmented hair
+                                                                                  3= Darker, coarser, beginning
+                                                                                     to curl and spread over
+                                                                                     the symphysis
+                                                                                  4= Hair has adult
+                                                                                     characteristics but not
+                                                                                     adult distribution
+                                                                                  5= Adult
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  301    2 2.0       PEBRSTDV         H.3          Developmental stage of breasts 1= (Stage 1) Pre-pubertal
+                                                                                  2= (Stage 2) Budding
+                                                                                  3= (Stage 3) Small adult
+                                                                                     breasts
+                                                                                  4= (Stage 4) Areola and
+                                                                                     papilla form secondary
+                                                                                     mound
+                                                                                  5= (Stage 5) Adult breasts
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  303    2 2.0       PETESTDV         H.4          Developmental stage of testes  1= Pre-pubertal
+                                                   and scrotum                    2= Enlargement of testes,
+                                                                                     scrotal reddening
+                                                                                  3= Increasing length more
+                                                                                     than width of penis,
+                                                                                     further scrotal enlargement
+                                                                                  4= Further penile enlargement,
+                                                                                     darkening of scrotal skin
+                                                                                  5= Adult
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  305    2 2.0       PEMPBHDV         H.5          Developmental stage of male    1= Pre-pubertal
+                                                   pubic hair                     2= Sparse growth of slightly
+                                                                                     pigmented hair
+                                                                                  3= Darker, coarser, beginning
+                                                                                     to curl and spread over
+                                                                                     the symphysis
+                                                                                  4= Hair has adult
+                                                                                     characteristics but not
+                                                                                     adult distribution
+                                                                                  5= Adult
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  307    2 2.0       PETESTSZ         H.6          Testicular size - per          1= Bead 1, 2 or 3
+                                                   orchidometer                   2= Bead 4
+                                                                                  3= Bead 5
+                                                                                  4= Bead 6
+                                                                                  5= Bead 8
+                                                                                  6= Bead 10
+                                                                                  7= Bead 12
+                                                                                  8= Bead 15
+                                                                                  9= Bead 20
+                                                                                  10= Bead 25
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  309    2 2.0       PEPROBLM         I.1          Problems completing sections/  1= Yes
+                                                   obtaining data                 2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  311    2 2.0       PEPRVITL         I.2.a        Problem completing - vital     1= YES
+                                                   signs                          2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  313   80 $         PESPVITL         I.2.a.i      Specify problem completing     Character
+                                                   vital signs
+
+  393    2 2.0       PEPRWEIT         I.2.b        Problem completing - weight    1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  395   80 $         PESPWEIT         I.2.b.i      Specify problem completing     Character
+                                                   weight
+
+  475    2 2.0       PEPRHEIT         I.2.c        Problem completing - height    1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  477   80 $         PESPHEIT         I.2.c.i      Specify problem completing     Character
+                                                   height
+
+  557    2 2.0       PEPRRLEG         I.2.d        Problem completing - right     1= YES
+                                                   leg length                     2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  559   80 $         PESPRLEG         I.2.d.i      Specify problem completing     Character
+                                                   right leg length
+
+  639    2 2.0       PEPRWST          I.2.e        Problem completing - waist     1= YES
+                                                   circumference                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  641   80 $         PESPWST          I.2.e.i      Specify problem completing     Character
+                                                   waist circumference
+
+  721    2 2.0       PEPRHIP          I.2.f        Problem completing - hip       1= YES
+                                                   circumference                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  723   80 $         PESPHIP          I.2.f.i      Specify problem completing     Character
+                                                   hip circumference
+
+  803    2 2.0       PEPRBLPM         I.2.g        Problem completing - blood     1= YES
+                                                   pressure                       2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  805   80 $         PESPBLPM         I.2.g.i      Specify problem completing     Character
+                                                   blood pressure
+
+  885    2 2.0       PEPRHCIR         I.2.h        Problem completing - head      1= YES
+                                                   circumference                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  887   80 $         PESPHCIR         I.2.h.i      Specify problem completing     Character
+                                                   head circumference
+
+  967    2 2.0       PEPREDMA         I.2.i        Problem completing - edema     1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  969   80 $         PESPEDMA         I.2.i.i      Specify problem completing     Character
+                                                   edema
+
+ 1049    2 2.0       PEPRTANR         I.2.j        Problem completing - Tanner    1= YES
+                                                   Staging                        2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+ 1051   80 $         PESPTANR         I.2.j.i      Specify problem completing     Character
+                                                   Tanner Staging
+
+ 1131    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+ 1132    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

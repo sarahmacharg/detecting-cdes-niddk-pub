@@ -1,0 +1,123 @@
+                               CODEBOOK
+KIDHIST Summary File (Summary of Kidney History and Demographic Characteristics)                              11-14-2017
+UPDATED: 10NOV2016
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID                        Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    9 9.3       DOB                           Year of birth                  1988= 1988
+                                                                                  .
+                                                                                  .
+                                                                                  2013= 2013
+                                                                                  -9= Missing
+
+   16    3 3.0       MALE1FE0                      Child's gender                 1= Male
+                                                                                  0= Female
+
+   19    9 9.3       CKDONST                       Duration of Chronic Kidney     -20.000= -20.000
+                                                   Disease at baseline visit      .
+                                                                                  .
+                                                                                  0.000= 0.000 years
+                                                                                  .= missing
+
+   28    3 3.0       PRIMDX                        Primary CKD diagnosis code     10= Focal segmental
+                                                                                      glomerulosclerosis
+                                                                                  11= Hemolytic uremic syndrome
+                                                                                  12= Familial nephritis
+                                                                                      (Alport's)
+                                                                                  13= IgA Nephropathy (Berger's)
+                                                                                  14= Systemic immunological
+                                                                                      disease (including SLE)
+                                                                                  15= Chronic glomerulonephritis
+                                                                                  16= Membranoproliferative
+                                                                                      glomerulonephritis type I
+                                                                                  17= Idiopathic cresentic
+                                                                                      glomerulonephritis
+                                                                                  18= Membranous nephropathy
+                                                                                  19= Henoch schonlein nephritis
+                                                                                  20= Congenital nephrotic
+                                                                                      syndrome
+                                                                                  21= Membranoproliferative
+                                                                                      glomerulonephritis type II
+                                                                                  22= Sickle cell nephropathy
+                                                                                  23= Denys-Drash syndrome
+                                                                                  24= Diabetic nephropathy
+                                                                                  40= Glomerular Other
+                                                                                  50= Obstructive uropathy
+                                                                                  51= Aplastic/hypoplastic/
+                                                                                      dysplastic kidneys
+                                                                                  52= Reflux nephropathy
+                                                                                  53= Polycystic kidney disease
+                                                                                      (Autosomal recessive)
+                                                                                  54= Cystinosis
+                                                                                  55= Pyelonephritis/
+                                                                                      Interstitial nephritis
+                                                                                  56= Renal infarct
+                                                                                  57= Medullary cystic disease/
+                                                                                      Juvenile nephronophthisis
+                                                                                  58= Syndrome of agenesis of
+                                                                                      abdominal musculature
+                                                                                  59= Wilms' tumor
+                                                                                  60= Polycystic kidney disease
+                                                                                      (Autosomal dominant)
+                                                                                  61= Oxalosis
+                                                                                  62= Congenital Urologic
+                                                                                      Disease (Bilateral
+                                                                                      Hydronephrosis)
+                                                                                  63= Vactrel or Vater Syndrome
+                                                                                  64= Perinatal Asphyxia
+                                                                                  65= Branchio-oto-Renal
+                                                                                      Disease/Syndrome
+                                                                                  66= Methylmalonic Acidemia
+                                                                                  80= Non-Glomerular Other
+                                                                                  -9= Missing
+
+   31    3 3.0       GNGDIAG                       Child's Primary Diagnosis      1= Glom (HUS)
+                                                   (coded G vs NG)                2= Glom (NOT HUS)
+                                                                                  3= Non-glom (GU, Cystic,
+                                                                                     Hereditary)
+                                                                                  4= Non-glom (NOT GU, NOT
+                                                                                     Cystic, NOT Hereditary)
+
+   34    9 9.3       BSDATE                        Year of baseline visit         2005= 2005
+                                                                                  .
+                                                                                  .
+                                                                                  2013= 2013
+
+   43    9 9.3       LDATRTFREE                    Last Date free of renal        0.000= 0.000 years
+                                                   replacement therapy (RRT) in   .
+                                                   duration of year from the      .
+                                                   baseline visit                 50.000= 50.000 years
+
+   52    9 9.3       FDATTRN                       First Transplant Date in       0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  99.999= date after cut-off yr
+
+   61    9 9.3       FDATDIAL                      FFirst Dialysis Date in        0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  99.999= date after cut-off yr
+
+   70    9 9.3       FDATDEAD                      First Date Known to be Dead    0.000= 0.000 years
+                                                   in duration of year from the   .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  99.999= date after cut-off yr
+
+   79    9 9.3       LDATSTDY                      Last active study date (last   0.000= 0.000 years
+                                                   date at which scientific data  .
+                                                   was collected) in duration of  .
+                                                   year from the baseline visit   50.000= 50.000 years
+
+   88    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

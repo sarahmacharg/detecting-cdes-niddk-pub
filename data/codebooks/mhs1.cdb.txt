@@ -1,0 +1,48 @@
+                               CODEBOOK
+V2015                              11-9-2017
+MH - Medical History (Repeating Segment) S1
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10   50 $         MHFORMLA         OldE.3.a     Old: Name of formula/          Character
+                                                   supplement
+
+   60    3 3.0       MHFMAMNT         OldE.3.b     Old: Amount of formula (in     1= 1
+                                                   units)                         .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   63    2 2.0       MHFMUNIT         OldE.3.c     Old: Units for formula amount  1= Tsp
+                                                                                  2= Tbsp
+                                                                                  3= Oz
+                                                                                  4= Cup
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   65   75 $         MHFMINGR         OldE.3.d     Old: Additional ingredients    Character
+
+  140    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  141    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

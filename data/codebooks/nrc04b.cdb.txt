@@ -1,0 +1,1009 @@
+                               CODEBOOK
+V2015                              11-9-2017
+NRC04B - Behavioral Data Coding Sheet: 2 to 6 years
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        001= 001
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSB2           A.3          Form version                   09/01/04= 09/01/04
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    7 7.3       B2TSTDAT         A.4          Date of testing in duration    0.000= 0.000 years
+                                                   of year from the baseline      .
+                                                   visit                          .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   25    2 2.0       B2CHDAGE         B.1          Child is between 2 and 6 years 1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   27    2 2.0       B2CHDAG5         OldB.2       Old: Child is 5 years          1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   29    2 2.0       B2ABSCMP         OldC.0.a     Old: ABAS-II (0-5) completed   1= YES
+                                                   at study visit                 2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   31    2 2.0       B2COMMRW         OldC.1.a     Old: Adaptive Behavior -       0= 0
+                                                   Communication Raw Score        .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   33    2 2.0       B2COMMSC         OldC.1.b     Old: Adaptive Behavior -       0= 0
+                                                   Communication Scaled Score     .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   35    2 2.0       B2CUSERW         OldC.2.a     Old: Adaptive Behavior -       0= 0
+                                                   Community Use Raw Score        .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   37    2 2.0       B2CUSESC         OldC.2.b     Old: Adaptive Behavior -       0= 0
+                                                   Community Use Scaled Score     .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   39    2 2.0       B2FACARW         OldC.3.a     Old: Adaptive Behavior -       0= 0
+                                                   Functional Pre-Academics Raw   .
+                                                   Score                          .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   41    2 2.0       B2FACASC         OldC.3.b     Old: Adaptive Behavior -       0= 0
+                                                   Functional Pre-Academics       .
+                                                   Scaled Score                   .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   43    2 2.0       B2HLIVRW         OldC.4.a     Old: Adaptive Behavior - Home  0= 0
+                                                   Living Raw Score               .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   45    2 2.0       B2HLIVSC         OldC.4.b     Old: Adaptive Behavior - Home  0= 0
+                                                   Living Scaled Score            .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   47    2 2.0       B2HSAFRW         OldC.5.a     Old: Adaptive Behavior -       0= 0
+                                                   Health and Safety Raw Score    .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   49    2 2.0       B2HSAFSC         OldC.5.b     Old: Adaptive Behavior -       0= 0
+                                                   Health and Safety Scaled Score .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   51    2 2.0       B2LEISRW         OldC.6.a     Old: Adaptive Behavior -       0= 0
+                                                   Leisure Raw Score              .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   53    2 2.0       B2LEISSC         OldC.6.b     Old: Adaptive Behavior -       0= 0
+                                                   Leisure Scaled Score           .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   55    2 2.0       B2SLFCRW         OldC.7.a     Old: Adaptive Behavior - Self- 0= 0
+                                                   Care Raw Score                 .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   57    2 2.0       B2SLFCSC         OldC.7.b     Old: Adaptive Behavior - Self- 0= 0
+                                                   Care Scaled Score              .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   59    2 2.0       B2SLFDRW         OldC.8.a     Old: Adaptive Behavior - Self- 0= 0
+                                                   Direction Raw Score            .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   61    2 2.0       B2SLFDSC         OldC.8.b     Old: Adaptive Behavior - Self- 0= 0
+                                                   Direction Scaled Score         .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   63    2 2.0       B2SOCLRW         OldC.9.a     Old: Adaptive Behavior -       0= 0
+                                                   Social Raw Score               .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   65    2 2.0       B2SOCLSC         OldC.9.b     Old: Adaptive Behavior -       0= 0
+                                                   Social Scaled Score            .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   67    2 2.0       B2MOTRRW         OldC.10.a    Old: Adaptive Behavior -       0= 0
+                                                   Motor Raw Score                .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   69    2 2.0       B2MOTRSC         OldC.10.b    Old: Adaptive Behavior -       0= 0
+                                                   Motor Scaled Score             .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   71    3 3.0       B2GACSUM         OldC.11.a    Old: Adaptive Behavior -       0= 0
+                                                   General Adaptive Composite     .
+                                                   Raw Score                      .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   74    3 3.0       B2GACCOM         OldC.11.b    Old: Adaptive Behavior -       71= 71
+                                                   General Adaptive Composite     .
+                                                   Standard Score                 .
+                                                                                  150= 150
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   77    3 3.0       B2CONCOM         OldC.11.c    Old: Adaptive Behavior -       0= 0
+                                                   Conceptual Composite Score     .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   80    3 3.0       B2SOCCOM         OldC.11.d    Old: Adaptive Behavior -       0= 0
+                                                   Social Composite Score         .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   83    3 3.0       B2PRCCOM         OldC.11.e    Old: Adaptive Behavior -       0= 0
+                                                   Practical Composite Score      .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   86    2 2.0       B2ABACMP         OldD.0.a     Old: ABAS-II (5-21) completed  1= YES
+                                                   at study visit                 2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   88    2 2.0       B25COMRW         OldD.1.a     Old: Adaptive Behavior 5 -     0= 0
+                                                   Communication Raw Score        .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   90    2 2.0       B25COMSC         OldD.1.b     Old: Adaptive Behavior 5 -     0= 0
+                                                   Communication Scaled Score     .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   92    2 2.0       B25CUSRW         OldD.2.a     Old: Adaptive Behavior 5 -     0= 0
+                                                   Community Use Raw Score        .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   94    2 2.0       B25CUSSC         OldD.2.b     Old: Adaptive Behavior 5 -     0= 0
+                                                   Community Use Scaled Score     .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   96    2 2.0       B25FACRW         OldD.3.a     Old: Adaptive Behavior 5 -     0= 0
+                                                   Functional Academics Raw Score .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   98    2 2.0       B25FACSC         OldD.3.b     Old: Adaptive Behavior 5 -     0= 0
+                                                   Functional Academics Scaled    .
+                                                   Score                          .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  100    2 2.0       B25HLIRW         OldD.4.a     Old: Adaptive Behavior 5 -     0= 0
+                                                   Home Living Raw Score          .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  102    2 2.0       B25HLISC         OldD.4.b     Old: Adaptive Behavior 5 -     0= 0
+                                                   Home Living Scaled Score       .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  104    2 2.0       B25HSARW         OldD.5.a     Old: Adaptive Behavior 5 -     0= 0
+                                                   Health and Safety Raw Score    .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  106    2 2.0       B25HSASC         OldD.5.b     Old: Adaptive Behavior 5 -     0= 0
+                                                   Health and Safety Scaled Score .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  108    2 2.0       B25LEIRW         OldD.6.a     Old: Adaptive Behavior 5 -     0= 0
+                                                   Leisure Raw Score              .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  110    2 2.0       B25LEISC         OldD.6.b     Old: Adaptive Behavior 5 -     0= 0
+                                                   Leisure Scaled Score           .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  112    2 2.0       B25SLFRW         OldD.7.a     Old: Adaptive Behavior 5 -     0= 0
+                                                   Self-Care Raw Score            .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  114    2 2.0       B25SLFSC         OldD.7.b     Old: Adaptive Behavior 5 -     0= 0
+                                                   Self-Care Scaled Score         .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  116    2 2.0       B25SLDRW         OldD.8.a     Old: Adaptive Behavior 5 -     0= 0
+                                                   Self-Direction Raw Score       .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  118    2 2.0       B25SLDSC         OldD.8.b     Old: Adaptive Behavior 5 -     0= 0
+                                                   Self-Direction Scaled Score    .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  120    2 2.0       B25SOCRW         OldD.9.a     Old: Adaptive Behavior 5 -     0= 0
+                                                   Social Raw Score               .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  122    2 2.0       B25SOCSC         OldD.9.b     Old: Adaptive Behavior 5 -     0= 0
+                                                   Social Scaled Score            .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  124    3 3.0       B25GACSM         OldD.10.a    Old: Adaptive Behavior 5 -     0= 0
+                                                   General Adaptive Composite     .
+                                                   Raw Score                      .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  127    3 3.0       B25GACCM         OldD.10.b    Old: Adaptive Behavior 5 -     71= 71
+                                                   General Adaptive Composite     .
+                                                   Standard Score                 .
+                                                                                  150= 150
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  130    3 3.0       B25CONCM         OldD.10.c    Old: Adaptive Behavior 5 -     0= 0
+                                                   Conceptual Composite Score     .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  133    3 3.0       B25SOCCM         OldD.10.d    Old: Adaptive Behavior 5 -     0= 0
+                                                   Social Composite Score         .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  136    3 3.0       B25PRCCM         OldD.10.e    Old: Adaptive Behavior 5 -     0= 0
+                                                   Practical Composite Score      .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  139    2 2.0       B2BSCCMP         E.0.a        BASC-II PRS completed at       1= YES
+                                                   study visit                    2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  141    2 2.0       B2HYPRRW         E.1.a        BASC - Hyperactivity Raw Score 0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  143    3 3.0       B2HYPRTS         E.1.b        BASC - Hyperactivity T-Score   0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  146    2 2.0       B2AGGRRW         E.2.a        BASC - Agression Raw Score     0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  148    3 3.0       B2AGGRTS         E.2.b        BASC - Agression T-Score       0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  151    2 2.0       B2ANXTRW         E.3.a        BASC - Anxiety Raw Score       0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  153    3 3.0       B2ANXTTS         E.3.b        BASC - Anxiety T-Score         0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  156    2 2.0       B2DEPRRW         E.4.a        BASC - Depression Raw Score    0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  158    3 3.0       B2DEPRTS         E.4.b        BASC - Depression T-Score      0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  161    2 2.0       B2SOMARW         E.5.a        BASC - Somatization Raw Score  0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  163    3 3.0       B2SOMATS         E.5.b        BASC - Somatization T-Score    0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  166    2 2.0       B2ATYPRW         E.6.a        BASC - Atypicality Raw Score   0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  168    3 3.0       B2ATYPTS         E.6.b        BASC - Atypicality T-Score     0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  171    2 2.0       B2WDRWRW         E.7.a        BASC - Withdrawal Raw Score    0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  173    3 3.0       B2WDRWTS         E.7.b        BASC - Withdrawal T-Score      0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  176    2 2.0       B2ATTNRW         E.8.a        BASC - Attention problems Raw  0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  178    3 3.0       B2ATTNTS         E.8.b        BASC - Attention problems T-   0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  181    2 2.0       B2ADPTRW         E.9.a        BASC - Adaptability Raw Score  0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  183    3 3.0       B2ADPTTS         E.9.b        BASC - Adaptability T-Score    0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  186    2 2.0       B2SSKLRW         E.10.a       BASC - Social skills Raw Score 0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  188    3 3.0       B2SSKLTS         E.10.b       BASC - Social skills T-Score   0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  191    2 2.0       B2ADL_RW         E.11.a       BASC - Activities of daily     0= 0
+                                                   living Raw Score               .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  193    3 3.0       B2ADL_TS         E.11.b       BASC - Activities of daily     0= 0
+                                                   living T-Score                 .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  196    2 2.0       B2FCOMRW         E.12.a       BASC - Functional              0= 0
+                                                   communication Raw Score        .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  198    3 3.0       B2FCOMTS         E.12.b       BASC - Functional              0= 0
+                                                   communication T-Score          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  201    3 3.0       B2EXT_RW         E.13.a       BASC - Externalizing Problems  0= 0
+                                                   Raw Score                      .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  204    3 3.0       B2EXT_TS         E.13.b       BASC - Externalizing Problems  0= 0
+                                                   T-Score                        .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  207    3 3.0       B2INT_RW         E.13.c       BASC - Internalizing Problems  0= 0
+                                                   Raw Score                      .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  210    3 3.0       B2INT_TS         E.13.d       BASC - Internalizing Problems  0= 0
+                                                   T-Score                        .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  213    3 3.0       B2BEH_RW         E.13.e       BASC - Behavioral Symptoms     0= 0
+                                                   Raw Score                      .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  216    3 3.0       B2BEH_TS         E.13.f       BASC - Behavioral Symptoms T-  1= 1
+                                                   Score                          .
+                                                                                  .
+                                                                                  69= 69
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  219    3 3.0       B2ASK_RW         E.13.g       BASC - Adaptive Skills Raw     0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  222    3 3.0       B2ASK_TS         E.13.h       BASC - Adaptive Skills T-Score 0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  225    3 3.0       B2F_IDX          E.14.a       Validity Index - F Index       0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  228    3 3.0       B2RPIIDX         E.14.b       Validity Index - Response      0= 0
+                                                   Pattern Index                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  231    3 3.0       B2CI_IDX         E.14.c       Validity Index - CI Index      0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  234    2 2.0       B2STSFIR         E.15.a       Alert Item - #127              1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  236    2 2.0       B2BFPCMP         F.0.a        BFIEF-P completed at study     1= YES
+                                                   visit                          2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  238    2 2.0       B2INHIRW         F.1.a        BRIEF-P - Inhibit Raw Score    0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  240    3 3.0       B2INHITS         F.1.b        BRIEF-P - Inhibit T-Score      0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  243    2 2.0       B2SHIFRW         F.2.a        BRIEF-P - Shift Raw Score      0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  245    3 3.0       B2SHIFTS         F.2.b        BRIEF-P - Shift T-Score        0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  248    2 2.0       B2ECONRW         F.3.a        BRIEF-P - Emotional Control    0= 0
+                                                   Raw Score                      .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  250    3 3.0       B2ECONTS         F.3.b        BRIEF-P - Emotional Control T- 0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  253    2 2.0       B2WMEMRW         F.4.a        BRIEF-P - Working Memory Raw   0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  255    3 3.0       B2WMEMTS         F.4.b        BRIEF-P - Working Memory T-    0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  258    2 2.0       B2PORGRW         F.5.a        BRIEF-P - Plan/Organize Raw    0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  260    3 3.0       B2PORGTS         F.5.b        BRIEF-P - Plan/Organize T-     0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  263    3 3.0       B2ISCIRW         F.6.a        BRIEF-P Composite Scores -     0= 0
+                                                   Inhibitory Self-Control Index  .
+                                                   Raw Score                      .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  266    3 3.0       B2ISCITS         F.6.b        BRIEF-P Composite Scores -     0= 0
+                                                   Inhibitory Self-Control Index  .
+                                                   T-Score                        .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  269    3 3.0       B2FIDXRW         F.6.c        BRIEF-P Composite Scores -     0= 0
+                                                   Flexibility Index Raw Score    .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  272    3 3.0       B2FIDXTS         F.6.d        BRIEF-P Composite Scores -     0= 0
+                                                   Flexibility Index T-Score      .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  275    3 3.0       B2EMETRW         F.6.e        BRIEF-P Composite Scores -     0= 0
+                                                   Emergent Metacognition Index   .
+                                                   Raw Score                      .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  278    3 3.0       B2EMETTS         F.6.f        BRIEF-P Composite Scores -     0= 0
+                                                   Emergent Metacognition Index   .
+                                                   T-Score                        .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  281    3 3.0       B2GEC_RW         F.6.g        BRIEF-P Composite Scores -     0= 0
+                                                   Global Executive Composite     .
+                                                   (GEC) Raw Score                .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  284    3 3.0       B2GEC_TS         F.6.h        BRIEF-P Composite Scores -     0= 0
+                                                   Global Executive Composite     .
+                                                   (GEC) T-Score                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  287    7 7.3       B2FCMPDT         G.1          Date form completed in         0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  294    3 $         B2INIT           G.2          Initials of coordinator        Character
+                                                   reviewing form
+
+  297    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  298    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

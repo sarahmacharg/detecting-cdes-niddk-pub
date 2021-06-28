@@ -1,0 +1,102 @@
+                               CODEBOOK
+GFRCALIBRATEDSUMMARY Summary File (All the data (measurements) used for calculating bedGFR, e2012GFR, & iGFRc)                              11-9-2017
+UPDATED: 08APR2016
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID                        Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    4 4.0       VISIT                         Visit #                        0= enrollment
+                                                                                  10= v1a
+                                                                                  15= v1b
+                                                                                  20= v2
+                                                                                  30= v3
+                                                                                  .
+                                                                                  .
+                                                                                  90= v9
+                                                                                  x1 or x6= Transitional
+                                                                                  (visstatus=2)
+
+   11    3 3.0       VISSTATUS                     Visit Status                   0= Regular
+                                                                                  1= Irregular
+                                                                                  2= Transitional
+                                                                                  3= Dialysis
+                                                                                  4= Transplant
+                                                                                  5= Phone/In-Person (PIP)
+                                                                                     Follow-up
+                                                                                  9= Disenrollment
+
+   14    6 6.3       GFRVDATE                      Visit Date in duration of      0.000= 0.000 years
+                                                   year from the baseline visit   .
+                                                                                  .
+                                                                                  50.000= 50.000 years
+
+   20    3 3.0       MALE1FE0                      Participant's gender           1= Male
+                                                                                  2= Female
+                                                                                  -9= missing
+
+   23    7 7.2       AVWEIGHT                      Weight (kg) at the visit,      3.0= 3.0
+                                                   collected from PE              .
+                                                                                  .
+                                                                                  175.0= 175.0
+                                                                                  -9= missing
+
+   30    6 6.1       AVHEIGHT                      Height (cm) at the visit,      60.0= 60.0
+                                                   collected from PE              .
+                                                                                  .
+                                                                                  230.0= 230.0
+                                                                                  -9= missing
+
+   36    7 7.3       BSA                           Body Surface Area (m^2),       1.00= 1.00
+                                                   Haycock formula                .
+                                                                                  .
+                                                                                  10.00= 10.00
+                                                                                  -9= missing
+
+   43    6 6.2       SCr                           Serum Creatinine (mg/dL),      1.00= 1.00
+                                                   from L05 (CBL) or L03 (Local)  .
+                                                                                  .
+                                                                                  10.00= 10.00
+                                                                                  -9= missing
+
+   49    7 7.2       bedGFR                        bedside estimated GFR ( ml/    1.0= 1.0
+                                                   min|1.73m^2) defined as        .
+                                                   41.3*(ht/scr)                  .
+                                                                                  999.9= 999.9
+                                                                                  -9= missing
+
+   56    4 4.0       BUN                           BUN (mg/dL), from L05 (CBL)    7= 7
+                                                   or L03 (Local)                 .
+                                                                                  .
+                                                                                  120= 120
+                                                                                  -9= missing
+
+   60    6 6.2       CYC_DB                        Cystatin-C (mg/L), Siemens     1.0= 1.0
+                                                   (formerly, Dade Behring)       .
+                                                   assay (assayed at CBL)         .
+                                                                                  9.99= 9.99
+                                                                                  -1= NA
+                                                                                  -9= missing
+
+   66    7 7.2       iGFRc                         Calibrated iohexol-based GFR   1.0= 1.0
+                                                   (ml/min|1.73m^2)               .
+                                                                                  .
+                                                                                  999.9= 999.9
+                                                                                  -1= NA
+                                                                                  -9= missing
+
+   73    3 3.0       calibrated                    Have the reported L07 iohexol  0= No
+                                                   concentrations been            1= Yes-1=NA (no iohexol study
+                                                   calibrated by the                 performed)
+                                                   GFRcalibratedsummary.sas
+                                                   program (i.e., divide
+                                                   concentration by 0.89)?
+
+   76    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

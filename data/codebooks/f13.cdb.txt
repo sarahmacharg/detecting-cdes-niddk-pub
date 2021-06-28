@@ -1,0 +1,1649 @@
+                               CODEBOOK
+V2015                              11-9-2017
+F13 - General History Follow-Up Form
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSGH           A.3          Form version                   09/01/04= 09/01/04
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    7 7.3       GHVISDAT         A.4          Date of visit in duration of   0.000= 0.000 years
+                                                   year from the baseline visit   .
+                                                                                  .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   25    3 $         GHINITL          A.5          Initials of person completing  Character
+                                                   form
+
+   28    2 2.0       ACCELVIS         A.6          Accelerated visit              1= Yes
+                                                                                  2= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   30    2 2.0       GHRELAT          B.1          Relationship to participant    1= Mother
+                                                   in study                       2= Father
+                                                                                  3= Legal guardian
+                                                                                  5= Self
+                                                                                  4= Other
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   32   50 $         GHORELSP         B.1.a        Specify other relationship to  Character
+                                                   participant
+
+   82    2 2.0       GHHGRADC         C.1          Highest grade completed by     0= 0
+                                                   participant                    .
+                                                                                  .
+                                                                                  12= 12
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   84    2 2.0       GHSCHOOL         C.2          Participant's school           1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   86    3 3.0       GHMISSDY         C.3          Participant missed school r/t  0= 0
+                                                   illness - days                 .
+                                                                                  .
+                                                                                  90= 90
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   89    2 2.0       GHINDIEP         C.4          Participant has an             1= Yes
+                                                   individualized education plan  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   91    2 2.0       GH504PLN         C.5          Participant has a 504 plan at  1= Yes
+                                                   school                         2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   93    2 2.0       GHRELABP         D.1          Relationship between birth     1= Not married, living
+                                                   parents                           together
+                                                                                  2= Married, living together
+                                                                                  3= Married, separated
+                                                                                  4= Widowed
+                                                                                  5= Divorced
+                                                                                  6= Never married, not living
+                                                                                     together
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   95    2 2.0       GHDAYSPH         D.2          Days per week participant in   4= 4
+                                                   primary household              .
+                                                                                  .
+                                                                                  7= 7
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   97    2 2.0       GHPEPLPH         D.3          Number of people in primary    1= 1
+                                                   household                      .
+                                                                                  .
+                                                                                  15= 15
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   99    2 2.0       GHADLTPH         D.4          Number of adults in primary    1= 1
+                                                   household                      .
+                                                                                  .
+                                                                                  10= 10
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  101    2 2.0       GHBMOMPH         D.5.a        Primary household - birth      1= YES
+                                                   mother                         2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  103    2 2.0       GHBDADPH         D.5.b        Primary household - birth      1= YES
+                                                   father                         2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  105    2 2.0       GHAMOMPH         D.5.c        Primary household - step/      1= YES
+                                                   adoptive mother                2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  107    2 2.0       GHADADPH         D.5.d        Primary household - step/      1= YES
+                                                   adoptive father                2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  109    2 2.0       GHPARTPH         D.5.e        Primary household -            1= YES
+                                                   participant                    2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  111    2 2.0       GHOTHRPH         D.5.e        Primary household - other      1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  113   25 $         GHSPOAPH         D.5.e.i      Specify other adult living in  Character
+                                                   primary household
+
+  138    2 2.0       GHCHLDPH         OldD.5       Old: Number of people under    1= 1
+                                                   18 in primary household        .
+                                                                                  .
+                                                                                  10= 10
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  140    2 2.0       GHADSMOK         D.6          Adults in household smoke      1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  142    2 2.0       GHHGRADM         D.7          Highest grade/level school     0= 0
+                                                   completed by mother            .
+                                                                                  .
+                                                                                  20= 20
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  144    2 2.0       GHHGRADF         D.8          Highest grade/level school     0= 0
+                                                   completed by father            .
+                                                                                  .
+                                                                                  20= 20
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  146    2 2.0       GHTOTINC         D.9          Total income of primary        1= <=$6000/yr, <=$500/mo,
+                                                   household members                 <=$115/wk
+                                                                                  2= $6001-$12000/yr, $501-
+                                                                                     $1000/mo, $116-$231/wk
+                                                                                  3= $12001-$18000/yr, $1001-
+                                                                                     $1500/mo, $232-$346/wk
+                                                                                  4= $18001-$24000/yr, $1501-
+                                                                                     $2000/mo, $347-$461/wk
+                                                                                  5= $24001-$30000/yr, $2001-
+                                                                                     $2500/mo, $462-$577/wk
+                                                                                  6= $30001-$36000/yr, $2501-
+                                                                                     $3000/mo, $578-$692/wk
+                                                                                  7= $36001-$75000/yr, $3001-
+                                                                                     $6250/mo, $693-$1442/wk
+                                                                                  8= >$75000/yr, >$6250/mo,
+                                                                                     >$1442/wk
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  148    2 2.0       GHMOMEMP         D.9.a        Current employment status of   1= Working full-time (35
+                                                   mother                            hours or more per week)
+                                                                                  2= Working part-time (less
+                                                                                     than 35 hours per week)
+                                                                                  3= Unemployed but seeking work
+                                                                                  4= Unemployed not seeking work
+                                                                                  5= Student
+                                                                                  6= Retired
+                                                                                  7= Disability
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  150    2 2.0       GHMSFEMP         D.9.a.i      Mother is self-employed        1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  152    2 2.0       GHDADEMP         D.9.b        Current employment status of   1= Working full-time (35
+                                                   father                            hours or more per week)
+                                                                                  2= Working part-time (less
+                                                                                     than 35 hours per week)
+                                                                                  3= Unemployed but seeking work
+                                                                                  4= Unemployed not seeking work
+                                                                                  5= Student
+                                                                                  6= Retired
+                                                                                  7= Disability
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  154    2 2.0       GHDSFEMP         D.9.b.i      Father is self-employed        1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  156    2 2.0       GHCHDEMP         OldD.9.c     Old: Current employment        1= Working full-time (35
+                                                   status of child                   hours or more per week)
+                                                                                  2= Working part-time (less
+                                                                                     than 35 hours per week)
+                                                                                  3= Unemployed but seeking work
+                                                                                  4= Unemployed not seeking work
+                                                                                  5= Student
+                                                                                  6= Retired
+                                                                                  7= Disability
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  158    2 2.0       GHPESWFT         D.9.c        Participant current            1= YES
+                                                   employment status - working    2= NO
+                                                   full-time                      -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  160    2 2.0       GHPESWPT         D.9.c        Participant current            1= YES
+                                                   employment status - working    2= NO
+                                                   part-time                      -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  162    2 2.0       GHPESDIS         D.9.c        Participant current            1= YES
+                                                   employment status -            2= NO
+                                                   disability income              -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  164    2 2.0       GHPESSTD         D.9.c        Participant current            1= YES
+                                                   employment status - student    2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  166    2 2.0       GHPESUSW         D.9.c        Participant current            1= YES
+                                                   employment status -            2= NO
+                                                   unemployed seeking work        -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  168    2 2.0       GHPESUNS         D.9.c        Participant current            1= YES
+                                                   employment status -            2= NO
+                                                   unemployed not seeking work    -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  170    2 2.0       GHCSFEMP         D.9.c.i      Participant is self-employed   1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  172    5 $         GHCURZIP         D.10         Current zip code of            Character
+                                                   participant's primary
+                                                   household
+
+  177    2 2.0       GHCZM1YR         D.11         Participant has lived at       1= Yes
+                                                   current zip more than 1 year   2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  179    3 3.0       GHCZMTHS         D.11.a       Number of months participant   1= 1
+                                                   has lived at current zip       .
+                                                                                  .
+                                                                                  11= 11
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  182    5 $         GHPRVZIP         D.11.b       Previous zip code of           Character
+                                                   participant's primary
+                                                   household
+
+  187    4 4.1       GHPZNYRS         D.11.c       Number of years participant    0.1= 0.1
+                                                   lived at previous zip          .
+                                                                                  .
+                                                                                  20.0= 20.0
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  191    4 4.1       GHCZNYRS         D.12         Number of years participant    0.1= 0.1
+                                                   has lived at current zip       .
+                                                                                  .
+                                                                                  20.0= 20.0
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  195    2 2.0       GHPZIPSM         D.13         Participant zip and parent/    1= Yes
+                                                   guardian zip same              2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  197    5 $         GHPGCZIP         D.14         Current zip of parent/guardian Character
+
+  202    2 2.0       GHPGZIPY         D.15         Number of years parent/        1= 1
+                                                   guardian lived at current zip  .
+                                                                                  .
+                                                                                  20= 20
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  204    2 2.0       GHPGZIPM         D.15         Number of months parent/       1= 1
+                                                   guardian lived at current zip  .
+                                                                                  .
+                                                                                  11= 11
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  206    2 2.0       GHKNOWHH         E.1          Knowledge of health of         1= Yes
+                                                   participant's birth family     2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  208    2 2.0       GHLVHFSB         E.2          Number of living half siblings 0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  10= 10
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  210    2 2.0       GHLVHSST         E.2.b        Living half siblings in study  1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  212    2 2.0       GHLVHSNM         E.2.b.i      Number of living half          0= 0
+                                                   siblings in the study          .
+                                                                                  .
+                                                                                  10= 10
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  214    2 2.0       GHFULSIB         E.3          Number of full siblings        0= 0 full siblings
+                                                                                  1= 1
+                                                                                  .
+                                                                                  .
+                                                                                  10= 10
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  216    2 2.0       GHLVFLSB         E.3.b        Number of living full siblings 0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  10= 10
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  218    2 2.0       GHLVFSST         E.3.c        Living full siblings in study  1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  220    2 2.0       GHLVFSNM         E.3.c.i      Number of living full          0= 0
+                                                   siblings in the study          .
+                                                                                  .
+                                                                                  10= 10
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  222    2 2.0       GHBFAMKD         E.5          Participant's biological       1= Yes
+                                                   family members had kidney      2= No
+                                                   disease in the past year       -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  224    2 2.0       GHMOMKD          E.5.b.1      Participant's biological       1= Yes
+                                                   mother - kidney disease        2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  226    2 2.0       GHMOMTKD         E.5.c.1      Participant's biological       1= Alport's Hereditary
+                                                   mother - type of kidney           Nephritis
+                                                   disease                        2= Polycystic Kidney Disease
+                                                                                  3= Focal Segmental
+                                                                                     Glomerulosclerosis
+                                                                                  4= Reflux Nephropathy (Kidney/
+                                                                                     bladder Reflux)
+                                                                                  5= Other
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  228   50 $         GHSMOMKD         E.5.c.1      Specify other kidney disease - Character
+                                                   mother
+
+  278    2 2.0       GHDADKD          E.5.b.2      Participant's biological       1= Yes
+                                                   father - kidney disease        2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  280    2 2.0       GHDADTKD         E.5.c.2      Participant's biological       1= Alport's Hereditary
+                                                   father - type of kidney           Nephritis
+                                                   disease                        2= Polycystic Kidney Disease
+                                                                                  3= Focal Segmental
+                                                                                     Glomerulosclerosis
+                                                                                  4= Reflux Nephropathy (Kidney/
+                                                                                     bladder Reflux)
+                                                                                  5= Other
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  282   50 $         GHSDADKD         E.5.c.2      Specify other kidney disease - Character
+                                                   father
+
+  332    2 2.0       GHSIBKD          E.5.b.3      Participant's biological       1= Yes
+                                                   sibling - kidney disease       2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  334    2 2.0       GHSIBTKD         E.5.c.3      Participant's biological       1= Alport's Hereditary
+                                                   sibling - type of kidney          Nephritis
+                                                   disease                        2= Polycystic Kidney Disease
+                                                                                  3= Focal Segmental
+                                                                                     Glomerulosclerosis
+                                                                                  4= Reflux Nephropathy (Kidney/
+                                                                                     bladder Reflux)
+                                                                                  5= Other
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  336   50 $         GHSSIBKD         E.5.c.3      Specify other kidney disease - Character
+                                                   sibling
+
+  386    2 2.0       GHGRPKD          E.5.b.4      Participant's biological       1= Yes
+                                                   grandparents - kidney disease  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  388    2 2.0       GHGRPTKD         E.5.c.4      Participant's biological       1= Alport's Hereditary
+                                                   grandparents - type of kidney     Nephritis
+                                                   disease                        2= Polycystic Kidney Disease
+                                                                                  3= Focal Segmental
+                                                                                     Glomerulosclerosis
+                                                                                  4= Reflux Nephropathy (Kidney/
+                                                                                     bladder Reflux)
+                                                                                  5= Other
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  390   50 $         GHSGRNKD         E.5.c.4      Specify other kidney disease - Character
+                                                   grandparents
+
+  440    2 2.0       GHAUSKD          E.5.b.5      Participant's biological       1= Yes
+                                                   aunts/uncles - kidney disease  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  442    2 2.0       GHAUSTKD         E.5.c.5      Participant's biological       1= Alport's Hereditary
+                                                   aunts/uncles - type of kidney     Nephritis
+                                                   disease                        2= Polycystic Kidney Disease
+                                                                                  3= Focal Segmental
+                                                                                     Glomerulosclerosis
+                                                                                  4= Reflux Nephropathy (Kidney/
+                                                                                     bladder Reflux)
+                                                                                  5= Other
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  444   50 $         GHSAUNKD         E.5.c.5      Specify other kidney disease - Character
+                                                   aunts/uncles
+
+  494    2 2.0       GHCSNKD          E.5.b.6      Participant's biological       1= Yes
+                                                   cousins - kidney disease       2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  496    2 2.0       GHCSNTKD         E.5.c.6      Participant's biological       1= Alport's Hereditary
+                                                   cousins - type of kidney          Nephritis
+                                                   disease                        2= Polycystic Kidney Disease
+                                                                                  3= Focal Segmental
+                                                                                     Glomerulosclerosis
+                                                                                  4= Reflux Nephropathy (Kidney/
+                                                                                     bladder Reflux)
+                                                                                  5= Other
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  498   50 $         GHSCUSKD         E.5.c.6      Specify other kidney disease - Character
+                                                   cousins
+
+  548    2 2.0       GHSAMEKD         E.6          Participant's biological       1= Yes
+                                                   family members had same        2= No
+                                                   kidney disease as participant  -1= N.A. (Skipped)
+                                                   in the past year               -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  550    2 2.0       GHMOMSKD         E.6.b.1      Same kidney disease - mother   1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  552    2 2.0       GHDADSKD         E.6.b.2      Same kidney disease - father   1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  554    2 2.0       GHSIBSKD         E.6.b.3      Same kidney disease - siblings 1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  556    2 2.0       GHGRPSKD         E.6.b.4      Same kidney disease -          1= YES
+                                                   grandparents                   2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  558    2 2.0       GHAUSSKD         E.6.b.5      Same kidney disease - Aunts/   1= YES
+                                                   uncles                         2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  560    2 2.0       GHCSNSKD         E.6.b.6      Same kidney disease - cousins  1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  562    2 2.0       GHFAMKBX         E.7          Participant's biological       1= Yes
+                                                   family members had kidney      2= No
+                                                   biopsy in the past year        -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  564    2 2.0       GHMOMKBX         E.7.b.1      Kidney biopsy - mother         1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  566    2 2.0       GHDADKBX         E.7.b.2      Kidney biopsy - father         1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  568    2 2.0       GHSIBKBX         E.7.b.3      Kidney biopsy - siblings       1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  570    2 2.0       GHGRPKBX         E.7.b.4      Kidney biopsy - grandparents   1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  572    2 2.0       GHAUSKBX         E.7.b.5      Kidney biopsy - Aunts/uncles   1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  574    2 2.0       GHCSNKBX         E.7.b.6      Kidney biopsy - cousins        1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  576    2 2.0       GHBFAMHB         E.8.a.1      Participant's biological       1= Yes
+                                                   family members - high blood    2= No
+                                                   pressure in the past year      -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  578    2 2.0       GHMOMHBP         E.8.b.1      High blood pressure - mother   1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  580    2 2.0       GHDADHBP         E.8.b.1      High blood pressure - father   1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  582    2 2.0       GHSIBHBP         E.8.b.1      High blood pressure - siblings 1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  584    2 2.0       GHGRPHBP         E.8.b.1      High blood pressure -          1= YES
+                                                   grandparents                   2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  586    2 2.0       GHAUSHBP         E.8.b.1      High blood pressure - Aunts/   1= YES
+                                                   uncles                         2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  588    2 2.0       GHCSNHBP         E.8.b.1      High blood pressure - cousins  1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  590    2 2.0       GHBFAMHC         E.8.a.2      Participant's biological       1= Yes
+                                                   family members - high          2= No
+                                                   cholesterol in the past year   -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  592    2 2.0       GHMOMHCL         E.8.b.2      High cholesterol - mother      1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  594    2 2.0       GHDADHCL         E.8.b.2      High cholesterol - father      1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  596    2 2.0       GHSIBHCL         E.8.b.2      High cholesterol - siblings    1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  598    2 2.0       GHGRPHCL         E.8.b.2      High cholesterol -             1= YES
+                                                   grandparents                   2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  600    2 2.0       GHAUSHCL         E.8.b.2      High cholesterol - Aunts/      1= YES
+                                                   uncles                         2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  602    2 2.0       GHCSNHCL         E.8.b.2      High cholesterol - cousins     1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  604    2 2.0       GHBFAMDB         E.8.a.3      Participant's biological       1= Yes
+                                                   family members - diabetes in   2= No
+                                                   the past year                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  606    2 2.0       GHMOMDIA         E.8.b.3      Diabetes - mother              1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  608    2 2.0       GHDADDIA         E.8.b.3      Diabetes - father              1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  610    2 2.0       GHSIBDIA         E.8.b.3      Diabetes - siblings            1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  612    2 2.0       GHGRPDIA         E.8.b.3      Diabetes - grandparents        1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  614    2 2.0       GHAUSDIA         E.8.b.3      Diabetes - Aunts/uncles        1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  616    2 2.0       GHCSNDIA         E.8.b.3      Diabetes - cousins             1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  618    2 2.0       GHBFAMST         E.8.a.4      Participant's biological       1= Yes
+                                                   family members - stroke in     2= No
+                                                   the past year                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  620    2 2.0       GHMOMSTR         E.8.b.4      Stroke - mother                1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  622    2 2.0       GHDADSTR         E.8.b.4      Stroke - father                1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  624    2 2.0       GHSIBSTR         E.8.b.4      Stroke - siblings              1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  626    2 2.0       GHGRPSTR         E.8.b.4      Stroke - grandparents          1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  628    2 2.0       GHAUSSTR         E.8.b.4      Stroke - Aunts/uncles          1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  630    2 2.0       GHCSNSTR         E.8.b.4      Stroke - cousins               1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  632    2 2.0       GHBFAMHA         E.8.a.5      Participant's biological       1= Yes
+                                                   family members - heart attack  2= No
+                                                   in the past year               -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  634    2 2.0       GHMOMHAT         E.8.b.5      Heart attack - mother          1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  636    2 2.0       GHDADHAT         E.8.b.5      Heart attack - father          1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  638    2 2.0       GHSIBHAT         E.8.b.5      Heart attack - siblings        1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  640    2 2.0       GHGRPHAT         E.8.b.5      Heart attack - grandparents    1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  642    2 2.0       GHAUSHAT         E.8.b.5      Heart attack - Aunts/uncles    1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  644    2 2.0       GHCSNHAT         E.8.b.5      Heart attack - cousins         1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  646    2 2.0       GHBFAMDL         E.9.a        Biological family - dialysis   1= YES
+                                                   in the past year               2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  648    2 2.0       GHMOMDLS         E.9.b.1      Mother - dialysis              1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  650    2 2.0       GHMODLSA         E.9.c.1      Mother - age began dialysis    0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  75= 75
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  652    2 2.0       GHDADDLS         E.9.b.2      Father - dialysis              1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  654    2 2.0       GHDADLSA         E.9.c.2      Father - age began dialysis    0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  75= 75
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  656    2 2.0       GHSIBDLS         E.9.b.3      Sibling - dialysis             1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  658    2 2.0       GHSIDLSA         E.9.c.3      Sibling - age began dialysis   0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  75= 75
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  660    2 2.0       GHGRPDLS         E.9.b.4      Grandparents - dialysis        1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  662    2 2.0       GHGRDLSA         E.9.c.4      Grandparents - age began       0= 0
+                                                   dialysis                       .
+                                                                                  .
+                                                                                  75= 75
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  664    2 2.0       GHAUSDLS         E.9.b.5      Aunts/Uncles - dialysis        1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  666    2 2.0       GHAUDLSA         E.9.c.5      Aunts/Uncles - age began       0= 0
+                                                   dialysis                       .
+                                                                                  .
+                                                                                  75= 75
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  668    2 2.0       GHCSNDLS         E.9.b.6      Cousins - dialysis             1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  670    2 2.0       GHCSDLSA         E.9.c.6      Cousins - age began dialysis   0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  75= 75
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  672    2 2.0       GHBFAMKT         E.10.a       Biological family - kidney     1= YES
+                                                   transplant in the past year    2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  674    2 2.0       GHMOMKTR         E.10.b.1     Mother - kidney transplant     1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  676    2 2.0       GHMOKTRA         E.10.c.1     Mother - age began kidney      0= 0
+                                                   transplant                     .
+                                                                                  .
+                                                                                  75= 75
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  678    2 2.0       GHDADKTR         E.10.b.2     Father - kidney transplant     1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  680    2 2.0       GHDAKTRA         E.10.c.2     Father - age began kidney      0= 0
+                                                   transplant                     .
+                                                                                  .
+                                                                                  75= 75
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  682    2 2.0       GHSIBKTR         E.10.b.3     Sibling - kidney transplant    1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  684    2 2.0       GHSIKTRA         E.10.c.3     Sibling - age began kidney     0= 0
+                                                   transplant                     .
+                                                                                  .
+                                                                                  75= 75
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  686    2 2.0       GHGRPKTR         E.10.b.4     Grandparents - kidney          1= YES
+                                                   transplant                     2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  688    2 2.0       GHGRKTRA         E.10.c.4     Grandparents - age began       0= 0
+                                                   kidney transplant              .
+                                                                                  .
+                                                                                  75= 75
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  690    2 2.0       GHAUSKTR         E.10.b.5     Aunts/Uncles - kidney          1= YES
+                                                   transplant                     2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  692    2 2.0       GHAUKTRA         E.10.c.5     Aunts/Uncles - age began       0= 0
+                                                   kidney transplant              .
+                                                                                  .
+                                                                                  75= 75
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  694    2 2.0       GHCSNKTR         E.10.b.6     Cousins - kidney transplant    1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  696    2 2.0       GHCSKTRA         E.10.c.6     Cousins - age began kidney     0= 0
+                                                   transplant                     .
+                                                                                  .
+                                                                                  75= 75
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  698    2 2.0       GHBMPREG         E.11         Birth mother pregnent in the   1= Yes
+                                                   past year                      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  700    2 2.0       GHPRSTIL         E.12         Birth mother's pregnancies -   1= YES
+                                                   stillbirth                     2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  702    2 2.0       GHPRMISC         E.12         Birth mother's pregnancies -   1= YES
+                                                   miscarriage                    2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  704    2 2.0       GHMOMUTI         E.13         Birth mother - recurrent UTIs  1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  706    2 2.0       GHDADUTI         E.14         Birth father - recurrent UTIs  1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  708    2 2.0       GHSIBUTI         E.15         Siblings - recurrent UTIs      1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  710    2 2.0       GHLVOLD5         F.1          Participant was older than 5   1= Yes
+                                                   at last visit                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  712    2 2.0       GHFVOLD5         OldF.1       Old: Child was older than 5    1= Yes
+                                                   at first visit                 2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  714    2 2.0       GHOLDER5         F.2          Participant is older than 5    1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  716    2 2.0       GHCRBRFD         F.2.b        Participant is currently       1= Yes
+                                                   breast fed                     2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  718    2 2.0       GHWASBRF         F.2.c        Participant was breast fed     1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  720    2 2.0       GHWEANBR         F.2.d        Age at which participant       1= 1
+                                                   weaned from breast             .
+                                                                                  .
+                                                                                  48= 48
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  722    2 2.0       GHWEANYM         F.2.d        Age weaned from breast -       1= year(s)
+                                                   years months weeks days        2= months
+                                                                                  3= week(s)
+                                                                                  4= days
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  724    2 2.0       GHCRBOTL         F.3          Participant is currently       1= Yes
+                                                   bottle fed                     2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  726    2 2.0       GHWASBTL         F.3.a        Participant was bottle fed     1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  728    2 2.0       GHWEANBT         F.3.b        Age at which participant       1= 1
+                                                   weaned from bottle             .
+                                                                                  .
+                                                                                  48= 48
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  730    2 2.0       GHWNDBYM         F.3.b        Age weaned from bottle -       1= year(s)
+                                                   years months weeks days        2= months
+                                                                                  3= week(s)
+                                                                                  4= days
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  732    2 2.0       GHLEAKUR         F.4          Participant has wetness or     1= Yes
+                                                   leaks urine in the past year   2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  734    2 2.0       GHWETDAY         F.4.a        Participant is wet during day  1= Yes
+                                                   in the past year               2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  736    2 2.0       GHWETNGT         F.4.b        Participant is wet during      1= Yes
+                                                   night in the past year         2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  738    2 2.0       GHCTHBLD         F.4.c        Participant catheterizes       1= Yes
+                                                   bladder in the past year       2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  740    2 2.0       GHCTHURE         F.4.c.i      Participant catheterizes       1= Yes
+                                                   bladder through the urethra    2= No
+                                                   in the past year               -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  742    2 2.0       GHCTHSTM         F.4.c.ii     Participant catheterizes       1= Yes
+                                                   bladder through a stoma in     2= No
+                                                   the past year                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  744    2 2.0       GHLVTTRN         F.5          Participant was toilet         1= Yes
+                                                   trained at last visit          2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  746    2 2.0       GHFVTTRN         OldF.5       Old: Child was toilet trained  1= Yes
+                                                   at first visit                 2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  748    2 2.0       GHCRTTRN         F.5.a        Participant is currently       1= Yes
+                                                   toilet trained                 2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  750    2 2.0       GHAGTTRN         F.5.b        Age at which participant       1= 1
+                                                   toilet trained                 .
+                                                                                  .
+                                                                                  48= 48
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  752    2 2.0       GHTTRNYM         F.5.b        Age toilet trained - years     1= years
+                                                   months                         2= months
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  754    2 2.0       GHBEDWET         F.5.c        Bed wetting after toilet       1= Yes
+                                                   training                       2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  756    2 2.0       GHBWSTIL         F.5.c.i      Bed wetting still occurs       1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  758    2 2.0       GHAGBWET         F.5.c.ii     Age until which bed wetting    1= 1
+                                                   occured                        .
+                                                                                  .
+                                                                                  48= 48
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  760    2 2.0       GHBWETYM         F.5.c.ii     Age bed-wetting stopped -      1= years
+                                                   years months                   2= months
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  762    2 2.0       GHMDRSBW         F.5.c.iii    Medical reasons caused bed     1= Yes
+                                                   wetting                        2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  764    2 2.0       GHBDSOIL         F.5.d        Bed soiling after toilet       1= Yes
+                                                   training                       2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  766    2 2.0       GHBSSTIL         F.5.d.i      Bed soiling still occurs       1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  768    2 2.0       GHAGBSOL         F.5.d.ii     Age until which bed soiling    1= 1
+                                                   occured                        .
+                                                                                  .
+                                                                                  48= 48
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  770    2 2.0       GHBSOLYM         F.5.d.ii     Age bed-soiling stopped -      1= years
+                                                   years months                   2= months
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  772    2 2.0       GHMDRSBS         F.5.d.iii    Medical reasons caused bed     1= Yes
+                                                   soiling                        2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  774    2 2.0       GHFEEDPR         F.6.a        Experienced problem - feeding  1= YES
+                                                   problem                        2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  776    2 2.0       GHEATDIS         F.6.b        Experienced problem - eating   1= YES
+                                                   disorder                       2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  778    2 2.0       GHUNDRWT         F.6.c        Experienced problem -          1= YES
+                                                   underweight problem            2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  780    2 2.0       GHOVERWT         F.6.d        Experienced problem -          1= YES
+                                                   overweight problem             2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  782    2 2.0       GHWLKDIF         F.6.e        Experienced problem - walking  1= YES
+                                                   difficulty                     2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  784    2 2.0       GHUNSPCH         F.6.f        Experienced problem - unclear  1= YES
+                                                   speech                         2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  786    2 2.0       GHSLEEPP         F.6.g        Experienced problem - sleep    1= YES
+                                                   problem                        2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  788    2 2.0       GHCOLIC          F.6.h        Experienced problem - colic    1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  790    2 2.0       GHHANDED         F.7          Handedness of participant for  1= Primarily right
+                                                   writing                        2= Primarily left
+                                                                                  3= Ambidextrous (writes
+                                                                                     equally with both left and
+                                                                                     right hands)
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  792    2 2.0       GHLVOLD4         F.8          Participant is 4 years old or  1= Yes
+                                                   older at last visit            2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  794    2 2.0       GHFVOLD4         OldF.8       Old: Child is 4 years old or   1= Yes
+                                                   older at first visit           2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  796    2 2.0       GHAGEGT4         F.8.a        Participant is 4 years old or  1= Yes
+                                                   older                          2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  798    2 2.0       GHF4EATG         F.9.a        First 4 years problem - eating 1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  800    2 2.0       GHF4CRYG         F.9.b        First 4 years problem -        1= YES
+                                                   excessive crying               2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  802    2 2.0       GHF4FTTH         F.9.c        First 4 years problem -        1= YES
+                                                   Failure to thrive              2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  804    2 2.0       GHF4MSKL         F.9.d        First 4 years problem - motor  1= YES
+                                                   skills                         2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  806    2 2.0       GHF4SEPP         F.9.e        First 4 years problem -        1= YES
+                                                   separating from parents        2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  808    2 2.0       GHF4SLTL         F.9.f        First 4 years problem -        1= YES
+                                                   sleeping too little            2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  810    2 2.0       GHF4SLTM         F.9.g        First 4 years problem -        1= YES
+                                                   sleeping too much              2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  812    2 2.0       GHF4TANT         F.9.h        First 4 years problem -        1= YES
+                                                   temper tantrums                2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  814    2 2.0       GHSCGCMP         OldG.0       Old: Section G completed       1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  816    2 2.0       GHBRNBDD         OldG.1       Old: Child was born before     1= Yes
+                                                   due date                       2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  818    2 2.0       GHWKSBDD         OldG.1.a     Old: Number of weeks before    1= 1
+                                                   due date child born            .
+                                                                                  .
+                                                                                  20= 20
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  820    2 2.0       GHPREMIE         OldG.1.b     Old: Child was considered      1= Yes
+                                                   premature                      2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  822    7 7.3       GHREVDAT         H.1          Date of review by study        0.000= 0.000 years
+                                                   coordinator in duration of     .
+                                                   year from the baseline visit   .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  829    3 $         GHRVINIT         H.2          Initials of coordinator        Character
+                                                   reviewing form
+
+  832    2 2.0       GHFADMIN         G.3          Form administration            1= Interviewer-Assisted
+                                                                                  2= Self-Administered
+                                                                                  3= Both
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  834    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  835    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

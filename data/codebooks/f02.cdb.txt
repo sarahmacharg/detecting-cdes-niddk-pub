@@ -1,0 +1,368 @@
+                               CODEBOOK
+V2015                              11-9-2017
+F02 - Smoking, Alcohol and Drug Use
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSAD           A.3          Form version                   04/01/04= 04/01/04
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    7 7.3       ADVISDAT         A.4          Date of visit in duration of   0.000= 0.000 years
+                                                   year from the baseline visit   .
+                                                                                  .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   25    5 time5.    ADSTIME          OldA.5       Old: Time began                1:00= 1:00
+                                                                                  .
+                                                                                  .
+                                                                                  12:59= 12:59
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   30    2 2.0       ADSMER           OldA.5       Old: AM/PM for time began      1= AM
+                                                                                  2= PM
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   32    2 2.0       ADSMWHOL         B.1          Ever smoked tobacco            1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   34    2 2.0       ADSMKAGE         B.1.a        Age at which first smoked      6= 6
+                                                   whole cigarette                .
+                                                                                  .
+                                                                                  16= 16
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   36    2 2.0       ADSMCURR         B.2          Currently smoke                1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   38    2 2.0       ADSMQTYR         B.2.a        Age quit smoking - years       8= 8
+                                                                                  .
+                                                                                  .
+                                                                                  16= 16
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   40    3 3.0       ADSMKDAV         B.2.b        Average number cigarettes      1= 1
+                                                   smoked per week before         .
+                                                   quitting                       .
+                                                                                  300= 300
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   43    3 3.0       ADSMAVRG         B.3          Average number cigarettes      1= 1
+                                                   smoked per week now            .
+                                                                                  .
+                                                                                  300= 300
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   46    2 2.0       ADHOOKAH         B.4          Ever smoked using hookah       1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   48    3 3.0       ADHKAH30         B.5          Times used hookah past 30 days 0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   51    2 2.0       ADEVVAPE         B.6          Ever used electronic vapor     1= Yes
+                                                   product                        2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   53    2 2.0       ADVAPE30         B.7          Days used electronic vape      0= 0
+                                                   past 30 days                   .
+                                                                                  .
+                                                                                  30= 30
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   55    2 2.0       ADALCOHL         C.1          Ever drank alcohol             1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   57    3 3.0       ADALCDYS         C.2          Times had at least one drink   1= 1
+                                                   of alcohol                     .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   60    3 3.0       ADALCLYR         C.3          Times had at least one drink   0= 0
+                                                   of alcohol in past 12 months   .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   63    2 2.0       ADLYRALN         C.4          Number of alcoholic drinks     0= 0
+                                                   per occasion in past year      .
+                                                                                  .
+                                                                                  12= 12
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   65    2 2.0       ADALCD30         C.5          Days had at least one          0= 0
+                                                   alcoholic drink past 30 days   .
+                                                                                  .
+                                                                                  30= 30
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   67    2 2.0       ADSTDRGS         D.1          Ever used street drugs         1= Yes
+                                                                                  2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   69    3 3.0       ADMARIJ          D.2          Times used marijuana -         0= 0
+                                                   lifetime                       .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   72    3 3.0       ADMARJ30         D.3          Times used marijuana past 30   0= 0
+                                                   days                           .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   75    3 3.0       ADSMRJ30         D.4          Times used synthetic           0= 0
+                                                   marijuana past 30 days         .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   78    3 3.0       ADINHALE         D.5          Times used inhalants -         0= 0
+                                                   lifetime                       .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   81    3 3.0       ADECSTSY         D.6          Times used ecstasy - lifetime  0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   84    2 2.0       ADRXNORX         D.7          Ever taken prescription rx     1= Yes
+                                                   when not prescribed            2= No
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   86    3 3.0       ADFRQONR         D.7.a        Times used unprescribed        0= 0
+                                                   opioids                        .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   89    3 3.0       ADFRQANR         D.7.b        Times used unprescribed        0= 0
+                                                   amphetamines                   .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   92    3 3.0       ADFRQSNR         D.7.c        Times used unprescribed        0= 0
+                                                   sedatives                      .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   95    2 2.0       ADPHYS20         OldE.1       Old: Number of days in past 7  0= 0
+                                                   days 20 minutes sweating       .
+                                                   exercise                       .
+                                                                                  7= 7
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   97    2 2.0       ADPHYS30         OldE.2       Old: Number of days in past 7  0= 0
+                                                   days 30 minutes non-sweat      .
+                                                   exercise                       .
+                                                                                  7= 7
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   99    2 2.0       ADPHYS60         OldE.3       Old: Number of days in past 7  0= 0
+                                                   days 60 minutes non-sweat      .
+                                                   exercise                       .
+                                                                                  7= 7
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  101    2 2.0       ADWTCHTV         OldE.4       Old: Number of hours watch TV  1= I do not watch TV on an
+                                                   on average school day             average school day
+                                                                                  2= Less than 1 hour per day
+                                                                                  3= 1 hour per day
+                                                                                  4= 2 hours per day
+                                                                                  5= 3 hours per day
+                                                                                  6= 4 hours per day
+                                                                                  7= 5 or more hours per day
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  103    2 2.0       ADVIDGMS         OldE.5       Old: Number of hours play      1= I do not play videogames
+                                                   videogames/use computer on        and/or use the computer on
+                                                   average school day                an average school day
+                                                                                  2= Less than 1 hour per day
+                                                                                  3= 1 hour per day
+                                                                                  4= 2 hours per day
+                                                                                  5= 3 hours per day
+                                                                                  6= 4 hours per day
+                                                                                  7= 5 or more hours per day
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  105    2 2.0       ADPENUMW         OldE.6       Old: Number of days have PE    0= 0
+                                                   in average school week         .
+                                                                                  .
+                                                                                  5= 5
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  107    2 2.0       ADPEMINS         OldE.7       Old: Number of minutes         1= Less than 10 minutes per
+                                                   exercising/playing sports         day
+                                                   during average PE class        2= 10 to 20 minutes per day
+                                                                                  3= 21 to 30 minutes per day
+                                                                                  4= 31 to 40 minutes per day
+                                                                                  5= 41 to 50 minutes per day
+                                                                                  6= 51 to 60 minutes per day
+                                                                                  7= More than 60 minutes per
+                                                                                     day
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  109    2 2.0       ADTEAMSP         OldE.8       Old: Number of sports teams    0= 0
+                                                   played on in past 12 months    .
+                                                                                  .
+                                                                                  8= 8
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  111    5 time5.    ADETIME          OldF.1       Old: Time ended                1:00= 1:00
+                                                                                  .
+                                                                                  .
+                                                                                  12:59= 12:59
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  116    2 2.0       ADEMER           OldF.1       Old: AM/PM for time ended      1= AM
+                                                                                  2= PM
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  118    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  119    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

@@ -1,0 +1,1404 @@
+                               CODEBOOK
+V2015                              11-9-2017
+NRC04D - Behavioral Data Coding Sheet: 8 to 12 years
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        001= 001
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSB4           A.3          Form version                   09/01/04= 09/01/04
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    7 7.3       B4TSTDAT         A.4          Date of testing in duration    0.000= 0.000 years
+                                                   of year from the baseline      .
+                                                   visit                          .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   25    2 2.0       B4CHDAGE         B.1          Child is between 8 and 12      1= YES
+                                                   years                          2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   27    2 2.0       B4ABACMP         OldC.0.a     Old: ABAS-II (5-21) completed  1= YES
+                                                   at study visit                 2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   29    2 2.0       B4COMMRW         OldC.1.a     Old: Adaptive Behavior -       0= 0
+                                                   Communication Raw Score        .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   31    2 2.0       B4COMMSC         OldC.1.b     Old: Adaptive Behavior -       0= 0
+                                                   Communication Scaled Score     .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   33    2 2.0       B4CUSERW         OldC.2.a     Old: Adaptive Behavior -       0= 0
+                                                   Community Use Raw Score        .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   35    2 2.0       B4CUSESC         OldC.2.b     Old: Adaptive Behavior -       0= 0
+                                                   Community Use Scaled Score     .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   37    2 2.0       B4FACARW         OldC.3.a     Old: Adaptive Behavior -       0= 0
+                                                   Functional Academics Raw Score .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   39    2 2.0       B4FACASC         OldC.3.b     Old: Adaptive Behavior -       0= 0
+                                                   Functional Academics Scaled    .
+                                                   Score                          .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   41    2 2.0       B4HLIVRW         OldC.4.a     Old: Adaptive Behavior - Home  0= 0
+                                                   Living Raw Score               .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   43    2 2.0       B4HLIVSC         OldC.4.b     Old: Adaptive Behavior - Home  0= 0
+                                                   Living Scaled Score            .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   45    2 2.0       B4HSAFRW         OldC.5.a     Old: Adaptive Behavior -       0= 0
+                                                   Health and Safety Raw Score    .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   47    2 2.0       B4HSAFSC         OldC.5.b     Old: Adaptive Behavior -       0= 0
+                                                   Health and Safety Scaled Score .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   49    2 2.0       B4LEISRW         OldC.6.a     Old: Adaptive Behavior -       0= 0
+                                                   Leisure Raw Score              .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   51    2 2.0       B4LEISSC         OldC.6.b     Old: Adaptive Behavior -       0= 0
+                                                   Leisure Scaled Score           .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   53    2 2.0       B4SLFCRW         OldC.7.a     Old: Adaptive Behavior - Self- 0= 0
+                                                   Care Raw Score                 .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   55    2 2.0       B4SLFCSC         OldC.7.b     Old: Adaptive Behavior - Self- 0= 0
+                                                   Care Scaled Score              .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   57    2 2.0       B4SLFDRW         OldC.8.a     Old: Adaptive Behavior - Self- 0= 0
+                                                   Direction Raw Score            .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   59    2 2.0       B4SLFDSC         OldC.8.b     Old: Adaptive Behavior - Self- 0= 0
+                                                   Direction Scaled Score         .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   61    2 2.0       B4SOCLRW         OldC.9.a     Old: Adaptive Behavior -       0= 0
+                                                   Social Raw Score               .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   63    2 2.0       B4SOCLSC         OldC.9.b     Old: Adaptive Behavior -       0= 0
+                                                   Social Scaled Score            .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   65    3 3.0       B4GACSUM         OldC.10.a    Old: Adaptive Behavior -       0= 0
+                                                   General Adaptive Composite     .
+                                                   Raw Score                      .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   68    3 3.0       B4GACCOM         OldC.10.b    Old: Adaptive Behavior -       71= 71
+                                                   General Adaptive Composite     .
+                                                   Standard Score                 .
+                                                                                  150= 150
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   71    3 3.0       B4CONCOM         OldC.10.c    Old: Adaptive Behavior -       0= 0
+                                                   Conceptual Composite Score     .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   74    3 3.0       B4SOCCOM         OldC.10.d    Old: Adaptive Behavior -       0= 0
+                                                   Social Composite Score         .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   77    3 3.0       B4PRCCOM         OldC.10.e    Old: Adaptive Behavior -       0= 0
+                                                   Practical Composite Score      .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   80    2 2.0       B4BSCCMP         D.0.a        BASC-II PRS completed at       1= YES
+                                                   study visit                    2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   82    2 2.0       B4HYPRRW         D.1.a        BASC Parent - Hyperactivity    0= 0
+                                                   Raw Score                      .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   84    3 3.0       B4HYPRTS         D.1.b        BASC Parent - Hyperactivity T- 0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   87    2 2.0       B4AGGRRW         D.2.a        BASC Parent - Agression Raw    0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   89    3 3.0       B4AGGRTS         D.2.b        BASC Parent - Agression T-     0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   92    2 2.0       B4CONDRW         D.3.a        BASC Parent - Conduct          0= 0
+                                                   Problems Raw Score             .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   94    3 3.0       B4CONDTS         D.3.b        BASC Parent - Conduct          0= 0
+                                                   Problems T-Score               .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   97    2 2.0       B4ANXTRW         D.4.a        BASC Parent - Anxiety Raw      0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   99    3 3.0       B4ANXTTS         D.4.b        BASC Parent - Anxiety T-Score  0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  102    2 2.0       B4DEPRRW         D.5.a        BASC Parent - Depression Raw   0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  104    3 3.0       B4DEPRTS         D.5.b        BASC Parent - Depression T-    0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  107    2 2.0       B4SOMARW         D.6.a        BASC Parent - Somatization     0= 0
+                                                   Raw Score                      .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  109    3 3.0       B4SOMATS         D.6.b        BASC Parent - Somatization T-  0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  112    2 2.0       B4ATYPRW         D.7.a        BASC Parent - Atypicality Raw  0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  114    3 3.0       B4ATYPTS         D.7.b        BASC Parent - Atypicality T-   0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  117    2 2.0       B4WDRWRW         D.8.a        BASC Parent - Withdrawal Raw   0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  119    3 3.0       B4WDRWTS         D.8.b        BASC Parent - Withdrawal T-    0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  122    2 2.0       B4ATTNRW         D.9.a        BASC Parent - Attention        0= 0
+                                                   problems Raw Score             .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  124    3 3.0       B4ATTNTS         D.9.b        BASC Parent - Attention        0= 0
+                                                   problems T-Score               .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  127    2 2.0       B4ADPTRW         D.10.a       BASC Parent - Adaptability     0= 0
+                                                   Raw Score                      .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  129    3 3.0       B4ADPTTS         D.10.b       BASC Parent - Adaptability T-  0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  132    2 2.0       B4SSKLRW         D.11.a       BASC Parent - Social skills    0= 0
+                                                   Raw Score                      .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  134    3 3.0       B4SSKLTS         D.11.b       BASC Parent - Social skills T- 0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  137    2 2.0       B4LEADRW         D.12.a       BASC Parent - Leadership Raw   0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  139    3 3.0       B4LEADTS         D.12.b       BASC Parent - Leadership T-    0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  142    2 2.0       B4ADL_RW         D.13.a       BASC Parent - Activities of    0= 0
+                                                   daily living Raw Score         .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  144    3 3.0       B4ADL_TS         D.13.b       BASC Parent - Activities of    0= 0
+                                                   daily living T-Score           .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  147    2 2.0       B4FCOMRW         D.14.a       BASC Parent - Functional       0= 0
+                                                   communication Raw Score        .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  149    3 3.0       B4FCOMTS         D.14.b       BASC Parent - Functional       0= 0
+                                                   communication T-Score          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  152    3 3.0       B4EXT_RW         D.15.a       BASC Parent - Externalizing    0= 0
+                                                   Problems Raw Score             .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  155    3 3.0       B4EXT_TS         D.15.b       BASC Parent - Externalizing    0= 0
+                                                   Problems T-Score               .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  158    3 3.0       B4INT_RW         D.15.c       BASC Parent - Internalizing    0= 0
+                                                   Problems Raw Score             .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  161    3 3.0       B4INT_TS         D.15.d       BASC Parent - Internalizing    0= 0
+                                                   Problems T-Score               .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  164    3 3.0       B4BEH_RW         D.15.e       BASC Parent - Behavioral       0= 0
+                                                   Symptoms Raw Score             .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  167    3 3.0       B4BEH_TS         D.15.f       BASC Parent - Behavioral       1= 1
+                                                   Symptoms T-Score               .
+                                                                                  .
+                                                                                  69= 69
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  170    3 3.0       B4ASK_RW         D.15.g       BASC Parent - Adaptive Skills  0= 0
+                                                   Raw Score                      .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  173    3 3.0       B4ASK_TS         D.15.h       BASC Parent - Adaptive Skills  0= 0
+                                                   T-Score                        .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  176    3 3.0       B4F_IDX          D.16.a       Validity Index BASC Parent -   0= 0
+                                                   F Index                        .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  179    3 3.0       B4RPIIDX         D.16.b       Validity Index BASC Parent -   0= 0
+                                                   Response Pattern Index         .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  182    3 3.0       B4CI_IDX         D.16.c       Validity Index BASC Parent -   0= 0
+                                                   CI Index                       .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  185    2 2.0       B4WNTDIE         D.17.a       Alert Item - #92               1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  187    2 2.0       B4CRUELA         D.17.b       Alert Item - #97               1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  189    2 2.0       B4WNTKIL         D.17.c       Alert Item - #138              1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  191    2 2.0       B4STSFIR         D.17.d       Alert Item - #143              1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  193    2 2.0       B4BASCMP         OldE.0.a     Old: BASC-II SRC completed at  1= YES
+                                                   study visit                    2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  195    2 2.0       B4ASCHRW         OldE.1.a     Old: BASC Child - Attitude to  0= 0
+                                                   school Raw Score               .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  197    3 3.0       B4ASCHTS         OldE.1.b     Old: BASC Child - Attitude to  0= 0
+                                                   school T-Score                 .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  200    2 2.0       B4ATCHRW         OldE.2.a     Old: BASC Child - Attitude to  0= 0
+                                                   teachers Raw Score             .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  202    3 3.0       B4ATCHTS         OldE.2.b     Old: BASC Child - Attitude to  0= 0
+                                                   teachers T-Score               .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  205    2 2.0       B4ATPCRW         OldE.3.a     Old: BASC Child - Atypicality  0= 0
+                                                   Raw Score                      .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  207    3 3.0       B4ATPCTS         OldE.3.b     Old: BASC Child - Atypicality  0= 0
+                                                   T-Score                        .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  210    2 2.0       B4LOCCRW         OldE.4.a     Old: BASC Child - Locus of     0= 0
+                                                   control Raw Score              .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  212    3 3.0       B4LOCCTS         OldE.4.b     Old: BASC Child - Locus of     0= 0
+                                                   control T-Score                .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  215    2 2.0       B4SSTRRW         OldE.5.a     Old: BASC Child - Social       0= 0
+                                                   stress Raw Score               .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  217    3 3.0       B4SSTRTS         OldE.5.b     Old: BASC Child - Social       0= 0
+                                                   stress T-Score                 .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  220    2 2.0       B4AXTYRW         OldE.6.a     Old: BASC Child - Anxiety Raw  0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  222    3 3.0       B4AXTYTS         OldE.6.b     Old: BASC Child - Anxiety T-   0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  225    2 2.0       B4DPRSRW         OldE.7.a     Old: BASC Child - Depression   0= 0
+                                                   Raw Score                      .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  227    3 3.0       B4DPRSTS         OldE.7.b     Old: BASC Child - Depression   0= 0
+                                                   T-Score                        .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  230    2 2.0       B4SIDQRW         OldE.8.a     Old: BASC Child - Sense of     0= 0
+                                                   inadequacy Raw Score           .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  232    3 3.0       B4SIDQTS         OldE.8.b     Old: BASC Child - Sense of     0= 0
+                                                   inadequacy T-Score             .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  235    2 2.0       B4ATNPRW         OldE.9.a     Old: BASC Child - Attention    0= 0
+                                                   problems Raw Score             .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  237    3 3.0       B4ATNPTS         OldE.9.b     Old: BASC Child - Attention    0= 0
+                                                   problems T-Score               .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  240    2 2.0       B4HYPERW         OldE.10.a    Old: BASC Child -              0= 0
+                                                   Hyperactivity Raw Score        .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  242    3 3.0       B4HYPETS         OldE.10.b    Old: BASC Child -              0= 0
+                                                   Hyperactivity T-Score          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  245    2 2.0       B4RPARRW         OldE.11.a    Old: BASC Child - Relations    0= 0
+                                                   with parents Raw Score         .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  247    3 3.0       B4RPARTS         OldE.11.b    Old: BASC Child - Relations    0= 0
+                                                   with parents T-Score           .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  250    2 2.0       B4IRELRW         OldE.12.a    Old: BASC Child -              0= 0
+                                                   Interpersonal relations Raw    .
+                                                   Score                          .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  252    3 3.0       B4IRELTS         OldE.12.b    Old: BASC Child -              0= 0
+                                                   Interpersonal relations T-     .
+                                                   Score                          .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  255    2 2.0       B4SESTRW         OldE.13.a    Old: BASC Child - Self-Esteem  0= 0
+                                                   Raw Score                      .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  257    3 3.0       B4SESTTS         OldE.13.b    Old: BASC Child - Self-Esteem  0= 0
+                                                   T-Score                        .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  260    2 2.0       B4SLFRRW         OldE.14.a    Old: BASC Child - Self-        0= 0
+                                                   Reliance Raw Score             .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  262    3 3.0       B4SLFRTS         OldE.14.b    Old: BASC Child - Self-        0= 0
+                                                   Reliance T-Score               .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  265    3 3.0       B4SCHPRW         OldE.15.a    Old: BASC Child - School       0= 0
+                                                   Problems Raw Score             .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  268    3 3.0       B4SCHPTS         OldE.15.b    Old: BASC Child - School       0= 0
+                                                   Problems T-Score               .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  271    3 3.0       B4INTPRW         OldE.15.c    Old: BASC Child -              0= 0
+                                                   Internalizing Problems Raw     .
+                                                   Score                          .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  274    3 3.0       B4INTPTS         OldE.15.d    Old: BASC Child -              0= 0
+                                                   Internalizing Problems T-Score .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  277    3 3.0       B4INHYRW         OldE.15.e    Old: BASC Child - Inattention/ 0= 0
+                                                   Hyperactivity Raw Score        .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  280    3 3.0       B4INHYTS         OldE.15.f    Old: BASC Child - Inattention/ 0= 0
+                                                   Hyperactivity T-Score          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  283    3 3.0       B4ESYMRW         OldE.15.g    Old: BASC Child - Emotional    0= 0
+                                                   Symptoms Index Raw Score       .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  286    3 3.0       B4ESYMTS         OldE.15.h    Old: BASC Child - Emotional    1= 1
+                                                   Symptoms Index T-Score         .
+                                                                                  .
+                                                                                  69= 69
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  289    3 3.0       B4PADJRW         OldE.15.i    Old: BASC Child - Personal     0= 0
+                                                   Adjustment Raw Score           .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  292    3 3.0       B4PADJTS         OldE.15.j    Old: BASC Child - Personal     0= 0
+                                                   Adjustment T-Score             .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  295    3 3.0       B4FINDX          OldE.16.a    Old: Validity Index BASC       0= 0
+                                                   Child - F Index                .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  298    3 3.0       B4RPIIND         OldE.16.b    Old: Validity Index BASC       0= 0
+                                                   Child - Response Pattern Index .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  301    3 3.0       B4CIINDX         OldE.16.c    Old: Validity Index BASC       0= 0
+                                                   Child - CI Index               .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  304    3 3.0       B4LINDX          OldE.16.d    Old: Validity Index BASC       0= 0
+                                                   Child - L Index                .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  307    3 3.0       B4VINDX          OldE.16.e    Old: Validity Index BASC       0= 0
+                                                   Child - V Index                .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  310    2 2.0       B4HRTSLF         OldE.17.a    Old: Alert Item - #39          1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  312    2 2.0       B4BRFCMP         F.0.a        BRIEF-II PRS completed at      1= YES
+                                                   study visit                    2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  314    2 2.0       B4INHIRW         F.1.a        BREIF - Inhibit Raw Score      0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  316    3 3.0       B4INHITS         F.1.b        BREIF - Inhibit T-Score        0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  319    2 2.0       B4SHFTRW         F.2.a        BREIF - Shift Raw Score        0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  321    3 3.0       B4SHFTTS         F.2.b        BREIF - Shift T-Score          0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  324    2 2.0       B4ECONRW         F.3.a        BREIF - Emotional Control Raw  0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  326    3 3.0       B4ECONTS         F.3.b        BREIF - Emotional Control T-   0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  329    2 2.0       B4INITRW         F.4.a        BREIF - Initiate Raw Score     0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  331    3 3.0       B4INITTS         F.4.b        BREIF - Initiate T-Score       0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  334    2 2.0       B4WMEMRW         F.5.a        BREIF - Working Memory Raw     0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  336    3 3.0       B4WMEMTS         F.5.b        BREIF - Working Memory T-Score 0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  339    2 2.0       B4PORGRW         F.6.a        BREIF - Plan/Organize Raw      0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  341    3 3.0       B4PORGTS         F.6.b        BREIF - Plan/Organize T-Score  0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  344    2 2.0       B4OMATRW         F.7.a        BREIF - Organization of        0= 0
+                                                   Materials Raw Score            .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  346    3 3.0       B4OMATTS         F.7.b        BREIF - Organization of        0= 0
+                                                   Materials T-Score              .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  349    2 2.0       B4MONIRW         F.8.a        BREIF - Monitor Raw Score      0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  351    3 3.0       B4MONITS         F.8.b        BREIF - Monitor T-Score        0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  354    3 3.0       B4BRG_RW         F.9.a        BREIF - Behavioral Regulation  0= 0
+                                                   Index (BRI) Raw Score          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  357    3 3.0       B4BRG_TS         F.9.b        BREIF - Behavioral Regulation  0= 0
+                                                   Index (BRI) T-Score            .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  360    3 3.0       B4MTC_RW         F.9.c        BREIF - Metacognition Index    0= 0
+                                                   (MI) Raw Score                 .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  363    3 3.0       B4MTC_TS         F.9.d        BREIF - Metacognition Index    0= 0
+                                                   (MI) T-Score                   .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  366    3 3.0       B4GEC_RW         F.9.e        BREIF - Global Executive       0= 0
+                                                   Composite (GEC) Raw Score      .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  369    3 3.0       B4GEC_TS         F.9.f        BREIF - Global Executive       0= 0
+                                                   Composite (GEC) T-Score        .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  372    2 2.0       B4NGTVTY         F.10.a       Reliability Index -            0= 0
+                                                   Negativity Score               .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  374    2 2.0       B4INCNST         F.10.b       Reliability Index -            0= 0
+                                                   Inconsistency Score            .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  376    2 2.0       B4CDICMP         OldG.0.a     Old: CDI completed at study    1= YES
+                                                   visit                          2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  378    2 2.0       B4NEGMRW         OldG.1.a     Old: CDI - Negative Mood Raw   0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  380    3 3.0       B4NEGMTS         OldG.1.b     Old: CDI - Negative Mood T-    0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  383    2 2.0       B4IPRBRW         OldG.2.a     Old: CDI - Interpersonal       0= 0
+                                                   Problems Raw Score             .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  385    3 3.0       B4IPRBTS         OldG.2.b     Old: CDI - Interpersonal       0= 0
+                                                   Problems T-Score               .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  388    2 2.0       B4INEFRW         OldG.3.a     Old: CDI - Ineffectiveness     0= 0
+                                                   Raw Score                      .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  390    3 3.0       B4INEFTS         OldG.3.b     Old: CDI - Ineffectiveness T-  0= 0
+                                                   Score                          .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  393    2 2.0       B4ANHERW         OldG.4.a     Old: CDI - Anhedonia Raw Score 0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  395    3 3.0       B4ANHETS         OldG.4.b     Old: CDI - Anhedonia T-Score   0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  398    2 2.0       B4NSESRW         OldG.5.a     Old: CDI - Negative Self-      0= 0
+                                                   Esteem Raw Score               .
+                                                                                  .
+                                                                                  99= 99
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  400    3 3.0       B4NSESTS         OldG.5.b     Old: CDI - Negative Self-      0= 0
+                                                   Esteem T-Score                 .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  403    3 3.0       B4TCDIRW         OldG.6.a     Old: CDI - Total Raw Score     0= 0
+                                                                                  .
+                                                                                  .
+                                                                                  999= 999
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  406    3 3.0       B4TCDITS         OldG.6.b     Old: CDI - Total T-Score       1= 1
+                                                                                  .
+                                                                                  .
+                                                                                  69= 69
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  409    2 2.0       B4THNKKL         OldG.7.a     Old: Alert Item - #9           1= YES
+                                                                                  2= NO
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  411    7 7.3       B4FCMPDT         H.1          Date form completed in         0.000= 0.000 years
+                                                   duration of year from the      .
+                                                   baseline visit                 .
+                                                                                  50.000= 50.000 years
+                                                                                  -1= N.A. (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+  418    3 $         B4INIT           H.2          Initials of coordinator        Character
+                                                   reviewing form
+
+  421    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+  422    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

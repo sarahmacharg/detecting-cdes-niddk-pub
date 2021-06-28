@@ -1,0 +1,85 @@
+                               CODEBOOK
+V2015                              11-9-2017
+L08 - Central Laboratory - Intact Parathyroid Hormone (iPTH) and High Sensitivity C-Reactive Protein (hsCRP)
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID           A.1          Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    3 3.0       VISIT            A.2          Visit #                        000= 000
+                                                                                  .
+                                                                                  .
+                                                                                  990= 990
+
+   10    8 $         VERSPC           A.3          Form version                   01/01/05= 01/01/05
+                                                                                  .
+                                                                                  .
+                                                                                  12/31/15= 12/31/15
+
+   18    2 2.0       PCTESTAV         B.1          iPTH and wrCRP/hsCRP test      1= Yes
+                                                   results available              2= No, Sample Inadequate
+                                                                                  3= No, Other Reason
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   20   25 $         PCRNAVAL         B.1.a        Specify reason iPTH/wrCRP/     Character
+                                                   hsCRP test results not
+                                                   available
+
+   45    7 7.3       PCDATESM         B.2          Date sample drawn for iPTH/    0.000= 0.000 years
+                                                   wrCRP/hsCRP tests in duration  .
+                                                   of year from the baseline      .
+                                                   visit                          50.000= 50.000 years
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   52    5 5.1       PCIPTH           B.3.a        Result: iPTH (pg/mL)           14.0= 14.0
+                                                                                  .
+                                                                                  .
+                                                                                  72.0= 72.0
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   57    6 6.2       PCHSCRP          B.3.b        Result: hsCRP (mg/L)           0.00= 0.00
+                                                                                  .
+                                                                                  .
+                                                                                  10.00= 10.00
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   63    6 6.2       PCWRCRP          OldB.3.b     Old: Result: wrCRP (mg/L)      0.00= 0.00
+                                                                                  .
+                                                                                  .
+                                                                                  10.00= 10.00
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   69    2 2.0       PCRMTEMP         B.3.c        Serum sample shipped at room   1= Yes
+                                                   temperature                    0= No
+                                                                                  -1= NA (Skipped)
+                                                                                  -7= Refusal
+                                                                                  -8= Don't know
+                                                                                  -9 or Blank= Missing
+
+   71    1 $         ESTAT                         Edit status A.0                D= Dirty
+                                                                                  C= Clean
+                                                                                  P= Pending
+
+   72    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99

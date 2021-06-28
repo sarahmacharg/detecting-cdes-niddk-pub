@@ -1,0 +1,317 @@
+                               CODEBOOK
+SUMMARY OF QUALITY OF LIFE/COGNITIVE/BEHAVIORAL DATA                              11-9-2017
+
+Start  ____Field____                                     Section/
+Column Len  Format       Variable                        Question          Description		Code
+------ --- --------- -------------------------------- ------------ ------------------------------ ------------------------------
+    1    7 7.0       CASEID                                        ID number                 100000
+                                                                                                  .
+                                                                                                  .
+                                                                                                  699999
+
+    8    3 3.0       VISIT                                         Visit number              15= 15
+                                                                                                  .
+                                                                                                  .
+                                                                                                  99= 99
+                                                                                                  15= V1b
+                                                                                                  20= V2
+                                                                                                  30= V3
+                                                                                                  40= V4
+                                                                                                  50= V5
+
+   11    4 4.0       IQVERB                                        Calculated Verbal IQ from      0
+                                                                   WPPSI-III and WASI             .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   15    4 4.0       IQPERFORM                                     Calculated Performance IQ      0
+                                                                   from WPPSI-III and WASI        .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   19    4 4.0       IQFULL                                        Calculated IQ score from       0
+                                                                   Mullen Scales, WPPSI-III and   .
+                                                                   WASI                           .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   23    4 4.0       IQFULL2                                       Calculated IQ score from WASI, 0
+                                                                   based on 2 sub-scales          .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   27    4 4.0       WORDREAD                                      Word Reading scaled score      0
+                                                                   from WIAT-II-A                 .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   31    4 4.0       NUMERIC                                       Numeric scaled score from      0
+                                                                   WIAT-II-A                      .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   35    4 4.0       SPELL                                         Spelling scaled score from     0
+                                                                   WIAT-II-A                      .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   39    4 4.0       ACHIEVE                                       Achievement total scaled       0
+                                                                   score derived from Wordread,   .
+                                                                   Numeric & Spell from WIAT-II-A .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   43    4 4.0       CPT_VAR                                       Variability scaled score from  0
+                                                                   K-CPT & CPT-II depending on    .
+                                                                   age                            .
+                                                                                                  140
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   47    4 4.0       OMISSION                                      Omission scaled score from K-  0
+                                                                   CPT & CPT-II depending on age  .
+                                                                                                  .
+                                                                                                  140
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   51    4 4.0       COMMISSION                                    Commission scaled score from   0
+                                                                   K-CPT & CPT-II depending on    .
+                                                                   age                            .
+                                                                                                  140
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   55    4 4.0       HIT_REACT                                     Hit Reaction scaled score      0
+                                                                   from K-CPT & CPT-II depending  .
+                                                                   on age                         .
+                                                                                                  140
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   59    4 4.0       DETECT                                        Detection scaled score from K- 0
+                                                                   CPT & CPT-II depending on age  .
+                                                                                                  .
+                                                                                                  140
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   63    4 4.0       DIGITFWD                                      Digit Span Forward scaled      0
+                                                                   score from WISC-IV & WAIS-IV   .
+                                                                   depending on age               .
+                                                                                                  32
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   67    4 4.0       DIGITBAC                                      Digit Span Backward scaled     0
+                                                                   score from WISC-IV & WAIS-IV   .
+                                                                   depending on age               .
+                                                                                                  32
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   71    4 4.0       DIGITTOT                                      Digit Span Total scaled score  0
+                                                                   from WISC-IV & WAIS-IV         .
+                                                                   depending on age               .
+                                                                                                  32
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   75    4 4.0       DKACHIEVE                                     Total Achievement scaled       1
+                                                                   score from D-KEFS              .
+                                                                                                  .
+                                                                                                  19
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   79    4 4.0       FMTRATIO                                      Mean First-Move Time Ratio     1
+                                                                   scaled score from D-KEFS       .
+                                                                                                  .
+                                                                                                  19
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   83    4 4.0       TPMTRATIO                                     Time-Per-Move Time Ratio       1
+                                                                   scaled score from D-KEFS       .
+                                                                                                  .
+                                                                                                  19
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   87    4 4.0       ACCRATIO                                      Move Accuracy Ratio scaled     1
+                                                                   score from D-KEFS              .
+                                                                                                  .
+                                                                                                  19
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   91    4 4.0       RVPIRATIO                                     Rule-Violation-Per-Item Ratio  1
+                                                                   scaled score from D-KEFS       .
+                                                                                                  .
+                                                                                                  19
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   95    4 4.0       GAC                                           General Adaptive Composite     0
+                                                                   scaled score from ABAS-II      .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+   99    4 4.0       CCS                                           Conceptual Composite scaled    0
+                                                                   score from ABAS-II             .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  103    4 4.0       SCS                                           Social Composite scaled score  0
+                                                                   from ABAS-II                   .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  107    4 4.0       PCS                                           Practical Composite scaled     0
+                                                                   score from ABAS-II             .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  111    4 4.0       EXTERNPROBLEMST                               External Problems parent       0
+                                                                   report T score from BASC-2     .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  115    4 4.0       INTERNPROBLEMST                               Internal Problems parent       0
+                                                                   report T score from BASC-2     .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  119    4 4.0       BEHSYMPT                                      Behavioral Symptoms parent     0
+                                                                   report T score from BASC-2     .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  123    4 4.0       ADAPTT                                        Adaptting problems parent      0
+                                                                   report T score from BASC-2     .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  127    4 4.0       SCHOOLPROBT                                   School problems self report T  0
+                                                                   score from BASC-2              .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  131    4 4.0       INTERNPROBLEMSTSELF                           Internal problems self report  0
+                                                                   T score from BASC-2            .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  135    4 4.0       HYPERT                                        Hyperactivity/Inattention      0
+                                                                   self report T score from BASC- .
+                                                                   2                              .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  139    4 4.0       EMOTIONALT                                    Emotional problems self        0
+                                                                   report T score from BASC-2     .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  143    4 4.0       ADJUSTT                                       Adjustment problems self       0
+                                                                   report T score from BASC-2     .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  147    4 4.0       BRI                                           Behavior Regulation Index      0
+                                                                   scaled score from BRIEF        .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  151    4 4.0       MI                                            Metacognition Index scaled     0
+                                                                   score from BRIEF               .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  155    4 4.0       GEC                                           Global Executive Composite     0
+                                                                   scaled score from BRIEF        .
+                                                                   derived from BRI & MI          .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  159    4 4.0       BRIself                                       Behavior Regulation Index      0
+                                                                   scaled score from BRIEF-A      .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  163    4 4.0       MIself                                        Metacognition Index scaled     0
+                                                                   score from BRIEF-A             .
+                                                                                                  .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  167    4 4.0       GECself                                       Global Executive Composite     0
+                                                                   scaled score from BRIEF-A      .
+                                                                   derived from BRI & MI          .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  171    4 4.0       CDI                                           Children's Depression          0
+                                                                   Inventory scaled score from    .
+                                                                   CDI (participants >=7 yrs)     .
+                                                                                                  200
+                                                                                                  -1= NA
+                                                                                                  -9= missing
+
+  175    3 2.0       ALERT                                         Code to indicate whether or    1= Yes
+                                                                   not an alert item was          0= No
+                                                                   endoresed from the BASC and/   -1= NA
+                                                                   or CDI                         -9= missing
+
+  178    6 $         VERSION                                       Version number of data         P01= Version 01
+                                                                                                  .
+                                                                                                  .
+                                                                                                  P99= Version 99

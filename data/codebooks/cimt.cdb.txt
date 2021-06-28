@@ -1,0 +1,170 @@
+                               CODEBOOK
+Summary of Carotid IMT Data (means of measurements and created variables)                              11-20-2017
+
+Start  ____Field____                      Section/
+Column Len  Format       Variable         Question          Description		     Code
+------ --- --------- ---------------- ------------ ------------------------------ ------------------------------
+    1    6 6.0       CASEID                        Participant ID                 100000= 100000
+                                                                                  .
+                                                                                  .
+                                                                                  699999= 699999
+
+    7    4 4.0       VISIT                         Visit #                        10= 10
+                                                                                  .
+                                                                                  .
+                                                                                  99= 99
+
+   11    9 9.5       RCCAdLAX                      Right Common Carotid Artery    0.00000= 0.00000
+                                                   Diameter Long-Axis at End-     .
+                                                   Diastole                       .
+                                                                                  999.99999= 999.99999
+
+   20    9 9.5       RCCAsLAX                      Right Common Carotid Artery    0.00000= 0.00000
+                                                   Diameter Long-Axis at End-     .
+                                                   Systole                        .
+                                                                                  999.99999= 999.99999
+
+   29    9 9.5       RCCAImt                       Right Common Carotid Artery    0.00000= 0.00000
+                                                   Intima-Medial Thickness        .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+   38    9 9.5       RCCAdSAX                      Right Common Carotid Artery    0.00000= 0.00000
+                                                   Diameter Short-Axis at End-    .
+                                                   Diastole                       .
+                                                                                  999.99999= 999.99999
+
+   47    9 9.5       RCCAsSAX                      Right Common Carotid Artery    0.00000= 0.00000
+                                                   Diameter Short-Axis at End-    .
+                                                   Systole                        .
+                                                                                  999.99999= 999.99999
+
+   56    9 9.5       LCCAdLAX                      Left Common Carotid Artery     0.00000= 0.00000
+                                                   Diameter Long-Axis at End-     .
+                                                   Diastole                       .
+                                                                                  999.99999= 999.99999
+
+   65    9 9.5       LCCAsLAX                      Left Common Carotid Artery     0.00000= 0.00000
+                                                   Diameter Long-Axis at End-     .
+                                                   Systole                        .
+                                                                                  999.99999= 999.99999
+
+   74    9 9.5       LCCAImt                       Left Common Carotid Artery     0.00000= 0.00000
+                                                   Intima-Medial Thickness        .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+   83    9 9.5       LCCAdSAX                      Left Common Carotid Artery     0.00000= 0.00000
+                                                   Diameter Short-Axis at End-    .
+                                                   Diastole                       .
+                                                                                  999.99999= 999.99999
+
+   92    9 9.5       LCCAsSAX                      Left Common Carotid Artery     0.00000= 0.00000
+                                                   Diameter Short-Axis at End-    .
+                                                   Systole                        .
+                                                                                  999.99999= 999.99999
+
+  101   10 10.5      RCCA_LAX_Strain               Right Common Carotid Artery    0.00000= 0.00000
+                                                   Strain Long-Axis               .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  111    9 9.5       RCCA_LAX_Dis                  Right Common Carotid Artery    0.00000= 0.00000
+                                                   Distensibility Long-Axis       .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  120    9 9.5       RCCA_LAX_Stiff                Right Common Carotid Artery    0.00000= 0.00000
+                                                   Stiffness Long-Axis            .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  129   10 10.5      RCCA_LAX_Mod                  Right Common Carotid Artery    0.00000= 0.00000
+                                                   Pressure Strain Modulus Long-  .
+                                                   Axis                           .
+                                                                                  999.99999= 999.99999
+
+  139   10 10.5      RCCA_SAX_Strain               Right Common Carotid Artery    0.00000= 0.00000
+                                                   Strain Short-Axis              .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  149    9 9.5       RCCA_SAX_Dis                  Right Common Carotid Artery    0.00000= 0.00000
+                                                   Distensibility Short-Axis      .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  158   10 10.5      RCCA_SAX_Stiff                Right Common Carotid Artery    0.00000= 0.00000
+                                                   Stiffness Short-Axis           .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  168   10 10.5      RCCA_SAX_Mod                  Right Common Carotid Artery    0.00000= 0.00000
+                                                   Pressure Strain Modulus Short- .
+                                                   Axis                           .
+                                                                                  999.99999= 999.99999
+
+  178    9 9.5       LCCA_LAX_Strain               Left Common Carotid Artery     0.00000= 0.00000
+                                                   Strain Long-Axis               .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  187    9 9.5       LCCA_LAX_Dis                  Left Common Carotid Artery     0.00000= 0.00000
+                                                   Distensibility Long-Axis       .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  196    9 9.5       LCCA_LAX_Stiff                Left Common Carotid Artery     0.00000= 0.00000
+                                                   Stiffness Long-Axis            .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  205    9 9.5       LCCA_LAX_Mod                  Left Common Carotid Artery     0.00000= 0.00000
+                                                   Pressure Strain Modulus Long-  .
+                                                   Axis                           .
+                                                                                  999.99999= 999.99999
+
+  214    9 9.5       LCCA_SAX_Strain               Left Common Carotid Artery     0.00000= 0.00000
+                                                   Strain Short-Axis              .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  223    9 9.5       LCCA_SAX_Dis                  Left Common Carotid Artery     0.00000= 0.00000
+                                                   Distensibility Short-Axis      .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  232    9 9.5       LCCA_SAX_Stiff                Left Common Carotid Artery     0.00000= 0.00000
+                                                   Stiffness Short-Axis           .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  241   10 10.5      LCCA_SAX_Mod                  Left Common Carotid Artery     0.00000= 0.00000
+                                                   Pressure Strain Modulus Short- .
+                                                   Axis                           .
+                                                                                  999.99999= 999.99999
+
+  251    9 9.5       cIMT                          Carotid Artery Intima-Medial   0.00000= 0.00000
+                                                   Thickness                      .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  260    9 9.5       Distensibility                Carotid Artery Distensibility  0.00000= 0.00000
+                                                                                  .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  269   10 10.5      Stiffness                     Carotid Artery Stiffness       0.00000= 0.00000
+                                                                                  .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  279   10 9.5       Einc                          Carotid Artery Pressure        0.00000= 0.00000
+                                                   Strain Modulus)                .
+                                                                                  .
+                                                                                  999.99999= 999.99999
+
+  289    6 $         VERSION                       Version number of data         P01= Version 01
+                                                                                  .
+                                                                                  .
+                                                                                  P99= Version 99
